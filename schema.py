@@ -7,6 +7,7 @@ DATE_FORMAT = "%Y-%m-%d"
 IF_MATCH = False
 DEBUG = True
 
+
 #PYTHON SCHEMA
 schema = {
     'ephemeralRecord' : {
@@ -138,6 +139,7 @@ schema = {
                         'date': {
                             'type': 'datetime',
                             'formType': 'date',
+                            'nullable': True,
                             'documentation': ("The exact date of the performance. "
                                              "For ranges of dates, create a separate Show "
                                              "Record for each date.")
@@ -279,6 +281,7 @@ schema = {
                                     },
                                     'orderOfPerformance': {
                                         'type': 'integer',
+                                        'nullable': True,
                                         'documentation': ("An integer describing the position "
                                                           "of this performance within the "
                                                           "larger show. Starts at 1. "
@@ -334,6 +337,7 @@ schema = {
                                                 },
                                                 'isInterpolation': {
                                                     'type': 'boolean',
+
                                                     'formType': 'checkbox',
                                                     'documentation': ("An indicator set to "
                                                                       "true if the document "
