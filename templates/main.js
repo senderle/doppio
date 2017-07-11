@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', function main() {
-
     //////////////////////////////////////////////////////////////////////////
     //////////////////////////////////////////////////////////////////////////
     // Schema
@@ -8,7 +7,6 @@ document.addEventListener('DOMContentLoaded', function main() {
     req.open("GET", "http://159.203.127.128:5000/schema.json", false);
     req.send();
     var playbillRecord = JSON.parse(req.responseText);
-
 
     //////////////////////////////////////////////////////////////////////////
     //////////////////////////////////////////////////////////////////////////
@@ -81,6 +79,66 @@ document.addEventListener('DOMContentLoaded', function main() {
                (val === null) ||
                (val === undefined);
     }
+
+
+  //////////////////////////////CRUD Operations!///////////////////////////////////////
+
+    var userid = 'admin';
+    var key = '1357924680';
+    var xhr = new XMLHttpRequest();
+
+    function hmac_hash(data, key) {
+      var hash = CryptoJS.HmacSHA1(data, key).toString(CryptoJS.enc.Hex);
+      console.log(hash);
+      return hash;
+    };
+
+    function get_ephemeral_record() {
+      xhr.open('GET', 'http://159.203.127.128:5000/ephemeralRecord', true);
+      xhr.setRequestHeader('Content-Type', 'application/json');
+      xhr.onload = function () {
+        document.getElementById("dynamic-content").innerHTML = this.responseText;
+        console.log(this.responseText);
+      };
+      xhr.send();
+    };
+
+
+    function get_accounts(userid, hash) {
+      xhr.open('GET', 'http://159.203.127.128:5000/accounts', true);
+      xhr.setRequestHeader('Authorization', userid + ":" + hash);
+      xhr.setRequestHeader('Content-Type', 'application/json');
+      xhr.send();
+    };
+
+    function query_documents(userid, resource_name, query_params, data) {
+      data = null;
+      xhr.open('GET', 'http://159.203.127.128:5000/' + resource_name + '?' + query_params, true);
+      xhr.setRequestHeader('Authorization', userid + ":" + hash);
+      xhr.setRequestHeader('Content-Type', 'application/json');
+      xhr.send(data);
+    };
+
+    function get_document_by_id(document_id) {
+      xhr.open('GET', 'http://159.203.127.128:5000/ephemeralRecord' + '/' + document_id, false);
+      xhr.setRequestHeader('Content-Type', 'application/json');
+      xhr.send();
+      return xhr.responseText;
+    };
+
+    function post_new_document(userid, hash, resource_name, data) {
+      xhr.open('POST', 'http://159.203.127.128:5000/' + resource_name, true);
+      xhr.setRequestHeader('Authorization', userid + ":" + hash);
+      xhr.setRequestHeader('Content-Type', 'application/json');
+      xhr.send(data);
+    };
+
+    function patch_existing_document(userid, resource_name, document_id, data) {
+      xhr.open('PATCH', 'http://159.203.127.128:5000/' + resource_name + '/' + document_id, true);
+      xhr.setRequestHeader('Authorization', userid + ":" + hash);
+      xhr.setRequestHeader('Content-Type', 'application/json');
+      xhr.send(data);
+    };
 
     //////////////////////////////////////////////////////////////////////////
     //////////////////////////////////////////////////////////////////////////
@@ -409,27 +467,8 @@ document.addEventListener('DOMContentLoaded', function main() {
 
     //////////////////////////////////////////////////////////////////////////
     //////////////////////////////////////////////////////////////////////////
-    // File IO
+    // Load/Save Records
     //
-
-    function jsonToFilename(json) {
-        var venue = json.ephemeralRecord.shows[0].venue;
-        var date = json.ephemeralRecord.shows[0].date;
-        var title = json.ephemeralRecord.shows[0].performances[0].title;
-        var cataloger = json.ephemeralRecord.dataCataloger;
-        var elements = [date, venue, title, cataloger];
-        var tojoin = [];
-
-        for (var i = 0; i < elements.length; i++) {
-            if (elements[i] !== '') {
-                tojoin.push(elements[i]);
-            }
-        }
-
-        var filename = toId(tojoin.join(' '));
-        filename = filename === '' ? 'empty-record.json' : filename + '.json';
-        return filename;
-    }
 
     // Add event listeners to static UI elements.
     var submitButton = document.getElementById('playbill-submit');
@@ -439,78 +478,69 @@ document.addEventListener('DOMContentLoaded', function main() {
         for (var i = 0; i < elements.length; i++) {
             var value = elements[i].type === 'checkbox' ? elements[i].checked :
                                                           elements[i].value;
-            assignKey(out, elements[i].id, value);
+            if(value !== ""){
+                assignKey(out, elements[i].id, value);
+            }
         }
 
-        console.log(out);
-        var filename = jsonToFilename(out);
+        json_out = JSON.stringify(out);
+        var userid = 'admin';
+        var key = '1357924680';
+        hash = hmac_hash(json_out.toString(), key);
+        post_new_document(userid, hash, 'ephemeralRecord', json_out.toString());
+        resetForm();
 
-        var dl = document.createElement('a');
-        dl.setAttribute('href', 'data:text/plain;charset=utf-8,' +
-                encodeURIComponent(JSON.stringify(out, null, 2)));
-        dl.setAttribute('download', filename);
-        dl.style.display = 'none';
-
-        document.body.appendChild(dl);
-        dl.click();
-        document.body.removeChild(dl);
-
-        event.preventDefault();
-        return false;
     });
 
-    var loadFileChooser = document.getElementById('playbill-load');
-    loadFileChooser.addEventListener('change', function(evt) {
-        var file = evt.target.files[0];
-        var reader = new FileReader();
+    var loadRecord = document.getElementById('playbill-load');
+    loadRecord.addEventListener('click', function() {
+        var pid = document.getElementById('playbill-id').value;
 
         // Prepare the form for re-rendering.
         resetForm();
 
-        reader.addEventListener('load', function(evt) {
-            obj = JSON.parse(evt.target.result);
+        var doc = get_document_by_id(pid);
 
-            walkObj(obj, function(val, keyPath) {
-                keyPath = keyPath.slice();  // Mutating data, so make a copy.
-                for (var i = 0; i < keyPath.length; i++) {
-                    if ((typeof keyPath[i]) === 'number') {
-                        keyPath[i] += 1;
-                    }
-                }
+        var obj = JSON.parse(doc);
 
-                var fieldId = listToId(keyPath);
-                var tail = keyPath.pop();
-
-                // Is the last value in keyPath a number? If so, this is
-                // an array field. Check to see whether the corresponding
-                // form fields have been created yet and create them if not.
-                if ((typeof tail) === 'number') {
-                    var renderId = listToId(keyPath);
-
-                    if (document.getElementById(fieldId) === null) {
-                        var render = subFormFactory
-                            .getRendererFromKey[renderId];
-                        if (render) {
-                            render();
-                        }
-                    }
-                }
-            });
-
-            var elements = document.querySelectorAll('.main-form-input');
-            for (var i = 0; i < elements.length; i++) {
-                var key = elements[i].id;
-                var value = getKey(obj, key);
-
-                if (elements[i].type === 'checkbox') {
-                    elements[i].checked = value;
-                } else {
-                    elements[i].value = value;
+        walkObj(obj, function(val, keyPath) {
+            keyPath = keyPath.slice();  // Mutating data, so make a copy.
+            for (var i = 0; i < keyPath.length; i++) {
+                if ((typeof keyPath[i]) === 'number') {
+                    keyPath[i] += 1;
                 }
             }
-        focusTop();
+
+            var fieldId = listToId(keyPath);
+            var tail = keyPath.pop();
+
+            // Is the last value in keyPath a number? If so, this is
+            // an array field. Check to see whether the corresponding
+            // form fields have been created yet and create them if not.
+            if ((typeof tail) === 'number') {
+                var renderId = listToId(keyPath);
+
+                if (document.getElementById(fieldId) === null) {
+                    var render = subFormFactory
+                        .getRendererFromKey[renderId];
+                    if (render) {
+                        render();
+                    }
+                }
+            }
         });
-        reader.readAsText(file);
+
+        var elements = document.querySelectorAll('.main-form-input');
+        for (var i = 0; i < elements.length; i++) {
+            var key = elements[i].id;
+            var value = getKey(obj, key);
+                if (elements[i].type === 'checkbox') {
+                    elements[i].checked = value;
+                } else if (value !== undefined) {
+                    elements[i].value = value;
+                }
+        }
+    focusTop();
     });
 
     // Finally...
