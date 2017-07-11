@@ -11,3 +11,9 @@ services:
       - db
   db:
     image: mongo
+    volumes:
+      - playbill:/data/db
+
+volumes:
+  playbill:
+    external: true
