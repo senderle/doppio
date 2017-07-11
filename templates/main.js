@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', function main() {
     //////////////////////////////////////////////////////////////////////////
     // Schema
     //
+
     var req = new XMLHttpRequest();
     req.open("GET", "http://159.203.127.128:5000/schema.json", false);
     req.send();
@@ -80,8 +81,10 @@ document.addEventListener('DOMContentLoaded', function main() {
                (val === undefined);
     }
 
-
-  //////////////////////////////CRUD Operations!///////////////////////////////////////
+    //////////////////////////////////////////////////////////////////////////
+    //////////////////////////////////////////////////////////////////////////
+    // CRUD Operations!
+    //
 
     var userid = 'admin';
     var key = '1357924680';
@@ -133,7 +136,7 @@ document.addEventListener('DOMContentLoaded', function main() {
       xhr.send(data);
     };
 
-    function patch_existing_document(userid, resource_name, document_id, data) {
+    function patch_existing_document(userid, hash, resource_name, document_id, data) {
       xhr.open('PATCH', 'http://159.203.127.128:5000/' + resource_name + '/' + document_id, true);
       xhr.setRequestHeader('Authorization', userid + ":" + hash);
       xhr.setRequestHeader('Content-Type', 'application/json');
@@ -487,9 +490,16 @@ document.addEventListener('DOMContentLoaded', function main() {
         var userid = 'admin';
         var key = '1357924680';
         hash = hmac_hash(json_out.toString(), key);
-        post_new_document(userid, hash, 'ephemeralRecord', json_out.toString());
-        resetForm();
+        var patchid = document.getElementById('playbill-id').value;
 
+        if(patchid === '') {
+          post_new_document(userid, hash, 'ephemeralRecord', json_out.toString());
+          resetForm();
+        }
+        else{
+          patch_existing_document(userid, hash, 'ephemeralRecord', patchid, json_out.toString());
+          resetForm();
+        }
     });
 
     var loadRecord = document.getElementById('playbill-load');
