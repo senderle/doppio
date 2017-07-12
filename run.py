@@ -92,11 +92,11 @@ def index():
     return render_template('index.html')
 
 @app.route('/form')
-def something():
+def render_ephemeral_record_form():
     return render_template('form.html')
 
-@app.route('/main')
-def main():
+@app.route('/main.js')
+def render_main_js():
     return render_template('main.js')
 
 @app.route('/schema.json')
@@ -105,8 +105,20 @@ def render_schema_json():
     return render_template_string(schema_json)
 
 @app.route('/style')
-def style():
+def render_stylesheet():
     return app.send_static_file('style.css')
+
+@app.route('/search')
+def render_search_page():
+    return render_template('search.html')
+
+@app.route('/search.js')
+def render_search_js():
+    return render_template('search.js')
+
+@app.route('/crud.js')
+def render_crud_js():
+    return render_template('crud.js')
 
 
 if __name__ == '__main__':
