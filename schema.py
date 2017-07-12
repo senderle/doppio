@@ -6,6 +6,9 @@ ITEM_METHODS = ['GET', 'PATCH', 'PUT', 'DELETE']
 DATE_FORMAT = "%Y-%m-%d"
 IF_MATCH = False
 DEBUG = True
+JSON = True
+XML = False
+HATEOAS = False
 
 
 #PYTHON SCHEMA
@@ -22,7 +25,7 @@ schema = {
             'callNumber': {
                 'type': 'string',
                 'unique': True,
-                'required': True,
+
                 'maxlength': 200,
                 'documentation': ("The call number of the document as specified by "
                                   "the holding institution.")
@@ -337,7 +340,7 @@ schema = {
                                                 },
                                                 'isInterpolation': {
                                                     'type': 'boolean',
-
+                                                    'required': True,
                                                     'formType': 'checkbox',
                                                     'documentation': ("An indicator set to "
                                                                       "true if the document "
