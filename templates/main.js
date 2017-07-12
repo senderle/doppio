@@ -81,67 +81,7 @@ document.addEventListener('DOMContentLoaded', function main() {
                (val === undefined);
     }
 
-    //////////////////////////////////////////////////////////////////////////
-    //////////////////////////////////////////////////////////////////////////
-    // CRUD Operations!
-    //
 
-    var userid = 'admin';
-    var key = '1357924680';
-    var xhr = new XMLHttpRequest();
-
-    function hmac_hash(data, key) {
-      var hash = CryptoJS.HmacSHA1(data, key).toString(CryptoJS.enc.Hex);
-      console.log(hash);
-      return hash;
-    };
-
-    function get_ephemeral_record() {
-      xhr.open('GET', 'http://159.203.127.128:5000/ephemeralRecord', true);
-      xhr.setRequestHeader('Content-Type', 'application/json');
-      xhr.onload = function () {
-        document.getElementById("dynamic-content").innerHTML = this.responseText;
-        console.log(this.responseText);
-      };
-      xhr.send();
-    };
-
-
-    function get_accounts(userid, hash) {
-      xhr.open('GET', 'http://159.203.127.128:5000/accounts', true);
-      xhr.setRequestHeader('Authorization', userid + ":" + hash);
-      xhr.setRequestHeader('Content-Type', 'application/json');
-      xhr.send();
-    };
-
-    function query_documents(userid, resource_name, query_params, data) {
-      data = null;
-      xhr.open('GET', 'http://159.203.127.128:5000/' + resource_name + '?' + query_params, true);
-      xhr.setRequestHeader('Authorization', userid + ":" + hash);
-      xhr.setRequestHeader('Content-Type', 'application/json');
-      xhr.send(data);
-    };
-
-    function get_document_by_id(document_id) {
-      xhr.open('GET', 'http://159.203.127.128:5000/ephemeralRecord' + '/' + document_id, false);
-      xhr.setRequestHeader('Content-Type', 'application/json');
-      xhr.send();
-      return xhr.responseText;
-    };
-
-    function post_new_document(userid, hash, resource_name, data) {
-      xhr.open('POST', 'http://159.203.127.128:5000/' + resource_name, true);
-      xhr.setRequestHeader('Authorization', userid + ":" + hash);
-      xhr.setRequestHeader('Content-Type', 'application/json');
-      xhr.send(data);
-    };
-
-    function patch_existing_document(userid, hash, resource_name, document_id, data) {
-      xhr.open('PATCH', 'http://159.203.127.128:5000/' + resource_name + '/' + document_id, true);
-      xhr.setRequestHeader('Authorization', userid + ":" + hash);
-      xhr.setRequestHeader('Content-Type', 'application/json');
-      xhr.send(data);
-    };
 
     //////////////////////////////////////////////////////////////////////////
     //////////////////////////////////////////////////////////////////////////
@@ -197,7 +137,7 @@ document.addEventListener('DOMContentLoaded', function main() {
             inputEl.setAttribute('rows', '4');
         }   else if (attribs.formType === "select") {
             inputEl = document.createElement('select');
-            inputEl.setAttribute('style', 'background-color: #FFF; width: 333px; height: 22px;');
+            inputEl.setAttribute('style', 'background-color: #FFF; height: 22px;');
             for (var i = 0; i < attribs.allowed.length; i++) {
                 var option = document.createElement('option');
                 option.text = attribs.allowed[i];
@@ -504,7 +444,8 @@ document.addEventListener('DOMContentLoaded', function main() {
 
     var loadRecord = document.getElementById('playbill-load');
     loadRecord.addEventListener('click', function() {
-        var pid = document.getElementById('playbill-id').value;
+
+        var pid = !(window.location.hash.substr(1) === '') ? window.location.hash.substr(1) : document.getElementById('playbill-id').value;
 
         // Prepare the form for re-rendering.
         resetForm();
@@ -555,4 +496,9 @@ document.addEventListener('DOMContentLoaded', function main() {
 
     // Finally...
     resetForm();
+
+    if (!(window.location.hash.substr(1) === '')) {
+        alert('hash present');
+        document.getElementById('playbill-load').click();
+    }
 });
