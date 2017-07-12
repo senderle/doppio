@@ -35,6 +35,10 @@ div#side-window-container {
     max-width: 65%;
 }
 
+#search-results {
+    max-width: 65%;
+}
+
 a.button {
     text-decoration: none;
     border-radius: 4px;
