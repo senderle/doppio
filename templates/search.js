@@ -27,12 +27,31 @@ document.addEventListener('DOMContentLoaded', function main() {
 
     }
 
+    /*'where={"$and":[{"ephemeralRecord.shows.venue":' +
+                      '{"$regex":"(?i).*' + searchTerm + '.*"}},' +
+                      '{"ephemeralRecord.shows.performances.title":' +
+                      '{"$regex":"(?i).*' + searchTerm + '.*"}}]}' +
+                      '&projection={"ephemeralRecord.shows.venue":1,' +
+                      '"ephemeralRecord.shows.date":1,' +
+                      '"ephemeralRecord.shows.performances.title": 1}' +
+                      '&page=' + page + '&pretty';*/
+
+
 
     function getQuery() {
+      var searchPaths = getAllSearchPaths();
+      console.log(searchPaths);
+          for (var i=0; i<showsTerms.length; i++) {
+            if(document.getElementById('checkbox-' + showsTerms[i]).checked) {
+              var fieldName = document.getElementById('checkbox-' + showsTerms[i]);
+              //console.log(fieldName.value);
+            }
+          }
+          console.log(searchPaths[fieldName.value]);
         var searchTerm = document.getElementById('search-term').value;
-        var query_string = 'where={"ephemeralRecord.shows.venue":' +
+        var query_string = 'where={"' + searchPaths[fieldName.value] + '":' +
                          '{"$regex":"(?i).*' + searchTerm +
-                          '.*"}}&projection={"ephemeralRecord.shows.venue":1,' +
+                          '.*"}}&projection={"'+ searchPaths[fieldName.value] + '":1,' +
                           '"ephemeralRecord.shows.date":1,' +
                           '"ephemeralRecord.shows.performances.title": 1}' +
                           '&page=' + page + '&pretty';
@@ -61,13 +80,13 @@ document.addEventListener('DOMContentLoaded', function main() {
           if (resultsArray[j].includes('_id') || resultsArray[j].includes('_updated') ||
               resultsArray[j].includes('_created')) {
           }
-          else if (searchTerm != '' && searchTerm != ' ' && resultsArray[j].match(new RegExp(searchTerm, "i"))) {
+          /*else if (searchTerm != '' && searchTerm != ' ' && resultsArray[j].match(new RegExp(searchTerm, "i"))) {
             var bold = document.createElement('b');
             bold.appendChild(document.createTextNode(pruning(resultsArray[j])));
             resultsNode.appendChild(bold);
             resultsNode.appendChild(document.createElement('br'));
             p.appendChild(resultsNode);
-          }
+          }*/
           else {
             resultsNode.appendChild(document.createTextNode(pruning(resultsArray[j])));
             resultsNode.appendChild(document.createElement('br'));
@@ -78,7 +97,7 @@ document.addEventListener('DOMContentLoaded', function main() {
         searchResults.appendChild(p);
         }
         return numOfPages;
-    }
+  }
 
     searchRecord.addEventListener('click', function() {
       var div = document.getElementById('search-results');
@@ -160,6 +179,7 @@ document.addEventListener('DOMContentLoaded', function main() {
                 var cb = document.createElement('input');
                 cb.setAttribute('type', 'checkbox');
                 cb.setAttribute('class', 'cb');
+                cb.setAttribute('value', list[i]);
                 cb.id = "checkbox-" + list[i];
 
                 var cblabel = document.createElement('cb-label')
@@ -185,21 +205,7 @@ document.addEventListener('DOMContentLoaded', function main() {
         }
     }
 
-    // get keys recursively
-    function accessAllKeys(obj, path) {
-        for (var k in obj) {
-            if (obj[k].hasOwnProperty('type')) {
-                if (['dict','list'].includes(obj[k].type)) {
-                    accessAllKeys(obj[k], path + '.' + k);
-                } else {
-                    console.log(path + '.' + k);
-                }
-            }
-        }
-        //console.log(pathDict);
-    }
 
-    accessAllKeys(playbillRecord, ['schema']/*, pathDict*/);
 
     //build dictionary
     var searchSchema = playbillRecord.ephemeralRecord.schema;
@@ -207,10 +213,10 @@ document.addEventListener('DOMContentLoaded', function main() {
     var subShow = ['Occasions','Performances','Ticketing'];
 
     var documentTerms = Object.keys(searchSchema).filter(function(x){if (!searchSchema[x].hasOwnProperty('schema')) return x; });
-    var documentPrinterTerms = Object.keys(searchSchema.documentPrinter.schema);
+    var documentPrinterTerms = ['Document Printer Name', 'Document Printer Location'];
     var generalInfo = ['Announcements', 'Advertisements'];
     var showsTerms = Object.keys(showsSchema).filter(function(x){ if(!subShow.includes(titleCase(x))) return x; });
-    var performanceTerms = Object.keys(showsSchema.performances.schema.schema);
+    var performanceTerms = getAllKeys(showsSchema.performances);
     var occasionTerms = Object.keys(showsSchema.occasions.schema.schema);
     var ticketingTerms = Object.keys(showsSchema.ticketing.schema);
 
