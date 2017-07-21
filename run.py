@@ -9,6 +9,7 @@ import base64
 import logging
 import json
 from schema import schema
+from flask.views import View
 
 class MyValidator(Validator):
     def _validate_documentation(self, documentation, field, value):
@@ -31,18 +32,7 @@ class HMACAuth(HMACAuth):
             # only retrieve a user if his roles match ``allowed_roles``
             lookup['roles'] = {'$in': allowed_roles}
          if user:
-             secret_key = user['secret_key']
-         # in this implementation we only hash request data, ignoring the
-         # headers.
-         #validator = hmac.new(str(secret_key).encode('utf-8'), None, sha1)
-         #validator.update(str(data).encode('utf-8'))
-         #print(secret_key)
-         #print(str(secret_key).encode('utf-8'))
-         #print(data)
-         #print(str(data).encode('utf-8'))
-         #print(hmac.new(str(secret_key).encode('utf-8'), str(data).encode('utf-8'), sha1).hexdigest())
-         #print(validator.hexdigest())
-         #print(hmac_hash)
+            secret_key = user['secret_key']
 
          return user and  hmac.new(str(secret_key).encode('utf-8'), data, sha1).hexdigest() == hmac_hash
 
@@ -76,9 +66,6 @@ def log_every_delete(resource, request, payload):
     # custom INFO-level message is sent to the log file
     app.logger.info('We just answered to a DELETE request!')
 
-
-
-#app = Eve(auth=HMACAuth)
 app = Eve(__name__, auth=HMACAuth, template_folder='templates', validator=MyValidator)
 #app.on_insert_accounts += create_user
 #app.on_post_GET += log_every_get
@@ -87,13 +74,9 @@ app = Eve(__name__, auth=HMACAuth, template_folder='templates', validator=MyVali
 #app.on_post_PUT += log_every_put
 #app.on_post_DELETE += log_every_delete
 
-@app.route('/index')
+@app.route('/home')
 def index():
     return render_template('index.html')
-
-@app.route('/form')
-def render_ephemeral_record_form():
-    return render_template('form.html')
 
 @app.route('/main.js')
 def render_main_js():
@@ -104,7 +87,7 @@ def render_schema_json():
     schema_json = json.dumps(schema)
     return render_template_string(schema_json)
 
-@app.route('/style')
+@app.route('/style.css')
 def render_stylesheet():
     return app.send_static_file('style.css')
 
@@ -116,9 +99,9 @@ def render_search_page():
 def render_search_js():
     return render_template('search.js')
 
-@app.route('/crud.js')
-def render_crud_js():
-    return render_template('crud.js')
+@app.route('/functions.js')
+def render_functions_js():
+    return render_template('functions.js')
 
 
 if __name__ == '__main__':
