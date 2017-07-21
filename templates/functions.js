@@ -11,39 +11,38 @@ var playbillRecord = JSON.parse(req.responseText);
 var xhr = new XMLHttpRequest();
 
 function hmac_hash(data, key) {
-  var hash = CryptoJS.HmacSHA1(data, key).toString(CryptoJS.enc.Hex);
-  console.log(hash);
-  return hash;
+    var hash = CryptoJS.HmacSHA1(data, key).toString(CryptoJS.enc.Hex);
+    console.log(hash);
+    return hash;
 }
 
 function get_ephemeral_record() {
-  xhr.open('GET', '/ephemeralRecord', false);
-  xhr.setRequestHeader('Content-Type', 'application/json');
-  xhr.send();
-  return xhr.responseText;
+    xhr.open('GET', '/ephemeralRecord', false);
+    xhr.setRequestHeader('Content-Type', 'application/json');
+    xhr.send();
+    return xhr.responseText;
 }
 
-
 function get_accounts(userid, hash) {
-  xhr.open('GET', '/accounts', true);
-  xhr.setRequestHeader('Authorization', userid + ":" + hash);
-  xhr.setRequestHeader('Content-Type', 'application/json');
-  xhr.send();
-  return xhr.responseText;
+    xhr.open('GET', '/accounts', true);
+    xhr.setRequestHeader('Authorization', userid + ":" + hash);
+    xhr.setRequestHeader('Content-Type', 'application/json');
+    xhr.send();
+    return xhr.responseText;
 }
 
 function query_documents(query_params) {
-  xhr.open('GET', '/ephemeralRecord' + '?' + query_params, false);
-  xhr.setRequestHeader('Content-Type', 'application/json');
-  xhr.send();
-  return xhr.responseText;
+    xhr.open('GET', '/ephemeralRecord' + '?' + query_params, false);
+    xhr.setRequestHeader('Content-Type', 'application/json');
+    xhr.send();
+    return xhr.responseText;
 }
 
 function get_document_by_id(document_id) {
-  xhr.open('GET', '/ephemeralRecord' + '/' + document_id, false);
-  xhr.setRequestHeader('Content-Type', 'application/json');
-  xhr.send();
-  return xhr.responseText;
+    xhr.open('GET', '/ephemeralRecord' + '/' + document_id, false);
+    xhr.setRequestHeader('Content-Type', 'application/json');
+    xhr.send();
+    return xhr.responseText;
 }
 
 function post_new_document(userid, hash, resource_name, data) {
@@ -66,10 +65,10 @@ function post_new_document(userid, hash, resource_name, data) {
 }
 
 function patch_existing_document(userid, hash, resource_name, document_id, data) {
-  xhr.open('PATCH', '/' + resource_name + '/' + document_id, true);
-  xhr.setRequestHeader('Authorization', userid + ":" + hash);
-  xhr.setRequestHeader('Content-Type', 'application/json');
-  xhr.send(data);
+    xhr.open('PATCH', '/' + resource_name + '/' + document_id, true);
+    xhr.setRequestHeader('Authorization', userid + ":" + hash);
+    xhr.setRequestHeader('Content-Type', 'application/json');
+    xhr.send(data);
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -86,15 +85,15 @@ function upperCase(match, val) {
 }
 
 function splitCamel(s) {
-    return s.replace(/([a-z](?=[A-Z]))/g, insertSpace)  // Split CamelCase
-            .replace(/([a-z](?=[0-9]))/g, insertSpace)  // Separate Digits
-            .replace(/([0-9](?=[a-zA-Z]))/g, insertSpace);   // (ditto)
+    return s.replace(/([a-z](?=[A-Z]))/g, insertSpace)    // Split CamelCase
+            .replace(/([a-z](?=[0-9]))/g, insertSpace)    // Separate Digits
+            .replace(/([0-9](?=[a-zA-Z]))/g, insertSpace);     // (ditto)
 }
 
 function titleCase(s) {
     s = splitCamel(s);
-    return s.replace(/(^[a-z])/g, s[0].toUpperCase())   // First Cap
-            .replace(/( [a-z])/g, upperCase);           // Cap After Space
+    return s.replace(/(^[a-z])/g, s[0].toUpperCase())     // First Cap
+            .replace(/( [a-z])/g, upperCase);                     // Cap After Space
 }
 
 function toId(s, prefix) {
@@ -111,7 +110,7 @@ function idToList(keys) {
         for (var i = 0; i < keys.length; i++) {
             var key = keys[i].split('-');
             for (j = 0; j < key.length; j++) {
-                key[j] = key[j][0].toUpperCase() + key[j].slice(1);
+                    key[j] = key[j][0].toUpperCase() + key[j].slice(1);
             }
             key = key.join('');
             keys[i] = key[0].toLowerCase() + key.slice(1);
@@ -144,74 +143,92 @@ function isPrimitive(val) {
            (val === undefined);
 }
 
+function capitalize(string) {
+return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
+function pruning(json) {
+  return json.replace(/{/g, '')
+             .replace(/}/g, '')
+             .replace(/"/g, '')
+             .replace("ephemeralRecord:", '')
+             .replace(/:/g, ': ')
+             .replace(/\[/g, '')
+             .replace(/\]/g, '')
+             .replace(/,/g, ', ')
+             .replace(/[\w]+:/g, function(x){return capitalize(x);})
+             .replace(/([a-z](?=[A-Z]))/g, insertSpace);  //camelCase split
+
+}
+
 //////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////
 // Extract keys and search paths from the Schema
 //
 
-    //not fixed yet
-/*    var getAllSchemaPaths = function () {
-        var dict = {};
-        var makeDict = function (obj, path) {
-            for (var k in obj) {
+//not fixed yet
+/*var getAllSchemaPaths = function () {
+var dict = {};
+var makeDict = function (obj, path) {
+        for (var k in obj) {
                 if (obj.hasOwnProperty(k)) {
-                    if (k === 'type') {
-                        continue;
-                    } else if (k == 'schema' || obj[k].type=='dict' || (obj[k].type=='list' && obj[k].schema.schema)) {
-                        makeDict(obj[k], path + '.' + k);
-                    } else {
-                        dict[k] = path + '.' + k;
-                    }
+                        if (k === 'type') {
+                                continue;
+                        } else if (k == 'schema' || obj[k].type=='dict' || (obj[k].type=='list' && obj[k].schema.schema)) {
+                                makeDict(obj[k], path + '.' + k);
+                        } else {
+                                dict[k] = path + '.' + k;
+                        }
                 }
-            }
-        };
-        makeDict(playbillRecord.ephemeralRecord,['ephemeralRecord']);
-        return dict;
-    };
+        }
+};
+makeDict(playbillRecord.ephemeralRecord,['ephemeralRecord']);
+return dict;
+};
 */
 
-    // get a flat dictionary of keys to search paths
-    var getAllSearchPaths = function () {
-        var dict = {};
-        var makeDict = function (obj, path) {
-            for (var k in obj) {
-                if (k === 'type') {
-                    continue;
-                }
-                else if (obj.hasOwnProperty(k)) {
-                    if (k === 'schema') {
-                        makeDict(obj[k], path);
-                    } else if (obj[k].type=='dict' || (obj[k].type=='list' && obj[k].schema.schema)) {
-                        makeDict(obj[k], path + '.' + k);
+// get a flat dictionary of keys to search paths
+var getAllSearchPaths = function () {
+    var dict = {};
+    var makeDict = function (obj, path) {
+        for (var k in obj) {
+            if (k === 'type') {
+                continue;
+            }
+            else if (obj.hasOwnProperty(k)) {
+                if (k === 'schema') {
+                    makeDict(obj[k], path);
+                } else if (obj[k].type=='dict' || (obj[k].type=='list' && obj[k].schema.schema)) {
+                    makeDict(obj[k], path + '.' + k);
+                } else {
+                    if (k === 'location') {
+                        descriptivek = path.substr(path.lastIndexOf('.') + 1) + ' ' + k;
+                        dict[descriptivek] = path + '.' + k;
                     } else {
-                        if (k === 'location') {
-                            descriptivek = path.substr(path.lastIndexOf('.') + 1) + ' ' + k;
-                            dict[descriptivek] = path + '.' + k;
-                        } else {
                         dict[k] = path + '.' + k;
                     }
-                    }
                 }
             }
-        };
-        makeDict(playbillRecord.ephemeralRecord,['ephemeralRecord']);
-        return dict;
+        }
     };
+    makeDict(playbillRecord.ephemeralRecord,['ephemeralRecord']);
+    return dict;
+};
 
-    //get all keys for any subsection of the schema in a list
-    var getAllKeys = function (obj) {
-        var list = [];
-        var makeList = function (obj, list) {
-            for (var k in obj) {
-                if (k === 'type') {
-                    continue;
-                } else if (k=='schema' || obj[k].type=='dict' || (obj[k].type=='list' && obj[k].schema.schema)) {
-                    makeList(obj[k], list);
-                } else {
-                    list.push(k);
-                }
+//get all keys for any subsection of the schema in a list
+var getAllKeys = function (obj) {
+    var list = [];
+    var makeList = function (obj, list) {
+        for (var k in obj) {
+            if (k === 'type') {
+                continue;
+            } else if (k=='schema' || obj[k].type=='dict' || (obj[k].type=='list' && obj[k].schema.schema)) {
+                makeList(obj[k], list);
+            } else {
+                list.push(k);
             }
-        };
-        makeList(obj, list);
-        return list;
+        }
     };
+    makeList(obj, list);
+    return list;
+};
