@@ -3,6 +3,11 @@
 // CRUD Operations!
 //
 
+var req = new XMLHttpRequest();
+req.open("GET", "/schema.json", false);
+req.send();
+var playbillRecord = JSON.parse(req.responseText);
+
 var xhr = new XMLHttpRequest();
 
 function hmac_hash(data, key) {
