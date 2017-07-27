@@ -4,13 +4,15 @@
         <script src="/main.js"></script>
         <script src="/functions.js"></script>
 		<link rel="stylesheet" type="text/css" href="/style.css">
+    <title>Home</title>
     </head>
     <body>
 		<div id="wrapper">
             <div id = "navbar">
                 <ul>
-                    <li><a id="nav-link" class="current" href="/home">Home</a></li>
-                    <li><a id="nav-link" href="/search">Search</a></li>
+                    <li><a class="nav-link current" href="/home">Home</a></li>
+                    <li><a class="nav-link" href="/search">Search</a></li>
+                    <li><a class="nav-link login" href="/login">Login</a></li>
                 </ul>
             <div>
             <div id="side-window-container" class="side-window">
@@ -18,17 +20,15 @@
                     <h4>Field Information</h4>
                 </div>
                 <div id="help-window-text"></div>
-                <!--div id="login-window" class="side-window"><h4>Log in to save/update records</h4>
-                    <div class="ui-element"><input type="text" id="userid" /></div>
-                    <div class="ui-element"><input type="text" id="key" /></div>
-                    <div class="ui-element"><input type="button" id="login-button" value="Log in" /></div>
-                </div-->
                 <div id="status-message-window" class="side-window"></div>
+                <div id="reset-form-button" class="side-window ui-element"><input type="button" value="Reset Form" /></div>
+                <div id="reset-after-post" class="side-window ui-element"><input type="button" /></div>
                 <div id="upload-file-window" class="side-window"><h4>Upload a local record</h4>
-                        <div class="ui-element"><input type="file" id="local-load" /></div>
+                    <div class="ui-element"><input type="file" id="local-load" /></div>
                 </div>
                 <div id="save-file-window" class="side-window"><h4>Save current record</h4>
-                    <div class="ui-element"><input type="button" id="playbill-submit" value="Save" /></div>
+                    <div class="ui-element"><input type="button" id="playbill-submit" value="Save to database" /></div>
+                    <div class="ui-element"><input type="button" id="playbill-save" value="Save to local file" /></div>
                 </div>
                 <div id="load-file-window" class="side-window"><h4>Load a record by ID</h4>
                     <div class="ui-element"><input type="search" id="playbill-id" /></div>
