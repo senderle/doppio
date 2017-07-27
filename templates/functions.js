@@ -52,15 +52,24 @@ function post_new_document(userid, hash, resource_name, data) {
     xhr.send(data);
 
     var statusAlert = document.getElementById('status-message-window');
+    var rst = document.getElementById("reset-after-post");
     xhr.onload = function () {
     if (xhr.status == 201 || xhr.status == 200){
         statusAlert.innerHTML = ("Successfully saved data.").fontcolor("#33cc33"); //green
+        rst.click();
+    }
+    else if (xhr.status == 401) {
+        statusAlert.innerHTML = ("Error: " + xhr.statusText).fontcolor("#ff0000");
+        if (confirm("An authorization error occurred. Log in again?")) {
+          window.location.replace('/login');
+        }
+        else {
+
+        }
     }
     else {
         statusAlert.innerHTML = ("Error: " + xhr.statusText).fontcolor("#ff0000"); //red
     }
-    console.log("status" + xhr.status);
-    console.log("text" + xhr.statusText);
     };
 }
 
@@ -157,35 +166,36 @@ function pruning(json) {
              .replace(/\]/g, '')
              .replace(/,/g, ', ')
              .replace(/[\w]+:/g, function(x){return capitalize(x);})
+             .replace(/\\/g, '"')
              .replace(/([a-z](?=[A-Z]))/g, insertSpace);  //camelCase split
 
+}
+
+function jsonToFilename(json) {
+    var venue = json.ephemeralRecord.shows[0].venue;
+    var date = json.ephemeralRecord.shows[0].date;
+    var title = json.ephemeralRecord.shows[0].performances[0].title;
+    var cataloger = json.ephemeralRecord.dataCataloger;
+    var elements = [date, venue, title, cataloger];
+    var tojoin = [];
+
+    for (var i = 0; i < elements.length; i++) {
+        if (elements[i] !== '') {
+            console.log(elements[i]);
+            console.log(typeof elements[i]);
+            tojoin.push(elements[i]);
+        }
+    }
+
+    var filename = toId(tojoin.join(' '));
+    filename = filename === '' ? 'empty-record.json' : filename + '.json';
+    return filename;
 }
 
 //////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////
 // Extract keys and search paths from the Schema
 //
-
-//not fixed yet
-/*var getAllSchemaPaths = function () {
-var dict = {};
-var makeDict = function (obj, path) {
-        for (var k in obj) {
-                if (obj.hasOwnProperty(k)) {
-                        if (k === 'type') {
-                                continue;
-                        } else if (k == 'schema' || obj[k].type=='dict' || (obj[k].type=='list' && obj[k].schema.schema)) {
-                                makeDict(obj[k], path + '.' + k);
-                        } else {
-                                dict[k] = path + '.' + k;
-                        }
-                }
-        }
-};
-makeDict(playbillRecord.ephemeralRecord,['ephemeralRecord']);
-return dict;
-};
-*/
 
 // get a flat dictionary of keys to search paths
 var getAllSearchPaths = function () {

@@ -250,6 +250,8 @@ document.addEventListener('DOMContentLoaded', function main () {
         focusTop();
     }
 
+
+
     //////////////////////////////////////////////////////////////////////////
     //////////////////////////////////////////////////////////////////////////
     // Recursive object indexing and traversal
@@ -334,68 +336,112 @@ document.addEventListener('DOMContentLoaded', function main () {
         }
     }
 
+
+    //////////////////// Reset form button //////////////////////////
+    var reset = document.getElementById("reset-form-button");
+    var statusAlert = document.getElementById('status-message-window');
+    reset.addEventListener('click', function(){
+      if (confirm("Are you sure you want to reset the form?")) {
+        resetForm();
+        statusAlert.innerHTML = '';
+      }
+      else {
+
+      }
+    });
+
+    ////////////////////////////////////////////////////////
+    var secretReset = document.getElementById("reset-after-post");
+    secretReset.addEventListener('click', function() {
+        resetForm();
+    });
+
     //////////////////////////////////////////////////////////////////////////
     //////////////////////////////////////////////////////////////////////////
     // Load/Save Records
     //
 
-    // AUTHENTICATION
-    /*var loginButton = document.getElementById('login-button');
-    //document.getElementById("save-file-window").style.visibility = "hidden";
-    function login(){
-        var userid = document.getElementById('userid');
-        var key = document.getElementById('key');
-        return userid, key;
-    }
-    });*/
+    /*function getFormContent() {
+        var elements = document.querySelectorAll('.main-form-input');
+        var out = {};
+        for (var i = 0; i < elements.length; i++) {
+            var value = elements[i].type === 'checkbox' ? elements[i].checked :
+                                                            elements[i].value;
+            if(value !== "") {
+                assignKey(out, elements[i].id, value);
+            }
+        }
+        console.log(JSON.stringify(out));
+        return out;
+    }*/
 
-    // Add event listeners to static UI elements.
+    // SAVE TO DB
     var submitButton = document.getElementById('playbill-submit');
-
     submitButton.addEventListener('click', function() {
         var elements = document.querySelectorAll('.main-form-input');
         var out = {};
         for (var i = 0; i < elements.length; i++) {
             var value = elements[i].type === 'checkbox' ? elements[i].checked :
                                                             elements[i].value;
-            if(value !== ""){
+            if(value !== "") {
                 assignKey(out, elements[i].id, value);
             }
         }
+        //var out = getFormContent();
+        var jsonOut = JSON.stringify(out);
+        var userid = localStorage.getItem("userid");
+        var skey = localStorage.getItem("key");
 
-        json_out = JSON.stringify(out);
-        console.log(json_out);
-        var userid = 'admin';
-        var key = '1357924680';
-        hash = hmac_hash(json_out.toString(), key);
+        hash = hmac_hash(jsonOut.toString(), skey);
         var patchid = document.getElementById('playbill-id').value;
 
         var loadFileChooser = document.getElementById('local-load');
         if(patchid === '') {
-            post_new_document(userid, hash, 'ephemeralRecord', json_out.toString());
-            resetForm();
-            loadFileChooser.value= '';
+            post_new_document(userid, hash, 'ephemeralRecord', jsonOut.toString());
+            loadFileChooser.value='';
+
         }
         else{
-            patch_existing_document(userid, hash, 'ephemeralRecord', patchid, json_out.toString());
-            resetForm();
+            patch_existing_document(userid, hash, 'ephemeralRecord', patchid, jsonOut.toString());
             loadFileChooser.value= '';
         }
     });
 
+    // SAVE TO FILE
+    var saveButton = document.getElementById('playbill-save');
+    saveButton.addEventListener('click', function() {
+        var elements = document.querySelectorAll('.main-form-input');
+        var out = {};
+        for (var i = 0; i < elements.length; i++) {
+            var value = elements[i].type === 'checkbox' ? elements[i].checked :
+                                                          elements[i].value;
+            assignKey(out, elements[i].id, value);
+        }
 
-    var loadRecord = document.getElementById('playbill-load');
-    loadRecord.addEventListener('click', function() {
+        console.log(out);
+        var filename = jsonToFilename(out);
 
-        var pid = (window.location.hash.substr(1) !== '') ? window.location.hash.substr(1) : document.getElementById('playbill-id').value;
+        //var out = getFormContent();
+        //console.log(JSON.stringify(out));
+        //var filename = jsonToFilename(out);
 
-        // Prepare the form for re-rendering.
-        resetForm();
+        var dl = document.createElement('a');
+        dl.setAttribute('href', 'data:text/plain;charset=utf-8,' +
+                encodeURIComponent(JSON.stringify(out, null, 2)));
+        dl.setAttribute('download', filename);
+        dl.style.display = 'none';
 
-        var doc = get_document_by_id(pid);
-        var obj = JSON.parse(doc);
+        document.body.appendChild(dl);
+        dl.click();
+        document.body.removeChild(dl);
 
-        walkObj(obj, function(val, keyPath) {
+        event.preventDefault();
+        return false;
+    });
+
+    // callback function for walkObj
+    function walkObjHelper () {
+        return function (val, keyPath) {
             keyPath = keyPath.slice();    // Mutating data, so make a copy.
             for (var i = 0; i < keyPath.length; i++) {
                 if ((typeof keyPath[i]) === 'number') {
@@ -420,7 +466,22 @@ document.addEventListener('DOMContentLoaded', function main () {
                     }
                 }
             }
-        });
+        };
+    }
+
+    // LOAD BY ID
+    var loadRecord = document.getElementById('playbill-load');
+    loadRecord.addEventListener('click', function() {
+
+        var pid = (window.location.hash.substr(1) !== '') ? window.location.hash.substr(1) : document.getElementById('playbill-id').value;
+
+        // Prepare the form for re-rendering.
+        resetForm();
+
+        var doc = get_document_by_id(pid);
+        var obj = JSON.parse(doc);
+
+        walkObj(obj, walkObjHelper());
 
         var elements = document.querySelectorAll('.main-form-input');
         for (var i = 0; i < elements.length; i++) {
@@ -432,20 +493,11 @@ document.addEventListener('DOMContentLoaded', function main () {
                     elements[i].value = value;
                 }
         }
-    focusTop();
+
+        focusTop();
     });
 
-    resetForm();
-
-    if (window.location.hash.substr(1) !== '') {
-        document.getElementById('playbill-load').click();
-    }
-
-
-///////////////// upload local json files //////////////////////////////
-
-//error: Uncaught TypeError: Failed to execute 'readAsText' on 'FileReader': parameter 1 is not of type 'Blob'.
-
+    // LOAD FROM LOCAL JSON FILE
     var loadFileChooser = document.getElementById('local-load');
 
     loadFileChooser.addEventListener('change', function(evt) {
@@ -459,45 +511,27 @@ document.addEventListener('DOMContentLoaded', function main () {
         reader.addEventListener('load', function(evt) {
             obj = JSON.parse(evt.target.result);
 
-            walkObj(obj, function(val, keyPath) {
-                keyPath = keyPath.slice();    // Mutating data, so make a copy.
-                for (var i = 0; i < keyPath.length; i++) {
-                    if ((typeof keyPath[i]) === 'number') {
-                        keyPath[i] += 1;
-                    }
-                }
-
-                var fieldId = listToId(keyPath);
-                var tail = keyPath.pop();
-
-                // Is the last value in keyPath a number? If so, this is
-                // an array field. Check to see whether the corresponding
-                // form fields have been created yet and create them if not.
-                if ((typeof tail) === 'number') {
-                    var renderId = listToId(keyPath);
-
-                    if (document.getElementById(fieldId) === null) {
-                        var render = subFormFactory
-                            .getRendererFromKey[renderId];
-                        if (render) {
-                            render();
-                        }
-                    }
-                }
-            });
-
+            walkObj(obj, walkObjHelper());
             var elements = document.querySelectorAll('.main-form-input');
             for (var i = 0; i < elements.length; i++) {
                 var key = elements[i].id;
                 var value = getKey(obj, key);
-                    if (elements[i].type === 'checkbox') {
-                        elements[i].checked = value;
-                    } else if (value !== undefined) {
-                        elements[i].value = value;
-                    }
+
+                if (elements[i].type === 'checkbox') {
+                    elements[i].checked = value;
+                } else {
+                    elements[i].value = value;
+                }
             }
-        focusTop();
+            focusTop();
         });
         reader.readAsText(file);
     });
+
+    resetForm();
+
+    if (window.location.hash.substr(1) !== '') {
+        document.getElementById('playbill-load').click();
+    }
+
 });
