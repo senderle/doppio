@@ -4,6 +4,7 @@
         <script src="/functions.js"></script>
         <script src="/search.js"></script>
 		<link rel="stylesheet" type="text/css" href="/style.css">
+    <title>Search</title>
     </head>
     <body>
 		<div id="wrapper">
@@ -11,25 +12,40 @@
                 <ul>
                   <li><a class="nav-link" href="/home">Home</a></li>
                   <li><a class="nav-link current" href="/search">Search</a></li>
+                  <li><a class="nav-link login" href="/login">Login</a></li>
                 </ul>
             </div>
             <div id="side-window-container" class="side-window">
                 <div id="help-window" class="side-window">
                     <h4>Search</h4>
                 </div>
-                <div id="search-window" class="side-window"><h4>enter keyword or partial string</h4>
+                <div id="search-window" class="side-window">
                     <div class="ui-element"><input type="search" id="search-term" /></div>
+                    <div id="date-search" class="side-window">
+                      <h4>Search within a date range<h4>
+                      <div class="ui-element"><input type="date" id="date-start" title="Start date" /></div>
+                      <div class="ui-element"><input type="date" id="date-end" title="End date"/></div>
+                    </div>
                     <div class="ui-element"><input type="button" id="search-button" value="Search" /></div>
+                </div>
+                <div id="clear-window" class="side-window"><h4>Clear Search</h4>
+                    <div class="ui-element"><input type="button" id="clear-search" value="Reset" /></div>
+                </div>
+            </div>
+            <div id="nav-pages-window-top" class="side-window nav-pages-window">
+                <div class="nav-pages-wrapper">
+                    <input type="button" title="Previous page" id="prev-page-top" class="prev-page" value="&laquo; Previous" />
+                    <input type="button" title="Next page" id="next-page-top" class="next-page" value="Next &raquo;" />
                 </div>
             </div>
             <div id="search-results"></div>
-            <div id="nav-pages-window" class="side-window">
+            <div id="nav-pages-window-bottom" class="side-window nav-pages-window">
                 <div class="nav-pages-wrapper">
-                    <input type="button" title="Previous page" id="prev-page" value="&laquo; Previous" />
-                    <input type="button" title="Next page" id="next-page" value="Next &raquo;" />
+                    <input type="button" title="Previous page" id="prev-page-bottom" class="prev-page" value="&laquo; Previous" />
+                    <input type="button" title="Next page" id="next-page-bottom" class="next-page" value="Next &raquo;" />
                 </div>
             </div>
-            <div id="search-filter"><h4>Narrow Search by Field</h4></div>
+            <div id="search-filter"><h4>Narrow Search by Fields</h4></div>
 		</div>
     </body>
 </html>

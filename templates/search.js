@@ -2,56 +2,97 @@ document.addEventListener('DOMContentLoaded', function main() {
 
     /////////////Query documents by partial string or keyword///////////////////
     var searchRecord = document.getElementById('search-button');
-    var nav = document.getElementById("nav-pages-window");
-    nav.style.visibility = "hidden";
-    var nextPage = document.getElementById('next-page');
-    var previousPage = document.getElementById('prev-page');
+    var navTop = document.getElementById("nav-pages-window-top");
+    navTop.style.visibility = "hidden";
+    var navBottom = document.getElementById("nav-pages-window-bottom");
+    navBottom.style.visibility = "hidden";
+    var nextTop = document.getElementById('next-page-top');
+    var nextBot = document.getElementById('next-page-bottom');
+    var prevTop = document.getElementById('prev-page-top');
+    var prevBot = document.getElementById('prev-page-bottom');
     var page = 0;
 
-    function getQuery() {
-        // apply search filters
+    function buildQuery() {
+        // search filters
         var ks = getAllKeys(searchSchema);
-        var l = ks[ks.indexOf('name')] = 'documentPrinterName';
-        var n = ks[ks.indexOf('location')] = 'documentPrinterLocation';
-        var searchPaths = getAllSearchPaths();
+        ks[ks.indexOf('name')] = 'documentPrinterName';
+        ks[ks.indexOf('location')] = 'documentPrinterLocation';
         var searchFilters = [];
         for (var i=0; i<ks.length; i++) {
             if (document.getElementById('checkbox-' + ks[i]).checked) {
+                console.log(ks[i]);
                 searchFilters.push(document.getElementById('checkbox-' + ks[i]).value);
             }
         }
         if (searchFilters[0] == null) {
             searchFilters = ks;
         }
-        // query
+
+
+        // search term
         var searchTerm = document.getElementById('search-term').value;
-        var query_string = [];
-        if (searchFilters.length == 1) {
-            var query_string = 'where={"' + searchPaths[searchFilters[0]] + '":' +
-                               '{"$regex":"(?i).*' + searchTerm +
-                               '.*"}}&projection={"'+ searchPaths[searchFilters[0]] + '":1,' +
-                               '"ephemeralRecord.shows.date":1,' +
-                               '"ephemeralRecord.shows.performances.title": 1}' +
-                               '&page=' + page + '&pretty';
-        } else {
-            var query_string = 'where={"$or":[';
+        var searchDate = document.getElementById('date-search');
+        var startDate = document.getElementById('date-start').value;
+        var endDate = document.getElementById('date-end').value;
+
+        var booleans = ['isInterpolation', 'newRole', 'newPerformer'];
+        var boolTerms = searchFilters.filter(function(x) {if (booleans.includes(x)) return x});
+        console.log(boolTerms);
+
+        // search paths
+        var searchPaths = getAllSearchPaths();
+        searchPaths['documentPrinterName'] = searchPaths ['name'];
+        searchPaths['documentPrinterLocation'] = searchPaths ['documentPrinter location'];
+        searchPaths['location'] = searchPaths ['shows location'];
+        delete searchPaths['name'];
+        delete searchPaths['shows location'];
+        delete searchPaths['documentPrinter location'];
+
+        // query
+        var queryString = [];
+            var queryString = 'where={"$or":[';
             for (var i=0; i<searchFilters.length; i++) {
-                query_string = query_string + '{"' + searchPaths[searchFilters[i]] + '":' +
+                queryString = queryString + '{"' + searchPaths[searchFilters[i]] + '":' +
                 '{"$regex":"(?i).*' + searchTerm + '.*"}},';
             }
-            query_string = query_string.slice(0, -1);
-            query_string = query_string + ']}&projection={';
-            for (var i=0; i<searchFilters.length; i++) {
-                query_string = query_string + '"' + searchPaths[searchFilters[i]] + '":1,';
+            if (searchDate.style.display == 'block') {
+              queryString = queryString + '{"$and":[' +
+              '{"' + searchPaths['date'] + '":' + '{"$gte":"' + startDate + '"}},'+
+              '{"' + searchPaths['date'] + '":' + '{"$lte":"' + endDate + '"}}]'+'},';
+            } // dates can only be searched using input elements with ids "date-start" and "date-end"
+              // searching for dates as "search-term" in "search-window" will not work
+
+            if (typeof searchTerm == 'number') {
+                for (var i=0; i<searchFilters.length; i++) {
+                    queryString = queryString + '{"' + searchPaths[searchFilters[i]] + '":' +
+                    searchTerm + '},';
+                }
             }
-            query_string = query_string +
+            for (var i=0; i<boolTerms.length; i++) {
+                console.log(searchPaths[boolTerms[i]]);
+                queryString = queryString + '{"' + searchPaths[boolTerms[i]] + '":' +
+                true + '},';
+            }
+            queryString = queryString.slice(0, -1);
+            queryString = queryString + ']}&projection={';
+            for (var i=0; i<searchFilters.length; i++) {
+                queryString = queryString + '"' + searchPaths[searchFilters[i]] + '":1,';
+            }
+            queryString = queryString +
             '"ephemeralRecord.shows.date":1,' +
             '"ephemeralRecord.shows.performances.title":1}' +
             '&page=' + page + '&pretty';
-        }
-        console.log(query_string);
-        var results = JSON.parse(query_documents(query_string));
+    return queryString;
+    }
+
+
+    function getQuery() {
+
+        // run query
+        var results = JSON.parse(query_documents(buildQuery()));
         var numOfPages = Math.ceil(results._meta.total/results._meta.max_results);
+
+        // display results
         var searchResults = document.getElementById('search-results');
         if (numOfPages === 0) {
             searchResults.innerHTML = "Your search did not match any documents.";
@@ -59,20 +100,22 @@ document.addEventListener('DOMContentLoaded', function main() {
             searchResults.innerHTML = "Found " + results._meta.total + " results<br/>" +
                                       "Page " + page + " of " + numOfPages;
         }
-        // display results
+
         for (var i=0; i<results._items.length; i++) {
             var stringified = JSON.stringify(results._items[i]);
             var p = document.createElement('p');
             var a = document.createElement('a');
             a.setAttribute('href', '/home#' + results._items[i]._id);
-            a.appendChild(document.createTextNode(results._items[i]._id));
+            var fname = jsonToFilename(results._items[i]);
+            a.appendChild(document.createTextNode(fname.substr(0,fname.lastIndexOf('.'))));
+            //a.appendChild(document.createTextNode(results._items[i]._id));
             a.appendChild(document.createElement('br'));
             p.appendChild(a);
 
             var resultsArray = stringified.split(',"');
             var resultsNode = document.createElement('results');
             for(var j=0; j<(resultsArray.length); j++) {
-                if (resultsArray[j].includes('_id') || resultsArray[j].includes('_updated') ||
+                if (resultsArray[j].includes('_updated') ||
                     resultsArray[j].includes('_created')) {
                     continue;
                 }/*else if (searchTerm != '' && searchTerm != ' ' && resultsArray[j].match(new RegExp(searchTerm, "i"))) {
@@ -99,47 +142,76 @@ document.addEventListener('DOMContentLoaded', function main() {
             div.removeChild(div.firstChild);
         }
         page = 1;
+        var t0 = performance.now();
         if (getQuery()>1) {
-            nextPage.style.visibility = "visible";
+            var t1 = performance.now();
+            nextTop.style.visibility = "visible";
+            nextBot.style.visibility = "visible";
         }
+        console.log(t1-t0);
     });
 
-    //////////////////// Go to next page ///////////////////////////////////////
-    nextPage.addEventListener('click', function() {
-    var numOfPages = getQuery();
-        if (page<numOfPages) {
-            page = page + 1;
-            previousPage.style.visibility = "visible";
-            nextPage.style.visibility = "visible";
+    var clearSearch = document.getElementById('clear-search');
+    clearSearch.addEventListener('click', function() {
+      location.reload(true);
+    });
+
+    ////////////////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////////////////
+    // Search Results Page Navigation
+    //
+    function navToNext() {
+        var numOfPages = getQuery(prevTop, prevBot, nextTop, nextBot);
+            if (page<numOfPages) {
+                page = page + 1;
+                prevTop.style.visibility = "visible";
+                prevBot.style.visibility = "visible";
+                nextTop.style.visibility = "visible";
+                nextBot.style.visibility = "visible";
+            }
+            if (page === numOfPages) {
+                nextTop.style.visibility = "hidden";
+                nextBot.style.visibility = "hidden";
+            }
+            getQuery();
+    }
+
+    function navToPrev() {
+        var numOfPages = getQuery(prevTop, prevBot, nextTop, nextBot);
+        if ((page-1)>=1) {
+            page = page - 1;
+            prevTop.style.visibility = "visible";
+            prevBot.style.visibility = "visible";
+            nextTop.style.visibility = "visible";
+            nextBot.style.visibility = "visible";
         }
-        if (page === numOfPages) {
-            nextPage.style.visibility = "hidden";
+        if(page === 1) {
+            prevTop.style.visibility = "hidden";
+            prevBot.style.visibility = "hidden";
         }
         getQuery();
+    }
+
+    //attach event listeners to page navigation buttons
+    nextTop.addEventListener('click', function(prevTop, prevBot, nextTop, nextBot) {
+        navToNext();
+    });
+    nextBot.addEventListener('click', function(prevTop, prevBot, nextTop, nextBot) {
+        navToNext();
+    });
+    prevTop.addEventListener('click', function(prevTop, prevBot, nextTop, nextBot) {
+        navToPrev();
+    });
+    prevBot.addEventListener('click', function(prevTop, prevBot, nextTop, nextBot) {
+        navToPrev();
     });
 
-  ///////////////////////Go to previous page////////////////////////////////////
-  previousPage.addEventListener('click', function() {
-    var numOfPages = getQuery();
-    if ((page-1)>=1) {
-      page = page - 1;
-      previousPage.style.visibility = "visible";
-      nextPage.style.visibility = "visible";
-      }
-    if(page === 1) {
-      previousPage.style.visibility = "hidden";
-      }
-    getQuery();
-    });
+    ////////////////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////////////////
+    // search filters
+    //
 
-    ///////////////////// search filters //////////////////////////////////////////
-    // get schema
-    var req = new XMLHttpRequest();
-    req.open("GET", "/schema.json", false);
-    req.send();
-    var playbillRecord = JSON.parse(req.responseText);
-
-    // make search filter accordian panel
+    // takes dictionary and makes an accordian panel with one panel per key
     function buildSearchFilter(dict) {
         for (var key in dict) {
             var list = dict[key];
@@ -182,10 +254,22 @@ document.addEventListener('DOMContentLoaded', function main() {
                 li.appendChild(cblabel);
             }
         }
+        var dateBox = document.getElementById('checkbox-date');
+        var dateSearch = document.getElementById('date-search');
+        dateBox.addEventListener('click', function() {
+          if(dateBox.checked){
+          dateSearch.style.display = 'block';
+
+        }
+        else {
+          dateSearch.style.display = 'none';
+        }
+      });
         // toggle accordian panels
         var buttons = document.getElementsByClassName("accordion");
         for (var i = 0; i < buttons.length; i++) {
             buttons[i].onclick = function(){
+                this.classList.toggle("active");
                 var panel = this.nextElementSibling;
                 if (panel.style.display === "block") {
                     panel.style.display = "none";
@@ -196,12 +280,26 @@ document.addEventListener('DOMContentLoaded', function main() {
         }
     }
 
-    //build dictionary
+
+
+    // Search Filter
+    // The keys in the searchFields dictionary determine the categories in the
+    // search filter. The values in the searchFields dictionary are lists of
+    // keys from the schema, each of which will become a checkbox under the
+    // category determined by the associated key.
+
+    // get schema
+    var req = new XMLHttpRequest();
+    req.open("GET", "/schema.json", false);
+    req.send();
+    var playbillRecord = JSON.parse(req.responseText);
+
+    // helper and shortcut variables
     var searchSchema = playbillRecord.ephemeralRecord.schema;
     var showsSchema = searchSchema.shows.schema.schema;
     var subShow = ['occasions','performances','ticketing'];
 
-    //sort fields for accordion
+    // sort keys into for categories for the accordian
     var documentTerms = Object.keys(searchSchema).filter(function(x){if (!searchSchema[x].hasOwnProperty('schema')) return x; });
     documentTerms.push('documentPrinterName', 'documentPrinterLocation');
     var generalInfo = ['announcements', 'advertisements'];
@@ -210,6 +308,7 @@ document.addEventListener('DOMContentLoaded', function main() {
     var occasionTerms = getAllKeys(showsSchema.occasions);
     var ticketingTerms = getAllKeys(showsSchema.ticketing);
 
+    //build dictionary
     var searchFields = {'documentDetails':documentTerms,
                         'generalInformation':generalInfo,
                         'shows':showsTerms,
