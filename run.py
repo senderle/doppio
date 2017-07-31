@@ -2,15 +2,15 @@ import bcrypt
 from eve import Eve
 from eve.auth import HMACAuth
 from flask import render_template, render_template_string, request, current_app as app
-from hashlib import sha1
+from hashlib import sha256
 from eve.io.mongo import Validator
 import hmac
 import base64
 import logging
 import json
 from schema import schema
-from flask.views import View
-
+import secrets
+import string
 
 class MyValidator(Validator):
     def _validate_documentation(self, documentation, field, value):
@@ -36,17 +36,28 @@ class HMACAuth(HMACAuth):
         if user:
             secret_key = user['secret_key']
 
-        return user and hmac.new(str(secret_key).encode('utf-8'), data, sha1).hexdigest() == hmac_hash
+        return user and hmac.new(str(secret_key).encode('utf-8'), data, sha256).hexdigest() == hmac_hash
 
+def generate_key():
+    alphabet = string.ascii_letters + string.digits
+    while True:
+        key = ''.join(secrets.choice(alphabet) for i in range(10))
+        if (any(c.islower() for c in key)
+                and any(c.isupper() for c in key)
+                and sum(c.isdigit() for c in key) >= 3):
+            break
+    return key
+# cmdline: python -c 'import run; run.generate_key()'
+
+def create_hash(secret_key, data):
+    hmac.new(str(secret_key).encode('utf-8'), data, sha256).hexdigest()
 
 def create_user(documents):
     for document in documents:
         document['salt'] = bcrypt.gensalt()
         secret_key = document['secret_key']
-        document['salt'] = bcrypt.gensalt().encode('utf-8')
-        secret_key = document['secret_key'].encode('utf-8')
-        document['secret_key'] = bcrypt.hashpw(secret_key, document['salt'])
-
+        secret_key = bcrypt.hashpw(secret_key, document['salt'])
+        document['secret_key'] = secret_key
 
 def log_every_get(resource, request, payload):
     # custom INFO-level message is sent to the log file
@@ -69,7 +80,7 @@ def log_every_delete(resource, request, payload):
     app.logger.info('We just answered to a DELETE request!')
 
 app = Eve(__name__, auth=HMACAuth, template_folder='templates', validator=MyValidator)
-# app.on_insert_accounts += create_user
+app.on_insert_accounts += create_user
 # app.on_post_GET += log_every_get
 # app.on_post_POST += log_every_post
 # app.on_post_PATCH += log_every_patch
@@ -93,6 +104,14 @@ def render_login_js():
 def render_main_js():
     return render_template('main.js')
 
+@app.route('/map')
+def map():
+    return render_template('map.html')
+
+@app.route('/map.js')
+def render_map_js():
+    return render_template('map.js')
+
 @app.route('/schema.json')
 def render_schema_json():
     schema_json = json.dumps(schema)
@@ -113,8 +132,6 @@ def render_search_js():
 @app.route('/functions.js')
 def render_functions_js():
     return render_template('functions.js')
-
-
 
 if __name__ == '__main__':
 
