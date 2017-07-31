@@ -12,90 +12,104 @@ document.addEventListener('DOMContentLoaded', function main() {
     var prevBot = document.getElementById('prev-page-bottom');
     var page = 0;
 
-    function buildQuery() {
+    function getQuery() {
         // search filters
         var ks = getAllKeys(searchSchema);
         ks[ks.indexOf('name')] = 'documentPrinterName';
         ks[ks.indexOf('location')] = 'documentPrinterLocation';
+
+        var booleans = ['isInterpolation', 'newRole', 'newPerformer'];
+
         var searchFilters = [];
         for (var i=0; i<ks.length; i++) {
             if (document.getElementById('checkbox-' + ks[i]).checked) {
-                console.log(ks[i]);
                 searchFilters.push(document.getElementById('checkbox-' + ks[i]).value);
             }
         }
         if (searchFilters[0] == null) {
-            searchFilters = ks;
+            searchFilters = ks.filter(function(x) {if (!booleans.includes(x)) return x;});
         }
-
 
         // search term
         var searchTerm = document.getElementById('search-term').value;
+        var boolTerms = searchFilters.filter(function(x) {if (booleans.includes(x)) return x;});
+        var numFields = ticketingTerms.concat('orderOfPerformance');
+        var numTerms = searchFilters.filter(function(x) {if (numFields.includes(x)) return x;});
+
         var searchDate = document.getElementById('date-search');
         var startDate = document.getElementById('date-start').value;
         var endDate = document.getElementById('date-end').value;
 
-        var booleans = ['isInterpolation', 'newRole', 'newPerformer'];
-        var boolTerms = searchFilters.filter(function(x) {if (booleans.includes(x)) return x});
-        console.log(boolTerms);
-
         // search paths
         var searchPaths = getAllSearchPaths();
-        searchPaths['documentPrinterName'] = searchPaths ['name'];
-        searchPaths['documentPrinterLocation'] = searchPaths ['documentPrinter location'];
-        searchPaths['location'] = searchPaths ['shows location'];
-        delete searchPaths['name'];
+        searchPaths.documentPrinterName = searchPaths.name;
+        searchPaths.documentPrinterLocation = searchPaths['documentPrinter location'];
+        searchPaths.location = searchPaths['shows location'];
+        delete searchPaths.name;
         delete searchPaths['shows location'];
         delete searchPaths['documentPrinter location'];
 
         // query
-        var queryString = [];
-            var queryString = 'where={"$or":[';
-            for (var i=0; i<searchFilters.length; i++) {
-                queryString = queryString + '{"' + searchPaths[searchFilters[i]] + '":' +
-                '{"$regex":"(?i).*' + searchTerm + '.*"}},';
+        var queryString = 'where={"$or":[';
+        for (var i=0; i<searchFilters.length; i++) {
+            queryString += '{"' + searchPaths[searchFilters[i]] + '":' +
+            '{"$regex":"(?i).*' + searchTerm + '.*"}},';
+        }
+        if (+searchTerm) {
+            for (var i=0; i<numTerms.length; i++) {
+                queryString += '{"' + searchPaths[searchFilters[i]] + '":' +
+                searchTerm + '},';
             }
-            if (searchDate.style.display == 'block') {
-              queryString = queryString + '{"$and":[' +
-              '{"' + searchPaths['date'] + '":' + '{"$gte":"' + startDate + '"}},'+
-              '{"' + searchPaths['date'] + '":' + '{"$lte":"' + endDate + '"}}]'+'},';
-            } // dates can only be searched using input elements with ids "date-start" and "date-end"
-              // searching for dates as "search-term" in "search-window" will not work
-
-            if (typeof searchTerm == 'number') {
-                for (var i=0; i<searchFilters.length; i++) {
-                    queryString = queryString + '{"' + searchPaths[searchFilters[i]] + '":' +
-                    searchTerm + '},';
-                }
+        }
+        if (searchTerm === "") {
+            for (var i=0; i<numTerms.length; i++) {
+                queryString += '{"' + searchPaths[searchFilters[i]] + '":' +
+                '{"$ne":null}},';
             }
-            for (var i=0; i<boolTerms.length; i++) {
-                console.log(searchPaths[boolTerms[i]]);
-                queryString = queryString + '{"' + searchPaths[boolTerms[i]] + '":' +
-                true + '},';
+        }
+        for (var i=0; i<boolTerms.length; i++) {
+            queryString += '{"' + searchPaths[boolTerms[i]] + '":' +
+            true + '},';
+        }
+        // dates can only be searched using input elements with ids "date-start" and "date-end"
+        // searching for dates as "search-term" in "search-window" will not work
+        if (searchDate.style.display == 'block') {
+            console.log(startDate);
+            if(endDate == '' && startDate != '') {
+              endDate = startDate;
             }
-            queryString = queryString.slice(0, -1);
-            queryString = queryString + ']}&projection={';
-            for (var i=0; i<searchFilters.length; i++) {
-                queryString = queryString + '"' + searchPaths[searchFilters[i]] + '":1,';
+            if(endDate == '' && startDate == '') {
+              startDate = '0001-01-01';
+              console.log(startDate);
+              queryString +=
+              '{"' + searchPaths.date + '":' + '{"$gte":"' + startDate + '"}},'
             }
-            queryString = queryString +
-            '"ephemeralRecord.shows.date":1,' +
-            '"ephemeralRecord.shows.performances.title":1}' +
-            '&page=' + page + '&pretty';
-    return queryString;
-    }
-
-
-    function getQuery() {
+            else {
+            queryString += '{"$and":[' +
+            '{"' + searchPaths.date + '":' + '{"$gte":"' + startDate + '"}},'+
+            '{"' + searchPaths.date + '":' + '{"$lte":"' + endDate + '"}}]'+'},';
+          }
+        }
+        queryString = queryString.slice(0, -1);
+        queryString += ']}&projection={';
+        for (var i=0; i<searchFilters.length; i++) {
+            queryString += '"' + searchPaths[searchFilters[i]] + '":1,';
+        }
+        queryString += '"ephemeralRecord.shows.date":1,' +
+        '"ephemeralRecord.shows.performances.title":1}' +
+        '&page=' + page + '&pretty';
 
         // run query
-        var results = JSON.parse(query_documents(buildQuery()));
+        var results = JSON.parse(query_documents(queryString));
         var numOfPages = Math.ceil(results._meta.total/results._meta.max_results);
 
         // display results
         var searchResults = document.getElementById('search-results');
-        if (numOfPages === 0) {
+        if (numOfPages == 0) {
             searchResults.innerHTML = "Your search did not match any documents.";
+        } else if (results._meta.total == 1) {
+           searchResults.innerHTML = "Found 1 result<br/>" +
+                                    "Page " + page + " of " + numOfPages;
         } else {
             searchResults.innerHTML = "Found " + results._meta.total + " results<br/>" +
                                       "Page " + page + " of " + numOfPages;
@@ -104,27 +118,29 @@ document.addEventListener('DOMContentLoaded', function main() {
         for (var i=0; i<results._items.length; i++) {
             var stringified = JSON.stringify(results._items[i]);
             var p = document.createElement('p');
+
+            // search result heading/link
             var a = document.createElement('a');
             a.setAttribute('href', '/home#' + results._items[i]._id);
             var fname = jsonToFilename(results._items[i]);
             a.appendChild(document.createTextNode(fname.substr(0,fname.lastIndexOf('.'))));
-            //a.appendChild(document.createTextNode(results._items[i]._id));
             a.appendChild(document.createElement('br'));
             p.appendChild(a);
 
+            // search result content
             var resultsArray = stringified.split(',"');
             var resultsNode = document.createElement('results');
             for(var j=0; j<(resultsArray.length); j++) {
                 if (resultsArray[j].includes('_updated') ||
                     resultsArray[j].includes('_created')) {
                     continue;
-                }/*else if (searchTerm != '' && searchTerm != ' ' && resultsArray[j].match(new RegExp(searchTerm, "i"))) {
+                } else if (searchTerm != '' && resultsArray[j].match(new RegExp(searchTerm, "i"))) {
                     var bold = document.createElement('b');
                     bold.appendChild(document.createTextNode(pruning(resultsArray[j])));
                     resultsNode.appendChild(bold);
                     resultsNode.appendChild(document.createElement('br'));
                     p.appendChild(resultsNode);
-                }*/else {
+                } else {
                     resultsNode.appendChild(document.createTextNode(pruning(resultsArray[j])));
                     resultsNode.appendChild(document.createElement('br'));
                     p.appendChild(resultsNode);
@@ -137,18 +153,20 @@ document.addEventListener('DOMContentLoaded', function main() {
     } //end getQuery
 
     searchRecord.addEventListener('click', function() {
+        nextTop.style.visibility = "hidden";
+        nextBot.style.visibility = "hidden";
+        prevTop.style.visibility = "hidden";
+        prevBot.style.visibility = "hidden";
+
         var div = document.getElementById('search-results');
         while (div.firstChild) {
             div.removeChild(div.firstChild);
         }
         page = 1;
-        var t0 = performance.now();
         if (getQuery()>1) {
-            var t1 = performance.now();
             nextTop.style.visibility = "visible";
             nextBot.style.visibility = "visible";
         }
-        console.log(t1-t0);
     });
 
     var clearSearch = document.getElementById('clear-search');
@@ -161,23 +179,23 @@ document.addEventListener('DOMContentLoaded', function main() {
     // Search Results Page Navigation
     //
     function navToNext() {
-        var numOfPages = getQuery(prevTop, prevBot, nextTop, nextBot);
-            if (page<numOfPages) {
-                page = page + 1;
-                prevTop.style.visibility = "visible";
-                prevBot.style.visibility = "visible";
-                nextTop.style.visibility = "visible";
-                nextBot.style.visibility = "visible";
-            }
-            if (page === numOfPages) {
-                nextTop.style.visibility = "hidden";
-                nextBot.style.visibility = "hidden";
-            }
-            getQuery();
+        var numOfPages = getQuery();
+        if (page<numOfPages) {
+            page = page + 1;
+            prevTop.style.visibility = "visible";
+            prevBot.style.visibility = "visible";
+            nextTop.style.visibility = "visible";
+            nextBot.style.visibility = "visible";
+        }
+        if (page === numOfPages) {
+            nextTop.style.visibility = "hidden";
+            nextBot.style.visibility = "hidden";
+        }
+        getQuery();
     }
 
     function navToPrev() {
-        var numOfPages = getQuery(prevTop, prevBot, nextTop, nextBot);
+        var numOfPages = getQuery();
         if ((page-1)>=1) {
             page = page - 1;
             prevTop.style.visibility = "visible";
@@ -195,15 +213,19 @@ document.addEventListener('DOMContentLoaded', function main() {
     //attach event listeners to page navigation buttons
     nextTop.addEventListener('click', function(prevTop, prevBot, nextTop, nextBot) {
         navToNext();
+        document.getElementById('prev-page-top').focus();
     });
     nextBot.addEventListener('click', function(prevTop, prevBot, nextTop, nextBot) {
         navToNext();
+        document.getElementById('prev-page-top').focus();
     });
     prevTop.addEventListener('click', function(prevTop, prevBot, nextTop, nextBot) {
         navToPrev();
+        document.getElementById('next-page-top').focus();
     });
     prevBot.addEventListener('click', function(prevTop, prevBot, nextTop, nextBot) {
         navToPrev();
+        document.getElementById('next-page-top').focus();
     });
 
     ////////////////////////////////////////////////////////////////////////////
@@ -254,17 +276,6 @@ document.addEventListener('DOMContentLoaded', function main() {
                 li.appendChild(cblabel);
             }
         }
-        var dateBox = document.getElementById('checkbox-date');
-        var dateSearch = document.getElementById('date-search');
-        dateBox.addEventListener('click', function() {
-          if(dateBox.checked){
-          dateSearch.style.display = 'block';
-
-        }
-        else {
-          dateSearch.style.display = 'none';
-        }
-      });
         // toggle accordian panels
         var buttons = document.getElementsByClassName("accordion");
         for (var i = 0; i < buttons.length; i++) {
@@ -278,9 +289,18 @@ document.addEventListener('DOMContentLoaded', function main() {
                 }
             };
         }
+
+        // add event lister to date checkbox
+        var dateBox = document.getElementById('checkbox-date');
+        var dateSearch = document.getElementById('date-search');
+        dateBox.addEventListener('click', function() {
+            if(dateBox.checked){
+                dateSearch.style.display = 'block';
+            } else {
+                dateSearch.style.display = 'none';
+            }
+        });
     }
-
-
 
     // Search Filter
     // The keys in the searchFields dictionary determine the categories in the
