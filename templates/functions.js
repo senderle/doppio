@@ -11,7 +11,7 @@ var playbillRecord = JSON.parse(req.responseText);
 var xhr = new XMLHttpRequest();
 
 function hmac_hash(data, key) {
-    var hash = CryptoJS.HmacSHA1(data, key).toString(CryptoJS.enc.Hex);
+    var hash = CryptoJS.HmacSHA256(data, key).toString(CryptoJS.enc.Hex);
     console.log(hash);
     return hash;
 }
@@ -60,11 +60,9 @@ function post_new_document(userid, hash, resource_name, data) {
     }
     else if (xhr.status == 401) {
         statusAlert.innerHTML = ("Error: " + xhr.statusText).fontcolor("#ff0000");
-        if (confirm("An authorization error occurred. Log in again?")) {
-          window.location.replace('/login');
+        if (confirm("An authorization error occurred. Save current record to file and then login to proceed.")) {
         }
         else {
-
         }
     }
     else {
@@ -181,8 +179,6 @@ function jsonToFilename(json) {
 
     for (var i = 0; i < elements.length; i++) {
         if (elements[i] !== '') {
-            console.log(elements[i]);
-            console.log(typeof elements[i]);
             tojoin.push(elements[i]);
         }
     }
