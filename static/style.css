@@ -114,8 +114,8 @@ h4 {
 }
 
 #status-message-window {
-  position: absolute;
-  bottom: 60%;
+    position: absolute;
+    bottom: 60%;
 }
 
 #upload-file-window {
@@ -246,4 +246,12 @@ ul {
 #search-window {
     position: absolute;
     top: 10%;
+}
+
+/*map page styles*/
+#search-map {
+    height: 75vh;
+    width: 60vw;
+    padding: 10px;
+    margin: 10px;
 }
