@@ -418,7 +418,7 @@ document.addEventListener('DOMContentLoaded', function main () {
             assignKey(out, elements[i].id, value);
         }
 
-        console.log(out);
+        //console.log(out);
         var filename = jsonToFilename(out);
 
         //var out = getFormContent();
