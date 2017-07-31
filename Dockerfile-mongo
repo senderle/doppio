@@ -1,0 +1,18 @@
+FROM mongo
+
+RUN apt-get update &&  apt-get -y install -qq --force-yes cron
+RUN apt-get -y install git-all
+
+COPY cron_files/pbdb_backup.sh /bin/pbdb_backup.sh
+RUN chmod +x /bin/pbdb_backup.sh
+
+ADD cron_files/crontab /etc/cron.d/pbdb_backup
+RUN chmod 644 /etc/cron.d/pbdb_backup
+
+RUN touch /var/log/pbdb_backup.log
+
+RUN mkdir /backup
+RUN git init /backup
+
+# Run the command on container startup
+# CMD ["bash", "-c", "cron", "-f"]
