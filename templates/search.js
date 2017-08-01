@@ -23,12 +23,16 @@ document.addEventListener('DOMContentLoaded', function main() {
         var searchFilters = [];
         for (var i=0; i<ks.length; i++) {
             if (document.getElementById('checkbox-' + ks[i]).checked) {
+                if (ks[i] != 'date') {
                 searchFilters.push(document.getElementById('checkbox-' + ks[i]).value);
+              }
             }
         }
         if (searchFilters[0] == null) {
             searchFilters = ks.filter(function(x) {if (!booleans.includes(x)) return x;});
         }
+
+        console.log(searchFilters);
 
         // search term
         var searchTerm = document.getElementById('search-term').value;
@@ -49,47 +53,83 @@ document.addEventListener('DOMContentLoaded', function main() {
         delete searchPaths['shows location'];
         delete searchPaths['documentPrinter location'];
 
+
         // query
-        var queryString = 'where={"$or":[';
-        for (var i=0; i<searchFilters.length; i++) {
-            queryString += '{"' + searchPaths[searchFilters[i]] + '":' +
-            '{"$regex":"(?i).*' + searchTerm + '.*"}},';
-        }
-        if (+searchTerm) {
-            for (var i=0; i<numTerms.length; i++) {
-                queryString += '{"' + searchPaths[searchFilters[i]] + '":' +
-                searchTerm + '},';
-            }
-        }
-        if (searchTerm === "") {
-            for (var i=0; i<numTerms.length; i++) {
-                queryString += '{"' + searchPaths[searchFilters[i]] + '":' +
-                '{"$ne":null}},';
-            }
-        }
-        for (var i=0; i<boolTerms.length; i++) {
-            queryString += '{"' + searchPaths[boolTerms[i]] + '":' +
-            true + '},';
-        }
-        // dates can only be searched using input elements with ids "date-start" and "date-end"
-        // searching for dates as "search-term" in "search-window" will not work
         if (searchDate.style.display == 'block') {
-            console.log(startDate);
-            if(endDate == '' && startDate != '') {
-              endDate = startDate;
+          // dates can only be searched using input elements with ids "date-start" and "date-end"
+          // searching for dates as "search-term" in "search-window" will not work
+          if (searchFilters.length == 49) {
+            var queryString = 'where={"$and":[';
+            queryString += '{"$or":[';
+          }
+          else {
+            var queryString = 'where={"$and":[';
+          }
+          if (searchTerm !== "") {
+            for (var i=0; i<searchFilters.length; i++) {
+                queryString += '{"' + searchPaths[searchFilters[i]] + '":' +
+                '{"$regex":"(?i).*' + searchTerm + '.*"}},';
             }
-            if(endDate == '' && startDate == '') {
-              startDate = '0001-01-01';
-              console.log(startDate);
-              queryString +=
-              '{"' + searchPaths.date + '":' + '{"$gte":"' + startDate + '"}},'
-            }
-            else {
-            queryString += '{"$and":[' +
-            '{"' + searchPaths.date + '":' + '{"$gte":"' + startDate + '"}},'+
-            '{"' + searchPaths.date + '":' + '{"$lte":"' + endDate + '"}}]'+'},';
+          }
+          if (+searchTerm) {
+              for (var i=0; i<numTerms.length; i++) {
+                  queryString += '{"' + searchPaths[searchFilters[i]] + '":' +
+                  searchTerm + '},';
+              }
+          }
+          for (var i=0; i<boolTerms.length; i++) {
+              queryString += '{"' + searchPaths[boolTerms[i]] + '":' +
+              true + '},';
+          }
+          if (searchFilters.length == 49) {
+            queryString = queryString.slice(0, -1);
+            queryString += ']},';
+          }
+          if (searchFilters.length == 49) {
+            queryString += '{"$and":[';
+          }
+          if(startDate != '') {
+            queryString +=
+            '{"' + searchPaths.date + '":' + '{"$gte":"' + startDate + '"}},';
+          }
+          if(endDate != '') {
+            queryString +=
+            '{"' + searchPaths.date + '":' + '{"$lte":"' + endDate + '"}},';
+          }
+          if(endDate == '' && startDate == '') {
+            startDate = '0001-01-01';
+            queryString +=
+            '{"' + searchPaths.date + '":' + '{"$gte":"' + startDate + '"}},'
+          }
+          if (searchFilters.length == 49) {
+            queryString = queryString.slice(0, -1);
+            queryString += ']},';
           }
         }
+        else {
+          var queryString = 'where={"$or":[';
+          for (var i=0; i<searchFilters.length; i++) {
+              queryString += '{"' + searchPaths[searchFilters[i]] + '":' +
+              '{"$regex":"(?i).*' + searchTerm + '.*"}},';
+          }
+          if (+searchTerm) {
+              for (var i=0; i<numTerms.length; i++) {
+                  queryString += '{"' + searchPaths[searchFilters[i]] + '":' +
+                  searchTerm + '},';
+              }
+          }
+          if (searchTerm === "") {
+              for (var i=0; i<numTerms.length; i++) {
+                  queryString += '{"' + searchPaths[searchFilters[i]] + '":' +
+                  '{"$ne":null}},';
+              }
+          }
+          for (var i=0; i<boolTerms.length; i++) {
+              queryString += '{"' + searchPaths[boolTerms[i]] + '":' +
+              true + '},';
+          }
+        }
+
         queryString = queryString.slice(0, -1);
         queryString += ']}&projection={';
         for (var i=0; i<searchFilters.length; i++) {
@@ -98,6 +138,7 @@ document.addEventListener('DOMContentLoaded', function main() {
         queryString += '"ephemeralRecord.shows.date":1,' +
         '"ephemeralRecord.shows.performances.title":1}' +
         '&page=' + page + '&pretty';
+        console.log(queryString);
 
         // run query
         var results = JSON.parse(query_documents(queryString));
