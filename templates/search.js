@@ -32,7 +32,6 @@ document.addEventListener('DOMContentLoaded', function main() {
             searchFilters = ks.filter(function(x) {if (!booleans.includes(x)) return x;});
         }
 
-        console.log(searchFilters);
 
         // search term
         var searchTerm = document.getElementById('search-term').value;
@@ -65,7 +64,7 @@ document.addEventListener('DOMContentLoaded', function main() {
           else {
             var queryString = 'where={"$and":[';
           }
-          if (searchTerm !== "") {
+          if (searchTerm !== "" && typeof +searchTerm != 'number') {
             for (var i=0; i<searchFilters.length; i++) {
                 queryString += '{"' + searchPaths[searchFilters[i]] + '":' +
                 '{"$regex":"(?i).*' + searchTerm + '.*"}},';
@@ -75,6 +74,12 @@ document.addEventListener('DOMContentLoaded', function main() {
               for (var i=0; i<numTerms.length; i++) {
                   queryString += '{"' + searchPaths[searchFilters[i]] + '":' +
                   searchTerm + '},';
+              }
+          }
+          if (searchTerm === "") {
+              for (var i=0; i<numTerms.length; i++) {
+                  queryString += '{"' + searchPaths[searchFilters[i]] + '":' +
+                  '{"$ne":null}},';
               }
           }
           for (var i=0; i<boolTerms.length; i++) {
@@ -113,6 +118,8 @@ document.addEventListener('DOMContentLoaded', function main() {
               '{"$regex":"(?i).*' + searchTerm + '.*"}},';
           }
           if (+searchTerm) {
+            console.log(typeof +searchTerm);
+            console.log(+searchTerm);
               for (var i=0; i<numTerms.length; i++) {
                   queryString += '{"' + searchPaths[searchFilters[i]] + '":' +
                   searchTerm + '},';
