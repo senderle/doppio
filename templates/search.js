@@ -1,18 +1,15 @@
 document.addEventListener('DOMContentLoaded', function main() {
 
-    /////////////Query documents by partial string or keyword///////////////////
-    var searchRecord = document.getElementById('search-button');
+    // defaults
     var navTop = document.getElementById("nav-pages-window-top");
     navTop.style.visibility = "hidden";
     var navBottom = document.getElementById("nav-pages-window-bottom");
     navBottom.style.visibility = "hidden";
-    var nextTop = document.getElementById('next-page-top');
-    var nextBot = document.getElementById('next-page-bottom');
-    var prevTop = document.getElementById('prev-page-top');
-    var prevBot = document.getElementById('prev-page-bottom');
-    var page = 0;
+    if ("currentSearch" in sessionStorage) {
+        sessionStorage.removeItem("currentSearch");
+    }
 
-    function getQuery() {
+    function buildQuery(searchTerm, page) {
         // search filters
         var ks = getAllKeys(searchSchema);
         ks[ks.indexOf('name')] = 'documentPrinterName';
@@ -32,9 +29,7 @@ document.addEventListener('DOMContentLoaded', function main() {
             searchFilters = ks.filter(function(x) {if (!booleans.includes(x)) return x;});
         }
 
-
-        // search term
-        var searchTerm = document.getElementById('search-term').value;
+        //search term used to be here
         var boolTerms = searchFilters.filter(function(x) {if (booleans.includes(x)) return x;});
         var numFields = ticketingTerms.concat('orderOfPerformance');
         var numTerms = searchFilters.filter(function(x) {if (numFields.includes(x)) return x;});
@@ -55,86 +50,80 @@ document.addEventListener('DOMContentLoaded', function main() {
 
         // query
         if (searchDate.style.display == 'block') {
-          // dates can only be searched using input elements with ids "date-start" and "date-end"
-          // searching for dates as "search-term" in "search-window" will not work
-          if (searchFilters.length == 49) {
-            var queryString = 'where={"$and":[';
-            queryString += '{"$or":[';
-          }
-          else {
-            var queryString = 'where={"$and":[';
-          }
-          if (searchTerm !== "" && typeof +searchTerm != 'number') {
+            // dates can only be searched using input elements with ids "date-start" and "date-end"
+            // searching for dates as "search-term" in "search-window" will not work
+            if (searchFilters.length == 49) {
+                var queryString = 'where={"$and":[';
+                queryString += '{"$or":[';
+            } else {
+                var queryString = 'where={"$and":[';
+            }
+            if (searchTerm !== "" && typeof +searchTerm != 'number') {
             for (var i=0; i<searchFilters.length; i++) {
                 queryString += '{"' + searchPaths[searchFilters[i]] + '":' +
                 '{"$regex":"(?i).*' + searchTerm + '.*"}},';
             }
-          }
-          if (+searchTerm) {
+            }
+            if (+searchTerm) {
               for (var i=0; i<numTerms.length; i++) {
                   queryString += '{"' + searchPaths[searchFilters[i]] + '":' +
                   searchTerm + '},';
               }
-          }
-          if (searchTerm === "") {
+            }
+            if (searchTerm === "") {
               for (var i=0; i<numTerms.length; i++) {
                   queryString += '{"' + searchPaths[searchFilters[i]] + '":' +
                   '{"$ne":null}},';
               }
-          }
-          for (var i=0; i<boolTerms.length; i++) {
+            }
+            for (var i=0; i<boolTerms.length; i++) {
               queryString += '{"' + searchPaths[boolTerms[i]] + '":' +
               true + '},';
-          }
-          if (searchFilters.length == 49) {
-            queryString = queryString.slice(0, -1);
-            queryString += ']},';
-          }
-          if (searchFilters.length == 49) {
-            queryString += '{"$and":[';
-          }
-          if(startDate != '') {
-            queryString +=
-            '{"' + searchPaths.date + '":' + '{"$gte":"' + startDate + '"}},';
-          }
-          if(endDate != '') {
-            queryString +=
-            '{"' + searchPaths.date + '":' + '{"$lte":"' + endDate + '"}},';
-          }
-          if(endDate == '' && startDate == '') {
-            startDate = '0001-01-01';
-            queryString +=
-            '{"' + searchPaths.date + '":' + '{"$gte":"' + startDate + '"}},'
-          }
-          if (searchFilters.length == 49) {
-            queryString = queryString.slice(0, -1);
-            queryString += ']},';
-          }
-        }
-        else {
-          var queryString = 'where={"$or":[';
-          for (var i=0; i<searchFilters.length; i++) {
+            }
+            if (searchFilters.length == 49) {
+                queryString = queryString.slice(0, -1);
+                queryString += ']},';
+                queryString += '{"$and":[';
+            }
+            if(startDate != '') {
+                queryString +=
+                '{"' + searchPaths.date + '":' + '{"$gte":"' + startDate + '"}},';
+            }
+            if(endDate != '') {
+                queryString +=
+                '{"' + searchPaths.date + '":' + '{"$lte":"' + endDate + '"}},';
+            }
+            if(endDate == '' && startDate == '') {
+                startDate = '0001-01-01';
+                queryString +=
+                '{"' + searchPaths.date + '":' + '{"$gte":"' + startDate + '"}},'
+            }
+            if (searchFilters.length == 49) {
+                queryString = queryString.slice(0, -1);
+                queryString += ']},';
+            }
+        } else {
+            var queryString = 'where={"$or":[';
+            for (var i=0; i<searchFilters.length; i++) {
               queryString += '{"' + searchPaths[searchFilters[i]] + '":' +
               '{"$regex":"(?i).*' + searchTerm + '.*"}},';
-          }
-          if (+searchTerm) {
-            console.log(typeof +searchTerm);
-            console.log(+searchTerm);
+            }
+            if (+searchTerm) {
               for (var i=0; i<numTerms.length; i++) {
                   queryString += '{"' + searchPaths[searchFilters[i]] + '":' +
                   searchTerm + '},';
               }
-          }
-          if (searchTerm === "") {
+            }
+            if (searchTerm === "") {
               for (var i=0; i<numTerms.length; i++) {
                   queryString += '{"' + searchPaths[searchFilters[i]] + '":' +
                   '{"$ne":null}},';
               }
-          }
-          for (var i=0; i<boolTerms.length; i++) {
+            }
+            for (var i=0; i<boolTerms.length; i++) {
               queryString += '{"' + searchPaths[boolTerms[i]] + '":' +
               true + '},';
-          }
+            }
         }
 
         queryString = queryString.slice(0, -1);
@@ -142,27 +131,68 @@ document.addEventListener('DOMContentLoaded', function main() {
         for (var i=0; i<searchFilters.length; i++) {
             queryString += '"' + searchPaths[searchFilters[i]] + '":1,';
         }
+
         queryString += '"ephemeralRecord.shows.date":1,' +
+        '"ephemeralRecord.shows.location":1,' +
+        '"ephemeralRecord.shows.venue":1,' +
         '"ephemeralRecord.shows.performances.title":1}' +
         '&page=' + page + '&pretty';
-        console.log(queryString);
 
+        return queryString;
+    } // end build query
+
+    function getQuery(searchTerm, source, page) {
+        var queryString = buildQuery(searchTerm, page);
         // run query
-        var results = JSON.parse(query_documents(queryString));
+        var results = JSON.parse(query_documents(queryString))
         var numOfPages = Math.ceil(results._meta.total/results._meta.max_results);
+        // handle results based on source
+        switch(source) {
+            case 'search':
+                showResults(searchTerm, numOfPages, results, source, page)
+                break;
+            case 'count':
+                return {'searchTerm':searchTerm,'count': numOfPages, 'results': results,'source':source}
+                break;
+            case 'store':
+                return queryString;
+        }
+    }
 
+    function showResults(searchTerm, numOfPages, results, source, page) {
         // display results
         var searchResults = document.getElementById('search-results');
+        // clear previous page of results
+        while (searchResults.firstChild) {
+            searchResults.removeChild(searchResults.firstChild);
+        }
         if (numOfPages == 0) {
-            searchResults.innerHTML = "Your search did not match any documents.";
+            searchResults.appendChild(document.createTextNode('Your search did not match any documents.'));
         } else if (results._meta.total == 1) {
-           searchResults.innerHTML = "Found 1 result<br/>" +
-                                    "Page " + page + " of " + numOfPages;
+            searchResults.appendChild(document.createTextNode("Found 1 result"));
+            searchResults.appendChild(document.createElement('br'));
+            searchResults.appendChild(document.createTextNode("Page " + page + " of " + numOfPages));
         } else {
-            searchResults.innerHTML = "Found " + results._meta.total + " results<br/>" +
-                                      "Page " + page + " of " + numOfPages;
+            searchResults.appendChild(document.createTextNode("Found " + results._meta.total + " results"));
+            searchResults.appendChild(document.createElement('br'));
+            searchResults.appendChild(document.createTextNode("Page " + page + " of " + numOfPages));
         }
 
+        var mapLink = document.createElement('a');
+        mapLink.setAttribute('href', '/map');
+        mapLink.appendChild(document.createElement('br'));
+        mapLink.appendChild(document.createTextNode('View Results on Map'));
+        mapLink.appendChild(document.createElement('br'));
+        searchResults.appendChild(mapLink);
+
+        //<a onclick="return createTimedLink(this, myFunction, 2000);" href="http://www.siku-siku.com">Link</a>
+        mapLink.onclick = function () {
+            if (("currentSearch" in sessionStorage) == false) {
+                alert('Loading map points. Please wait a few seconds and try again.');
+                return false;
+            }
+        }
+    
         for (var i=0; i<results._items.length; i++) {
             var stringified = JSON.stringify(results._items[i]);
             var p = document.createElement('p');
@@ -197,39 +227,16 @@ document.addEventListener('DOMContentLoaded', function main() {
             p.appendChild(document.createElement('br'));
             searchResults.appendChild(p);
         }
-        return numOfPages;
-    } //end getQuery
-
-    searchRecord.addEventListener('click', function() {
-        nextTop.style.visibility = "hidden";
-        nextBot.style.visibility = "hidden";
-        prevTop.style.visibility = "hidden";
-        prevBot.style.visibility = "hidden";
-
-        var div = document.getElementById('search-results');
-        while (div.firstChild) {
-            div.removeChild(div.firstChild);
-        }
-        page = 1;
-        if (getQuery()>1) {
-            nextTop.style.visibility = "visible";
-            nextBot.style.visibility = "visible";
-        }
-    });
-
-    var clearSearch = document.getElementById('clear-search');
-    clearSearch.addEventListener('click', function() {
-      location.reload(true);
-    });
+    } //end showResults
 
     ////////////////////////////////////////////////////////////////////////////
     ////////////////////////////////////////////////////////////////////////////
     // Search Results Page Navigation
     //
-    function navToNext() {
-        var numOfPages = getQuery();
+    function navToNext(searchTerm, page) {
+        var ret = getQuery(searchTerm, 'count', page);
+        var numOfPages = ret.count;
         if (page<numOfPages) {
-            page = page + 1;
             prevTop.style.visibility = "visible";
             prevBot.style.visibility = "visible";
             nextTop.style.visibility = "visible";
@@ -239,13 +246,13 @@ document.addEventListener('DOMContentLoaded', function main() {
             nextTop.style.visibility = "hidden";
             nextBot.style.visibility = "hidden";
         }
-        getQuery();
+        showResults(ret.searchTerm, ret.count, ret.results, ret.source, page);
     }
 
-    function navToPrev() {
-        var numOfPages = getQuery();
-        if ((page-1)>=1) {
-            page = page - 1;
+    function navToPrev(searchTerm, page) {
+        var ret = getQuery(searchTerm, 'count', page);
+        var numOfPages = ret.count;
+        if (page >= 1) {
             prevTop.style.visibility = "visible";
             prevBot.style.visibility = "visible";
             nextTop.style.visibility = "visible";
@@ -255,31 +262,8 @@ document.addEventListener('DOMContentLoaded', function main() {
             prevTop.style.visibility = "hidden";
             prevBot.style.visibility = "hidden";
         }
-        getQuery();
+        showResults(ret.searchTerm, ret.count, ret.results, ret.source, page);
     }
-
-    //attach event listeners to page navigation buttons
-    nextTop.addEventListener('click', function(prevTop, prevBot, nextTop, nextBot) {
-        navToNext();
-        document.getElementById('prev-page-top').focus();
-    });
-    nextBot.addEventListener('click', function(prevTop, prevBot, nextTop, nextBot) {
-        navToNext();
-        document.getElementById('prev-page-top').focus();
-    });
-    prevTop.addEventListener('click', function(prevTop, prevBot, nextTop, nextBot) {
-        navToPrev();
-        document.getElementById('next-page-top').focus();
-    });
-    prevBot.addEventListener('click', function(prevTop, prevBot, nextTop, nextBot) {
-        navToPrev();
-        document.getElementById('next-page-top').focus();
-    });
-
-    ////////////////////////////////////////////////////////////////////////////
-    ////////////////////////////////////////////////////////////////////////////
-    // search filters
-    //
 
     // takes dictionary and makes an accordian panel with one panel per key
     function buildSearchFilter(dict) {
@@ -350,6 +334,103 @@ document.addEventListener('DOMContentLoaded', function main() {
         });
     }
 
+    ////////////////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////////////////
+    // attach event listeners to UI elements
+    //
+
+    // clear search
+    var clearSearch = document.getElementById('clear-search');
+    clearSearch.addEventListener('click', function() {
+        location.reload(true);
+    });
+
+
+    var nextTop = document.getElementById('next-page-top');
+    var nextBot = document.getElementById('next-page-bottom');
+    var prevTop = document.getElementById('prev-page-top');
+    var prevBot = document.getElementById('prev-page-bottom');
+
+    var searchRecord = document.getElementById('search-button');
+    searchRecord.addEventListener('click', function() {
+        var searchTerm = document.getElementById('search-term').value;
+
+        nextTop.style.visibility = "hidden";
+        nextBot.style.visibility = "hidden";
+        prevTop.style.visibility = "hidden";
+        prevBot.style.visibility = "hidden";
+
+        var div = document.getElementById('search-results');
+        while (div.firstChild) {
+            div.removeChild(div.firstChild);
+        }
+        var page = 1;
+        var ret = getQuery(searchTerm,'count',page);
+        if (ret.count>1) {
+            nextTop.style.visibility = "visible";
+            nextBot.style.visibility = "visible";
+        }
+        //getQuery('search',page);
+        showResults(ret.searchTerm, ret.count, ret.results, ret.source, page);
+
+        //attach event listeners to page navigation buttons
+        nextTop.addEventListener('click', function() {
+            page = page + 1;
+            navToNext(searchTerm,page);
+            document.getElementById('prev-page-top').focus();
+        });
+        nextBot.addEventListener('click', function() {
+            page = page + 1;
+            navToNext(searchTerm,page);
+            document.getElementById('prev-page-top').focus();
+        });
+        prevTop.addEventListener('click', function() {
+            page = page - 1;
+            navToPrev(searchTerm,page);
+            document.getElementById('next-page-top').focus();
+        });
+        prevBot.addEventListener('click', function() {
+            page = page - 1;
+            navToPrev(searchTerm,page);
+            document.getElementById('next-page-top').focus();
+        });
+
+        var res = [ret.results];
+
+        for (var i = 2; i <= ret.count;  i++) { // i is page number
+            var query = buildQuery(searchTerm, i);
+            async_query_documents(query, function(x) {
+                    var o = JSON.parse(x);
+                    res.push(o);
+                    //console.log('page ' + o._meta.page + ' processed');
+                    //res.push(query_documents(buildQuery(searchTerm, i))); // i is page number
+            });
+        }
+
+        //setInterval
+        function saveSearch() {
+            sessionStorage.setItem('currentSearch', JSON.stringify(res));
+        }
+
+        var intervalID = setInterval(checkSaveStatus, 1000);
+
+        function checkSaveStatus() {
+            if (res.length == ret.count) {
+                saveSearch();
+                clearInterval(intervalID);
+            }
+        }
+
+        //setTimeout(saveSearch, 8000);
+    }); // end search button function
+
+    ////////////////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////////////////
+    // SCHEMA SPECIFIC CODE for search filter
+    //
+
+    // query documents by partial string or keyword
+
     // Search Filter
     // The keys in the searchFields dictionary determine the categories in the
     // search filter. The values in the searchFields dictionary are lists of
@@ -385,4 +466,5 @@ document.addEventListener('DOMContentLoaded', function main() {
                         'ticketing':ticketingTerms};
 
     buildSearchFilter(searchFields);
+
 });
