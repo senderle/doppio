@@ -12,7 +12,7 @@ var xhr = new XMLHttpRequest();
 
 function hmac_hash(data, key) {
     var hash = CryptoJS.HmacSHA256(data, key).toString(CryptoJS.enc.Hex);
-    console.log(hash);
+    //console.log(hash);
     return hash;
 }
 
@@ -36,6 +36,19 @@ function query_documents(query_params) {
     xhr.setRequestHeader('Content-Type', 'application/json');
     xhr.send();
     return xhr.responseText;
+}
+
+function async_query_documents(query_params, callback) {
+    var xhttp = new XMLHttpRequest;
+    xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            callback(this.responseText);
+            console.log(JSON.parse(this.responseText)._meta.page);
+        }
+    };
+    xhttp.open('GET', '/ephemeralRecord' + '?' + query_params, true);
+    xhttp.setRequestHeader('Content-Type', 'application/json');
+    xhttp.send();
 }
 
 function get_document_by_id(document_id) {
@@ -76,6 +89,34 @@ function patch_existing_document(userid, hash, resource_name, document_id, data)
     xhr.setRequestHeader('Authorization', userid + ":" + hash);
     xhr.setRequestHeader('Content-Type', 'application/json');
     xhr.send(data);
+}
+
+////////////////////////////////////////////////////////////////////////////
+// map functions
+
+function placenameToLatLon(place) {
+    // nominatim geosearch (this is used by the leaflet-geosearch)
+    // max one req per sec
+    var req = new XMLHttpRequest();
+    req.open("GET", 'http://nominatim.openstreetmap.org/search?q=' + place + '&countrycodes=gb,ie&format=json&email=annamar@seas.upenn.edu', false);
+    req.send();
+    var res = JSON.parse(req.responseText);
+    var location = res[0];
+    return [location.lat, location.lon];
+}
+
+function post_new_geocode(data) {
+    xhr.open('POST', '/geocodes', true);
+    xhr.setRequestHeader('Authorization', 'admin:' + hmac_hash(data,'$2a$12$3hMRHrwRG4mKZLAdjAXG0uQBJr96Cuo1NmL.TqJsfHQwb9BYIj9Mq'));
+    xhr.setRequestHeader('Content-Type', 'application/json');
+    xhr.send(data);
+}
+
+function lookupGeocode(placename) {
+    xhr.open('GET', '/geocodes?where={"placename":"' + placename + '"}', false);
+    xhr.setRequestHeader('Content-Type', 'application/json');
+    xhr.send();
+    return xhr.responseText;
 }
 
 //////////////////////////////////////////////////////////////////////////
