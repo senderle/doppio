@@ -1,24 +1,6 @@
 with open('schema.py', 'r') as f:
     exec(f.read())
 
-accountschema =  {
-    'userid': {
-        'type': 'string',
-        'required': True,
-        'unique': True,
-        },
-    'secret_key': {
-        'type': 'string',
-        'required': True,
-        },
-    'roles': {
-        'type': 'list',
-        'allowed': ['user', 'superuser', 'admin'],
-        'required': True,
-         },
-
-}
-
 ephemeralRecord = {
     'public_methods': ['GET'],
     'public_item_methods': ['GET'],
@@ -26,7 +8,6 @@ ephemeralRecord = {
     'allowed_roles': ['superuser', 'admin', 'user'],
     'schema': schema
 }
-
 
 accounts = {
     'item_title' : 'account',
@@ -43,9 +24,16 @@ accounts = {
     'schema': accountschema
 }
 
+geocodes = {
+    'public_methods': ['GET'],
+    'public_item_methods': ['GET'],
+    'item_title' : 'geocode',
+    'allowed_roles': ['superuser', 'admin', 'user'],
+    'schema': geoschema
+}
 
 DOMAIN = {
     'ephemeralRecord': ephemeralRecord,
     'accounts': accounts,
-
+    'geocodes': geocodes
     }
