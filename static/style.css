@@ -8,7 +8,8 @@ a.button {
     font-weight: bold;
 }
 
-div {
+/*main class includes the body of the home, search, and login pages*/
+.main div {
     margin: 2px 4px 2px 12px;
 }
 
@@ -22,7 +23,8 @@ div.side-window {
 
 div#side-window-container {
     left: 70%;
-    position: fixed;
+    /*position: fixed;*/
+    position: absolute;
     border-style: dashed;
     border-width: 1px;
     min-height: 90%;
@@ -246,12 +248,4 @@ ul {
 #search-window {
     position: absolute;
     top: 10%;
-}
-
-/*map page styles*/
-#search-map {
-    height: 75vh;
-    width: 60vw;
-    padding: 10px;
-    margin: 10px;
 }
