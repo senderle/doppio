@@ -344,6 +344,7 @@ document.addEventListener('DOMContentLoaded', function main () {
       if (confirm("Are you sure you want to reset the form?")) {
         resetForm();
         statusAlert.innerHTML = '';
+        loadFileChooser.value='';
       }
       else {
 
@@ -360,20 +361,6 @@ document.addEventListener('DOMContentLoaded', function main () {
     //////////////////////////////////////////////////////////////////////////
     // Load/Save Records
     //
-
-    /*function getFormContent() {
-        var elements = document.querySelectorAll('.main-form-input');
-        var out = {};
-        for (var i = 0; i < elements.length; i++) {
-            var value = elements[i].type === 'checkbox' ? elements[i].checked :
-                                                            elements[i].value;
-            if(value !== "") {
-                assignKey(out, elements[i].id, value);
-            }
-        }
-        console.log(JSON.stringify(out));
-        return out;
-    }*/
 
     // SAVE TO DB
     var submitButton = document.getElementById('playbill-submit');
@@ -405,6 +392,16 @@ document.addEventListener('DOMContentLoaded', function main () {
             patch_existing_document(userid, hash, 'ephemeralRecord', patchid, jsonOut.toString());
             loadFileChooser.value= '';
         }
+
+        var loc = out.ephemeralRecord.shows[0].location;
+        if (JSON.parse(lookupGeocode(loc))._items[0] == undefined) {
+            var coords = placenameToLatLon(loc);
+            var newGeocode = {'placename': loc,
+                              'coordinates': {
+                                  'lat': coords[0],
+                                  'lon': coords[1]}};
+            post_new_geocode(JSON.stringify(newGeocode).toString());
+        }
     });
 
     // SAVE TO FILE
@@ -418,12 +415,7 @@ document.addEventListener('DOMContentLoaded', function main () {
             assignKey(out, elements[i].id, value);
         }
 
-        //console.log(out);
         var filename = jsonToFilename(out);
-
-        //var out = getFormContent();
-        //console.log(JSON.stringify(out));
-        //var filename = jsonToFilename(out);
 
         var dl = document.createElement('a');
         dl.setAttribute('href', 'data:text/plain;charset=utf-8,' +
@@ -437,6 +429,7 @@ document.addEventListener('DOMContentLoaded', function main () {
 
         event.preventDefault();
         return false;
+
     });
 
     // callback function for walkObj
@@ -472,7 +465,7 @@ document.addEventListener('DOMContentLoaded', function main () {
     // LOAD BY ID
     var loadRecord = document.getElementById('playbill-load');
     loadRecord.addEventListener('click', function() {
-
+        statusAlert.innerHTML = '';
         var pid = (window.location.hash.substr(1) !== '') ? window.location.hash.substr(1) : document.getElementById('playbill-id').value;
 
         // Prepare the form for re-rendering.
@@ -487,11 +480,12 @@ document.addEventListener('DOMContentLoaded', function main () {
         for (var i = 0; i < elements.length; i++) {
             var key = elements[i].id;
             var value = getKey(obj, key);
-                if (elements[i].type === 'checkbox') {
-                    elements[i].checked = value;
-                } else if (value !== undefined) {
-                    elements[i].value = value;
-                }
+              if (elements[i].type === 'checkbox') {
+                  elements[i].checked = value;
+              } else if (value !== undefined) {
+                  elements[i].value = value;
+              }
+
         }
 
         focusTop();
@@ -519,9 +513,10 @@ document.addEventListener('DOMContentLoaded', function main () {
 
                 if (elements[i].type === 'checkbox') {
                     elements[i].checked = value;
-                } else {
+                } else if (value !== undefined) {
                     elements[i].value = value;
                 }
+
             }
             focusTop();
         });
