@@ -102,3 +102,6 @@ ENV/
 
 # Swap files
 *.swp
+
+# accounts file
+accts.py
