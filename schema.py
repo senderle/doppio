@@ -12,6 +12,43 @@ HATEOAS = False
 MONGO_QUERY_BLACKLIST = ['$where']
 PAGINATION_LIMIT = 5
 
+accountschema = {
+    'userid': {
+        'type': 'string',
+        'required': True,
+        'unique': True,
+        },
+    'secret_key': {
+        'type': 'string',
+        'required': True,
+        },
+    'roles': {
+        'type': 'list',
+        'allowed': ['user', 'superuser', 'admin'],
+        'required': True,
+        }
+}
+
+geoschema = {
+    'placename': {
+        'type': 'string',
+        'required': True,
+        'unique': True
+    },
+    'coordinates': {
+        'type': 'dict',
+        'schema': {
+            'lat': {
+                'type': 'number',
+                'required': True,
+            },
+            'lon': {
+                'type': 'number',
+                'required': True,
+            }
+        }
+    }    
+}
 
 #PYTHON SCHEMA
 schema = {
