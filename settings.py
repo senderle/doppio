@@ -13,15 +13,17 @@ accounts = {
     'item_title' : 'account',
     'additional_lookup': {
         'url': 'regex("[\w]+")',
-        'field': 'userid',
+        # 'field': 'userid',
+        'field' : 'username'
     },
 
     # We also disable endpoint caching as we don't want client apps to
     # cache account data.
     'cache_control': '',
     'cache_expires': 0,
-    'allowed_roles': ['admin'],
-    'schema': accountschema
+    # 'allowed_roles': ['admin'],
+    # 'schema': accountschema
+    'schema' : userschema
 }
 
 geocodes = {
@@ -33,7 +35,7 @@ geocodes = {
 }
 
 DOMAIN = {
-    'ephemeralRecord': ephemeralRecord,
+    'ephemeralRecord':  ephemeralRecord,
     'accounts': accounts,
     'geocodes': geocodes
     }

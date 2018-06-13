@@ -31,6 +31,14 @@ function get_accounts(userid, hash) {
     return xhr.responseText;
 }
 
+function get_accounts_new(username, hash) {
+    xhr.open('GET', '/accounts', true);
+    xhr.setRequestHeader('Authorization', username + ":" + hash);
+    xhr.setRequestHeader('Content-Type', 'application/json');
+    xhr.send();
+    return xhr.responseText;
+}
+
 function query_documents(query_params) {
     xhr.open('GET', '/ephemeralRecord' + '?' + query_params, false);
     xhr.setRequestHeader('Content-Type', 'application/json');

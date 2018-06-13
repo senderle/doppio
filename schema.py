@@ -1,6 +1,6 @@
-MONGO_HOST = "db"
+# MONGO_HOST = "db"
 MONGO_PORT = 27017
-MONGO_DBNAME = "eve"
+MONGO_DBNAME = "Playbill"
 RESOURCE_METHODS = ['GET', 'POST']
 ITEM_METHODS = ['GET', 'PATCH', 'PUT', 'DELETE']
 DATE_FORMAT = "%Y-%m-%d"
@@ -27,6 +27,23 @@ accountschema = {
         'allowed': ['user', 'superuser', 'admin'],
         'required': True,
         }
+}
+
+userschema = {
+    'username': {
+        'type': 'string',
+        'required': True,
+        'unique': True,
+        },
+    'password': {
+        'type': 'string',
+        'required': True,
+    },
+    # 'roles': {
+    #     'type': 'list',
+    #     'allowed': ['user', 'superuser', 'admin'],
+    #     'required': True,
+    # }
 }
 
 geoschema = {

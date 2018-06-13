@@ -11,6 +11,7 @@ import json
 from schema import schema
 import secrets
 import string
+from flask import request
 
 class MyValidator(Validator):
     def _validate_documentation(self, documentation, field, value):
@@ -79,14 +80,44 @@ def log_every_delete(resource, request, payload):
     # custom INFO-level message is sent to the log file
     app.logger.info('We just answered to a DELETE request!')
 
-app = Eve(__name__, auth=HMACAuth, template_folder='templates', validator=MyValidator)
-app.on_insert_accounts += create_user
+
+from eve.auth import BasicAuth
+
+class BCryptAuth(BasicAuth):
+    def check_auth(self, username, password, allowed_roles, resource, method):
+        print (request.headers)
+        print ("Username is" + username)
+        print ("Password is" + password)
+        # print ("Resource is" + resource)
+        # print ("method is " + method)
+        # print ("allowed_roles" + allowed_roles)
+        if resource == 'accounts':
+            print ("accounts resources")
+            return username == 'superuser' and password == 'password'
+        else:
+            # use Eve's own db driver; no additional connections/resources are used
+            print ("other resources")
+            accounts = app.data.driver.db['accounts']
+            account = accounts.find_one({'username': username})
+            return account and bcrypt.hashpw(password.encode('utf-8'),account['salt']) == account['password']
+
+    def create_user(documents):
+        print ("create_user")
+        for document in documents:
+            for i in document:
+                print (i)
+            document['salt'] = bcrypt.gensalt()
+            password = document['password'].encode('utf-8')
+            document['password'] = bcrypt.hashpw(password, document['salt'])
+
+app = Eve(__name__, auth=BCryptAuth, template_folder='templates', validator=MyValidator)
+# app = Eve(__name__, auth=HMACAuth, template_folder='templates', validator=MyValidator)
+app.on_insert_accounts += BCryptAuth.create_user
 # app.on_post_GET += log_every_get
 # app.on_post_POST += log_every_post
 # app.on_post_PATCH += log_every_patch
 # app.on_post_PUT += log_every_put
 # app.on_post_DELETE += log_every_delete
-
 
 @app.route('/home')
 def index():
@@ -99,6 +130,22 @@ def login():
 @app.route('/login.js')
 def render_login_js():
     return render_template('login.js')
+
+@app.route('/newlogin')
+def newlogin():
+    return render_template('newlogin.html')
+
+@app.route('/newlogin.js')
+def render_newlogin_js():
+    return render_template('newlogin.js')
+
+@app.route('/signup')
+def signup():
+    return render_template('signup.html')
+
+@app.route('/signup.js')
+def render_signup_js():
+    return render_template('signup.js')
 
 @app.route('/main.js')
 def render_main_js():
@@ -149,5 +196,4 @@ if __name__ == '__main__':
 
     # append the handler to the default application logger
     app.logger.addHandler(handler)
-
     app.run(debug=True, host="0.0.0.0", threaded=True)
