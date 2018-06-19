@@ -61,6 +61,7 @@ def create_user(documents):
         document['secret_key'] = secret_key
 
 def log_every_get(resource, request, payload):
+    print (request.headers)
     # custom INFO-level message is sent to the log file
     app.logger.info('We just answered to a GET request!')
 
@@ -85,12 +86,8 @@ from eve.auth import BasicAuth
 
 class BCryptAuth(BasicAuth):
     def check_auth(self, username, password, allowed_roles, resource, method):
-        print (request.headers)
         print ("Username is" + username)
         print ("Password is" + password)
-        # print ("Resource is" + resource)
-        # print ("method is " + method)
-        # print ("allowed_roles" + allowed_roles)
         if resource == 'accounts':
             print ("accounts resources")
             return username == 'superuser' and password == 'password'
@@ -113,7 +110,7 @@ class BCryptAuth(BasicAuth):
 app = Eve(__name__, auth=BCryptAuth, template_folder='templates', validator=MyValidator)
 # app = Eve(__name__, auth=HMACAuth, template_folder='templates', validator=MyValidator)
 app.on_insert_accounts += BCryptAuth.create_user
-# app.on_post_GET += log_every_get
+app.on_post_GET += log_every_get
 # app.on_post_POST += log_every_post
 # app.on_post_PATCH += log_every_patch
 # app.on_post_PUT += log_every_put

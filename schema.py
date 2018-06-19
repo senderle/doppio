@@ -1,4 +1,6 @@
+# MONGO_HOST used for docker
 # MONGO_HOST = "db"
+
 MONGO_PORT = 27017
 MONGO_DBNAME = "Playbill"
 RESOURCE_METHODS = ['GET', 'POST']
