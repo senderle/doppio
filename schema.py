@@ -13,40 +13,49 @@ XML = False
 HATEOAS = False
 MONGO_QUERY_BLACKLIST = ['$where']
 PAGINATION_LIMIT = 5
+TOKEN_SECRET = 'secret'
+MONGO_USERNAME = 'user'
+MONGO_PASSWORD = 'user'
 
-accountschema = {
-    'userid': {
-        'type': 'string',
-        'required': True,
-        'unique': True,
-        },
-    'secret_key': {
-        'type': 'string',
-        'required': True,
-        },
-    'roles': {
-        'type': 'list',
-        'allowed': ['user', 'superuser', 'admin'],
-        'required': True,
-        }
-}
+# accountschema = {
+#     'userid': {
+#         'type': 'string',
+#         'required': True,
+#         'unique': True,
+#         },
+#     'secret_key': {
+#         'type': 'string',
+#         'required': True,
+#         },
+#     'roles': {
+#         'type': 'list',
+#         'allowed': ['user', 'superuser', 'admin'],
+#         'required': True,
+#         },
+#     'token': {
+#          'type': 'string',
+#         'required': True,
+#     }
 
-userschema = {
-    'username': {
-        'type': 'string',
-        'required': True,
-        'unique': True,
-        },
-    'password': {
-        'type': 'string',
-        'required': True,
-    },
-    # 'roles': {
-    #     'type': 'list',
-    #     'allowed': ['user', 'superuser', 'admin'],
-    #     'required': True,
-    # }
-}
+
+# }
+
+# userschema = {
+#     'username': {
+#         'type': 'string',
+#         'required': True,
+#         'unique': True,
+#         },
+#     'password': {
+#         'type': 'string',
+#         'required': True,
+#     },
+#     # 'roles': {
+#     #     'type': 'list',
+#     #     'allowed': ['user', 'superuser', 'admin'],
+#     #     'required': True,
+#     # }
+# }
 
 geoschema = {
     'placename': {

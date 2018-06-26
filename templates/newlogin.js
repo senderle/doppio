@@ -3,12 +3,11 @@ document.addEventListener('DOMContentLoaded', function main() {
   var newlogIn = document.getElementById("newlogin-button");
 
   function parseJSON(json, location) {
-    console.log(json); 
-    // console.log("wocaonima"); 
-    // console.log(json["_status"]);
-    // console.log("wocaonima");  
+    console.log(json);   
     console.log(typeof json["_status"]);
     if (json["_status"] === undefined) {
+      // console.log(json["_items"][0]["token"]); 
+      localStorage.setItem("token", json["_items"][0]["token"])
       location.href = "/home";
     }
     else {
@@ -32,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function main() {
     else {
       localStorage.setItem("username", username);
       localStorage.setItem("password", password);
-      let url = '/';
+      let url = '/tokens';
       let headers = new Headers();
       headers.append('Content-Type', 'application/json');
       headers.append('X-Custom-Header', 'ProcessThisImmediately');

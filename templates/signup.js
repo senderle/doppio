@@ -4,9 +4,6 @@ document.addEventListener('DOMContentLoaded', function main() {
 
   function parseJSON(json, location) {
     console.log(json); 
-    // console.log("wocaonima"); 
-    // console.log(json["_status"]);
-    // console.log("wocaonima");  
     if (json["_status"] == "OK") {
       location.href = "/newlogin";
     }
@@ -38,6 +35,7 @@ document.addEventListener('DOMContentLoaded', function main() {
       headers.append('Content-Type', 'application/json');
       headers.append('X-Custom-Header', 'ProcessThisImmediately');
       var auth = 'Basic ' + btoa("superuser:password");
+      // var auth = 'Bearer c3VwZXJ1c2VyOnBhc3N3b3Jk';
       headers.append('Authorization', auth);
       // headers.append('Authorization', 'Basic c3VwZXJ1c2VyOnBhc3N3b3Jk');
       // headers.append('If-Match', 'd043d7141ea190efbb8802b95a7c8ec1424a8dbc');

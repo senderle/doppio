@@ -66,6 +66,7 @@ def log_every_get(resource, request, payload):
     app.logger.info('We just answered to a GET request!')
 
 def log_every_post(resource, request, payload):
+    print (request.headers)
     # custom INFO-level message is sent to the log file
     app.logger.info('We just answered to a POST request!')
 
@@ -81,7 +82,7 @@ def log_every_delete(resource, request, payload):
     # custom INFO-level message is sent to the log file
     app.logger.info('We just answered to a DELETE request!')
 
-
+# BasicAuth
 from eve.auth import BasicAuth
 
 class BCryptAuth(BasicAuth):
@@ -107,14 +108,122 @@ class BCryptAuth(BasicAuth):
             password = document['password'].encode('utf-8')
             document['password'] = bcrypt.hashpw(password, document['salt'])
 
-app = Eve(__name__, auth=BCryptAuth, template_folder='templates', validator=MyValidator)
+# TokenAuth
+from eve.auth import TokenAuth
+import random
+import string
+import base64
+import datetime
+from datetime import timedelta
+
+class RolesAuth(TokenAuth):
+    def check_auth(self, token,  allowed_roles, resource, method):
+        # use Eve's own db driver; no additional connections/resources are used
+        accounts = app.data.driver.db['accounts']
+        lookup = {'token': token}
+        if resource == 'accounts':
+            return token == "c3VwZXJ1c2VyOnBhc3N3b3Jk"
+        if allowed_roles:
+            # only retrieve a user if his roles match ``allowed_roles``
+            lookup['roles'] = {'$in': allowed_roles}
+        account = accounts.find_one(lookup)
+        return account
+
+    def add_token(user):
+        print (user)
+        payload = {
+            'sub': user[0]['username'],
+            'iat': datetime.datetime.now(),
+            'exp': datetime.datetime.now() + timedelta(days=14)
+        }
+
+        token = jwt.encode(payload, TOKEN_SECRET)
+        dec = token.decode('unicode_escape')
+        print (dec)
+        return dec
+        # print (documents)
+        # for document in documents:
+        #     for i in document:
+        #         print (i)
+        #     document['salt'] = bcrypt.gensalt()
+        #     password = document['password'].encode('utf-8')
+        #     string = document['username'] + ':' + document['password']
+        #     document["token"] = base64.b64encode(string.encode())
+        #     document['password'] = bcrypt.hashpw(password, document['salt'])
+
+        # for document in documents:
+        #     document["token"] = (''.join(random.choice(string.ascii_uppercase)
+        #                               for x in range(10)))
+
+# token auth
+class TokenAuth(TokenAuth):
+    def check_auth(self, username, password, token, allowed_roles, resource, method):
+        """For the purpose of this example the implementation is as simple as
+        possible. A 'real' token should probably contain a hash of the
+        username/password combo, which sould then validated against the account
+        data stored on the DB.
+        """
+        # use Eve's own db driver; no additional connections/resources are used
+        if resource == 'accounts' and method == "post":
+            return token == "c3VwZXJ1c2VyOnBhc3N3b3Jk"
+        if token:
+            accounts = app.data.driver.db['accounts']
+            return accounts.find_one({'token': token})
+        else:
+            accounts = app.data.driver.db['accounts']
+            account = accounts.find_one({'username': username})
+            return account and bcrypt.hashpw(password.encode('utf-8'),account['salt']) == account['password']
+
+    def create_user(documents):
+        print ("create_user")
+        for document in documents:
+            for i in document:
+                print (i)
+            document['salt'] = bcrypt.gensalt()
+            password = document['password'].encode('utf-8')
+            document['password'] = bcrypt.hashpw(password, document['salt'])
+
+    def add_token(user):
+        for document in documents:
+            document["token"] = (''.join(random.choice(string.ascii_uppercase)
+                                      for x in range(10)))
+
+# from controllers import accounts, tokens
+
+# app = Eve(__name__, auth=BCryptAuth, template_folder='templates', validator=MyValidator)
+# app.on_insert_accounts += accounts.hash_passwords
+# app.on_fetched_resource_tokens += tokens.generate_login_token_for_user
+# app.on_post_GET += log_every_get
+# app.on_post_POST += log_every_post
+
+
+# Basic Auth
+# app = Eve(__name__, auth=BCryptAuth, template_folder='templates', validator=MyValidator)
+# app.on_insert_accounts += BCryptAuth.create_user
+# app.on_post_GET += log_every_get
+
+
 # app = Eve(__name__, auth=HMACAuth, template_folder='templates', validator=MyValidator)
-app.on_insert_accounts += BCryptAuth.create_user
-app.on_post_GET += log_every_get
 # app.on_post_POST += log_every_post
 # app.on_post_PATCH += log_every_patch
 # app.on_post_PUT += log_every_put
 # app.on_post_DELETE += log_every_delete
+
+import logging
+import os
+from eve.flaskapp import Eve
+from eve_tokenauth.eveapp import EveWithTokenAuth
+from flask import send_from_directory
+
+
+logging.basicConfig(format='%(asctime)s %(message)s', level=logging.DEBUG)
+log = logging.getLogger(__name__)
+
+settings = os.path.join(os.path.dirname(os.path.realpath(__file__)), 'settings.py')
+# tmpl_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'templates')
+app = Eve(__name__, static_folder='static', settings=settings, template_folder='templates', validator=MyValidator)
+
+evewta = EveWithTokenAuth(app)
 
 @app.route('/home')
 def index():
@@ -164,7 +273,7 @@ def render_schema_json():
 @app.route('/style.css')
 def render_stylesheet():
     return app.send_static_file('style.css')
-
+    
 @app.route('/search')
 def render_search_page():
     return render_template('search.html')
@@ -176,6 +285,8 @@ def render_search_js():
 @app.route('/functions.js')
 def render_functions_js():
     return render_template('functions.js')
+
+
 
 if __name__ == '__main__':
 
@@ -189,8 +300,12 @@ if __name__ == '__main__':
         '[in %(filename)s:%(lineno)d] -- ip: %(clientip)s, '
         'url: %(url)s, method:%(method)s'))
 
+    
+
     app.logger.setLevel(logging.INFO)
 
     # append the handler to the default application logger
     app.logger.addHandler(handler)
     app.run(debug=True, host="0.0.0.0", threaded=True)
+
+

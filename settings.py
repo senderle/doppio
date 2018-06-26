@@ -1,7 +1,10 @@
+from eve_tokenauth.auth.token import TokenAuthentication
+
 with open('schema.py', 'r') as f:
     exec(f.read())
 
 ephemeralRecord = {
+    'authentication': TokenAuthentication(),
     'public_methods': ['GET'],
     'public_item_methods': ['GET'],
     'item_title' : 'record',
@@ -9,24 +12,28 @@ ephemeralRecord = {
     'schema': schema
 }
 
-accounts = {
-    'item_title' : 'account',
-    'additional_lookup': {
-        'url': 'regex("[\w]+")',
-        # 'field': 'userid',
-        'field' : 'username'
-    },
+# accounts = {
+#     'authentication': TokenAuthentication(),
 
-    # We also disable endpoint caching as we don't want client apps to
-    # cache account data.
-    'cache_control': '',
-    'cache_expires': 0,
-    # 'allowed_roles': ['admin'],
-    # 'schema': accountschema
-    'schema' : userschema
-}
+#     'item_title' : 'account',
+#     'additional_lookup': {
+#         'url': 'regex("[\w]+")',
+#         # 'field': 'userid',
+#         'field' : 'username'
+#     },
+
+#     # We also disable endpoint caching as we don't want client apps to
+#     # cache account data.
+#     'cache_control': '',
+#     'cache_expires': 0,
+#      'allowed_roles': ['superuser', 'admin'],
+#     # 'schema': accountschema
+#     'schema' : userschema
+# }
+
 
 geocodes = {
+    'authentication': TokenAuthentication(),
     'public_methods': ['GET'],
     'public_item_methods': ['GET'],
     'item_title' : 'geocode',
@@ -36,6 +43,6 @@ geocodes = {
 
 DOMAIN = {
     'ephemeralRecord':  ephemeralRecord,
-    'accounts': accounts,
+    # 'accounts': accounts,
     'geocodes': geocodes
     }
