@@ -379,12 +379,14 @@ document.addEventListener('DOMContentLoaded', function main () {
         var userid = localStorage.getItem("userid");
         var skey = localStorage.getItem("key");
 
-        hash = hmac_hash(jsonOut.toString(), skey);
+        // hash = hmac_hash(jsonOut.toString(), skey);
+        var token = localStorage.token;
+        console.log("token is " + localStorage.token);
         var patchid = document.getElementById('playbill-id').value;
 
         var loadFileChooser = document.getElementById('local-load');
         if(patchid === '') {
-            post_new_document(userid, hash, 'ephemeralRecord', jsonOut.toString());
+            post_new_document(userid, token, 'ephemeralRecord', jsonOut.toString());
             loadFileChooser.value='';
 
         }
@@ -395,12 +397,14 @@ document.addEventListener('DOMContentLoaded', function main () {
 
         var loc = out.ephemeralRecord.shows[0].location;
         if (JSON.parse(lookupGeocode(loc))._items[0] == undefined) {
-            var coords = placenameToLatLon(loc);
-            var newGeocode = {'placename': loc,
-                              'coordinates': {
-                                  'lat': coords[0],
-                                  'lon': coords[1]}};
-            post_new_geocode(JSON.stringify(newGeocode).toString());
+            placenameToLatLon(loc, token);
+            // var coords = placenameToLatLon(loc);
+            // console.log("coords is " + coords);
+            // var newGeocode = {'placename': loc,
+            //                   'coordinates': {
+            //                       'lat': coords[0],
+            //                       'lon': coords[1]}};
+            // post_new_geocode(JSON.stringify(newGeocode).toString());
         }
     });
 

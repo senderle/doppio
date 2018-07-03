@@ -2,3 +2,4 @@ eve
 flask-cors
 bcrypt
 py-bcrypt
+pyjwt

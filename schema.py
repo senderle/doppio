@@ -1,5 +1,5 @@
 # MONGO_HOST used for docker
-# MONGO_HOST = "db"
+MONGO_HOST = "db"
 
 MONGO_PORT = 27017
 MONGO_DBNAME = "Playbill"
@@ -16,6 +16,7 @@ PAGINATION_LIMIT = 5
 TOKEN_SECRET = 'secret'
 MONGO_USERNAME = 'user'
 MONGO_PASSWORD = 'user'
+MONGO_AUTHDBNAME = 'admin'
 
 # accountschema = {
 #     'userid': {

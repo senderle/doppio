@@ -66,9 +66,11 @@ function get_document_by_id(document_id) {
     return xhr.responseText;
 }
 
-function post_new_document(userid, hash, resource_name, data) {
+function post_new_document(userid, token, resource_name, data) {
     xhr.open('POST', '/' + resource_name, true);
-    xhr.setRequestHeader('Authorization', userid + ":" + hash);
+    var auth = 'Bear ' + token;
+    xhr.setRequestHeader('Authorization', auth);
+    // xhr.setRequestHeader('Authorization', userid + ":" + hash);
     xhr.setRequestHeader('Content-Type', 'application/json');
     xhr.send(data);
 
@@ -92,9 +94,11 @@ function post_new_document(userid, hash, resource_name, data) {
     };
 }
 
-function patch_existing_document(userid, hash, resource_name, document_id, data) {
+function patch_existing_document(userid, token, resource_name, document_id, data) {
     xhr.open('PATCH', '/' + resource_name + '/' + document_id, true);
-    xhr.setRequestHeader('Authorization', userid + ":" + hash);
+    var auth = 'Bear ' + token;
+    xhr.setRequestHeader('Authorization', auth);
+    // xhr.setRequestHeader('Authorization', userid + ":" + hash);
     xhr.setRequestHeader('Content-Type', 'application/json');
     xhr.send(data);
 }
@@ -102,20 +106,38 @@ function patch_existing_document(userid, hash, resource_name, document_id, data)
 ////////////////////////////////////////////////////////////////////////////
 // map functions
 
-function placenameToLatLon(place) {
+function placenameToLatLon(place, token) {
     // nominatim geosearch (this is used by the leaflet-geosearch)
     // max one req per sec
-    var req = new XMLHttpRequest();
-    req.open("GET", 'http://nominatim.openstreetmap.org/search?q=' + place + '&countrycodes=gb,ie&format=json&email=annamar@seas.upenn.edu', false);
-    req.send();
-    var res = JSON.parse(req.responseText);
-    var location = res[0];
-    return [location.lat, location.lon];
+
+    var url = 'http://nominatim.openstreetmap.org/search?q=' + place + '&countrycodes=gb,ie&format=json&email=annamar@seas.upenn.edu';
+    fetch(url, {method:'GET'})
+    .then(response => {console.log(response); return response.json()})
+    .then(json => {var coor = [json[0].lat, json[0].lon]; 
+        console.log(coor);
+        return coor; })
+    .then(coords => {var newGeocode = {'placename': place,
+                              'coordinates': {
+                                  'lat': coords[0],
+                                  'lon': coords[1]}};
+                                  return JSON.stringify(newGeocode).toString();})
+    .then(geocode => post_new_geocode(geocode, token));
+    // console.log("place coor is " + coor);
+    // return coor;
+    // var req = new XMLHttpRequest();
+    // req.open("GET", 'http://nominatim.openstreetmap.org/search?q=' + place + '&countrycodes=gb,ie&format=json&email=annamar@seas.upenn.edu', false);
+    // req.send();
+    // var res = JSON.parse(req.responseText);
+    // var location = res[0];
+    // return [location.lat, location.lon];
 }
 
-function post_new_geocode(data) {
+function post_new_geocode(data, token) {
+    console.log(data);
     xhr.open('POST', '/geocodes', true);
-    xhr.setRequestHeader('Authorization', 'admin:' + hmac_hash(data,'$2a$12$3hMRHrwRG4mKZLAdjAXG0uQBJr96Cuo1NmL.TqJsfHQwb9BYIj9Mq'));
+    var auth = 'Bear ' + token;
+    xhr.setRequestHeader('Authorization', auth);
+    // xhr.setRequestHeader('Authorization', 'admin:' + hmac_hash(data,'$2a$12$3hMRHrwRG4mKZLAdjAXG0uQBJr96Cuo1NmL.TqJsfHQwb9BYIj9Mq'));
     xhr.setRequestHeader('Content-Type', 'application/json');
     xhr.send(data);
 }

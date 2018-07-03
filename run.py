@@ -222,7 +222,10 @@ log = logging.getLogger(__name__)
 settings = os.path.join(os.path.dirname(os.path.realpath(__file__)), 'settings.py')
 # tmpl_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'templates')
 app = Eve(__name__, static_folder='static', settings=settings, template_folder='templates', validator=MyValidator)
-
+app.on_post_POST += log_every_post
+app.on_post_PATCH += log_every_patch
+app.on_post_PUT += log_every_put
+app.on_post_DELETE += log_every_delete
 evewta = EveWithTokenAuth(app)
 
 @app.route('/home')
