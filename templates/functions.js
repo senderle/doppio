@@ -106,7 +106,8 @@ function patch_existing_document(userid, token, resource_name, document_id, data
 ////////////////////////////////////////////////////////////////////////////
 // map functions
 
-function placenameToLatLon(place, token) {
+//placenameToLatLon
+function post_loc_as_geocode(place, token) {
     // nominatim geosearch (this is used by the leaflet-geosearch)
     // max one req per sec
 
@@ -122,8 +123,7 @@ function placenameToLatLon(place, token) {
                                   'lon': coords[1]}};
                                   return JSON.stringify(newGeocode).toString();})
     .then(geocode => post_new_geocode(geocode, token));
-    // console.log("place coor is " + coor);
-    // return coor;
+
     // var req = new XMLHttpRequest();
     // req.open("GET", 'http://nominatim.openstreetmap.org/search?q=' + place + '&countrycodes=gb,ie&format=json&email=annamar@seas.upenn.edu', false);
     // req.send();

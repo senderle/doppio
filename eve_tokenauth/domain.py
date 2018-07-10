@@ -2,31 +2,22 @@ from eve_tokenauth.auth.basic import BasicAuthentication
 from eve_tokenauth.auth.token import TokenAuthentication
 
 accounts = {
-    'authentication': TokenAuthentication(),
+    'authentication': BasicAuthentication(),
     'datasource': {
         'projection': {'password': 0}  # hides password
     },
-    'public_methods': ['POST'],
+    'public_methods': ['GET'],
     'public_item_methods': [],
-    'resource_methods': ['POST'],
+    'resource_methods': ['POST','GET'],
     'item_methods': ['GET', 'PUT', 'PATCH', 'DELETE'],
     'schema': {
         'username': {
-            'type': 'string'
+            'type': 'string',
+            'unique' : True
         },
-        # 'last_name': {
-        #     'type': 'string'
-        # },
         'password': {
             'type': 'string'
         },
-
-        # 'email': {
-        #     'type': 'string'
-        # },
-        # 'is_email_confirmed': {
-        #     'type': 'boolean'
-        # },
     }
 }
 

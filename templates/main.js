@@ -397,7 +397,7 @@ document.addEventListener('DOMContentLoaded', function main () {
 
         var loc = out.ephemeralRecord.shows[0].location;
         if (JSON.parse(lookupGeocode(loc))._items[0] == undefined) {
-            placenameToLatLon(loc, token);
+            post_loc_as_geocode(loc, token);
             // var coords = placenameToLatLon(loc);
             // console.log("coords is " + coords);
             // var newGeocode = {'placename': loc,

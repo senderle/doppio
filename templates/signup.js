@@ -1,23 +1,40 @@
 document.addEventListener('DOMContentLoaded', function main() {
 
   var signup = document.getElementById("signup-button");
+  var elem = document.getElementById("flash-text");
 
   function parseJSON(json, location) {
     console.log(json); 
     if (json["_status"] == "OK") {
       location.href = "/newlogin";
     }
+    else if(json["_status"] == "ERR") {
+      if (json["_error"].code == 401){
+        elem.innerHTML = "Admin username and password do not match!";
+      }
+      else if (json["_error"].code == 422) {
+        elem.innerHTML = "Username already exists!";
+      }
+    }
     else {
-      console.log("Error: ", json["_error"]);
-      var elem = document.getElementById("flash-text");
-      elem.innerHTML = json["_issues"]["username"]; 
+      elem.innerHTML = "Error, please try later";
     }
   }
 
   signup.addEventListener('click', function() {
     var username = document.getElementById("username").value;
     var password = document.getElementById("password").value;
-    if (username == "") {
+    var admin_username = document.getElementById("admin-username").value;
+    var admin_password = document.getElementById("admin-password").value;
+    if (admin_username == ""){
+      alert("Please enter a admin user name.");
+      location.reload(true);
+    }
+    else if (admin_password == "") {
+      alert("Please enter a admin user name.");
+      location.reload(true);
+    }
+    else if (username == "") {
       alert("Please enter a user name.");
       location.reload(true);
     }
@@ -26,16 +43,14 @@ document.addEventListener('DOMContentLoaded', function main() {
       location.reload(true);
     }
     else {
-      localStorage.setItem("username", username);
-      localStorage.setItem("password", password);
       console.log("username is " +  localStorage.getItem("username"));
       console.log("password is " +  localStorage.getItem("password"));
       let url = '/accounts';
       let headers = new Headers();
       headers.append('Content-Type', 'application/json');
       headers.append('X-Custom-Header', 'ProcessThisImmediately');
-      var auth = 'Basic ' + btoa("superuser:password");
-      // var auth = 'Bearer c3VwZXJ1c2VyOnBhc3N3b3Jk';
+      var auth = 'Bearer ' + localStorage.token;
+      var auth = 'Basic ' + btoa(admin_username + ":" + admin_password);
       headers.append('Authorization', auth);
       // headers.append('Authorization', 'Basic c3VwZXJ1c2VyOnBhc3N3b3Jk');
       // headers.append('If-Match', 'd043d7141ea190efbb8802b95a7c8ec1424a8dbc');

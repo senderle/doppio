@@ -1,19 +1,21 @@
 document.addEventListener('DOMContentLoaded', function main() {
 
   var newlogIn = document.getElementById("newlogin-button");
+  // var signup = document.getElementById("signup-button");
+  var elem = document.getElementById("flash-text");
 
   function parseJSON(json, location) {
     console.log(json);   
     console.log(typeof json["_status"]);
-    if (json["_status"] === undefined) {
-      // console.log(json["_items"][0]["token"]); 
-      localStorage.setItem("token", json["_items"][0]["token"])
-      location.href = "/home";
+    if (json["_status"] === undefined && json["_items"].length > 0) {
+      var len = json["_items"].length;
+      localStorage.setItem("token", json["_items"][len - 1]["token"])
+      // location.href = "/home";
     }
     else {
-      console.log("Error: ", json["_error"]);
-      var elem = document.getElementById("flash-text");
+      console.log("Error: ", json["_error"]);      
       elem.innerHTML = "Username and password do not match!"; 
+      localStorage.removeItem("token");
     }
   }
 
@@ -29,8 +31,6 @@ document.addEventListener('DOMContentLoaded', function main() {
       location.reload(true);
     }
     else {
-      localStorage.setItem("username", username);
-      localStorage.setItem("password", password);
       let url = '/tokens';
       let headers = new Headers();
       headers.append('Content-Type', 'application/json');
@@ -40,11 +40,19 @@ document.addEventListener('DOMContentLoaded', function main() {
       console.log(auth);
       fetch(url, {method:'GET',
           headers: headers,
-          // body: JSON.stringify({'username':username, 'password':password})
        })
       .then(response => response.json())
       .then(json => parseJSON(json, location))
       .catch(error => console.error('There has been a problem with your fetch operation: ', error.message));
     }
   });
+
+  // signup.addEventListener('click', function() {
+  //   if (localStorage.token == undefined) {
+  //       elem.innerHTML = "Please log in first to create new account!"; 
+  //   }
+  //   else {
+  //     location.href = "/signup";
+  //   }
+  // });
 });

@@ -141,19 +141,6 @@ class RolesAuth(TokenAuth):
         dec = token.decode('unicode_escape')
         print (dec)
         return dec
-        # print (documents)
-        # for document in documents:
-        #     for i in document:
-        #         print (i)
-        #     document['salt'] = bcrypt.gensalt()
-        #     password = document['password'].encode('utf-8')
-        #     string = document['username'] + ':' + document['password']
-        #     document["token"] = base64.b64encode(string.encode())
-        #     document['password'] = bcrypt.hashpw(password, document['salt'])
-
-        # for document in documents:
-        #     document["token"] = (''.join(random.choice(string.ascii_uppercase)
-        #                               for x in range(10)))
 
 # token auth
 class TokenAuth(TokenAuth):
@@ -220,7 +207,6 @@ logging.basicConfig(format='%(asctime)s %(message)s', level=logging.DEBUG)
 log = logging.getLogger(__name__)
 
 settings = os.path.join(os.path.dirname(os.path.realpath(__file__)), 'settings.py')
-# tmpl_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'templates')
 app = Eve(__name__, static_folder='static', settings=settings, template_folder='templates', validator=MyValidator)
 app.on_post_POST += log_every_post
 app.on_post_PATCH += log_every_patch
