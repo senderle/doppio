@@ -27,11 +27,11 @@ document.addEventListener('DOMContentLoaded', function main() {
     var admin_username = document.getElementById("admin-username").value;
     var admin_password = document.getElementById("admin-password").value;
     if (admin_username == ""){
-      alert("Please enter a admin user name.");
+      alert("Please enter admin username.");
       location.reload(true);
     }
     else if (admin_password == "") {
-      alert("Please enter a admin user name.");
+      alert("Please enter admin password.");
       location.reload(true);
     }
     else if (username == "") {

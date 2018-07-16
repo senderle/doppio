@@ -67,15 +67,24 @@ function get_document_by_id(document_id) {
 }
 
 function post_new_document(userid, token, resource_name, data) {
+    var statusAlert = document.getElementById('status-message-window');
+    var rst = document.getElementById("reset-after-post");
+    if (token == undefined) {
+        statusAlert.innerHTML = ("Please login first!").fontcolor("#ff0000");
+        if (confirm("An authorization error occurred. Save current record to file and then login to proceed.")) {
+        }
+        else {
+        }
+        return;
+    }
     xhr.open('POST', '/' + resource_name, true);
     var auth = 'Bear ' + token;
     xhr.setRequestHeader('Authorization', auth);
     // xhr.setRequestHeader('Authorization', userid + ":" + hash);
     xhr.setRequestHeader('Content-Type', 'application/json');
     xhr.send(data);
+    
 
-    var statusAlert = document.getElementById('status-message-window');
-    var rst = document.getElementById("reset-after-post");
     xhr.onload = function () {
     if (xhr.status == 201 || xhr.status == 200){
         statusAlert.innerHTML = ("Successfully saved data.").fontcolor("#33cc33"); //green

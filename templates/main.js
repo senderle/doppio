@@ -381,7 +381,6 @@ document.addEventListener('DOMContentLoaded', function main () {
 
         // hash = hmac_hash(jsonOut.toString(), skey);
         var token = localStorage.token;
-        console.log("token is " + localStorage.token);
         var patchid = document.getElementById('playbill-id').value;
 
         var loadFileChooser = document.getElementById('local-load');
@@ -398,13 +397,6 @@ document.addEventListener('DOMContentLoaded', function main () {
         var loc = out.ephemeralRecord.shows[0].location;
         if (JSON.parse(lookupGeocode(loc))._items[0] == undefined) {
             post_loc_as_geocode(loc, token);
-            // var coords = placenameToLatLon(loc);
-            // console.log("coords is " + coords);
-            // var newGeocode = {'placename': loc,
-            //                   'coordinates': {
-            //                       'lat': coords[0],
-            //                       'lon': coords[1]}};
-            // post_new_geocode(JSON.stringify(newGeocode).toString());
         }
     });
 

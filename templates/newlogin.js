@@ -1,19 +1,18 @@
 document.addEventListener('DOMContentLoaded', function main() {
 
   var newlogIn = document.getElementById("newlogin-button");
-  // var signup = document.getElementById("signup-button");
   var elem = document.getElementById("flash-text");
 
   function parseJSON(json, location) {
-    console.log(json);   
-    console.log(typeof json["_status"]);
+    // console.log(json);   
+    // console.log(typeof json["_status"]);
     if (json["_status"] === undefined && json["_items"].length > 0) {
       var len = json["_items"].length;
       localStorage.setItem("token", json["_items"][len - 1]["token"])
-      // location.href = "/home";
+      location.href = "/home";
     }
     else {
-      console.log("Error: ", json["_error"]);      
+      // console.log("Error: ", json["_error"]);      
       elem.innerHTML = "Username and password do not match!"; 
       localStorage.removeItem("token");
     }
@@ -46,13 +45,4 @@ document.addEventListener('DOMContentLoaded', function main() {
       .catch(error => console.error('There has been a problem with your fetch operation: ', error.message));
     }
   });
-
-  // signup.addEventListener('click', function() {
-  //   if (localStorage.token == undefined) {
-  //       elem.innerHTML = "Please log in first to create new account!"; 
-  //   }
-  //   else {
-  //     location.href = "/signup";
-  //   }
-  // });
 });
