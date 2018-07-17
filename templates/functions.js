@@ -69,45 +69,70 @@ function get_document_by_id(document_id) {
 function post_new_document(userid, token, resource_name, data) {
     var statusAlert = document.getElementById('status-message-window');
     var rst = document.getElementById("reset-after-post");
-    if (token == undefined) {
-        statusAlert.innerHTML = ("Please login first!").fontcolor("#ff0000");
-        if (confirm("An authorization error occurred. Save current record to file and then login to proceed.")) {
-        }
-        else {
-        }
-        return;
-    }
-    xhr.open('POST', '/' + resource_name, true);
-    var auth = 'Bear ' + token;
-    xhr.setRequestHeader('Authorization', auth);
-    // xhr.setRequestHeader('Authorization', userid + ":" + hash);
-    xhr.setRequestHeader('Content-Type', 'application/json');
-    xhr.send(data);
-    
+    // if (token == undefined) {
+    //     statusAlert.innerHTML = ("Please login first!").fontcolor("#ff0000");
+    //     if (confirm("An authorization error occurred. Save current record to file and then login to proceed.")) {
+    //     }
+    //     else {
+    //     }
+    //     return;
+    // }
 
-    xhr.onload = function () {
-    if (xhr.status == 201 || xhr.status == 200){
-        statusAlert.innerHTML = ("Successfully saved data.").fontcolor("#33cc33"); //green
-        rst.click();
-    }
-    else if (xhr.status == 401) {
-        statusAlert.innerHTML = ("Error: " + xhr.statusText).fontcolor("#ff0000");
-        if (confirm("An authorization error occurred. Save current record to file and then login to proceed.")) {
+
+    // //XHR approach
+    // xhr.open('POST', '/' + resource_name, true);
+    // var auth = 'Bear ' + token;
+    // xhr.setRequestHeader('Authorization', auth);
+    // xhr.setRequestHeader('Content-Type', 'application/json');
+    // xhr.onreadystatechange = function () {
+    //     console.log(xhr.status);
+    //     console.log(xhr.statusText);
+    //     if (xhr.readyState === 4 && (xhr.status == 201 || xhr.status == 200)){
+    //         statusAlert.innerHTML = ("Successfully saved data.").fontcolor("#33cc33"); //green
+    //         rst.click();
+    //     }
+    //     else {
+    //         statusAlert.innerHTML = ("Error: " + xhr.statusText).fontcolor("#ff0000");
+    //         if (confirm("An authorization error occurred. Save current record to file and then login to proceed.")) {
+    //         }
+    //         else {
+    //         }
+    //     }
+    // };
+    // xhr.send(data);
+
+
+    //fetch approach
+    let url = '/' + resource_name;
+    let headers = new Headers();
+    headers.append('Content-Type', 'application/json');
+    var auth = 'Bear ' + token;
+    headers.append('Authorization', auth);
+    fetch(url, {method:'POST',
+        headers:headers,
+        body: data
+    })
+    .then(response => {
+        if(response.status == 200 || response.status == 201) {
+            statusAlert.innerHTML = ("Successfully saved data.").fontcolor("#33cc33"); //green
+            rst.click();
         }
         else {
+            statusAlert.innerHTML = ("Error: " + response.statusText).fontcolor("#ff0000");
+            if (confirm("An authorization error occurred. Save current record to file and then login to proceed.")) {
+            }
+            else {
+            }
         }
-    }
-    else {
-        statusAlert.innerHTML = ("Error: " + xhr.statusText).fontcolor("#ff0000"); //red
-    }
-    };
+    })
+    .catch(error => console.error('There has been a problem with your fetch operation: ', error.message));
+    
 }
 
 function patch_existing_document(userid, token, resource_name, document_id, data) {
     xhr.open('PATCH', '/' + resource_name + '/' + document_id, true);
     var auth = 'Bear ' + token;
     xhr.setRequestHeader('Authorization', auth);
-    // xhr.setRequestHeader('Authorization', userid + ":" + hash);
     xhr.setRequestHeader('Content-Type', 'application/json');
     xhr.send(data);
 }
@@ -122,7 +147,9 @@ function post_loc_as_geocode(place, token) {
 
     var url = 'http://nominatim.openstreetmap.org/search?q=' + place + '&countrycodes=gb,ie&format=json&email=annamar@seas.upenn.edu';
     fetch(url, {method:'GET'})
-    .then(response => {console.log(response); return response.json()})
+    .then(response => {
+        console.log(response); 
+        return response.json()})
     .then(json => {var coor = [json[0].lat, json[0].lon]; 
         console.log(coor);
         return coor; })

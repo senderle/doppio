@@ -24,17 +24,7 @@ document.addEventListener('DOMContentLoaded', function main() {
   signup.addEventListener('click', function() {
     var username = document.getElementById("username").value;
     var password = document.getElementById("password").value;
-    var admin_username = document.getElementById("admin-username").value;
-    var admin_password = document.getElementById("admin-password").value;
-    if (admin_username == ""){
-      alert("Please enter admin username.");
-      location.reload(true);
-    }
-    else if (admin_password == "") {
-      alert("Please enter admin password.");
-      location.reload(true);
-    }
-    else if (username == "") {
+    if (username == "") {
       alert("Please enter a user name.");
       location.reload(true);
     }
@@ -50,7 +40,6 @@ document.addEventListener('DOMContentLoaded', function main() {
       headers.append('Content-Type', 'application/json');
       headers.append('X-Custom-Header', 'ProcessThisImmediately');
       var auth = 'Bearer ' + localStorage.token;
-      var auth = 'Basic ' + btoa(admin_username + ":" + admin_password);
       headers.append('Authorization', auth);
       // headers.append('Authorization', 'Basic c3VwZXJ1c2VyOnBhc3N3b3Jk');
       // headers.append('If-Match', 'd043d7141ea190efbb8802b95a7c8ec1424a8dbc');

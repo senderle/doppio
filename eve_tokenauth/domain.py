@@ -2,7 +2,7 @@ from eve_tokenauth.auth.basic import BasicAuthentication
 from eve_tokenauth.auth.token import TokenAuthentication
 
 accounts = {
-    'authentication': BasicAuthentication(),
+    'authentication': TokenAuthentication(),
     'datasource': {
         'projection': {'password': 0}  # hides password
     },

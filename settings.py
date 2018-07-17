@@ -12,26 +12,6 @@ ephemeralRecord = {
     'schema': schema
 }
 
-# accounts = {
-#     'authentication': TokenAuthentication(),
-
-#     'item_title' : 'account',
-#     'additional_lookup': {
-#         'url': 'regex("[\w]+")',
-#         # 'field': 'userid',
-#         'field' : 'username'
-#     },
-
-#     # We also disable endpoint caching as we don't want client apps to
-#     # cache account data.
-#     'cache_control': '',
-#     'cache_expires': 0,
-#      'allowed_roles': ['superuser', 'admin'],
-#     # 'schema': accountschema
-#     'schema' : userschema
-# }
-
-
 geocodes = {
     'authentication': TokenAuthentication(),
     'public_methods': ['GET'],

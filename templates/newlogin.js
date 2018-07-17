@@ -4,15 +4,12 @@ document.addEventListener('DOMContentLoaded', function main() {
   var elem = document.getElementById("flash-text");
 
   function parseJSON(json, location) {
-    // console.log(json);   
-    // console.log(typeof json["_status"]);
     if (json["_status"] === undefined && json["_items"].length > 0) {
       var len = json["_items"].length;
       localStorage.setItem("token", json["_items"][len - 1]["token"])
       location.href = "/home";
     }
-    else {
-      // console.log("Error: ", json["_error"]);      
+    else {     
       elem.innerHTML = "Username and password do not match!"; 
       localStorage.removeItem("token");
     }

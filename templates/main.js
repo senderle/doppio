@@ -1,4 +1,20 @@
 document.addEventListener('DOMContentLoaded', function main () {
+
+
+    //When user is loged in, display sign up a tag
+    function displayLoginOption() {
+        var signup = document.getElementById('signup');
+        var logout = document.getElementById('logout');
+        if (localStorage.token === undefined) {
+            signup.style.display = "none";
+            logout.style.display = "none";
+        }
+        else {
+            signup.style.display = "";
+            logout.style.display = "";
+        }
+    }
+    displayLoginOption();
     //////////////////////////////////////////////////////////////////////////
     //////////////////////////////////////////////////////////////////////////
     // Schema
