@@ -6,7 +6,7 @@ accounts = {
     'datasource': {
         'projection': {'password': 0}  # hides password
     },
-    'public_methods': ['GET'],
+    'public_methods': [],
     'public_item_methods': [],
     'resource_methods': ['POST','GET'],
     'item_methods': ['GET', 'PUT', 'PATCH', 'DELETE'],
@@ -27,8 +27,10 @@ tokens = {
         'projection': {'token': 1},  # todo test this
         'default_sort': [("expiration", 1)]  # todo test this
     },
-    'resource_methods': ['GET'],
-    'item_methods': ['GET'],
+    'public_methods': ['DELETE'],
+    'public_item_methods': ['DELETE'],
+    'resource_methods': ['GET', 'DELETE'],
+    'item_methods': ['GET', 'DELETE'],
     'schema': {
         'expiration': {
             'type': 'datetime'

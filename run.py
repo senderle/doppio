@@ -79,6 +79,7 @@ def log_every_put(resource, request, payload):
     app.logger.info('We just answered to a PUT request!')
 
 def log_every_delete(resource, request, payload):
+    print (request)
     # custom INFO-level message is sent to the log file
     app.logger.info('We just answered to a DELETE request!')
 

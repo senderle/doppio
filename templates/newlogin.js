@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function main() {
       var len = json["_items"].length;
       localStorage.setItem("token", json["_items"][len - 1]["token"])
       localStorage.setItem("_etag", json["_items"][len - 1]["_etag"])
-      // location.href = "/home";
+      location.href = "/home";
     }
     else {     
       elem.innerHTML = "Username and password do not match!"; 

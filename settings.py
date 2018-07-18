@@ -23,6 +23,5 @@ geocodes = {
 
 DOMAIN = {
     'ephemeralRecord':  ephemeralRecord,
-    # 'accounts': accounts,
     'geocodes': geocodes
-    }
+}
