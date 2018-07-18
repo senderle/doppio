@@ -4,7 +4,7 @@
         <script src="http://assets.annotateit.org/annotator/v1.1.0/annotator-full.min.js"></script>
         <link rel="stylesheet" href="http://assets.annotateit.org/annotator/v1.1.0/annotator.min.css">
         <script src='https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js'></script>
-        <script src="/main.js"></script>
+        <script src="/main.js" type="text/javascript"></script>
         <script src="/functions.js"></script>
 		<link rel="stylesheet" type="text/css" href="/style.css">
     <title>Home</title>
@@ -16,17 +16,28 @@
                     <li><a class="nav-link current" href="/home">Home</a></li>
                     <li><a class="nav-link" href="/search">Search</a></li>
 <!--                     <li><a class="nav-link login" href="/login">Login</a></li> -->
-                    <li><a class="nav-link login" href="/newlogin">newLogin</a></li>
-                    <div id="signup">
-                    <li><a class="nav-link" href="/signup">Sign Up</a></li>
-                    </div>
+                    <li><a class="nav-link login" href="/newlogin">Login</a></li>
                     <div id="logout">
                     <li><a href='/home' onclick='logout();'>Log Out</a></li>
                     </div>
+                    <div id="signup">
+                    <li><a class="nav-link" href="/signup">Add New User</a></li>
+                    </div>
                     <script type="text/javascript">
                         function logout() {
+                            let url = '/tokens';
+                            let headers = new Headers();
+                            headers.append('Content-Type', 'application/json');
+                            headers.append('X-Custom-Header', 'ProcessThisImmediately');
+                            headers.append('If-Match', localStorage._etag);
+                            fetch(url, {method:'DELETE',
+                            headers: headers,
+                            // body: JSON.stringify({'token':localStorage.token})
+                            })
+                            .catch(error => console.error('There has been a problem with your fetch operation: ', error.message));
                             localStorage.removeItem("token");
-                        }               
+                            localStorage.removeItem("_etag");
+                        }     
                     </script>
                 </ul>
             <div>

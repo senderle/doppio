@@ -1,5 +1,8 @@
 document.addEventListener('DOMContentLoaded', function main () {
 
+    // function logout() {
+    //     localStorage.removeItem("token");
+    // }        
 
     //When user is loged in, display sign up a tag
     function displayLoginOption() {
