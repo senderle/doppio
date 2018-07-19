@@ -22,51 +22,11 @@ class MyValidator(Validator):
         if formType:
             return
 
-# HMAC Auth
-class HMACAuth(HMACAuth):
-    def check_auth(self, userid, hmac_hash, headers, data, allowed_roles,
-        resource, method):
-        # use Eve's own db driver; no additional connections/resources are
-        # used
-        accounts = app.data.driver.db['accounts']
-        lookup = {'userid': userid}
-        user = accounts.find_one(lookup)  # should be userid or id?
-        if allowed_roles:
-            # only retrieve a user if his roles match ``allowed_roles``
-            lookup['roles'] = {'$in': allowed_roles}
-        if user:
-            secret_key = user['secret_key']
-
-        return user and hmac.new(str(secret_key).encode('utf-8'), data, sha256).hexdigest() == hmac_hash
-
-def generate_key():
-    alphabet = string.ascii_letters + string.digits
-    while True:
-        key = ''.join(secrets.choice(alphabet) for i in range(10))
-        if (any(c.islower() for c in key)
-                and any(c.isupper() for c in key)
-                and sum(c.isdigit() for c in key) >= 3):
-            break
-    return key
-# cmdline: python -c 'import run; run.generate_key()'
-
-def create_hash(secret_key, data):
-    hmac.new(str(secret_key).encode('utf-8'), data, sha256).hexdigest()
-
-def create_user(documents):
-    for document in documents:
-        document['salt'] = bcrypt.gensalt()
-        secret_key = document['secret_key']
-        secret_key = bcrypt.hashpw(secret_key, document['salt'])
-        document['secret_key'] = secret_key
-
 def log_every_get(resource, request, payload):
-    print (request.headers)
     # custom INFO-level message is sent to the log file
     app.logger.info('We just answered to a GET request!')
 
 def log_every_post(resource, request, payload):
-    print (request.headers)
     # custom INFO-level message is sent to the log file
     app.logger.info('We just answered to a POST request!')
 
@@ -83,119 +43,6 @@ def log_every_delete(resource, request, payload):
     # custom INFO-level message is sent to the log file
     app.logger.info('We just answered to a DELETE request!')
 
-# BasicAuth
-from eve.auth import BasicAuth
-
-class BCryptAuth(BasicAuth):
-    def check_auth(self, username, password, allowed_roles, resource, method):
-        print ("Username is" + username)
-        print ("Password is" + password)
-        if resource == 'accounts':
-            print ("accounts resources")
-            return username == 'superuser' and password == 'password'
-        else:
-            # use Eve's own db driver; no additional connections/resources are used
-            print ("other resources")
-            accounts = app.data.driver.db['accounts']
-            account = accounts.find_one({'username': username})
-            return account and bcrypt.hashpw(password.encode('utf-8'),account['salt']) == account['password']
-
-    def create_user(documents):
-        print ("create_user")
-        for document in documents:
-            for i in document:
-                print (i)
-            document['salt'] = bcrypt.gensalt()
-            password = document['password'].encode('utf-8')
-            document['password'] = bcrypt.hashpw(password, document['salt'])
-
-# TokenAuth
-from eve.auth import TokenAuth
-import random
-import string
-import base64
-import datetime
-from datetime import timedelta
-
-class RolesAuth(TokenAuth):
-    def check_auth(self, token,  allowed_roles, resource, method):
-        # use Eve's own db driver; no additional connections/resources are used
-        accounts = app.data.driver.db['accounts']
-        lookup = {'token': token}
-        if resource == 'accounts':
-            return token == "c3VwZXJ1c2VyOnBhc3N3b3Jk"
-        if allowed_roles:
-            # only retrieve a user if his roles match ``allowed_roles``
-            lookup['roles'] = {'$in': allowed_roles}
-        account = accounts.find_one(lookup)
-        return account
-
-    def add_token(user):
-        print (user)
-        payload = {
-            'sub': user[0]['username'],
-            'iat': datetime.datetime.now(),
-            'exp': datetime.datetime.now() + timedelta(days=14)
-        }
-
-        token = jwt.encode(payload, TOKEN_SECRET)
-        dec = token.decode('unicode_escape')
-        print (dec)
-        return dec
-
-# token auth
-class TokenAuth(TokenAuth):
-    def check_auth(self, username, password, token, allowed_roles, resource, method):
-        """For the purpose of this example the implementation is as simple as
-        possible. A 'real' token should probably contain a hash of the
-        username/password combo, which sould then validated against the account
-        data stored on the DB.
-        """
-        # use Eve's own db driver; no additional connections/resources are used
-        if resource == 'accounts' and method == "post":
-            return token == "c3VwZXJ1c2VyOnBhc3N3b3Jk"
-        if token:
-            accounts = app.data.driver.db['accounts']
-            return accounts.find_one({'token': token})
-        else:
-            accounts = app.data.driver.db['accounts']
-            account = accounts.find_one({'username': username})
-            return account and bcrypt.hashpw(password.encode('utf-8'),account['salt']) == account['password']
-
-    def create_user(documents):
-        print ("create_user")
-        for document in documents:
-            for i in document:
-                print (i)
-            document['salt'] = bcrypt.gensalt()
-            password = document['password'].encode('utf-8')
-            document['password'] = bcrypt.hashpw(password, document['salt'])
-
-    def add_token(user):
-        for document in documents:
-            document["token"] = (''.join(random.choice(string.ascii_uppercase)
-                                      for x in range(10)))
-
-# from controllers import accounts, tokens
-
-# app = Eve(__name__, auth=BCryptAuth, template_folder='templates', validator=MyValidator)
-# app.on_insert_accounts += accounts.hash_passwords
-# app.on_fetched_resource_tokens += tokens.generate_login_token_for_user
-# app.on_post_GET += log_every_get
-# app.on_post_POST += log_every_post
-
-
-# Basic Auth
-# app = Eve(__name__, auth=BCryptAuth, template_folder='templates', validator=MyValidator)
-# app.on_insert_accounts += BCryptAuth.create_user
-# app.on_post_GET += log_every_get
-
-
-# app = Eve(__name__, auth=HMACAuth, template_folder='templates', validator=MyValidator)
-# app.on_post_POST += log_every_post
-# app.on_post_PATCH += log_every_patch
-# app.on_post_PUT += log_every_put
-# app.on_post_DELETE += log_every_delete
 
 import logging
 import os

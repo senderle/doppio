@@ -295,6 +295,23 @@ function jsonToFilename(json) {
     return filename;
 }
 
+//When user is loged in, display sign up a tag
+function displayLoginOption() {
+    var login = document.getElementById('login');
+    var signup = document.getElementById('signup');
+    var logout = document.getElementById('logout');
+    if (localStorage.token === undefined) {
+        signup.style.display = "none";
+        logout.style.display = "none";
+        login.style.display = "";
+    }
+    else {
+        signup.style.display = "";
+        logout.style.display = "";
+        login.style.display = "none";
+    }
+}
+
 //////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////
 // Extract keys and search paths from the Schema

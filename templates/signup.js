@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', function main() {
 
+  displayLoginOption();
   var signup = document.getElementById("signup-button");
   var elem = document.getElementById("flash-text");
 
@@ -13,11 +14,11 @@ document.addEventListener('DOMContentLoaded', function main() {
         elem.innerHTML = "Admin username and password do not match!";
       }
       else if (json["_error"].code == 422) {
-        elem.innerHTML = "Username already exists!";
+        elem.innerHTML = ("Username already exists!").fontcolor("#ff0000");
       }
     }
     else {
-      elem.innerHTML = "Error, please try later";
+      elem.innerHTML = ("Error, please try later").fontcolor("#ff0000");
     }
   }
 

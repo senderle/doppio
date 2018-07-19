@@ -12,8 +12,9 @@ document.addEventListener('DOMContentLoaded', function main() {
       location.href = "/home";
     }
     else {     
-      elem.innerHTML = "Username and password do not match!"; 
+      elem.innerHTML = ("Username and password do not match!").fontcolor("#ff0000"); 
       localStorage.removeItem("token");
+      localStorage.removeItem("_etag");
     }
   }
 
