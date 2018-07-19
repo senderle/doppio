@@ -74,13 +74,13 @@ def login():
 def render_login_js():
     return render_template('login.js')
 
-@app.route('/newlogin')
-def newlogin():
-    return render_template('newlogin.html')
+# @app.route('/newlogin')
+# def newlogin():
+#     return render_template('newlogin.html')
 
-@app.route('/newlogin.js')
-def render_newlogin_js():
-    return render_template('newlogin.js')
+# @app.route('/newlogin.js')
+# def render_newlogin_js():
+#     return render_template('newlogin.js')
 
 @app.route('/signup')
 def signup():

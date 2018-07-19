@@ -1,34 +1,49 @@
 document.addEventListener('DOMContentLoaded', function main() {
 
-  var loadFile = document.getElementById("user-load");
-  var logIn = document.getElementById("login-button");
+  var newlogIn = document.getElementById("newlogin-button");
+  var elem = document.getElementById("flash-text");
 
-  loadFile.addEventListener('change', function(evt) {
-    var files = evt.target.files;
-    var file = files[0];
-    var reader = new FileReader();
+  function parseJSON(json, location) {
+    console.log(json);
+    if (json["_status"] === undefined && json["_items"].length > 0) {
+      var len = json["_items"].length;
+      elem.innerHTML = ("Success!").fontcolor("#33cc33");
+      localStorage.setItem("token", json["_items"][len - 1]["token"])
+      localStorage.setItem("_etag", json["_items"][len - 1]["_etag"])
+      location.href = "/home";
+    }
+    else {     
+      elem.innerHTML = ("Username and password do not match!").fontcolor("#ff0000"); 
+      localStorage.removeItem("token");
+      localStorage.removeItem("_etag");
+    }
+  }
 
-    reader.addEventListener('load', function(evt) {
-        var result = evt.target.result;
-        result = result.replace(/' '+/g, '');
-        result = result.replace(/(\r\n|\n|\r|\t)/gm, '');
-        localStorage.setItem("key", result);
-    });
-    reader.readAsText(file);
-  });
-  logIn.addEventListener('click', function() {
-    var userId = document.getElementById("user-id").value;
-    if (userId == "") {
-      alert("Please enter a user ID.");
+  newlogIn.addEventListener('click', function() {
+    var username = document.getElementById("username").value;
+    var password = document.getElementById("password").value;
+    if (username == "") {
+      alert("Please enter a user name.");
       location.reload(true);
     }
-    else if (loadFile.files.length == 0) {
-      alert("Please select a file.");
+    else if (password == "") {
+      alert("Please enter a password");
       location.reload(true);
     }
     else {
-      localStorage.setItem("userid", userId);
-      location.href = "/home";
+      let url = '/tokens';
+      let headers = new Headers();
+      headers.append('Content-Type', 'application/json');
+      headers.append('X-Custom-Header', 'ProcessThisImmediately');
+      var auth = 'Basic ' + btoa(username + ":" + password);
+      headers.append('Authorization', auth);
+      console.log(auth);
+      fetch(url, {method:'GET',
+          headers: headers,
+       })
+      .then(response => response.json())
+      .then(json => parseJSON(json, location))
+      .catch(error => console.error('There has been a problem with your fetch operation: ', error.message));
     }
   });
 });

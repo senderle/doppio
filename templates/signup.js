@@ -7,11 +7,12 @@ document.addEventListener('DOMContentLoaded', function main() {
   function parseJSON(json, location) {
     console.log(json); 
     if (json["_status"] == "OK") {
-      location.href = "/newlogin";
+      elem.innerHTML = ("Success!").fontcolor("#33cc33");
+      location.href = "/home";
     }
     else if(json["_status"] == "ERR") {
       if (json["_error"].code == 401){
-        elem.innerHTML = "Admin username and password do not match!";
+        elem.innerHTML = ("Admin username and password do not match!").fontcolor("#ff0000");
       }
       else if (json["_error"].code == 422) {
         elem.innerHTML = ("Username already exists!").fontcolor("#ff0000");
@@ -25,6 +26,7 @@ document.addEventListener('DOMContentLoaded', function main() {
   signup.addEventListener('click', function() {
     var username = document.getElementById("username").value;
     var password = document.getElementById("password").value;
+    var confirm_password = document.getElementById("confirm_password").value;
     if (username == "") {
       alert("Please enter a user name.");
       location.reload(true);
@@ -33,19 +35,20 @@ document.addEventListener('DOMContentLoaded', function main() {
       alert("Please enter a password");
       location.reload(true);
     }
+    else if (confirm_password == "") {
+      alert("Please enter a confirm password");
+    }
     else {
-      console.log("username is " +  localStorage.getItem("username"));
-      console.log("password is " +  localStorage.getItem("password"));
+      if (password != confirm_password) {
+        elem.innerHTML = ("Password does not match the confirm password!").fontcolor("#ff0000");
+        return;
+      }
       let url = '/accounts';
       let headers = new Headers();
       headers.append('Content-Type', 'application/json');
       headers.append('X-Custom-Header', 'ProcessThisImmediately');
       var auth = 'Bearer ' + localStorage.token;
       headers.append('Authorization', auth);
-      // headers.append('Authorization', 'Basic c3VwZXJ1c2VyOnBhc3N3b3Jk');
-      // headers.append('If-Match', 'd043d7141ea190efbb8802b95a7c8ec1424a8dbc');
-      // headers.append('Authorization', 'Basic ' + base64.encode(username + ":" + password));
-      console.log(auth);
       fetch(url, {method:'POST',
           headers: headers,
           body: JSON.stringify({'username':username, 'password':password})
@@ -53,7 +56,6 @@ document.addEventListener('DOMContentLoaded', function main() {
       .then(response => response.json())
       .then(json => parseJSON(json, location))
       .catch(error => console.error('There has been a problem with your fetch operation: ', error.message));
-      // .then(json => console.log(json))
       
     }
   });

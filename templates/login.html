@@ -11,15 +11,17 @@
         <ul>
           <li><a class="nav-link" href="/home">Home</a></li>
           <li><a class="nav-link" href="/search">Search</a></li>
+<!--           <li><a class="nav-link" href="/login">Login</a></li> -->
           <li><a class="nav-link current" href="/login">Login</a></li>
-          <li><a class="nav-link" href="/newlogin">newLogin</a></li>
         </ul>
     </div>
     <div id="auth-window"><h3>User Authentication</h3>
-        <div id="userid-window"><h4>User ID:</h4>
-          <div class="ui-element"><input type="search" title="Enter user ID" id="user-id" /></div>
-        <div class="ui-element"><input type="file" required id="user-load" title="Select file containing key" value="Load file" /></div>
-        <div class="ui-element"><input type="button" id="login-button" value="Login &raquo;" /></div>
+        <p id="flash-text" value=""></p>
+        <div id="userid-window">
+          <div class="ui-element"><h4>Username:</h4><input type="text" title="Enter username" id="username" placeholder="username" /></div>
+          <div class="ui-element"><h4>Password:</h4><input type="password" title="Enter password" id="password" placeholder="password" /></div>
+        <div class="ui-element"><input type="button" id="newlogin-button" value="Login &raquo;" /></div>
+      </div>
     </div>
   </body>
 </html>
