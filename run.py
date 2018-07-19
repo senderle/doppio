@@ -39,7 +39,6 @@ def log_every_put(resource, request, payload):
     app.logger.info('We just answered to a PUT request!')
 
 def log_every_delete(resource, request, payload):
-    print (request)
     # custom INFO-level message is sent to the log file
     app.logger.info('We just answered to a DELETE request!')
 
@@ -73,14 +72,6 @@ def login():
 @app.route('/login.js')
 def render_login_js():
     return render_template('login.js')
-
-# @app.route('/newlogin')
-# def newlogin():
-#     return render_template('newlogin.html')
-
-# @app.route('/newlogin.js')
-# def render_newlogin_js():
-#     return render_template('newlogin.js')
 
 @app.route('/signup')
 def signup():

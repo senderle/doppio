@@ -148,10 +148,8 @@ function post_loc_as_geocode(place, token) {
     var url = 'http://nominatim.openstreetmap.org/search?q=' + place + '&countrycodes=gb,ie&format=json&email=annamar@seas.upenn.edu';
     fetch(url, {method:'GET'})
     .then(response => {
-        console.log(response); 
         return response.json()})
     .then(json => {var coor = [json[0].lat, json[0].lon]; 
-        console.log(coor);
         return coor; })
     .then(coords => {var newGeocode = {'placename': place,
                               'coordinates': {
@@ -169,7 +167,6 @@ function post_loc_as_geocode(place, token) {
 }
 
 function post_new_geocode(data, token) {
-    console.log(data);
     xhr.open('POST', '/geocodes', true);
     var auth = 'Bear ' + token;
     xhr.setRequestHeader('Authorization', auth);

@@ -5,7 +5,6 @@ document.addEventListener('DOMContentLoaded', function main() {
   var elem = document.getElementById("flash-text");
 
   function parseJSON(json, location) {
-    console.log(json); 
     if (json["_status"] == "OK") {
       elem.innerHTML = ("Success!").fontcolor("#33cc33");
       location.href = "/home";

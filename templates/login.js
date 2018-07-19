@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', function main() {
   var elem = document.getElementById("flash-text");
 
   function parseJSON(json, location) {
-    console.log(json);
     if (json["_status"] === undefined && json["_items"].length > 0) {
       var len = json["_items"].length;
       elem.innerHTML = ("Success!").fontcolor("#33cc33");
@@ -37,7 +36,6 @@ document.addEventListener('DOMContentLoaded', function main() {
       headers.append('X-Custom-Header', 'ProcessThisImmediately');
       var auth = 'Basic ' + btoa(username + ":" + password);
       headers.append('Authorization', auth);
-      console.log(auth);
       fetch(url, {method:'GET',
           headers: headers,
        })
