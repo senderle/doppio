@@ -146,8 +146,12 @@ function post_loc_as_geocode(place, token) {
     // max one req per sec
 
     var url = 'http://nominatim.openstreetmap.org/search?q=' + place + '&countrycodes=gb,ie&format=json&email=annamar@seas.upenn.edu';
-    fetch(url, {method:'GET'})
+    let headers = new Headers();
+    headers.append('Content-Type', 'application/json');
+    headers.append('Access-Control-Allow-Origin','http://localhost:8080')
+    fetch(url, {method:'GET', header: headers})
     .then(response => {
+        console.log(response);
         return response.json()})
     .then(json => {var coor = [json[0].lat, json[0].lon]; 
         return coor; })
@@ -156,8 +160,8 @@ function post_loc_as_geocode(place, token) {
                                   'lat': coords[0],
                                   'lon': coords[1]}};
                                   return JSON.stringify(newGeocode).toString();})
-    .then(geocode => post_new_geocode(geocode, token));
-
+    .then(geocode => post_new_geocode(geocode, token))
+    // .catch(error => console.error('There has been a problem with your fetch operation: ', error.message));
     // var req = new XMLHttpRequest();
     // req.open("GET", 'http://nominatim.openstreetmap.org/search?q=' + place + '&countrycodes=gb,ie&format=json&email=annamar@seas.upenn.edu', false);
     // req.send();
