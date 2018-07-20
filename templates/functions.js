@@ -140,16 +140,40 @@ function patch_existing_document(userid, token, resource_name, document_id, data
 ////////////////////////////////////////////////////////////////////////////
 // map functions
 
+function jsonp(setting)
+{
+    setting.data = setting.data || {}
+    setting.key = setting.key||'callback'
+    setting.callback = setting.callback||function(){}
+    setting.data[setting.key] = '__onGetData__'
+
+    window.__onGetData__ = function(data) {
+        setting.callback (data);
+    }
+    var script = document.createElement('script')
+    var query = []
+    for(var key in setting.data)
+    {
+        query.push(key + '=' + encodeURIComponent(setting.data[key]))
+    }
+    script.src = setting.url + '?' + query.join('&')
+    document.head.appendChild(script)
+    document.head.removeChild(script)
+}
+
+
+
 //placenameToLatLon
 function post_loc_as_geocode(place, token) {
     // nominatim geosearch (this is used by the leaflet-geosearch)
     // max one req per sec
-
-    var url = 'http://nominatim.openstreetmap.org/search?q=' + place + '&countrycodes=gb,ie&format=json&email=annamar@seas.upenn.edu';
+    var url = 'https://nominatim.openstreetmap.org/search?q=' + place + '&countrycodes=gb,ie&format=json&email=annamar@seas.upenn.edu';
     let headers = new Headers();
     headers.append('Content-Type', 'application/json');
-    headers.append('Access-Control-Allow-Origin','http://localhost:8080')
-    fetch(url, {method:'GET', header: headers})
+    headers.append('Accept', 'application/json');
+    headers.append('Origin','*');
+    headers.append('Access-Control-Allow-Origin','*');
+    fetch(url, {method:'GET', header: headers, mode:'cors'})
     .then(response => {
         console.log(response);
         return response.json()})
@@ -161,13 +185,7 @@ function post_loc_as_geocode(place, token) {
                                   'lon': coords[1]}};
                                   return JSON.stringify(newGeocode).toString();})
     .then(geocode => post_new_geocode(geocode, token))
-    // .catch(error => console.error('There has been a problem with your fetch operation: ', error.message));
-    // var req = new XMLHttpRequest();
-    // req.open("GET", 'http://nominatim.openstreetmap.org/search?q=' + place + '&countrycodes=gb,ie&format=json&email=annamar@seas.upenn.edu', false);
-    // req.send();
-    // var res = JSON.parse(req.responseText);
-    // var location = res[0];
-    // return [location.lat, location.lon];
+    .catch(error => console.error('There has been a problem with your fetch operation: ', error.message));
 }
 
 function post_new_geocode(data, token) {
