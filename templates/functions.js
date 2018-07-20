@@ -12,7 +12,6 @@ var xhr = new XMLHttpRequest();
 
 function hmac_hash(data, key) {
     var hash = CryptoJS.HmacSHA256(data, key).toString(CryptoJS.enc.Hex);
-    //console.log(hash);
     return hash;
 }
 
@@ -69,38 +68,6 @@ function get_document_by_id(document_id) {
 function post_new_document(userid, token, resource_name, data) {
     var statusAlert = document.getElementById('status-message-window');
     var rst = document.getElementById("reset-after-post");
-    // if (token == undefined) {
-    //     statusAlert.innerHTML = ("Please login first!").fontcolor("#ff0000");
-    //     if (confirm("An authorization error occurred. Save current record to file and then login to proceed.")) {
-    //     }
-    //     else {
-    //     }
-    //     return;
-    // }
-
-
-    // //XHR approach
-    // xhr.open('POST', '/' + resource_name, true);
-    // var auth = 'Bear ' + token;
-    // xhr.setRequestHeader('Authorization', auth);
-    // xhr.setRequestHeader('Content-Type', 'application/json');
-    // xhr.onreadystatechange = function () {
-    //     console.log(xhr.status);
-    //     console.log(xhr.statusText);
-    //     if (xhr.readyState === 4 && (xhr.status == 201 || xhr.status == 200)){
-    //         statusAlert.innerHTML = ("Successfully saved data.").fontcolor("#33cc33"); //green
-    //         rst.click();
-    //     }
-    //     else {
-    //         statusAlert.innerHTML = ("Error: " + xhr.statusText).fontcolor("#ff0000");
-    //         if (confirm("An authorization error occurred. Save current record to file and then login to proceed.")) {
-    //         }
-    //         else {
-    //         }
-    //     }
-    // };
-    // xhr.send(data);
-
 
     //fetch approach
     let url = '/' + resource_name;
@@ -140,29 +107,6 @@ function patch_existing_document(userid, token, resource_name, document_id, data
 ////////////////////////////////////////////////////////////////////////////
 // map functions
 
-function jsonp(setting)
-{
-    setting.data = setting.data || {}
-    setting.key = setting.key||'callback'
-    setting.callback = setting.callback||function(){}
-    setting.data[setting.key] = '__onGetData__'
-
-    window.__onGetData__ = function(data) {
-        setting.callback (data);
-    }
-    var script = document.createElement('script')
-    var query = []
-    for(var key in setting.data)
-    {
-        query.push(key + '=' + encodeURIComponent(setting.data[key]))
-    }
-    script.src = setting.url + '?' + query.join('&')
-    document.head.appendChild(script)
-    document.head.removeChild(script)
-}
-
-
-
 //placenameToLatLon
 function post_loc_as_geocode(place, token) {
     // nominatim geosearch (this is used by the leaflet-geosearch)
@@ -175,7 +119,6 @@ function post_loc_as_geocode(place, token) {
     headers.append('Access-Control-Allow-Origin','*');
     fetch(url, {method:'GET', header: headers, mode:'cors'})
     .then(response => {
-        console.log(response);
         return response.json()})
     .then(json => {var coor = [json[0].lat, json[0].lon]; 
         return coor; })
@@ -192,7 +135,6 @@ function post_new_geocode(data, token) {
     xhr.open('POST', '/geocodes', true);
     var auth = 'Bear ' + token;
     xhr.setRequestHeader('Authorization', auth);
-    // xhr.setRequestHeader('Authorization', 'admin:' + hmac_hash(data,'$2a$12$3hMRHrwRG4mKZLAdjAXG0uQBJr96Cuo1NmL.TqJsfHQwb9BYIj9Mq'));
     xhr.setRequestHeader('Content-Type', 'application/json');
     xhr.send(data);
 }

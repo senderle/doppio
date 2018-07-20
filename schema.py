@@ -18,46 +18,6 @@ MONGO_USERNAME = 'user'
 MONGO_PASSWORD = 'user'
 MONGO_AUTHDBNAME = 'admin'
 
-# accountschema = {
-#     'userid': {
-#         'type': 'string',
-#         'required': True,
-#         'unique': True,
-#         },
-#     'secret_key': {
-#         'type': 'string',
-#         'required': True,
-#         },
-#     'roles': {
-#         'type': 'list',
-#         'allowed': ['user', 'superuser', 'admin'],
-#         'required': True,
-#         },
-#     'token': {
-#          'type': 'string',
-#         'required': True,
-#     }
-
-
-# }
-
-# userschema = {
-#     'username': {
-#         'type': 'string',
-#         'required': True,
-#         'unique': True,
-#         },
-#     'password': {
-#         'type': 'string',
-#         'required': True,
-#     },
-#     # 'roles': {
-#     #     'type': 'list',
-#     #     'allowed': ['user', 'superuser', 'admin'],
-#     #     'required': True,
-#     # }
-# }
-
 geoschema = {
     'placename': {
         'type': 'string',
