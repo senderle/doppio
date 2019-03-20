@@ -8,7 +8,7 @@ import hmac
 import base64
 import logging
 import json
-from schema import schema
+from schema import main_schema
 import secrets
 import string
 from flask import request
@@ -95,13 +95,13 @@ def render_map_js():
 
 @app.route('/schema.json')
 def render_schema_json():
-    schema_json = json.dumps(schema)
+    schema_json = json.dumps(main_schema)
     return render_template_string(schema_json)
 
 @app.route('/style.css')
 def render_stylesheet():
     return app.send_static_file('style.css')
-    
+
 @app.route('/search')
 def render_search_page():
     return render_template('search.html')
@@ -128,7 +128,7 @@ if __name__ == '__main__':
         '[in %(filename)s:%(lineno)d] -- ip: %(clientip)s, '
         'url: %(url)s, method:%(method)s'))
 
-    
+
 
     app.logger.setLevel(logging.INFO)
 
