@@ -82,6 +82,7 @@ celerybeat-schedule
 # dotenv
 .env
 
+
 # virtualenv
 .venv
 venv/
@@ -105,3 +106,6 @@ ENV/
 
 # accounts file
 accts.py
+
+# Docker envs
+.envs/*

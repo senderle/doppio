@@ -1,24 +1,44 @@
-version: '2'
+version: '3'
+
+volumes:
+  playbill-db:
+    external: true
+
 services:
-  db:
-    #image: mongo
+
+  mongo:
+    # image: mongo
+    restart: always
     build:
         context: .
         dockerfile: Dockerfile-mongo
+    env_file: 
+      - ./.envs/.mongo
     volumes:
       - playbill-db:/data/db
-  web:
+
+  # mongoexpress:
+    #   image: mongo-express
+    #   restart: always
+    #   ports: 
+    #     - "8081:8081"
+    #   env_file:
+    #     - ./.envs/.mongoexpress
+    #   depends_on:
+    #     - mongo
+
+  eve:
     build:
         context: .
         dockerfile: Dockerfile
+    env_file:
+      - ./.envs/.eve
     volumes:
       - .:/code
     working_dir: /code
     ports:
       - "8080:5000"
     depends_on:
-      - db
+      - mongo
     command: python run.py runserver 0.0.0.0:5000
-volumes:
-  playbill-db:
-    external: true
+

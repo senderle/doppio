@@ -1,8 +1,9 @@
 from eve_tokenauth.auth.token import TokenAuthentication
 from schema import main_schema
+import os
 
 # MONGO_HOST used for docker
-MONGO_HOST = "db"
+MONGO_HOST = "mongo"
 
 MONGO_PORT = 27017
 MONGO_DBNAME = "Playbill"
@@ -17,8 +18,8 @@ HATEOAS = False
 MONGO_QUERY_BLACKLIST = ['$where']
 PAGINATION_LIMIT = 5
 TOKEN_SECRET = 'secret'
-MONGO_USERNAME = 'user'
-MONGO_PASSWORD = 'user'
+MONGO_USERNAME = os.environ['EVE_MONGO_USER']
+MONGO_PASSWORD = os.environ['EVE_MONGO_PASSWORD']
 MONGO_AUTHDBNAME = 'admin'
 
 geoschema = {
