@@ -1,4 +1,5 @@
 eve
+gunicorn
 flask-cors
 bcrypt
 py-bcrypt

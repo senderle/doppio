@@ -1,17 +1,11 @@
-import bcrypt
-from eve import Eve
-from eve.auth import HMACAuth
-from flask import render_template, render_template_string, request, current_app as app
-from hashlib import sha256
+from eve.flaskapp import Eve
+from flask import (render_template, render_template_string)
 from eve.io.mongo import Validator
-import hmac
-import base64
 import logging
 import json
+import os
 from schema import main_schema
-import secrets
-import string
-from flask import request
+from eve_tokenauth.eveapp import EveWithTokenAuth
 
 class MyValidator(Validator):
     def _validate_documentation(self, documentation, field, value):
@@ -21,6 +15,15 @@ class MyValidator(Validator):
     def _validate_formType(self, formType, field, value):
         if formType:
             return
+
+
+logging.basicConfig(format='%(asctime)s %(message)s', level=logging.DEBUG)
+log = logging.getLogger(__name__)
+settings = os.path.join(os.path.dirname(os.path.realpath(__file__)),
+                        'settings.py')
+app = Eve(__name__, static_folder='static', settings=settings,
+          template_folder='templates', validator=MyValidator)
+
 
 def log_every_get(resource, request, payload):
     # custom INFO-level message is sent to the log file
@@ -43,18 +46,6 @@ def log_every_delete(resource, request, payload):
     app.logger.info('We just answered to a DELETE request!')
 
 
-import logging
-import os
-from eve.flaskapp import Eve
-from eve_tokenauth.eveapp import EveWithTokenAuth
-from flask import send_from_directory
-
-
-logging.basicConfig(format='%(asctime)s %(message)s', level=logging.DEBUG)
-log = logging.getLogger(__name__)
-
-settings = os.path.join(os.path.dirname(os.path.realpath(__file__)), 'settings.py')
-app = Eve(__name__, static_folder='static', settings=settings, template_folder='templates', validator=MyValidator)
 app.on_post_POST += log_every_post
 app.on_post_PATCH += log_every_patch
 app.on_post_PUT += log_every_put
@@ -115,25 +106,20 @@ def render_functions_js():
     return render_template('functions.js')
 
 
+# enable logging to 'app.log' file
+app_logging_handler = logging.FileHandler('app.log')
+
+# set a custom log format, and add request
+# metadata to each log line
+app_logging_handler.setFormatter(logging.Formatter(
+    '%(asctime)s %(levelname)s: %(message)s '
+    '[in %(filename)s:%(lineno)d] -- ip: %(clientip)s, '
+    'url: %(url)s, method:%(method)s'))
+
+app.logger.setLevel(logging.INFO)
+
+# append the handler to the default application logger
+app.logger.addHandler(app_logging_handler)
 
 if __name__ == '__main__':
-
-    # enable logging to 'app.log' file
-    handler = logging.FileHandler('app.log')
-
-    # set a custom log format, and add request
-    # metadata to each log line
-    handler.setFormatter(logging.Formatter(
-        '%(asctime)s %(levelname)s: %(message)s '
-        '[in %(filename)s:%(lineno)d] -- ip: %(clientip)s, '
-        'url: %(url)s, method:%(method)s'))
-
-
-
-    app.logger.setLevel(logging.INFO)
-
-    # append the handler to the default application logger
-    app.logger.addHandler(handler)
     app.run(debug=True, host="0.0.0.0", threaded=True)
-
-

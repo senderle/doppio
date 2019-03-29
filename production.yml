@@ -3,7 +3,7 @@ version: '3'
 volumes:
   playbill-db:
     external: true
-  caddy_local:
+  caddy_production:
 
 services:
 
@@ -14,7 +14,7 @@ services:
         context: .
         dockerfile: Dockerfile-mongo
     env_file: 
-      - ./.envs/.local/.mongo
+      - ./.envs/.production/.mongo
     volumes:
       - playbill-db:/data/db
 
@@ -34,7 +34,7 @@ services:
         context: .
         dockerfile: Dockerfile
     env_file:
-      - ./.envs/.local/.eve
+      - ./.envs/.production/.eve
     volumes:
       - .:/code
     working_dir: /code
@@ -50,9 +50,9 @@ services:
     depends_on:
       - eve
     volumes:
-      - caddy_local:/root/.caddy
+      - caddy_production:/root/.caddy
     env_file:
-      - ./.envs/.local/.caddy
+      - ./.envs/.production/.caddy
     ports:
       - "0.0.0.0:80:80"
       - "0.0.0.0:443:443"
