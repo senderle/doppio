@@ -10,9 +10,6 @@ services:
   mongo:
     image: pdb_mongo
     restart: always
-    build:
-        context: .
-        dockerfile: Dockerfile-mongo
     env_file: 
       - ./.envs/.production/.mongo
     volumes:
@@ -32,7 +29,7 @@ services:
     image: pdb_eve
     build:
         context: .
-        dockerfile: Dockerfile
+        dockerfile: ./compose/eve/Dockerfile
     env_file:
       - ./.envs/.production/.eve
     volumes:

@@ -10,29 +10,29 @@ services:
   mongo:
     image: pdb_mongo
     restart: always
-    build:
-        context: .
-        dockerfile: Dockerfile-mongo
+    # build:
+    #     context: .
+    #     dockerfile: Dockerfile-mongo
     env_file: 
       - ./.envs/.local/.mongo
     volumes:
       - playbill-db:/data/db
 
-  # mongoexpress:
-    #   image: mongo-express
-    #   restart: always
-    #   ports: 
-    #     - "8081:8081"
-    #   env_file:
-    #     - ./.envs/.mongoexpress
-    #   depends_on:
-    #     - mongo
+        #   mongoexpress:
+        #     image: mongo-express
+        #     restart: always
+        #     ports: 
+        #       - "8081:8081"
+        #     env_file:
+        #       - ./.envs/.mongoexpress
+        #     depends_on:
+        #       - mongo
 
   eve:
     image: pdb_eve
     build:
         context: .
-        dockerfile: Dockerfile
+        dockerfile: ./compose/eve/Dockerfile
     env_file:
       - ./.envs/.local/.eve
     volumes:
