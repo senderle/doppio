@@ -46,7 +46,7 @@ services:
     image: pdb_caddy
     build:
       context: .
-      dockerfile: ./compose/caddy/Dockerfile
+      dockerfile: ./compose/caddy/production/Dockerfile
     depends_on:
       - eve
     volumes:

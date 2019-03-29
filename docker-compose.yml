@@ -43,10 +43,10 @@ services:
     command: python run.py runserver 0.0.0.0:5000
 
   caddy:
-    image: pdb_caddy
+    image: pdb_caddy_local
     build:
       context: .
-      dockerfile: ./compose/caddy/Dockerfile
+      dockerfile: ./compose/caddy/local/Dockerfile
     depends_on:
       - eve
     volumes:
@@ -54,5 +54,5 @@ services:
     env_file:
       - ./.envs/.local/.caddy
     ports:
-      - "0.0.0.0:80:80"
-      - "0.0.0.0:443:443"
+      - "127.0.0.1:80:80"
+      - "127.0.0.1:443:443"
