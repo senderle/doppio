@@ -10,9 +10,9 @@ services:
   mongo:
     image: pdb_mongo
     restart: always
-    # build:
-    #     context: .
-    #     dockerfile: Dockerfile-mongo
+    build:
+        context: .
+        dockerfile: ./compose/mongo/Dockerfile
     env_file: 
       - ./.envs/.local/.mongo
     volumes:
@@ -35,6 +35,8 @@ services:
         dockerfile: ./compose/eve/Dockerfile
     env_file:
       - ./.envs/.local/.eve
+    environment:
+      EVE_DEBUG_MODE: "False"
     volumes:
       - .:/code
     working_dir: /code
@@ -43,7 +45,7 @@ services:
     command: python run.py runserver 0.0.0.0:5000
 
   caddy:
-    image: pdb_caddy_local
+    image: pdb_caddy
     build:
       context: .
       dockerfile: ./compose/caddy/local/Dockerfile

@@ -8,7 +8,10 @@ volumes:
 services:
 
   mongo:
-    image: pdb_mongo
+    image: pdb_mongo_production
+    build:
+      context: .
+      dockerfile: ./compose/mongo/Dockerfile
     restart: always
     env_file: 
       - ./.envs/.production/.mongo
@@ -26,10 +29,10 @@ services:
     #     - mongo
 
   eve:
-    image: pdb_eve
+    image: pdb_eve_production
     build:
-        context: .
-        dockerfile: ./compose/eve/Dockerfile
+      context: .
+      dockerfile: ./compose/eve/Dockerfile
     env_file:
       - ./.envs/.production/.eve
     volumes:
@@ -37,10 +40,10 @@ services:
     working_dir: /code
     depends_on:
       - mongo
-    command: python run.py runserver 0.0.0.0:5000
+    command: gunicorn --bind 0.0.0.0:5000 wsgi
 
   caddy:
-    image: pdb_caddy
+    image: pdb_caddy_production
     build:
       context: .
       dockerfile: ./compose/caddy/production/Dockerfile
