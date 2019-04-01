@@ -4,29 +4,33 @@ main_schema = {
         'type': 'dict',
         'schema': {
             'chronicles' : {
+                'order': 1,
                 'type': 'dict',
                 'schema': {
                     'geography': {
+                        'order': 1,
                         'type': 'list',
                         'schema': {
                             'country': {
                                 'type': 'dict',
                                 'schema': {
                                     'region': {
+                                        'order': 1,
                                         'type': 'string',
                                         'formType': 'select',
                                         'allowed': ['Bohemia', 'Poland', 'Croatia', 'Hungary', 'GDL', 'Russia'],
                                     },
                                     'freeText': {
+                                        'order': 2,
                                         'type': 'string',
                                         'formType': 'textarea',
                                     }
                                 }
                             }
                         },
-                        'order': 1
                     },
                     'language': {
+                        'order': 2,
                         'type': 'dict',
                         'schema': {
                             'imperial': {
@@ -41,16 +45,21 @@ main_schema = {
                                 # text box?
                             }
                         },
-                        'order': 2
                     },
                     'period': {
-                        'type': 'string',
-                        'required': True,
-                        'formType': 'select',
-                        'allowed': ['pre-900', '900-950', '950-1000', '1000-1050', '1050-1100', '1100-1150', '1150-1200', '1200-1250', '1250-1300', '1300-1350', '1350-1400', '1400-1450', '1450-1500', 'post-1500'],
-                        'order': 3
+                        'order': 3,
+                        'type': 'dict',
+                        'schema': {
+                            'period': {
+                                'type': 'string',
+                                'required': True,
+                                'formType': 'select',
+                                'allowed': ['pre-900', '900-950', '950-1000', '1000-1050', '1050-1100', '1100-1150', '1150-1200', '1200-1250', '1250-1300', '1300-1350', '1350-1400', '1400-1450', '1450-1500', 'post-1500'],
+                            },
+                        },
                     },
                     'sources': {
+                        'order': 4,
                         'type': 'dict',
                         'schema': {
                             'sourcesMentioned': {
@@ -58,120 +67,120 @@ main_schema = {
                                 'documentation': 'If the author mentions sources, what types are mentioned?',
                                 'schema': {
                                     'worksOfClassicalAntiquity': {
+                                        'order': 1,
                                         'type': 'list',
                                         'schema': {
                                             'type': 'string',
                                             'formType': 'textarea'
                                         },
-                                        'order': 1
                                     },
                                     'previousChronicles': {
+                                        'order': 2,
                                         'type': 'list',
                                         'schema': {
                                             'type': 'string',
                                             'formType': 'textarea'
                                         },
-                                        'order': 2
                                     },
                                     'oralAccounts': {
+                                        'order': 3,
                                         'type': 'list',
                                         'schema': {
                                             'type': 'string',
                                             'formType': 'textarea'
                                         },
-                                        'order': 3
                                     },
                                     'witnesses': {
+                                        'order': 4,
                                         'type': 'list',
                                         'schema': {
                                             'type': 'string',
                                             'formType': 'textarea'
                                         },
-                                        'order': 4
                                     },
                                     'documents': {
+                                        'order': 5,
                                         'type': 'list',
                                         'schema': {
                                             'type': 'string',
                                             'formType': 'textarea'
                                         },
-                                        'order': 5
                                     }
                                 }
                             }
                         },
-                        'order': 4
                     }
                 },
-                'order': 1
             },
             'content': {
+                'order': 2,
                 'type': 'dict',
                 'schema': {
                     'biblicalHistory': {
                         'type': 'dict',
                         'schema': {
                             'namesOfIndividuals': {
+                                'order': 1,
                                 'type': 'list',
                                 'schema': {
                                     'type': 'string',
                                 },
-                                'order': 1
                             },
                             'namesOfGroups': {
+                                'order': 2,
                                 'type': 'list',
                                 'schema': {
                                     'type': 'string',
                                     'formType': 'select',
                                     'allowed': ['', 'Greeks', 'Romans', 'sons of Noah (Shem and Ham)', 'Amazons', 'Huns', 'Avars', 'Scythians']
                                 },
-                                'order': 2
                             },
                             'events': {
+                                'order': 3,
                                 'type': 'dict',
                                 'schema': {
                                     'flood': {
+                                        'order': 1,
                                         'type': 'string',
                                         'formType': 'textarea',
-                                        'order': 1
                                     },
                                     'wandering': {
+                                        'order': 2,
                                         'type': 'string',
                                         'formType': 'textarea',
-                                        'order': 2
                                     },
                                     'followingAnAnimal': {
+                                        'order': 3,
                                         'type': 'string',
                                         'formType': 'textarea',
-                                        'order': 3
                                     },
                                     'escapingFromPreviousLocation': {
+                                        'order': 4,
                                         'type': 'string',
                                         'formType': 'textarea',
-                                        'order': 4
                                     },
                                     'comingToADestinedLand': {
+                                        'order': 5,
                                         'type': 'string',
                                         'formType': 'textarea',
-                                        'order': 5
                                     },
                                     'speechActOfNaming': {
+                                        'order': 6,
                                         'type': 'string',
                                         'formType': 'textarea',
-                                        'order': 6
                                     }
                                 },
-                                'order': 3
                             },
                             'places': {
+                                'order': 4,
                                 'type': 'list',
                                 'schema': {
                                     'type': 'string',
                                     'formType': 'textarea'
                                 },
-                                'order': 4
                             },
                             'conceptsAndGenealogies': {
+                                'order': 5,
                                 'type': 'dict',
                                 'schema': {
                                     'genealogyFromTheTrojans': {
@@ -185,6 +194,7 @@ main_schema = {
                                         'order': 2
                                     },
                                     'genealogyFromNoah\'sSons': {
+                                        'order': 3,
                                         'type': 'dict',
                                         'schema': {
                                             'japeth': {
@@ -203,9 +213,9 @@ main_schema = {
                                                 'order': 3
                                             }
                                         },
-                                        'order': 3
                                     },
                                     'genealogyFromAnotherBiblicalCharacter': {
+                                        'order': 4,
                                         'type': 'dict',
                                         'schema': {
                                             'nimrod': {
@@ -219,7 +229,6 @@ main_schema = {
                                                 'order': 2
                                             }
                                         },
-                                        'order': 4
                                     },
                                     'genealogyFromTheGreeks': {
                                         'type': 'string',
@@ -232,11 +241,11 @@ main_schema = {
                                         'order': 6
                                     }
                                 },
-                                'order': 5
                             }
                         }
                     },
                     'classicalMyths': {
+                        'order': 2,
                         'type': 'dict',
                         'schema': {
                             'namesOfIndividuals': {
@@ -341,28 +350,29 @@ main_schema = {
                                 }
                             }
                         },
-                        'order': 2
                     },
                     'localFolkNarratives': {
+                        'order': 3,
                         'type': 'dict',
                         'schema': {
                             'namesOfIndividuals': {
+                                'order': 1,
                                 'type': 'list',
                                 'schema': {
                                     'type': 'string',
                                 },
-                                'order': 1
                             },
                             'namesOfGroups': {
+                                'order': 2,
                                 'type': 'list',
                                 'schema': {
                                     'type': 'string',
                                     'formType': 'select',
                                     'allowed': ['', 'Greeks', 'Romans', 'sons of Noah (Shem and Ham)', 'Amazons', 'Huns', 'Avars', 'Scythians']
                                 },
-                                'order': 2
                             },
                             'events': {
+                                'order': 3,
                                 'type': 'dict',
                                 'schema': {
                                     'flood': {
@@ -396,30 +406,31 @@ main_schema = {
                                         'order': 6
                                     }
                                 },
-                                'order': 3
                             },
                             'places': {
+                                'order': 4,
                                 'type': 'list',
                                 'schema': {
                                     'type': 'string',
                                     'formType': 'textarea'
                                 },
-                                'order': 4
                             },
                             'conceptsAndGenealogies': {
+                                'order': 5,
                                 'type': 'dict',
                                 'schema': {
                                     'genealogyFromTheTrojans': {
+                                        'order': 1,
                                         'type': 'string',
                                         'formType': 'textarea',
-                                        'order': 1
                                     },
                                     'confusionOfLanguagesAtTheTowerOfBabel': {
+                                        'order': 2,
                                         'type': 'string',
                                         'formType': 'textarea',
-                                        'order': 2
                                     },
                                     'genealogyFromNoah\'sSons': {
+                                        'order': 3,
                                         'type': 'dict',
                                         'schema': {
                                             'japeth': {
@@ -437,9 +448,10 @@ main_schema = {
                                                 'formType': 'textarea',
                                                 'order': 3
                                             }
-                                        },'order': 3
+                                        },
                                     },
                                     'genealogyFromAnotherBiblicalCharacter': {
+                                        'order': 4,
                                         'type': 'dict',
                                         'schema': {
                                             'nimrod': {
@@ -453,7 +465,6 @@ main_schema = {
                                                 'order': 2
                                             }
                                         },
-                                        'order': 4
                                     },
                                     'genealogyFromTheGreeks': {
                                         'type': 'string',
@@ -466,7 +477,6 @@ main_schema = {
                                         'order': 6
                                     }
                                 },
-                                'order': 5
                             },
                             'problemOfIncludingFolkStoriesAndMyths': {
                                 'type': 'boolean',
@@ -483,6 +493,7 @@ main_schema = {
                                 'order': 7
                             },
                             'sourcesFrom': {
+                                'order': 8,
                                 'type': 'dict',
                                 'documentation': 'If the sources are mentioned, what are they?',
                                 'schema': {
@@ -510,14 +521,13 @@ main_schema = {
                                         'required': True,
                                         'order': 4
                                     },
-                                    'fromASpecificPerson': {
+                                    'fromSpecificPeople': {
                                         'type': 'boolean',
                                         'formType': 'checkbox',
                                         'required': True,
                                         'order': 5
                                     }
                                 },
-                                'order': 8
                             },
                             'originStories': {
                                 'type': 'boolean',
@@ -534,7 +544,6 @@ main_schema = {
                                 'order': 10
                             }
                         },
-                        'order': 3
                     },
                     'mythsOfOrigin': {
                         'type': 'boolean',
@@ -544,12 +553,13 @@ main_schema = {
                         'order': 4
                     }
                 },
-                'order': 2
             },
             'authorsAndGoals': {
+                'order': 3,
                 'type': 'dict',
                 'schema': {
                     'personalInfoAboutAuthor': {
+                        'order': 1,
                         'type': 'dict',
                         'schema': {
                             'authorName': {
@@ -593,9 +603,9 @@ main_schema = {
                                 'order': 7
                             }
                         },
-                        'order': 1
                     },
                     'causaAndModusScribendi': {
+                        'order': 2,
                         'type': 'dict',
                         'schema': {
                             'historiansTask': {
@@ -701,11 +711,10 @@ main_schema = {
                             }
                         }
                     },
-                    'order': 2
                 },
-                'order': 3
             },
             'etymologies': {
+                'order': 4,
                 'type': 'list',
                 'schema': {
                     'type': 'dict',
@@ -777,7 +786,6 @@ main_schema = {
                     
                     }
                 },
-                'order': 4
             }
         }
     }

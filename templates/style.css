@@ -48,11 +48,13 @@ div.ui-element {
     min-width: 30px;
 }
 
+div.form-leaf {
+    padding: 4px 4px 4px 16px;
+}
+
 input {
     max-width: 100%;
 }
-
-
 
 textarea.main-form-input {
     border-color: lightgray;
@@ -161,7 +163,6 @@ div.panel {
     background-color: white;
     display: none;
 }
-
 
 div.panel li {
     list-style: none;

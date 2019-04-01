@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', function main () {
         var labelText = document.createTextNode(label);
         labelEl.appendChild(labelText);
         labelEl.setAttribute('for', id);
-        labelEl = wrapWith('div', labelEl);
+        labelEl = wrapWith('div', labelEl, {'class': 'form-leaf-label'});
 
         // Render the input field itself. Most fields can be
         // rendered based on the `attribs.formType` field, but
@@ -94,20 +94,24 @@ document.addEventListener('DOMContentLoaded', function main () {
             var help = document.getElementById('help-window-text');
             var helpHeader = document.createElement('h5');
             var title = document.createTextNode(stripNum(label));
-            var text = document.createTextNode(attribs.documentation);
+	    var text = attribs.documentation;
+            text = document.createTextNode(text ? text : '(no documentation provided)');
 
             help.innerHTML = "";
             helpHeader.appendChild(title);
             help.appendChild(helpHeader);
             help.appendChild(text);
         };
+
+	labelEl.addEventListener('mouseover', renderHelpText);
         inputEl.addEventListener('mouseover', renderHelpText);
         inputEl.addEventListener('focus', renderHelpText);
-        inputEl = wrapWith('div', inputEl);
+        inputEl = wrapWith('div', inputEl, {'class': 'form-leaf-input'});
 
         // This makes invalid HTML! Ack! This needs to be fixed, but 
         // doing so will probably break something else.
-        var container = document.createElement('p');
+        var container = document.createElement('div');
+	container.classList.add('form-leaf');
         container.appendChild(labelEl);
         container.appendChild(inputEl);
         root.appendChild(container);
@@ -220,7 +224,7 @@ document.addEventListener('DOMContentLoaded', function main () {
                 var ao = formSpec[a].order;
                 var bo = formSpec[b].order;
                 return ao < bo ? -1 : ao == bo ? 0 : 1;
-            } elif (isLeaf(formSpec[a])) {
+            } else if (isLeaf(formSpec[a])) {
                 if (!isLeaf(formSpec[b])) {
                     return -1;
                 }
