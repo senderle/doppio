@@ -48,11 +48,23 @@ div.ui-element {
     min-width: 30px;
 }
 
+div.form-leaf {
+    margin-left: 0px;
+    padding: 4px 0px 4px 0px;
+}
+
+div.form-leaf-label {
+    margin-left: 2px;
+    padding-bottom: 4px;
+}
+
+div.form-leaf-input {
+    margin-left: 8px;
+}
+
 input {
     max-width: 100%;
 }
-
-
 
 textarea.main-form-input {
     border-color: lightgray;

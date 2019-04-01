@@ -202,7 +202,11 @@ function listToId(keyList) {
 }
 
 function singular(s) {
-    return s.replace(/(s$)/g, '');
+    if (s.endsWith('ies')) {
+        return s.replace('ies', 'y');
+    } else {
+        return s.replace(/(s$)/g, '');
+    }
 }
 
 function stripNum(s) {
