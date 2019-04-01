@@ -202,7 +202,11 @@ function listToId(keyList) {
 }
 
 function singular(s) {
-    return s.replace(/(s$)/g, '');
+    if (s.endsWith('ies')) {
+        return s.replace('ies', 'y');
+    } else {
+        return s.replace(/(s$)/g, '');
+    }
 }
 
 function stripNum(s) {
@@ -238,21 +242,30 @@ function pruning(json) {
 }
 
 function jsonToFilename(json) {
-    var venue = json.ephemeralRecord.shows[0].venue;
-    var date = json.ephemeralRecord.shows[0].date;
-    var title = json.ephemeralRecord.shows[0].performances[0].title;
-    var cataloger = json.ephemeralRecord.dataCataloger;
-    var elements = [date, venue, title, cataloger];
-    var tojoin = [];
+    // var venue = json.ephemeralRecord.shows[0].venue;
+    // var date = json.ephemeralRecord.shows[0].date;
+    // var title = json.ephemeralRecord.shows[0].performances[0].title;
+    // var cataloger = json.ephemeralRecord.dataCataloger;
+    // var elements = [date, venue, title, cataloger];
+    // var tojoin = [];
 
-    for (var i = 0; i < elements.length; i++) {
-        if (elements[i] !== '') {
-            tojoin.push(elements[i]);
-        }
-    }
+    // for (var i = 0; i < elements.length; i++) {
+    //     if (elements[i] !== '') {
+    //         tojoin.push(elements[i]);
+    //     }
+    // }
 
-    var filename = toId(tojoin.join(' '));
-    filename = filename === '' ? 'empty-record.json' : filename + '.json';
+    // var filename = toId(tojoin.join(' '));
+    // filename = filename === '' ? 'empty-record.json' : filename + '.json'; 
+    var today = new Date();
+    var dd = String(today.getDate()).padStart(2, '0');
+    var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+    var yyyy = today.getFullYear();
+    var hh = String(today.getHours()).padStart(2, '0');
+    var MM = String(today.getMinutes()).padStart(2, '0');
+    var ss = String(today.getSeconds()).padStart(2, '0');
+
+    filename = yyyy + '-' + mm + '-' + dd + '-' + hh + '-' + MM + '-' + ss;
     return filename;
 }
 
