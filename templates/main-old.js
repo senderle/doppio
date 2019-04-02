@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function main () {
     var req = new XMLHttpRequest();
     req.open("GET", "/schema.json", false);
     req.send();
-    var rootRecord = JSON.parse(req.responseText);
+    var playbillRecord = JSON.parse(req.responseText);
 
     //////////////////////////////////////////////////////////////////////////
     //////////////////////////////////////////////////////////////////////////
@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', function main () {
     }
 
     // This renders all leaf-level input fields.
-    function renderInput(root, attribs, id, label) {
+    function renderInput(root, label, id, attribs) {
 
         // Render the label
         var labelEl = document.createElement('label');
@@ -94,7 +94,7 @@ document.addEventListener('DOMContentLoaded', function main () {
             var help = document.getElementById('help-window-text');
             var helpHeader = document.createElement('h5');
             var title = document.createTextNode(stripNum(label));
-            var text = attribs.documentation;
+	    var text = attribs.documentation;
             text = document.createTextNode(text ? text : '(no documentation provided)');
 
             help.innerHTML = "";
@@ -103,7 +103,7 @@ document.addEventListener('DOMContentLoaded', function main () {
             help.appendChild(text);
         };
 
-        labelEl.addEventListener('mouseover', renderHelpText);
+	labelEl.addEventListener('mouseover', renderHelpText);
         inputEl.addEventListener('mouseover', renderHelpText);
         inputEl.addEventListener('focus', renderHelpText);
         inputEl = wrapWith('div', inputEl, {'class': 'form-leaf-input'});
@@ -111,7 +111,7 @@ document.addEventListener('DOMContentLoaded', function main () {
         // This makes invalid HTML! Ack! This needs to be fixed, but 
         // doing so will probably break something else.
         var container = document.createElement('div');
-        container.classList.add('form-leaf');
+	container.classList.add('form-leaf');
         container.appendChild(labelEl);
         container.appendChild(inputEl);
         root.appendChild(container);
@@ -136,9 +136,7 @@ document.addEventListener('DOMContentLoaded', function main () {
         // root element with an id that will be the prefix of all the 
         // elements it contains.
         var subRoot = document.createElement('div');
-        if (id) {
-            subRoot.setAttribute('id', id);
-        }
+        subRoot.setAttribute('id', id);
 
         for (var attribKey in attribs) {
             subRoot.setAttribute(attribKey, attribs[attribKey]);
@@ -167,21 +165,12 @@ document.addEventListener('DOMContentLoaded', function main () {
                 // This closure maintains the renderFunc's state (`n`).
                 // Concretely, `n` will always be one greater than the 
                 // number of sub-forms rendered so far.
-                
-                // If the sub-form a leaf, we want to terminate recursion.
-                var recursiveRender; 
-                if (isLeaf(subForm)) {
-                    recursiveRender = renderInput;  // Non-recursive.
-                } else {
-                    recursiveRender = render;       // Recursive.
-                }
-
-                renderFunc = function() {
+                var renderFunc = function() {
                     // This function renders the actual form, tracking
                     // and updating the value of `n` attached to its closure.
                     var newHeader = singular(titleCase(key)) + ' ' + n;
                     var newId = toId(key, idPrefix) + '_' + n;
-                    recursiveRender(renderSubRoot(root), subForm, newId, newHeader);
+                    render(renderSubRoot(root), subForm, newId, newHeader);
                     if (n > 1) {
                         focusRendered();
                     }
@@ -249,19 +238,38 @@ document.addEventListener('DOMContentLoaded', function main () {
     }
 
     // The main rendering function. This calls itself recursively whenever
-    // it sees an element of `formSpec` that is not a leaf. `formSpec`
-    // is expected to be a dictionary, and this won't work on other types.
-    // That means we can't currently represent lists of lists.
+    // it sees an element of `formSpec` that is not a leaf.
     function render(root, formSpec, idPrefix, header) {
         var formKeys;
         var renderButton;
         idPrefix = idPrefix ? idPrefix : '';
 
-        if (formSpec.schema) {
-            formSpec = formSpec.schema;
+        // Some preliminaries. We need to know what to look for in the 
+        // schema, and that will change depending on what it is.
+        if (formSpec.type == 'list') {
+            // Lists are always lists of items with a given schema.
+            // The schema will be passed to the sub-form renderer
+            // for this list. In effect, we treat lists as dictionaries
+            // with keys that are irrelevant (because the sub-form 
+            // renderer will handle the indexing) and with just one item
+            // (because the sub-form renderer will handle adding additional
+            // items).
+            formKeys = ['schema'];
+        } else {
+            // Things that aren't lists but that have a schema are 
+            // container objects. Their keys are defined in the schema.
+            // We render these individually, so we need to pull out the
+            // keys and give them a well-defined order. The test 
+            // may be irrelevant; there may be a guarantee that everything
+            // we see here is either a list or an object with a schema, 
+            // because leaves (the only objects without a schema) don't
+            // trigger recursion.
+            if (formSpec.schema) {
+                formSpec = formSpec.schema;
+            }
+            formKeys = Object.keys(formSpec);
+            formKeys.sort(formKeySortCmp(formSpec));
         }
-        formKeys = Object.keys(formSpec);
-        formKeys.sort(formKeySortCmp(formSpec));
 
         // Now we iterate over each of the items at the current level.
         for (var i = 0; i < formKeys.length; i++) {
@@ -271,14 +279,18 @@ document.addEventListener('DOMContentLoaded', function main () {
             }
 
             var subForm = formSpec[key];
-            subHeader = key ? titleCase(key) :
-                        '';
+            if (formSpec.type == 'list') {  // The new item renderer will
+                key = '';                   // handle keys for sequences.
+            }
+
+            var subHeader = header ? header : titleCase(key);
             var subRoot;
 
             var nodeId = toId(key, idPrefix);
             if (isLeaf(subForm)) {
                 // The simplest case, requiring no recursion.
-                renderInput(root, subForm, nodeId, subHeader);
+                renderInput(root, subHeader, nodeId, subForm);
+
             } else if (subForm.type == 'list') {
                 // The most complex case. We need to create a way to 
                 // automatically render new sub-forms in a list so that
@@ -299,8 +311,9 @@ document.addEventListener('DOMContentLoaded', function main () {
                 // itself *calls this function again recursively*. So this
                 // is a form of deferred recursion, even though it doesn't
                 // look that way.
+
                 var button = renderNewItemButton(
-                    subRoot, key, subForm.schema, idPrefix
+                    subRoot, key, subForm, idPrefix
                 );
                 button = wrapWith(
                   'div', button, {'class': 'subform-group ui-element'}
@@ -320,8 +333,7 @@ document.addEventListener('DOMContentLoaded', function main () {
         while (formRoot.lastChild) {
             formRoot.removeChild(formRoot.lastChild);
         }
-        // renderSearch(formRoot, rootRecord, 'search');
-        render(formRoot, rootRecord, 'search');
+        render(formRoot, playbillRecord);
         focusTop();
     }
 
@@ -330,57 +342,41 @@ document.addEventListener('DOMContentLoaded', function main () {
     // that it would be unreasonable to create a higher-level abstraction.
     // For additional notes on structure, see comments to `render`.
     function renderSearch(root, formSpec, idPrefix, header) {
-        var formKeys = [''];
-        var subForm;
-        var subHeader;
-        var subRoot;
-        var renderButton;
-        var key;
-        idPrefix = idPrefix ? idPrefix : '';
+        var formKeys;
+        idPrefix = idPrefix ? idPrefix : 'search';
 
-        if (formSpec.type != 'list') {
-            if (formSpec.schema) {
-                formSpec = formSpec.schema;
-            }
+        if (formSpec.type == 'list' || formSpec.type == 'dict') {
+            // Unlike in `render`, we treat lists and objects the same way.
+            // This is because we don't support (and should never need to
+            // support) queries sensitive to the order of items in a list.
+            // Queries will just be mapped over the whole list, and if 
+            // there's any match, the whole record is considered a match.
+            // 
+            // Someday we might implement lists at the *leaf* level to allow
+            // users to specify more complex conditions, but not today.
+            formSpec = formSpec.schema;
             formKeys = Object.keys(formSpec);
             formKeys.sort(formKeySortCmp(formSpec));
         }
 
+        // Now we iterate over each of the items at the current level.
         for (var i = 0; i < formKeys.length; i++) {
-            key = formKeys[i];
-            if (formSpec.type != 'list' && !formSpec.hasOwnProperty(key)) {
+            var key = formKeys[i];
+            if (!formSpec.hasOwnProperty(key)) {
                 continue;
             }
 
-            if (formSpec.type != 'list') {
-                subForm = formSpec[key];
-            } else {
-                subForm = formSpec.schema;
-            }
-
-            subHeader = key ? titleCase(key) :
-                        '';
+            var subForm = formSpec[key];
+            var subHeader = header ? header : titleCase(key);
+            var subRoot;
 
             var nodeId = toId(key, idPrefix);
             if (isLeaf(subForm)) {
-                renderInput(root, subForm, nodeId, subHeader);
-
-            } else if (subForm.type == 'list') {
-                renderHeader(root, subHeader, {'class': 'subheader'});
-                subRoot = renderSubRoot(root,
-                                        nodeId,
-                                        {'class': 'subform-group'});
-
-                // In the ordinary render function, the following lines
-                // appear in the subform rendering callback that creates
-                // a new subform every time the "new subform" button is
-                // clicked. In this case, we will never render more than
-                // one, but we still want to have a number in the id
-                // so that we can use the familiar key scheme to pick
-                // out individual fields. So we hard-code it to 1.
-                var newId = toId(key, idPrefix) + '_' + 1;
-                renderSearch(renderSubRoot(subRoot), subForm, newId);
+                // The simplest case, requiring no recursion. But 
+                // renderSearchLeaf is somewhat complex and not yet written!
+                renderSearchLeaf(root, subHeader, nodeId, subForm);
             } else {
+                // Here again, we treat lists and objects the same way.
                 renderHeader(root, subHeader, {'class': 'instance-header'});
                 renderSearch(renderSubRoot(root, nodeId),
                              subForm,
