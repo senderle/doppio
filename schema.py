@@ -1,4 +1,3 @@
-#PYTHON SCHEMA
 main_schema = {
     'medievalChronicles': {
         'type': 'dict',
@@ -717,75 +716,80 @@ main_schema = {
                 'order': 4,
                 'type': 'list',
                 'schema': {
-                    'type': 'dict',
-                    'documentation': 'If the author etymologizes, for each etymology answer the following questions.',
-                    'schema': {
-                        'etymologyText': {
-                            'type': 'string',
-                            'documentation': 'Enter the etymology in the text box.',
-                            'formType': 'textarea',
-                            'order': 1
-                        },
-                        'etymologySection': {
-                            'type': 'string',
-                            'documentation': 'In what section does this etymology occur?',
-                            'allowed': ['preface/dedication', 'biblical section', 'folk history section', 'distant documented past', 'recent documented past', 'very recent/present'],
-                            'formType': 'select',
-                            'order': 2
-                        },
-                        'etymologyType': {
-                            'type': 'string',
-                            'documentation': 'What kind of etymology is it?',
-                            'allowed': ['person name', 'ruler name', 'ethnonym', 'country name', 'city name', 'river name', 'place name (mountain, forest region, etc.)', 'quality or description (action verb, adjective)', 'social custom'],
-                            'formType': 'select',
-                            'order': 3
-                        },
-                        'etymologyDeviation': {
-                            'type': 'string',
-                            'documentation': 'Deviation according to Isidore',
-                            'allowed': ['ex origo', 'ex causa', 'ex contrario'],
-                            'formType': 'select',
-                            'order': 4
-                        },
-                        'etymologyLanguage': {
-                            'type': 'dict',
-                            'schema': {
-                                'sourceLanguage': {
-                                    'type': 'string',
-                                    'documentation': 'Etymology\'s source language',
-                                    'allowed': ['Latin', 'Greek', 'Hebrew', 'Vernacular'],
-                                    'formType': 'select',
-                                    'order': 1
-                                },
-                                'vernacularLanguage': {
-                                    'type': 'string',
-                                    'documentation': 'If the source language is vernacular, which type is it?',
-                                    'order': 2
-                                }
+                    'etymologyText': {
+                        'type': 'string',
+                        'documentation': 'Enter the etymology in the text box.',
+                        'formType': 'textarea',
+                        'order': 1
+                    },
+                    'etymologySection': {
+                        'type': 'string',
+                        'documentation': 'In what section does this etymology occur?',
+                        'allowed': ['preface/dedication', 'biblical section', 'folk history section', 'distant documented past', 'recent documented past', 'very recent/present'],
+                        'formType': 'select',
+                        'order': 2
+                    },
+                    'etymologyType': {
+                        'type': 'string',
+                        'documentation': 'What kind of etymology is it?',
+                        'allowed': ['person name', 'ruler name', 'ethnonym', 'country name', 'city name', 'river name', 'place name (mountain, forest region, etc.)', 'quality or description (action verb, adjective)', 'social custom'],
+                        'formType': 'select',
+                        'order': 3
+                    },
+                    'etymologyDeviation': {
+                        'type': 'string',
+                        'documentation': 'Deviation according to Isidore',
+                        'allowed': ['ex origo', 'ex causa', 'ex contrario'],
+                        'formType': 'select',
+                        'order': 4
+                    },
+                    'etymologyLanguage': {
+                        'type': 'list',
+                        'schema': {
+                            'sourceLanguage': {
+                                'type': 'string',
+                                'documentation': 'Etymology\'s source language',
+                                'allowed': ['Latin', 'Greek', 'Hebrew', 'Vernacular'],
+                                'formType': 'select',
+                                'order': 1
                             },
-                            'order': 5
+                            'vernacularLanguage': {
+                                'type': 'string',
+                                'documentation': 'If the source language is vernacular, which type is it?',
+                                'order': 2
+                            }
                         },
-                        'originalEtymology': {
-                            'type': 'string',
-                            'documentation': 'If the etymology is not original, what is the source?',
-                            'formType': 'textarea',
-                            'order': 6
-                        },
-                        'relatedNarratives': {
-                            'type': 'string',
-                            'documentation': 'If the etymology has a related story/narrative, summarize the plot.',
-                            'formType': 'textarea',
-                            'order': 7
-                        },
-                        'speechAct': {
-                            'type': 'string',
-                            'documentation': 'If the etymology involves a speech act, detail it.',
-                            'formType': 'textarea',
-                            'order': 8
-                        }
-                    
-                    }
-                },
+                        'order': 5
+                    },
+                    'originalEtymology': {
+                        'type': 'string',
+                        'documentation': 'If the etymology is not original, what is the source?',
+                        'formType': 'textarea',
+                        'order': 6
+                    },
+                    'relatedNarratives': {
+                        'type': 'string',
+                        'documentation': 'If the etymology has a related story/narrative, summarize the plot.',
+                        'formType': 'textarea',
+                        'order': 7
+                    },
+                    'speechAct': {
+                        'type': 'string',
+                        'documentation': 'If the etymology involves a speech act, detail it.',
+                        'formType': 'textarea',
+                        'order': 8
+                    },
+                    # 'testField': {
+                    #     'type': 'list',
+                    #     'schema': {
+                    #         'type': 'list',
+                    #         'schema': {
+                    #             'a': {'type': 'string'},
+                    #             'b': {'type': 'string'}
+                    #         }
+                    #     }
+                    # }
+                }
             }
         }
     }

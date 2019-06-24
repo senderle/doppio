@@ -194,6 +194,11 @@ function idToList(keys) {
     return keys;
 }
 
+function idTail(keys) {
+    keys = idToList(keys);
+    return keys[keys.length - 1];
+}
+
 function listToId(keyList) {
     // Take a list of keys in the form `['yabbaDabba', 'doo']` and
     // convert them to id keys in the form "yabba-dabba_doo".
