@@ -21,33 +21,39 @@ token auth from https://github.com/kingtimm/Eve-TokenAuth
 -------------------
 LOCAL SETUP
 -------
-In the root directory, create a new folder called .envs::
+In the root directory, create a new folder called .envs:
 
     $ mkdir .envs
 
-Inside, create a .dockerignore file::
+Inside, create a .dockerignore file:
 
     $ touch .dockerignore
 
-Now, create another directory called .local::
+Now, create another directory called .local:
 
     $ mkdir .local
 
-In it, create three files, .caddy, .eve and .mongo::
+In it, create three files, .caddy, .eve and .mongo:
 
     $ touch .caddy
     $ touch .eve
     $ touch .mongo
 
-In .caddy, type `DOMAIN_NAME=localhost`.
-In .mongo, type
-    `MONGO_INITDB_ROOT_USERNAME=root`
-    `MONGO_INITDB_ROOT_PASSWORD=(your randomized password)`
-MONGO_INITDB_ROOT_PASSWORD should be set to a randomized password.
-In .eve, type
-    `EVE_MONGO_USER=user`
-    `EVE_MONGO_PASSWORD=user`
-You can choose username and password as you will.
+In .caddy, put `DOMAIN_NAME=localhost`.\
+
+In .mongo, put
+```
+    MONGO_INITDB_ROOT_USERNAME=root
+    MONGO_INITDB_ROOT_PASSWORD=(your randomized password)
+```
+MONGO_INITDB_ROOT_PASSWORD should be set to a randomized password.\
+
+In .eve, put
+```
+    EVE_MONGO_USER=user
+    EVE_MONGO_PASSWORD=user
+```
+You can choose username and password as you will.\
 
 Your current directory in .envs should be
 ```bash
@@ -57,13 +63,11 @@ Your current directory in .envs should be
 │   │   ├── .eve
 │   │   ├── .caddy
 │   ├── .dockerignore
+│
 ├── the rest of the app
-.
-.
-.
 ```
 
-Now, build and launch docker-compose, from the root directory::
+Now, build and launch docker-compose, from the root directory:
 
     $ docker-compose build
     $ docker-compose up
@@ -73,14 +77,14 @@ The server should be up and running. To access the server, use https://localhost
 
 ACCESS TO DATABASE AND SINGUP
 -------
-Open a new terminal tab. In it, type::
+Open a new terminal tab. In it, type:
 
     $ docker ps
 
 to get the list of running containers, and copy the Container ID (the first code)
 of the container with the name "pdb_mongo".
 
-Now, type::
+Now, type:
 
     $ docker exec -it (Container ID) /bin/sh
 
@@ -94,12 +98,12 @@ the command
 You will be prompted for a password. Enter the randomized password you inputted
 for `MONGO_INITDB_ROOT_PASSWORD` inside `.mongo`.
 
-Inside the shell, open the relevant database by::
+Inside the shell, open the relevant database by:
 
     $ use Playbill
 
 
-And create a new user with the command ::
+And create a new user with the command :
 
     $ db.createUser({user: "user", pwd: "user", roles: ["readWrite"]})
 
