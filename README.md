@@ -39,21 +39,24 @@ In it, create three files, .caddy, .eve and .mongo:
     $ touch .eve
     $ touch .mongo
 
-In .caddy, put `DOMAIN_NAME=localhost`.
+In .caddy, put 
+```
+    DOMAIN_NAME=localhost
+```
 
 In .mongo, put
 ```
     MONGO_INITDB_ROOT_USERNAME=root
     MONGO_INITDB_ROOT_PASSWORD=(your randomized password)
 ```
-MONGO_INITDB_ROOT_PASSWORD should be set to a randomized password.\
+MONGO_INITDB_ROOT_PASSWORD should be set to a randomized password.
 
 In .eve, put
 ```
     EVE_MONGO_USER=user
     EVE_MONGO_PASSWORD=user
 ```
-You can choose username and password as you will.\
+You can choose username and password as you will.
 
 Your current directory in .envs should be
 ```bash
