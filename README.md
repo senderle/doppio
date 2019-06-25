@@ -25,7 +25,7 @@ In the root directory, create a new folder called .envs::
 
     $ mkdir .envs
 
-Inside, create a .dockerignore file::
+Inside, create a .dockerignore file ::
 
     $ touch .dockerignore
 
