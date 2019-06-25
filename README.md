@@ -49,7 +49,7 @@ In .mongo, put
     MONGO_INITDB_ROOT_USERNAME=root
     MONGO_INITDB_ROOT_PASSWORD=(your randomized password)
 ```
-MONGO_INITDB_ROOT_PASSWORD should be set to a randomized password.
+`MONGO_INITDB_ROOT_PASSWORD` should be set to a randomized password.
 
 In .eve, put
 ```
@@ -58,7 +58,7 @@ In .eve, put
 ```
 You can choose username and password as you will.
 
-Your current directory in .envs should be
+Your current directory in `.envs` should be
 ```bash
 ├── .envs
 │   ├── .local
@@ -70,7 +70,7 @@ Your current directory in .envs should be
 ├── the rest of the app
 ```
 
-Now, build and launch docker-compose, from the root directory:
+Now, build and launch docker-compose from the root directory:
 
     $ docker-compose build
     $ docker-compose up
@@ -85,7 +85,7 @@ Open a new terminal tab. In it, type:
     $ docker ps
 
 to get the list of running containers, and copy the Container ID (the first code)
-of the container with the name "pdb_mongo".
+of the container with the name `pdb_mongo`.
 
 Now, type:
 
