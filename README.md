@@ -39,7 +39,7 @@ In it, create three files, .caddy, .eve and .mongo:
     $ touch .eve
     $ touch .mongo
 
-In .caddy, put `DOMAIN_NAME=localhost`.\
+In .caddy, put `DOMAIN_NAME=localhost`.
 
 In .mongo, put
 ```
