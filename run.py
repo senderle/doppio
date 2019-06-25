@@ -16,6 +16,10 @@ class MyValidator(Validator):
         if formType:
             return
 
+    def _validate_order(self, order, field, value):
+        if order:
+            return
+
 
 logging.basicConfig(format='%(asctime)s %(message)s', level=logging.DEBUG)
 log = logging.getLogger(__name__)

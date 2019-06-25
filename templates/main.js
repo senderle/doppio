@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function main () {    
+document.addEventListener('DOMContentLoaded', function main () {
 
     displayLoginOption();
     //////////////////////////////////////////////////////////////////////////
@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', function main () {
     }
 
     // Currently, leaves are always placed after higher-level
-    // containers unless a specific order is given. However, that 
+    // containers unless a specific order is given. However, that
     // doesn't work for some projects. We need to update this.
     function formKeySortCmp(formSpec) {
         return function(a, b) {
@@ -153,8 +153,8 @@ document.addEventListener('DOMContentLoaded', function main () {
 
     function renderSubRoot(root, id, attribs) {
         // In order to extract data back out of the form, and to provide
-        // classes for styling, we sometimes need to create a unique 
-        // root element with an id that will be the prefix of all the 
+        // classes for styling, we sometimes need to create a unique
+        // root element with an id that will be the prefix of all the
         // elements it contains.
         var subRoot = document.createElement('div');
         if (id) {
@@ -175,9 +175,9 @@ document.addEventListener('DOMContentLoaded', function main () {
         // renders a new `tree` sub-form each time it is called, with
         // a key that reflects its order of creation. (tree_1, tree_2, etc.)
 
-        // We will sometimes also want to refer to one of these 
+        // We will sometimes also want to refer to one of these
         // callbacks from outside the event to which it's bound, such as
-        // when we are loading saved data. To make that possible, we also 
+        // when we are loading saved data. To make that possible, we also
         // include here a mapping of key values to renderers.
 
         var factory = {};
@@ -186,11 +186,11 @@ document.addEventListener('DOMContentLoaded', function main () {
 
             var renderSubForm = function(n) {
                 // This closure maintains the renderFunc's state (`n`).
-                // Concretely, `n` will always be one greater than the 
+                // Concretely, `n` will always be one greater than the
                 // number of sub-forms rendered so far.
-               
+
                 // If the sub-form a leaf, we want to terminate recursion.
-                var recursiveRender; 
+                var recursiveRender;
                 if (isLeaf(subForm)) {
                     // `renderInput` is non-recursive.
                     recursiveRender = renderInput;
@@ -230,7 +230,7 @@ document.addEventListener('DOMContentLoaded', function main () {
                 factory.getRendererFromKey[idPrefix] = renderFunc;
                 return renderFunc;
             };
-            
+
             // Return a new sub-form renderer initialized at 1.
             return renderSubForm(1);
         };
@@ -239,7 +239,7 @@ document.addEventListener('DOMContentLoaded', function main () {
     })();
 
     // This button calls sub-form renderers created by the above
-    // factory. It's easiest to create the renderers and bind them 
+    // factory. It's easiest to create the renderers and bind them
     // at the same time that we create the button, but if we don't
     // preserve a reference to the renderer, we can't automatically
     // render multiple subforms later (as we would like to if we are,
@@ -267,14 +267,14 @@ document.addEventListener('DOMContentLoaded', function main () {
     }
 
     function renderList(root, schema, id, label) {
-        // The most complex case. We need to create a way to 
+        // The most complex case. We need to create a way to
         // automatically render new sub-forms in a list so that
         // users can add as many new items as they like.
-      
+
         // First, render a separate header for the whole list.
         // (Individual items will have headers of their own.)
         renderHeader(root, label, {'class': 'subheader'});
-        
+
         // Create a container to hold all the items along with
         // the button.
         subRoot = renderSubRoot(root,
@@ -282,7 +282,7 @@ document.addEventListener('DOMContentLoaded', function main () {
                                 {'class': 'subform-group'});
 
         // The button itself. The form for the first item in the
-        // list will be rendered by the button callback, which 
+        // list will be rendered by the button callback, which
         // itself *calls this function again recursively*. So this
         // is a form of deferred recursion, even though it doesn't
         // look that way.
@@ -298,7 +298,7 @@ document.addEventListener('DOMContentLoaded', function main () {
     // Render a dicitonary type. This also winds up being the root
     // rendering function, since the first level of a schema should generally
     // always be a dictionary. This calls itself recursively whenever
-    // it sees an element of `schema` that is not a leaf. 
+    // it sees an element of `schema` that is not a leaf.
     function renderDict(root, schema, id, label) {
         id = id ? id : '';
         if (schema.schema) {
@@ -308,7 +308,7 @@ document.addEventListener('DOMContentLoaded', function main () {
         if (label) {
             renderHeader(root, label, {'class': 'instance-header'});
         }
-        
+
         var subRoot = renderSubRoot(root, id);
         var keys = Object.keys(schema);
         keys.sort(formKeySortCmp(schema));
@@ -489,10 +489,10 @@ document.addEventListener('DOMContentLoaded', function main () {
             loadFileChooser.value= '';
         }
 
-        var loc = out.ephemeralRecord.shows[0].location;
-        if (JSON.parse(lookupGeocode(loc))._items[0] == undefined) {
-            post_loc_as_geocode(loc, token);
-        }
+        // var loc = out.ephemeralRecord.shows[0].location;
+        // if (JSON.parse(lookupGeocode(loc))._items[0] == undefined) {
+        //     post_loc_as_geocode(loc, token);
+        // }
     });
 
     // SAVE TO FILE
