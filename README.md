@@ -39,7 +39,7 @@ In it, create three files, .caddy, .eve and .mongo:
     $ touch .eve
     $ touch .mongo
 
-In .caddy, put 
+In .caddy, put
 ```
     DOMAIN_NAME=localhost
 ```
@@ -47,7 +47,7 @@ In .caddy, put
 In .mongo, put
 ```
     MONGO_INITDB_ROOT_USERNAME=root
-    MONGO_INITDB_ROOT_PASSWORD=(your randomized password)
+    MONGO_INITDB_ROOT_PASSWORD=your_randomized_password
 ```
 `MONGO_INITDB_ROOT_PASSWORD` should be set to a randomized password.
 
@@ -56,7 +56,6 @@ In .eve, put
     EVE_MONGO_USER=user
     EVE_MONGO_PASSWORD=user
 ```
-You can choose username and password as you will.
 
 Your current directory in `.envs` should be
 ```bash
@@ -70,12 +69,21 @@ Your current directory in `.envs` should be
 ├── the rest of the app
 ```
 
-Now, build and launch docker-compose from the root directory:
+Now, build docker-compose from the root directory:
 
     $ docker-compose build
+
+Before launching the server, we have to create a docker volume called
+`playbill-db` as our database with the command below:
+
+    $ docker volume create --name=playbill-db
+
+Now we can launch the server with:
+
     $ docker-compose up
 
-The server should be up and running. To access the server, use https://localhost
+The server should be up and running. To access the server, use https://localhost.
+The homepage is at https://localhost/home
 
 
 ACCESS TO DATABASE AND SINGUP
@@ -96,33 +104,32 @@ Where (Container ID) is the id you just copied.
 Now, launch the mongo shell inside the docker container as the root user with
 the command
 
-    $ mongo -u root
+    # mongo -u root
 
 You will be prompted for a password. Enter the randomized password you inputted
 for `MONGO_INITDB_ROOT_PASSWORD` inside `.mongo`.
 
 Inside the shell, open the relevant database by:
 
-    $ use Playbill
-
+    '> use Playbill
 
 And create a new user with the command :
 
-    $ db.createUser({user: "user", pwd: "user", roles: ["readWrite"]})
+    '> db.createUser({user: "user", pwd: "user", roles: ["readWrite"]})
 
 You can now close the shell.
 
+In order to add a user to login to the website, first find the container id of
+the `pdb_eve` container with the following call:
 
-Next, modify eve_tokenauth/domain.py line 9
-    `'public_methods': [],`
-by adding 'POST' as a public method, resulting in
-    `'public_methods': ['POST'],`
+    $ docker ps
 
+Copy the container id and run the following command:
 
-Now, on the running server, navigate to https://localhost/signup, and sign as
-many users as you want. After signing up the users, revert line 9 to its previous
-version by removing 'POST', and disabling sign up functionality.
+    $ docker exec -it (Container ID) flask createsuperuser
 
+Enter your username and password and the user will be created. You can create as
+many users as desired with this command.
 
 From now on, you should be able to sign in using the username and password(s)
-that you signed up with.
+that you created.

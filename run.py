@@ -4,6 +4,9 @@ from eve.io.mongo import Validator
 import logging
 import json
 import os
+import click
+import getpass
+import bcrypt
 from schema import main_schema
 from eve_tokenauth.eveapp import EveWithTokenAuth
 
@@ -28,6 +31,32 @@ settings = os.path.join(os.path.dirname(os.path.realpath(__file__)),
 app = Eve(__name__, static_folder='static', settings=settings,
           template_folder='templates', validator=MyValidator)
 
+
+@app.cli.command()
+def createsuperuser():
+    username = input("Username: ")
+
+    if (username == ""):
+        click.echo("Username cannot be empty")
+        return
+
+    password = getpass.getpass("Password: ")
+    confirm_password = getpass.getpass("Confirm Password: ")
+
+    if (password != confirm_password):
+        click.echo("Passwords don't match")
+        return
+
+    password = bcrypt.hashpw(password.encode('utf8'), bcrypt.gensalt())
+
+    accounts = app.data.driver.db['accounts']
+    account = accounts.find_one({'username': username})
+
+    if account is None:
+        accounts.insert_one({'username': username, "password" : password})
+        click.echo("Successfully created user")
+    else:
+        click.echo("User already exists")
 
 def log_every_get(resource, request, payload):
     # custom INFO-level message is sent to the log file
