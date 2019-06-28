@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script src="/functions.js"></script>
-    <script src="/signup.js"></script>
-<link rel="stylesheet" type="text/css" href="/style.css">
+    <script src="{{ url_for('static', filename='js/functions.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/signup.js') }}"></script>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
 <title>Sign Up</title>
   </head>
   <body class="main">
@@ -35,7 +35,7 @@
                 .catch(error => console.error('There has been a problem with your fetch operation: ', error.message));
                 localStorage.removeItem("token");
                 localStorage.removeItem("_etag");
-            }     
+            }
           </script>
         </ul>
     </div>

@@ -11,10 +11,10 @@
         integrity="sha512-Tojl3UMd387f6DdAJlo+fKfJZiP55fYT+6Y58yKbHydnueOdSFOxrgLPuUxm7VW1szEt3hZVwv3V2sSUCuT35w=="
         crossorigin=""></script>
         <script src='https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js'></script>
-        <script src="/map.js"></script>
-        <script src="/functions.js"></script>
+        <script src="{{ url_for('static', filename='js/map.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/functions.js') }}"></script>
         <!-- There cannot be a global div style in style.css or it will conflict with leaflet.js functionality -->
-        <link rel="stylesheet" type="text/css" href="/style.css">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
     <title>Map</title>
     </head>
     <body>

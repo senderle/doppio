@@ -12,14 +12,26 @@ from eve_tokenauth.eveapp import EveWithTokenAuth
 
 class MyValidator(Validator):
     def _validate_documentation(self, documentation, field, value):
+        """ Test the oddity of a value.
+        This explanation is here to avoid warnings
+        {'type': 'string'}
+        """
         if documentation:
             return
 
     def _validate_formType(self, formType, field, value):
+        """ Test the oddity of a value.
+        This explanation is here to avoid warnings
+        {'type': 'string'}
+        """
         if formType:
             return
 
     def _validate_order(self, order, field, value):
+        """ Test the oddity of a value.
+        This explanation is here to avoid warnings
+        {'type': 'string'}
+        """
         if order:
             return
 
@@ -28,12 +40,14 @@ logging.basicConfig(format='%(asctime)s %(message)s', level=logging.DEBUG)
 log = logging.getLogger(__name__)
 settings = os.path.join(os.path.dirname(os.path.realpath(__file__)),
                         'settings.py')
-app = Eve(__name__, static_folder='static', settings=settings,
+app = Eve(__name__, static_folder='static',
+          static_url_path=os.path.join(os.getcwd(),'static'), settings=settings,
           template_folder='templates', validator=MyValidator)
 
 
 @app.cli.command()
 def createsuperuser():
+
     username = input("Username: ")
 
     if (username == ""):
@@ -93,50 +107,50 @@ def index():
 def login():
     return render_template('login.html')
 
-@app.route('/login.js')
-def render_login_js():
-    return render_template('login.js')
+# @app.route('/login.js')
+# def render_login_js():
+#     return render_template('login.js')
 
 @app.route('/signup')
 def signup():
     return render_template('signup.html')
 
-@app.route('/signup.js')
-def render_signup_js():
-    return render_template('signup.js')
+# @app.route('/signup.js')
+# def render_signup_js():
+#     return render_template('signup.js')
 
-@app.route('/main.js')
-def render_main_js():
-    return render_template('main.js')
+# @app.route('/main.js')
+# def render_main_js():
+#     return render_template('main.js')
 
 @app.route('/map')
 def map():
     return render_template('map.html')
 
-@app.route('/map.js')
-def render_map_js():
-    return render_template('map.js')
+# @app.route('/map.js')
+# def render_map_js():
+#     return render_template('map.js')
 
 @app.route('/schema.json')
 def render_schema_json():
     schema_json = json.dumps(main_schema)
     return render_template_string(schema_json)
-
-@app.route('/style.css')
-def render_stylesheet():
-    return app.send_static_file('style.css')
+#
+# @app.route('/style.css')
+# def render_stylesheet():
+#     return app.send_static_file('style.css')
 
 @app.route('/search')
 def render_search_page():
     return render_template('search.html')
 
-@app.route('/search.js')
-def render_search_js():
-    return render_template('search.js')
-
-@app.route('/functions.js')
-def render_functions_js():
-    return render_template('functions.js')
+# @app.route('/search.js')
+# def render_search_js():
+#     return render_template('search.js')
+#
+# @app.route('/functions.js')
+# def render_functions_js():
+#     return render_template('functions.js')
 
 
 # enable logging to 'app.log' file

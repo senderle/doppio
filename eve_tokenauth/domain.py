@@ -6,7 +6,7 @@ accounts = {
     'datasource': {
         'projection': {'password': 0}  # hides password
     },
-    'public_methods': [],
+    'public_methods': ['POST'],
     'public_item_methods': [],
     'resource_methods': ['POST','GET'],
     'item_methods': ['GET', 'PUT', 'PATCH', 'DELETE'],

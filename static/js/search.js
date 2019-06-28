@@ -192,7 +192,7 @@ document.addEventListener('DOMContentLoaded', function main() {
                 return false;
             }
         }
-    
+
         for (var i=0; i<results._items.length; i++) {
             var stringified = JSON.stringify(results._items[i]);
             var p = document.createElement('p');

@@ -13,7 +13,7 @@ services:
     build:
         context: .
         dockerfile: ./compose/mongo/Dockerfile
-    env_file: 
+    env_file:
       - ./.envs/.local/.mongo
     volumes:
       - playbill-db:/data/db
@@ -21,7 +21,7 @@ services:
         #   mongoexpress:
         #     image: mongo-express
         #     restart: always
-        #     ports: 
+        #     ports:
         #       - "8081:8081"
         #     env_file:
         #       - ./.envs/.mongoexpress
@@ -53,6 +53,7 @@ services:
       - eve
     volumes:
       - caddy_local:/root/.caddy
+      - ./static:/srv/static
     env_file:
       - ./.envs/.local/.caddy
     ports:
