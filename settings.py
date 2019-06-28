@@ -22,6 +22,7 @@ MONGO_USERNAME = os.environ['EVE_MONGO_USER']
 MONGO_PASSWORD = os.environ['EVE_MONGO_PASSWORD']
 MONGO_AUTHDBNAME = 'admin'
 EVE_MAIN_COLLECTION = 'ephemeralRecord'
+STATIC_URL_PATH = os.path.join(os.getcwd(),'static')
 
 geoschema = {
     'placename': {

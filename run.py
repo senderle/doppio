@@ -1,40 +1,32 @@
 from eve.flaskapp import Eve
 from flask import (render_template, render_template_string)
 from eve.io.mongo import Validator
-from settings import EVE_MAIN_COLLECTION
+from settings import EVE_MAIN_COLLECTION, STATIC_URL_PATH
 from bson import json_util, ObjectId
 import logging
 import json
+import warnings
 import os
 import click
 import getpass
 import bcrypt
 import shutil
+import pymongo
 from schema import main_schema
 from eve_tokenauth.eveapp import EveWithTokenAuth
 
+warnings.filterwarnings("ignore", message="No validation schema")
+
 class MyValidator(Validator):
     def _validate_documentation(self, documentation, field, value):
-        """ Test the oddity of a value.
-        The rule's arguments are validated against this schema:
-        {'type': 'string'}
-        """
         if documentation:
             return
 
     def _validate_formType(self, formType, field, value):
-        """ Test the oddity of a value.
-        The rule's arguments are validated against this schema:
-        {'type': 'string'}
-        """
         if formType:
             return
 
     def _validate_order(self, order, field, value):
-        """ Test the oddity of a value.
-        The rule's arguments are validated against this schema:
-        {'type': 'string'}
-        """
         if order:
             return
 
@@ -44,7 +36,7 @@ log = logging.getLogger(__name__)
 settings = os.path.join(os.path.dirname(os.path.realpath(__file__)),
                         'settings.py')
 app = Eve(__name__, static_folder='static',
-          static_url_path=os.path.join(os.getcwd(),'static'), settings=settings,
+          static_url_path=STATIC_URL_PATH, settings=settings,
           template_folder='templates', validator=MyValidator)
 
 
@@ -95,7 +87,7 @@ def dumptojson():
     collection = app.data.driver.db[EVE_MAIN_COLLECTION]
     docs = collection.find()
 
-    #i = 0;
+    i = 0;
 
     for doc in docs:
 
@@ -108,9 +100,37 @@ def dumptojson():
         with open(filename, 'w') as outfile:
             json.dump(json.loads(json_util.dumps(doc)), outfile)
 
-        #i += 1
+        i += 1
+
+    click.echo("Dumped %d objects into dumps directory" % (i,))
 
 
+# Read data from json dump to the database
+@app.cli.command()
+@click.argument('dir')
+def readjson(dir):
+
+    if not os.path.exists(dir):
+        click.echo("Specified file could not be found")
+        return
+
+    collection = app.data.driver.db[EVE_MAIN_COLLECTION]
+
+    i = 0
+
+    for file in os.listdir(dir):
+        filename = dir + '/' + os.fsdecode(file)
+
+        if filename.endswith(".json"):
+            with open(filename, 'r') as f:
+                try:
+                    item_json = json_util.loads(f.read())
+                    collection.insert_one(item_json)
+                    i += 1
+                except pymongo.errors.DuplicateKeyError:
+                    continue
+
+    click.echo("Read %d objects from " % (i,) + dir + " to the database.")
 
 
 def log_every_get(resource, request, payload):
