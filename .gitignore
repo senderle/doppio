@@ -109,3 +109,6 @@ accts.py
 
 # Docker envs
 .envs/*
+
+# Database dumps
+dumps/*

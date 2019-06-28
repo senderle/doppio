@@ -1,19 +1,22 @@
 from eve.flaskapp import Eve
 from flask import (render_template, render_template_string)
 from eve.io.mongo import Validator
+from settings import EVE_MAIN_COLLECTION
+from bson import json_util, ObjectId
 import logging
 import json
 import os
 import click
 import getpass
 import bcrypt
+import shutil
 from schema import main_schema
 from eve_tokenauth.eveapp import EveWithTokenAuth
 
 class MyValidator(Validator):
     def _validate_documentation(self, documentation, field, value):
         """ Test the oddity of a value.
-        This explanation is here to avoid warnings
+        The rule's arguments are validated against this schema:
         {'type': 'string'}
         """
         if documentation:
@@ -21,7 +24,7 @@ class MyValidator(Validator):
 
     def _validate_formType(self, formType, field, value):
         """ Test the oddity of a value.
-        This explanation is here to avoid warnings
+        The rule's arguments are validated against this schema:
         {'type': 'string'}
         """
         if formType:
@@ -29,7 +32,7 @@ class MyValidator(Validator):
 
     def _validate_order(self, order, field, value):
         """ Test the oddity of a value.
-        This explanation is here to avoid warnings
+        The rule's arguments are validated against this schema:
         {'type': 'string'}
         """
         if order:
@@ -45,6 +48,9 @@ app = Eve(__name__, static_folder='static',
           template_folder='templates', validator=MyValidator)
 
 
+# Command Line Management Commands #
+
+# Create user to access website
 @app.cli.command()
 def createsuperuser():
 
@@ -71,6 +77,41 @@ def createsuperuser():
         click.echo("Successfully created user")
     else:
         click.echo("User already exists")
+
+
+# Dump data from mongo to json files
+@app.cli.command()
+def dumptojson():
+
+    dir = 'dumps'
+
+    if not os.path.exists(dir):
+        os.mkdir(dir)
+    else:
+        shutil.rmtree(dir)
+        os.makedirs(dir)
+
+
+    collection = app.data.driver.db[EVE_MAIN_COLLECTION]
+    docs = collection.find()
+
+    #i = 0;
+
+    for doc in docs:
+
+        # Enumerate the filenames
+        #filename = '%s/item%d.json' % (dir,i)
+
+        # Use object id as filename
+        filename = dir + '/' + str(doc['_id']) + '.json'
+
+        with open(filename, 'w') as outfile:
+            json.dump(json.loads(json_util.dumps(doc)), outfile)
+
+        #i += 1
+
+
+
 
 def log_every_get(resource, request, payload):
     # custom INFO-level message is sent to the log file

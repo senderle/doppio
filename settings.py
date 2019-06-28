@@ -21,6 +21,7 @@ TOKEN_SECRET = 'secret'
 MONGO_USERNAME = os.environ['EVE_MONGO_USER']
 MONGO_PASSWORD = os.environ['EVE_MONGO_PASSWORD']
 MONGO_AUTHDBNAME = 'admin'
+EVE_MAIN_COLLECTION = 'ephemeralRecord'
 
 geoschema = {
     'placename': {
@@ -62,6 +63,6 @@ geocodes = {
 }
 
 DOMAIN = {
-    'ephemeralRecord':  ephemeralRecord,
+    EVE_MAIN_COLLECTION:  ephemeralRecord,
     'geocodes': geocodes
 }
