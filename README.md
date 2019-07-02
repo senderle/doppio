@@ -86,9 +86,11 @@ The server should be up and running. To access the server, use https://localhost
 The homepage is at https://localhost/home
 
 
-ACCESS TO DATABASE AND SINGUP
+CREATE SUPERUSER
 -------
-Open a new terminal tab. In it, type:
+A superuser will allow you to log in to and use the features in the web app.
+
+Open a new terminal tab in the root directory of the project. In it, type:
 
     $ docker ps
 
@@ -133,3 +135,59 @@ many users as desired with this command.
 
 From now on, you should be able to sign in using the username and password(s)
 that you created.
+
+
+DUMP ENTRIES IN THE DATABASE TO A FOLDER
+------
+This functionality will dump each entry currently residing in the database as
+its own .json file into a folder called `dumps`.
+
+NOTE: If a folder called `dumps`
+exists in the root directory of the project, the contents will be deleted.
+
+Open a new terminal tab in the root directory of the project. In it, type:
+
+    $ docker ps
+
+to get the list of running containers, and copy the Container ID (the first code)
+of the container with the name `pdb_eve`.
+
+Now, type:
+
+    $ docker exec -it (Container ID) flask dumptojson
+
+The folder `dumps` will be created in the root directory and all of the
+entries will be present in it as their wn json files.
+
+The command outputs to the terminal the number of entries in the database which
+were dumped to the folder.
+
+
+LOAD JSON DATA FROM A FOLDER TO THE DATABASE
+------
+This functionality will put the json objects in the given folder as their own
+entries in the database.
+
+Open a new terminal tab in the root directory of the project. In it, type:
+
+    $ docker ps
+
+to get the list of running containers, and copy the Container ID (the first code)
+of the container with the name `pdb_eve`.
+
+NOTE: This command takes in a single argument, the name/dir of the folder
+containing the .json files. In the below command this is given as `your_dump_folder`,
+but be sure to change this with whatever folder you are reading from.
+
+NOTE II: The folder should only contain .json objects using the same schema as
+the database. 
+
+Now, type:
+
+    $ docker exec -it (Container ID) flask readjson
+
+The folder `dumps` will be created in the root directory and all of the
+entries will be present in it as their wn json files.
+
+The command outputs to the terminal the number of entries in the database which
+were dumped to the folder.
