@@ -1,4 +1,4 @@
-from eve_tokenauth.auth.token import TokenAuthentication
+from ...eve_tokenauth.auth.token import TokenAuthentication
 
 MONGO_HOST = 'localhost'
 MONGO_PORT = 27017

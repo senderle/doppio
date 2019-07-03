@@ -2,6 +2,7 @@ from eve.flaskapp import Eve
 from settings import STATIC_URL_PATH
 from app.validator import MyValidator
 import logging, os
+import app.eve_tokenauth
 
 
 def create_app():

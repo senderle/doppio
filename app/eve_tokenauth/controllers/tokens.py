@@ -1,6 +1,6 @@
 from flask import current_app as app, request
 from eve.methods.post import post_internal as eve_post_internal
-from eve_tokenauth.auth.token import create_jwt_token
+from ...eve_tokenauth.auth.token import create_jwt_token
 from datetime import datetime, timedelta
 
 
@@ -48,5 +48,3 @@ def generate_login_token_for_user(response):
     response['_items'] = items
 
     return response
-
-

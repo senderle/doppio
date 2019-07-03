@@ -1,4 +1,4 @@
-from eve_tokenauth.auth.token import TokenAuthentication
+from app.eve_tokenauth.auth.token import TokenAuthentication
 from schema import main_schema
 import os
 

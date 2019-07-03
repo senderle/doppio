@@ -87,7 +87,7 @@ The homepage is at https://localhost/home
 
 
 CREATE SUPERUSER
--------
+----
 A superuser will allow you to log in to and use the features in the web app.
 
 Open a new terminal tab in the root directory of the project. In it, type:
@@ -138,7 +138,7 @@ that you created.
 
 
 DUMP ENTRIES IN THE DATABASE TO A FOLDER
-------
+---
 This functionality will dump each entry currently residing in the database as
 its own .json file into a folder called `dumps`.
 
@@ -164,7 +164,7 @@ were dumped to the folder.
 
 
 LOAD JSON DATA FROM A FOLDER TO THE DATABASE
-------
+---
 This functionality will put the json objects in the given folder as their own
 entries in the database.
 
@@ -180,7 +180,7 @@ containing the .json files. In the below command this is given as `your_dump_fol
 but be sure to change this with whatever folder you are reading from.
 
 NOTE II: The folder should only contain .json objects using the same schema as
-the database. 
+the database.
 
 Now, type:
 

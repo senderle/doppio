@@ -7,8 +7,8 @@ import bson
 from eve.flaskapp import Eve
 from pymongo import MongoClient
 from eve_tokenauth.eveapp import EveWithTokenAuth
-from eve_tokenauth.tests.testsettings import *
-from eve_tokenauth.tests.testsettings import MONGO_DBNAME
+from .testsettings import *
+from .testsettings import MONGO_DBNAME
 
 
 class TestBaseMinimal(TestCase):

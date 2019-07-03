@@ -1,5 +1,5 @@
-from eve_tokenauth.auth.basic import BasicAuthentication
-from eve_tokenauth.auth.token import TokenAuthentication
+from .auth.basic import BasicAuthentication
+from .auth.token import TokenAuthentication
 
 accounts = {
     'authentication': TokenAuthentication(),

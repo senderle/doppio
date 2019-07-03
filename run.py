@@ -1,8 +1,8 @@
 from flask import (render_template, render_template_string)
 from schema import main_schema
-from eve_tokenauth.eveapp import EveWithTokenAuth
+from app.eve_tokenauth.eveapp import EveWithTokenAuth
 from app import create_app
-from eve.io.mongo import Validator
+#from eve.io.mongo import Validator
 from app.cli import init_cli
 
 import warnings
