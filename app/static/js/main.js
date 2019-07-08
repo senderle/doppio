@@ -479,12 +479,12 @@ document.addEventListener('DOMContentLoaded', function main () {
         var patchid = document.getElementById('playbill-id').value;
 
         var loadFileChooser = document.getElementById('local-load');
-        if(patchid === '') {
+        if (patchid === '') {
             post_new_document(userid, token, 'ephemeralRecord', jsonOut.toString());
             loadFileChooser.value='';
 
         }
-        else{
+        else {
             patch_existing_document(userid, hash, 'ephemeralRecord', patchid, jsonOut.toString());
             loadFileChooser.value= '';
         }

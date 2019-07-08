@@ -1,4 +1,4 @@
-import click, json, os, shutil, pymongo
+import click, json, os, shutil, pymongo, getpass, bcrypt
 from settings import EVE_MAIN_COLLECTION, STATIC_URL_PATH
 from bson import json_util, ObjectId
 
