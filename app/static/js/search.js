@@ -1032,19 +1032,22 @@ document.addEventListener('DOMContentLoaded', function main() {
         for (var i = 0; i < elements.length; i++) {
             value = elements[i].type === 'checkbox' ? elements[i].checked :
                 elements[i].value;
-            if (elements[i] != null && elements[i].value != '') {
+            if (elements[i] != null && value != '') {
                 path = idToApiPath(elements[i].id);
                 path = '"' + path + '":"' + elements[i].value + '"';
                 // paths.push('"' + path + '":"' + elements[i].value + '"');
-                path = 'https://localhost/ephemeralRecord?where={' + path + '}';
                 // console.log(path);
                 paths.push(path);
             }
         }
 
-        var results = [];
-        var i = 0;
-        printAll(paths);
+        var path = 'https://localhost/ephemeralRecord?where={' + paths.join(',') + '}';
+        var hxr = new XMLHttpRequest();
+        hxr.open('GET', path, false);
+        hxr.send();
+        var record = JSON.parse(hxr.responseText);
+        console.log(record);
+        
 
     function sleep(ms) {
         return new Promise(resolve => setTimeout(resolve, ms));
