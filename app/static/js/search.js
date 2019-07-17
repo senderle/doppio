@@ -470,9 +470,32 @@
 // });
 
 
+// MY TEsts
+
+// el = document.getElementById("search-button");
+// if(el){
+//   el.addEventListener('click', function () {
+//
+//     var req = new XMLHttpRequest();
+//     req.open("GET", "/schema.json", false);
+//     req.send();
+//     var record = JSON.parse(req.responseText);
+//
+//     var searchSchema = record.medievalChronicles.schema;
+//
+//
+//
+//     var searchTerm = document.getElementById('search-term').value;
+//     console.log(searchTerm);
+//
+//   });
+// }
+
+
+
 // COPIED FROM MAIN.JS
 
-document.addEventListener('DOMContentLoaded', function main () {
+document.addEventListener('DOMContentLoaded', function main() {
 
     displayLoginOption();
     //////////////////////////////////////////////////////////////////////////
@@ -556,7 +579,9 @@ document.addEventListener('DOMContentLoaded', function main () {
         var labelText = document.createTextNode(label);
         labelEl.appendChild(labelText);
         labelEl.setAttribute('for', id);
-        labelEl = wrapWith('div', labelEl, {'class': 'form-leaf-label'});
+        labelEl = wrapWith('div', labelEl, {
+            'class': 'form-leaf-label'
+        });
 
         // Render the input field itself. Most fields can be
         // rendered based on the `schema.formType` field, but
@@ -726,7 +751,7 @@ document.addEventListener('DOMContentLoaded', function main () {
         var button = document.createElement('a');
         var itemName = singular(titleCase(idTail(idPrefix)));
         var text = document.createTextNode(
-                '+ New ' + itemName
+            '+ New ' + itemName
         );
 
         button.setAttribute('href', '#');
@@ -747,13 +772,16 @@ document.addEventListener('DOMContentLoaded', function main () {
 
         // First, render a separate header for the whole list.
         // (Individual items will have headers of their own.)
-        renderHeader(root, label, {'class': 'subheader'});
+        renderHeader(root, label, {
+            'class': 'subheader'
+        });
 
         // Create a container to hold all the items along with
         // the button.
         subRoot = renderSubRoot(root,
-                                id,
-                                {'class': 'subform-group'});
+            id, {
+                'class': 'subform-group'
+            });
 
         // The button itself. The form for the first item in the
         // list will be rendered by the button callback, which
@@ -764,7 +792,9 @@ document.addEventListener('DOMContentLoaded', function main () {
             subRoot, schema, id
         );
         button = wrapWith(
-          'div', button, {'class': 'subform-group ui-element'}
+            'div', button, {
+                'class': 'subform-group ui-element'
+            }
         );
         root.appendChild(button);
     }
@@ -780,7 +810,9 @@ document.addEventListener('DOMContentLoaded', function main () {
         }
 
         if (label) {
-            renderHeader(root, label, {'class': 'instance-header'});
+            renderHeader(root, label, {
+                'class': 'instance-header'
+            });
         }
 
         var subRoot = renderSubRoot(root, id);
@@ -909,15 +941,14 @@ document.addEventListener('DOMContentLoaded', function main () {
     //////////////////// Reset form button //////////////////////////
     var reset = document.getElementById("clear-search");
     var statusAlert = document.getElementById('status-message-window');
-    reset.addEventListener('click', function(){
-      if (confirm("Are you sure you want to reset the form?")) {
-        resetForm();
-        statusAlert.innerHTML = '';
-        loadFileChooser.value='';
-      }
-      else {
+    reset.addEventListener('click', function() {
+        if (confirm("Are you sure you want to reset the form?")) {
+            resetForm();
+            statusAlert.innerHTML = '';
+            loadFileChooser.value = '';
+        } else {
 
-      }
+        }
     });
 
     //////////////////////////////////////////////////////////////////////////
@@ -926,9 +957,9 @@ document.addEventListener('DOMContentLoaded', function main () {
     //
 
     // callback function for walkObj
-    function walkObjHelper () {
-        return function (val, keyPath) {
-            keyPath = keyPath.slice();    // Mutating data, so make a copy.
+    function walkObjHelper() {
+        return function(val, keyPath) {
+            keyPath = keyPath.slice(); // Mutating data, so make a copy.
             for (var i = 0; i < keyPath.length; i++) {
                 if ((typeof keyPath[i]) === 'number') {
                     keyPath[i] += 1;
@@ -956,33 +987,111 @@ document.addEventListener('DOMContentLoaded', function main () {
     }
 
     // LOAD BY ID
-    var loadRecord = document.getElementById('playbill-load');
-    loadRecord.addEventListener('click', function() {
-        statusAlert.innerHTML = '';
-        var pid = (window.location.hash.substr(1) !== '') ? window.location.hash.substr(1) : document.getElementById('playbill-id').value;
+    // var loadRecord = document.getElementById('playbill-load');
+    // loadRecord.addEventListener('click', function() {
+    //     statusAlert.innerHTML = '';
+    //     var pid = (window.location.hash.substr(1) !== '') ? window.location.hash.substr(1) : document.getElementById('playbill-id').value;
+    //
+    //     // Prepare the form for re-rendering.
+    //     resetForm();
+    //
+    //     var doc = get_document_by_id(pid);
+    //     var obj = JSON.parse(doc);
+    //
+    //     walkObj(obj, walkObjHelper());
+    //
+    //     var elements = document.querySelectorAll('.main-form-input');
+    //     for (var i = 0; i < elements.length; i++) {
+    //         var key = elements[i].id;
+    //         var value = getKey(obj, key);
+    //           if (elements[i].type === 'checkbox') {
+    //               elements[i].checked = value;
+    //           } else if (value !== undefined) {
+    //               elements[i].value = value;
+    //           }
+    //
+    //     }
+    //
+    //     focusTop();
+    // });
 
-        // Prepare the form for re-rendering.
-        resetForm();
+    // Helper to parse id to search
+    function idToApiPath(s) {
+        var split = idToList(s);
+        split = split.filter(el => isNaN(parseInt(el)));
+        var path = split.join(".");
+        return path;
+    }
 
-        var doc = get_document_by_id(pid);
-        var obj = JSON.parse(doc);
-
-        walkObj(obj, walkObjHelper());
-
+    // SEARCH INPUT
+    var saveButton = document.getElementById('search-button');
+    saveButton.addEventListener('click', function() {
         var elements = document.querySelectorAll('.main-form-input');
+        var paths = [];
+        var value;
         for (var i = 0; i < elements.length; i++) {
-            var key = elements[i].id;
-            var value = getKey(obj, key);
-              if (elements[i].type === 'checkbox') {
-                  elements[i].checked = value;
-              } else if (value !== undefined) {
-                  elements[i].value = value;
-              }
-
+            value = elements[i].type === 'checkbox' ? elements[i].checked :
+                elements[i].value;
+            if (elements[i] != null && elements[i].value != '') {
+                path = idToApiPath(elements[i].id);
+                path = '"' + path + '":"' + elements[i].value + '"';
+                // paths.push('"' + path + '":"' + elements[i].value + '"');
+                path = 'https://localhost/ephemeralRecord?where={' + path + '}';
+                // console.log(path);
+                paths.push(path);
+            }
         }
 
-        focusTop();
+        var results = [];
+        var i = 0;
+        printAll(paths);
+
+    function sleep(ms) {
+        return new Promise(resolve => setTimeout(resolve, ms));
+    }
+        
+    async function printAll(paths) {
+        var path;
+        for (var i = 0; i < paths.length; i++) {
+            path = paths[i];
+            console.log(i + ' ');
+            var hxr = new XMLHttpRequest();
+            hxr.open('GET', path, false);
+            hxr.send();
+            var record = JSON.parse(hxr.responseText);
+            results.push(record);
+            await sleep(1000);
+        }
+        console.log(results);
+       
+    }
+        // console.log(results[3]);
+        // var hxr = new XMLHttpRequest();
+        // path = 'https://localhost/ephemeralRecord?where={' + paths.join(',') + '}';
+        // console.log(path);
+        // hxr.open('GET', path, false);
+        // hxr.send();
+        // var record = JSON.parse(hxr.responseText);
+        // console.log(record);
+        
+
+        // var filename = jsonToFilename(out);
+        //
+        // var dl = document.createElement('a');
+        // dl.setAttribute('href', 'data:text/plain;charset=utf-8,' +
+        //         encodeURIComponent(JSON.stringify(out, null, 2)));
+        // dl.setAttribute('download', filename);
+        // dl.style.display = 'none';
+        //
+        // document.body.appendChild(dl);
+        // dl.click();
+        // document.body.removeChild(dl);
+        //
+        // event.preventDefault();
+        // return false;
+
     });
+
 
     resetForm();
 

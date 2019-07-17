@@ -1,83 +1,96 @@
 <html>
-    <head>
-        <script src='https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js'></script>
-        <script src="{{ url_for('static', filename='js/functions.js') }}"></script>
-        <script src="{{ url_for('static', filename='js/search.js') }}"></script>
-		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+
+  <head>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js'></script>
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
     <title>Search</title>
-    </head>
-    <body class="main">
-		<div id="wrapper">
-      <div id = "navbar">
-          <ul>
-              <div>
-              <li><a class="nav-link" href="/home">Home</a></li>
-              <li><a class="nav-link current" href="/search">Search</a></li>
-              <div id="login">
+  </head>
+
+  <body class="main">
+    <div id="wrapper">
+      <div id="navbar">
+        <ul>
+          <div>
+            <li><a class="nav-link" href="/home">Home</a></li>
+            <li><a class="nav-link current" href="/search">Search</a></li>
+            <div id="login">
               <li><a class="nav-link login" href="/login">Login</a></li>
-              </div>
-              <div id="logout">
+            </div>
+            <div id="logout">
               <li><a class="nav-link" href='/home' onclick='logout();'>Log Out</a></li>
-              </div>
-              </div>
-              <div id="signup" style="position: absolute;right:50px;">
-              <li><a style="font-size: 12px" class="nav-link" href="/signup">Add New User</a></li>
-              </div>
-              <script type="text/javascript">
-                  function logout() {
-                      let url = '/tokens';
-                      let headers = new Headers();
-                      headers.append('Content-Type', 'application/json');
-                      headers.append('X-Custom-Header', 'ProcessThisImmediately');
-                      headers.append('If-Match', localStorage._etag);
-                      fetch(url, {method:'DELETE',
-                      headers: headers,
-                      })
-                      .catch(error => console.error('There has been a problem with your fetch operation: ', error.message));
-                      localStorage.removeItem("token");
-                      localStorage.removeItem("_etag");
-                  }
-              </script>
-          </ul>
+            </div>
+          </div>
+          <div id="signup" style="position: absolute;right:50px;">
+            <li><a style="font-size: 12px" class="nav-link" href="/signup">Add New User</a></li>
+          </div>
+          <script type="text/javascript">
+          function logout() {
+            let url = '/tokens';
+            let headers = new Headers();
+            headers.append('Content-Type', 'application/json');
+            headers.append('X-Custom-Header', 'ProcessThisImmediately');
+            headers.append('If-Match', localStorage._etag);
+            fetch(url, {
+                method: 'DELETE',
+                headers: headers,
+              })
+              .catch(error => console.error('There has been a problem with your fetch operation: ', error
+                .message));
+            localStorage.removeItem("token");
+            localStorage.removeItem("_etag");
+          }
+
+          </script>
+        </ul>
       </div>
-            <div id="side-window-container" class="side-window">
-                <div id="help-window" class="side-window">
-                    <h4>Search</h4>
-                </div>
-                <div id="search-window" class="side-window">
-                    <div class="ui-element"><input type="search" id="search-term" /></div>
-                    <div id="date-search" class="side-window">
-                      <h4>Search within a date range<h4>
-                      <div class="ui-element"><input type="date" id="date-start" title="Start date" /></div>
-                      <div class="ui-element"><input type="date" id="date-end" title="End date"/></div>
-                    </div>
-                    <div class="ui-element"><input type="button" id="search-button" value="Search" /></div>
-                </div>
-                <div id="clear-window" class="side-window"><h4>Clear Search</h4>
-                    <div class="ui-element"><input type="button" id="clear-search" value="Reset" /></div>
-                </div>
-            </div>
-            <div id="nav-pages-window-top" class="side-window nav-pages-window">
-                <div class="nav-pages-wrapper">
-                    <input type="button" title="Previous page" id="prev-page-top" class="prev-page" value="&laquo; Previous" />
-                    <input type="button" title="Next page" id="next-page-top" class="next-page" value="Next &raquo;" />
-                </div>
-                <div id="load-file-window" class="side-window"><h4>Load a record by ID</h4>
-                    <div class="ui-element"><input type="search" id="playbill-id" /></div>
-                    <div class="ui-element"><input type="button" id="playbill-load" value="Load" /></div>
-                </div>
-            </div>
-            <div id="search-results"></div>
-            <div id="playbill-form"> </div>
-            <div id="nav-pages-window-bottom" class="side-window nav-pages-window">
-                <div class="nav-pages-wrapper">
-                    <input type="button" title="Previous page" id="prev-page-bottom" class="prev-page" value="&laquo; Previous" />
-                    <input type="button" title="Next page" id="next-page-bottom" class="next-page" value="Next &raquo;" />
-                </div>
 
-            </div>
-          <!--  <div id="search-filter"><h4>Narrow Search by Fields</h4></div>-->
 
-		</div>
-    </body>
+      <div id="side-window-container" class="side-window">
+        <div id="help-window" class="side-window">
+          <h4>Search</h4>
+        </div>
+        <div id="search-window" class="side-window">
+          <div class="ui-element"><input type="search" id="search-term" /></div>
+          <div id="date-search" class="side-window">
+            <h4>Search within a date range<h4>
+                            <div class="ui-element"><input type="date" id="date-start" title="Start date" /></div>
+                            <div class="ui-element"><input type="date" id="date-end" title="End date" /></div>
+                </div>
+                <div class="ui-element"><input type="button" id="search-button" value="Search" /></div>
+            </div>
+            <div id="clear-window" class="side-window">
+                <h4>Clear Search</h4>
+            <div class="ui-element"><input type="button" id="clear-search" value="Reset" /></div>
+          </div>
+        </div>
+
+
+
+        <div id="nav-pages-window-top" class="side-window nav-pages-window">
+          <!-- <div class="nav-pages-wrapper">
+                <input type="button" title="Previous page" id="prev-page-top" class="prev-page" value="&laquo; Previous" />
+                <input type="button" title="Next page" id="next-page-top" class="next-page" value="Next &raquo;" />
+            </div> -->
+          <!-- <div id="load-file-window" class="side-window"><h4>Load a record by ID</h4>
+                <div class="ui-element"><input type="search" id="playbill-id" /></div>
+                <div class="ui-element"><input type="button" id="playbill-load" value="Load" /></div>
+            </div> -->
+        </div>
+        <div id="search-results"></div>
+        <div id="playbill-form"> </div>
+        <div id="nav-pages-window-bottom" class="side-window nav-pages-window">
+          <div class="nav-pages-wrapper">
+            <input type="button" title="Previous page" id="prev-page-bottom" class="prev-page" value="&laquo; Previous" />
+            <input type="button" title="Next page" id="next-page-bottom" class="next-page" value="Next &raquo;" />
+          </div>
+
+        </div>
+        <!--  <div id="search-filter"><h4>Narrow Search by Fields</h4></div>-->
+
+      </div>
+  </body>
+  <script src="{{ url_for('static', filename='js/functions.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/search.js') }}"></script>
+
 </html>
