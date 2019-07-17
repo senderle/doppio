@@ -486,15 +486,17 @@ medieval_chronicles = {
                             },
                         },
                         'problemOfIncludingFolkStoriesAndMyths': {
-                            'type': 'boolean',
-                            'formType': 'checkbox',
+                            'type': 'string',
+                            'allowed': ['yes', 'no', 'unknown'],
+                            'formType': 'select',
                             'required': True,
                             'documentation': 'Does the author talk about the problem of including folk stories and myths?',
                             'order': 6
                         },
                         'inclusionOfFolkStoriesJustified': {
-                            'type': 'boolean',
-                            'formType': 'checkbox',
+                            'type': 'string',
+                            'allowed': ['yes', 'no', 'unknown'],
+                            'formType': 'select',
                             'required': True,
                             'documentation': 'Is the inclusion of folk stories justified by the author?',
                             'order': 7
@@ -505,47 +507,54 @@ medieval_chronicles = {
                             'documentation': 'If the sources are mentioned, what are they?',
                             'schema': {
                                 'fromTheStoriesOfElders': {
-                                    'type': 'boolean',
-                                    'formType': 'checkbox',
+                                    'type': 'string',
+                                    'allowed': ['yes', 'no', 'unknown'],
+                                    'formType': 'select',
                                     'required': True,
                                     'order': 1
                                 },
                                 'fromMinstrelsOrTroubadours': {
-                                    'type': 'boolean',
-                                    'formType': 'checkbox',
+                                    'type': 'string',
+                                    'allowed': ['yes', 'no', 'unknown'],
+                                    'formType': 'select',
                                     'required': True,
                                     'order': 2
                                 },
                                 'fromOtherChronicles': {
-                                    'type': 'boolean',
-                                    'formType': 'checkbox',
+                                    'type': 'string',
+                                    'allowed': ['yes', 'no', 'unknown'],
+                                    'formType': 'select',
                                     'required': True,
                                     'order': 3
                                 },
                                 'fromWrittenSources': {
-                                    'type': 'boolean',
-                                    'formType': 'checkbox',
+                                    'type': 'string',
+                                    'allowed': ['yes', 'no', 'unknown'],
+                                    'formType': 'select',
                                     'required': True,
                                     'order': 4
                                 },
                                 'fromSpecificPeople': {
-                                    'type': 'boolean',
-                                    'formType': 'checkbox',
+                                    'type': 'string',
+                                    'allowed': ['yes', 'no', 'unknown'],
+                                    'formType': 'select',
                                     'required': True,
                                     'order': 5
                                 }
                             },
                         },
                         'originStories': {
-                            'type': 'boolean',
-                            'formType': 'checkbox',
+                            'type': 'string',
+                            'formType': 'select',
+                            'allowed': ['yes', 'no', 'unknown'],
                             'required': True,
                             'documentation': 'Does the legendary section feature origin stories?',
                             'order': 9
                         },
                         'originEtymologies': {
-                            'type': 'boolean',
-                            'formType': 'checkbox',
+                            'type': 'string',
+                            'allowed': ['yes', 'no', 'unknown'],
+                            'formType': 'select',
                             'required': True,
                             'documentation': 'If the legendary section features origin stories, do the origin stories feature etymologies?',
                             'order': 10
@@ -553,8 +562,9 @@ medieval_chronicles = {
                     },
                 },
                 'mythsOfOrigin': {
-                    'type': 'boolean',
-                    'formType': 'checkbox',
+                    'type': 'string',
+                    'allowed': ['yes', 'no', 'unknown'],
+                    'formType': 'select',
                     'required': True,
                     'documentation': 'Are any of these narratives myths of origin?',
                     'order': 4
