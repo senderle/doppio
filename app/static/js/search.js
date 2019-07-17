@@ -592,6 +592,7 @@ document.addEventListener('DOMContentLoaded', function main() {
             inputEl = document.createElement('textarea');
             inputEl.setAttribute('cols', '40');
             inputEl.setAttribute('rows', '4');
+
         } else if (schema.formType === "select") {
             // <select> requires us to set options.
             inputEl = document.createElement('select');
@@ -601,7 +602,18 @@ document.addEventListener('DOMContentLoaded', function main() {
                 option.text = schema.allowed[i];
                 inputEl.add(option);
             }
-        } else {
+
+          } else if (schema.formType === "checkbox") {
+              // <input> checkbox elements of entry form are displayed as dropdown selections.
+              inputEl = document.createElement('select');
+              inputEl.setAttribute('style', 'background-color: #FFF; height: 22px;');
+              let allowed = ['None', 'Yes', 'No'];
+              for (var i = 0; i < allowed.length; i++) {
+                  var option = document.createElement('option');
+                  option.text = allowed[i];
+                  inputEl.add(option);
+        }
+      } else {
             // Everything else can be rendered with the same approach.
             inputEl = document.createElement('input');
             inputEl.setAttribute('size', '40');
@@ -1047,12 +1059,12 @@ document.addEventListener('DOMContentLoaded', function main() {
         hxr.send();
         var record = JSON.parse(hxr.responseText);
         console.log(record);
-        
+
 
     function sleep(ms) {
         return new Promise(resolve => setTimeout(resolve, ms));
     }
-        
+
     async function printAll(paths) {
         var path;
         for (var i = 0; i < paths.length; i++) {
@@ -1066,7 +1078,7 @@ document.addEventListener('DOMContentLoaded', function main() {
             await sleep(1000);
         }
         console.log(results);
-       
+
     }
         // console.log(results[3]);
         // var hxr = new XMLHttpRequest();
@@ -1076,7 +1088,7 @@ document.addEventListener('DOMContentLoaded', function main() {
         // hxr.send();
         // var record = JSON.parse(hxr.responseText);
         // console.log(record);
-        
+
 
         // var filename = jsonToFilename(out);
         //
