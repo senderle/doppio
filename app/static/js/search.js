@@ -1032,7 +1032,7 @@ document.addEventListener('DOMContentLoaded', function main() {
         for (var i = 0; i < elements.length; i++) {
             value = elements[i].type === 'checkbox' ? elements[i].checked :
                 elements[i].value;
-            if (elements[i] != null && value != '') {
+            if (elements[i] != null && value != '' && value != 'None') {
                 path = idToApiPath(elements[i].id);
                 path = '"' + path + '":"' + elements[i].value + '"';
                 // paths.push('"' + path + '":"' + elements[i].value + '"');
@@ -1046,28 +1046,26 @@ document.addEventListener('DOMContentLoaded', function main() {
         hxr.open('GET', path, false);
         hxr.send();
         var record = JSON.parse(hxr.responseText);
-        console.log(record);
-        
+        records = record['_items'];
+        // record = record[0];
+        // record = JSON.stringify(record);
+        // console.log(record);
 
-    function sleep(ms) {
-        return new Promise(resolve => setTimeout(resolve, ms));
-    }
+        // var resContainer = document.getElementById('search-results');
+
+        records.forEach(rec => {
+            record = JSON.stringify(record);
+            // console.log(rec);
+            let p = document.createElement('pre');
+            p.style = 'word-break: break-all;';
+            let text = document.createTextNode(JSON.stringify(rec, null, 2)); 
+            let seperator = document.createTextNode("\n\n-------------------------\n*************************\n-------------------------\n");
+            p.appendChild(text);
+            p.appendChild(seperator);
+            document.getElementById("search-results").appendChild(p);
+        });
         
-    async function printAll(paths) {
-        var path;
-        for (var i = 0; i < paths.length; i++) {
-            path = paths[i];
-            console.log(i + ' ');
-            var hxr = new XMLHttpRequest();
-            hxr.open('GET', path, false);
-            hxr.send();
-            var record = JSON.parse(hxr.responseText);
-            results.push(record);
-            await sleep(1000);
-        }
-        console.log(results);
-       
-    }
+    
         // console.log(results[3]);
         // var hxr = new XMLHttpRequest();
         // path = 'https://localhost/ephemeralRecord?where={' + paths.join(',') + '}';
@@ -1095,6 +1093,25 @@ document.addEventListener('DOMContentLoaded', function main() {
 
     });
 
+    function sleep(ms) {
+        return new Promise(resolve => setTimeout(resolve, ms));
+    }
+        
+    async function printAll(paths) {
+        var path;
+        for (var i = 0; i < paths.length; i++) {
+            path = paths[i];
+            console.log(i + ' ');
+            var hxr = new XMLHttpRequest();
+            hxr.open('GET', path, false);
+            hxr.send();
+            var record = JSON.parse(hxr.responseText);
+            results.push(record);
+            await sleep(1000);
+        }
+        console.log(results);
+       
+    }
 
     resetForm();
 
