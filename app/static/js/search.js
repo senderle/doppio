@@ -1038,6 +1038,8 @@ document.addEventListener('DOMContentLoaded', function main() {
     // SEARCH INPUT
     var saveButton = document.getElementById('search-button');
     saveButton.addEventListener('click', function() {
+        window.scrollTo(0,0);
+        document.getElementById('search-results').innerHTML = ""; // Clear past search results
         var elements = document.querySelectorAll('.main-form-input');
         var paths = [];
         var value;
@@ -1064,6 +1066,12 @@ document.addEventListener('DOMContentLoaded', function main() {
         // console.log(record);
 
         // var resContainer = document.getElementById('search-results');
+
+        let header = document.createElement('h3');
+        let txt = records.length + " results found on your query:\n\n"
+        let title = document.createTextNode(txt);
+        header.appendChild(title);
+        document.getElementById("search-results").appendChild(header);
 
         records.forEach(rec => {
             record = JSON.stringify(record);
