@@ -13,8 +13,8 @@
         <ul>
           <div>
             <li><a class="nav-link" href="/home">Home</a></li>
-            <li><a class="nav-link current" href="/search">Search</a></li>
-            <li><a class="nav-link" href="/projection">Projection</a></li>
+            <li><a class="nav-link" href="/search">Search</a></li>
+            <li><a class="nav-link current" href="/projection">Projection</a></li>
             <div id="login">
               <li><a class="nav-link login" href="/login">Login</a></li>
             </div>
@@ -46,6 +46,8 @@
         </ul>
       </div>
 
+      <h2>Choose which fields of the schema you want to display</h2>
+
 
       <div id="side-window-container" class="side-window">
         
@@ -54,7 +56,7 @@
         </div>
         <div id="search-window" class="side-window">
           <div class="ui-element"><input type="search" id="search-term" /></div>
-          <div class="ui-element"><input type="button" id="search-button" value="Search" /></div>
+          <div class="ui-element"><input type="button" id="project-button" value="Project" /></div>
           
         </div>
         
@@ -90,6 +92,6 @@
       </div>
   </body>
   <script src="{{ url_for('static', filename='js/functions.js') }}"></script>
-  <script src="{{ url_for('static', filename='js/search.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/projection.js') }}"></script>
 
 </html>

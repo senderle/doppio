@@ -597,6 +597,7 @@ document.addEventListener('DOMContentLoaded', function main() {
             // <select> requires us to set options.
             inputEl = document.createElement('select');
             inputEl.setAttribute('style', 'background-color: #FFF; height: 22px;');
+            schema.allowed.unshift('');
             for (var i = 0; i < schema.allowed.length; i++) {
                 var option = document.createElement('option');
                 option.text = schema.allowed[i];
@@ -607,7 +608,7 @@ document.addEventListener('DOMContentLoaded', function main() {
               // <input> checkbox elements of entry form are displayed as dropdown selections.
               inputEl = document.createElement('select');
               inputEl.setAttribute('style', 'background-color: #FFF; height: 22px;');
-              let allowed = ['None', 'Yes', 'No'];
+              let allowed = ['', 'Yes', 'No'];
               for (var i = 0; i < allowed.length; i++) {
                   var option = document.createElement('option');
                   option.text = allowed[i];
@@ -1036,8 +1037,8 @@ document.addEventListener('DOMContentLoaded', function main() {
     }
 
     // SEARCH INPUT
-    var saveButton = document.getElementById('search-button');
-    saveButton.addEventListener('click', function() {
+    var searchButton = document.getElementById('search-button');
+    searchButton.addEventListener('click', function() {
         window.scrollTo(0,0);
         document.getElementById('search-results').innerHTML = ""; // Clear past search results
         var elements = document.querySelectorAll('.main-form-input');
@@ -1046,72 +1047,44 @@ document.addEventListener('DOMContentLoaded', function main() {
         for (var i = 0; i < elements.length; i++) {
             value = elements[i].type === 'checkbox' ? elements[i].checked :
                 elements[i].value;
-            if (elements[i] != null && value != '' && value != 'None') {
+            if (elements[i] != null && value != '') {
+                
                 path = idToApiPath(elements[i].id);
-                path = '"' + path + '":"' + elements[i].value + '"';
-                // paths.push('"' + path + '":"' + elements[i].value + '"');
-                // console.log(path);
+
+                if (value === 'Yes') {
+                    path = '"' + path + '":true';
+                } else if (value === 'No') {
+                    path = '"' + path + '":false';
+                } else {
+                    path = '"' + path + '":"' + value + '"';
+                }
                 paths.push(path);
             }
         }
 
+        // Http request
         var path = 'https://localhost/ephemeralRecord?where={' + paths.join(',') + '}';
         var hxr = new XMLHttpRequest();
         hxr.open('GET', path, false);
         hxr.send();
-        var record = JSON.parse(hxr.responseText);
+
+        // Get the ids of the response elements
+        var response = hxr.responseText;
+        var record = JSON.parse(response);
+
         records = record['_items'];
-        // record = record[0];
-        // record = JSON.stringify(record);
-        // console.log(record);
-
-        // var resContainer = document.getElementById('search-results');
-
-        let header = document.createElement('h3');
-        let txt = records.length + " results found on your query:\n\n"
-        let title = document.createTextNode(txt);
-        header.appendChild(title);
-        document.getElementById("search-results").appendChild(header);
-
-        records.forEach(rec => {
-            record = JSON.stringify(record);
-            // console.log(rec);
-            let p = document.createElement('pre');
-            p.style = 'word-break: break-all;';
-            let text = document.createTextNode(JSON.stringify(rec, null, 2)); 
-            let seperator = document.createTextNode("\n\n-------------------------\n*************************\n-------------------------\n");
-            p.appendChild(text);
-            p.appendChild(seperator);
-            document.getElementById("search-results").appendChild(p);
+        var ids = [];
+        records.forEach(el => {
+            ids.push(el['_id']);
         });
-        
-    
-        // console.log(results[3]);
-        // var hxr = new XMLHttpRequest();
-        // path = 'https://localhost/ephemeralRecord?where={' + paths.join(',') + '}';
-        // console.log(path);
-        // hxr.open('GET', path, false);
-        // hxr.send();
-        // var record = JSON.parse(hxr.responseText);
-        // console.log(record);
+        console.log(ids);
 
+        localStorage.setItem("responseIDs", ids);
 
-        // var filename = jsonToFilename(out);
-        //
-        // var dl = document.createElement('a');
-        // dl.setAttribute('href', 'data:text/plain;charset=utf-8,' +
-        //         encodeURIComponent(JSON.stringify(out, null, 2)));
-        // dl.setAttribute('download', filename);
-        // dl.style.display = 'none';
-        //
-        // document.body.appendChild(dl);
-        // dl.click();
-        // document.body.removeChild(dl);
-        //
-        // event.preventDefault();
-        // return false;
-
+        // Redirect to projection page
+        window.location.href = '/projection';
     });
+
 
     function sleep(ms) {
         return new Promise(resolve => setTimeout(resolve, ms));

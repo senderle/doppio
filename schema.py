@@ -166,7 +166,7 @@ medieval_chronicles = {
                                     'type': 'string',
                                     'formType': 'textarea',
                                 },
-                                'comingToADestinedLand': {
+                                'comingToDestinedLand': {
                                     'order': 5,
                                     'type': 'string',
                                     'formType': 'textarea',
@@ -288,7 +288,7 @@ medieval_chronicles = {
                                     'type': 'string',
                                     'formType': 'textarea'
                                 },
-                                'comingToADestinedLand': {
+                                'comingToDestinedLand': {
                                     'type': 'string',
                                     'formType': 'textarea'
                                 },
@@ -402,7 +402,7 @@ medieval_chronicles = {
                                     'formType': 'textarea',
                                     'order': 4
                                 },
-                                'comingToADestinedLand': {
+                                'comingToDestinedLand': {
                                     'type': 'string',
                                     'formType': 'textarea',
                                     'order': 5
