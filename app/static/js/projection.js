@@ -142,18 +142,28 @@ document.addEventListener('DOMContentLoaded', function main() {
         // root element with an id that will be the prefix of all the
         // elements it contains.
         var subRoot = document.createElement('div');
-        // var inputEl = document.createElement('INPUT');
-        // inputEl.setAttribute('type', 'checkbox');
 
-        // inputEl.setAttribute('id', id);
-        // inputEl.setAttribute('class', 'main-form-input newly-rendered');
+        var inputEl = document.createElement('INPUT');
+        inputEl.setAttribute('type', 'checkbox');
+        inputEl.setAttribute('id', id);
+        inputEl.setAttribute('class', 'main-form-input newly-rendered');
+
+
+        var name = document.createTextNode(id);
+
         if (id) {
-            subRoot.setAttribute('id', id + '-');
+            subRoot.setAttribute('id', id);
         }
 
         for (var attribKey in attribs) {
             subRoot.setAttribute(attribKey, attribs[attribKey]);
         }
+
+        if (id && id !== undefined && id !== '') {
+            subRoot.appendChild(inputEl);
+            subRoot.appendChild(name);
+        }
+
         root.appendChild(subRoot);
         return subRoot;
     }
@@ -178,6 +188,8 @@ document.addEventListener('DOMContentLoaded', function main() {
                 // This closure maintains the renderFunc's state (`n`).
                 // Concretely, `n` will always be one greater than the
                 // number of sub-forms rendered so far.
+
+                
 
                 // If the sub-form a leaf, we want to terminate recursion.
                 var recursiveRender;
