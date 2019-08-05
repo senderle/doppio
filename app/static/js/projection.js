@@ -149,7 +149,10 @@ document.addEventListener('DOMContentLoaded', function main() {
         inputEl.setAttribute('class', 'main-form-input newly-rendered');
 
 
-        var name = document.createTextNode(id);
+        var name = document.createTextNode(idToProjectionName(id));
+        var span = document.createElement('span');
+
+        span.setAttribute('style', 'font-style: italic; font-weight: 600; margin-left: 7px;');
 
         if (id) {
             subRoot.setAttribute('id', id);
@@ -159,9 +162,10 @@ document.addEventListener('DOMContentLoaded', function main() {
             subRoot.setAttribute(attribKey, attribs[attribKey]);
         }
 
-        if (id && id !== undefined && id !== '') {
+        if (id && id !== undefined && id !== '' && !document.getElementById(id)) {
             subRoot.appendChild(inputEl);
-            subRoot.appendChild(name);
+            span.appendChild(name);
+            subRoot.appendChild(span);
         }
 
         root.appendChild(subRoot);
@@ -217,8 +221,8 @@ document.addEventListener('DOMContentLoaded', function main() {
                 renderFunc = function() {
                     // This function renders the actual form, tracking
                     // and updating the value of `n` attached to its closure.
-                    var newId = idPrefix + '_' + n;
-                    var newHeader = itemName + ' ' + n;
+                    var newId = idPrefix;
+                    var newHeader = itemName;
                     recursiveRender(renderSubRoot(root), subForm, newId, newHeader);
                     if (n > 1) {
                         focusRendered();
@@ -279,12 +283,6 @@ document.addEventListener('DOMContentLoaded', function main() {
             'class': 'subheader'
         });
 
-        var inputEl = document.createElement('INPUT');
-        inputEl.setAttribute('type', 'checkbox');
-
-        inputEl.setAttribute('id', id);
-        inputEl.setAttribute('class', 'main-form-input newly-rendered');
-
         // Create a container to hold all the items along with
         // the button.
         subRoot = renderSubRoot(root,
@@ -305,7 +303,7 @@ document.addEventListener('DOMContentLoaded', function main() {
                 'class': 'subform-group ui-element'
             }
         );
-        root.appendChild(button);
+        // root.appendChild(button);
     }
 
     // Render a dicitonary type. This also winds up being the root

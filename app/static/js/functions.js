@@ -199,6 +199,20 @@ function idTail(keys) {
     return keys[keys.length - 1];
 }
 
+function idToProjectionName(id) {
+    if (!id) {
+        return;
+    }
+    let substr = id.substr(id.lastIndexOf('_') + 1, id.length);
+    var key = substr.split('-');
+    for (i = 0; i < key.length; i++) {
+       key[i] = key[i][0].toUpperCase() + key[i].slice(1);
+    }
+    key = key.join(' ');
+    key = 'All ' + key;
+    return key;
+}
+
 function listToId(keyList) {
     // Take a list of keys in the form `['yabbaDabba', 'doo']` and
     // convert them to id keys in the form "yabba-dabba_doo".
