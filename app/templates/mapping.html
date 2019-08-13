@@ -1,0 +1,62 @@
+<html>
+
+  <head>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js'></script>
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>Search</title>
+    <script src="https://cdn.pydata.org/bokeh/release/bokeh-1.3.4.min.js"></script>
+    <script src="https://cdn.pydata.org/bokeh/release/bokeh-widgets-1.3.4.min.js"></script>
+  </head>
+
+  <body class="main">
+    <div id="wrapper">
+      <div id="navbar">
+        <ul>
+          <div>
+            <li><a class="nav-link" href="/home">Home</a></li>
+            <li><a class="nav-link" href="/search">Search</a></li>
+            <li><a class="nav-link" href="/projection">Projection</a></li>
+            <li><a class="nav-link current" id="mapping">Map</a></li>
+            <!-- <div id="login">
+              <li><a class="nav-link login" href="/login">Login</a></li>
+            </div> -->
+            <div id="logout">
+              <li><a class="nav-link" href='/home' onclick='logout();'>Log Out</a></li>
+            </div>
+          </div>
+          <div id="signup" style="position: absolute;right:50px;">
+            <li><a style="font-size: 12px" class="nav-link" href="/signup">Add New User</a></li>
+          </div>
+          <script type="text/javascript">
+          function logout() {
+            let url = '/tokens';
+            let headers = new Headers();
+            headers.append('Content-Type', 'application/json');
+            headers.append('X-Custom-Header', 'ProcessThisImmediately');
+            headers.append('If-Match', localStorage._etag);
+            fetch(url, {
+                method: 'DELETE',
+                headers: headers,
+              })
+              .catch(error => console.error('There has been a problem with your fetch operation: ', error
+                .message));
+            localStorage.removeItem("token");
+            localStorage.removeItem("_etag");
+          }
+
+          </script>
+        </ul>
+      </div>
+
+      <h1>Map</h1>
+
+      {{ script|safe }}
+      {{ div|safe }}
+
+        <!--  <div id="search-filter"><h4>Narrow Search by Fields</h4></div>-->
+  </body>
+  <script src="{{ url_for('static', filename='js/functions.js') }}"></script>
+
+
+</html>

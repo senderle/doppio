@@ -4,3 +4,6 @@ flask-cors
 bcrypt
 py-bcrypt
 pyjwt
+bokeh
+pyproj
+requests

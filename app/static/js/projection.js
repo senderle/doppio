@@ -587,6 +587,8 @@ document.addEventListener('DOMContentLoaded', function main() {
 
                 var reqPath = 'ephemeralRecord/' + ids[i] + '?projection=' + urlPath ;
                 
+                console.log(reqPath);
+
                 var hxr = new XMLHttpRequest();
                 hxr.open('GET', reqPath, false);
                 hxr.send();

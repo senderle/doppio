@@ -355,3 +355,25 @@ var getAllKeys = function (obj) {
     makeList(obj, list);
     return list;
 };
+
+/* On click function for map tab in header
+*  Reads ids from localStorage and sends them in a POST request
+*/
+document.addEventListener('DOMContentLoaded', function main() {
+    document.getElementById('mapping').onclick = () => {
+        // var ids = localStorage.getItem("responseIDs").split(',');
+        // var url = '/mapping?idList=' + ids;
+        // console.log(url);
+        // window.location.href = url;
+        window.location.href = '/mapping';
+    }
+});
+
+// Renders the map using POST request
+var renderMap = function() {
+    var ids = localStorage.getItem("responseIDs").split(',');
+    var xhr = new XMLHttpRequest();
+    xhr.open("POST", '/createmap', true);
+    xhr.setRequestHeader('Content-Type', 'application/json');
+    xhr.send(JSON.stringify({ids}));
+}

@@ -1064,6 +1064,7 @@ document.addEventListener('DOMContentLoaded', function main() {
 
         // Http request
         var path = 'https://localhost/ephemeralRecord?where={' + paths.join(',') + '}';
+        console.log(path);
         var hxr = new XMLHttpRequest();
         hxr.open('GET', path, false);
         hxr.send();
@@ -1080,6 +1081,9 @@ document.addEventListener('DOMContentLoaded', function main() {
         console.log(ids);
 
         localStorage.setItem("responseIDs", ids);
+
+        // Construct map
+        renderMap();
 
         // Redirect to projection page
         window.location.href = '/projection';
