@@ -143,16 +143,21 @@ document.addEventListener('DOMContentLoaded', function main() {
         // elements it contains.
         var subRoot = document.createElement('div');
 
+        // Render label
+        var labelEl = document.createElement('label');
+        var labelText = document.createTextNode(idToProjectionName(id));
+        labelEl.appendChild(labelText);
+        labelEl.setAttribute('for', id);
+        labelEl = wrapWith('div', labelEl, {
+            'class': 'form-leaf-label'
+        });
+
+        // Render checkbox
         var inputEl = document.createElement('INPUT');
         inputEl.setAttribute('type', 'checkbox');
         inputEl.setAttribute('id', id);
         inputEl.setAttribute('class', 'main-form-input newly-rendered');
 
-
-        var name = document.createTextNode(idToProjectionName(id));
-        var span = document.createElement('span');
-
-        span.setAttribute('style', 'font-style: italic; font-weight: 600; margin-left: 7px;');
 
         if (id) {
             subRoot.setAttribute('id', id);
@@ -162,10 +167,13 @@ document.addEventListener('DOMContentLoaded', function main() {
             subRoot.setAttribute(attribKey, attribs[attribKey]);
         }
 
+        // Create container and append checkbox and label
         if (id && id !== undefined && id !== '' && !document.getElementById(id)) {
-            subRoot.appendChild(inputEl);
-            span.appendChild(name);
-            subRoot.appendChild(span);
+            var container = document.createElement('div');
+            container.classList.add('form-subroot');
+            container.appendChild(labelEl);
+            container.appendChild(inputEl);
+            subRoot.appendChild(container);
         }
 
         root.appendChild(subRoot);

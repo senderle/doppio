@@ -53,6 +53,11 @@ div.form-leaf {
     padding: 4px 0px 4px 0px;
 }
 
+div.form-subroot {
+    font-weight: 600;
+    font-style: italic;
+}
+
 div.form-leaf-label {
     margin-left: 2px;
     padding-bottom: 4px;
