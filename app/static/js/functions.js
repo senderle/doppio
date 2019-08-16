@@ -377,3 +377,12 @@ var renderMap = function() {
     xhr.setRequestHeader('Content-Type', 'application/json');
     xhr.send(JSON.stringify({ids}));
 }
+
+// Renders the map with projection
+var renderProjectedMap = function(jsonList) {
+    var objs = jsonList;
+    var xhr = new XMLHttpRequest();
+    xhr.open("POST", '/createprojectedmap', true);
+    xhr.setRequestHeader('Content-Type', 'application/json');
+    xhr.send(JSON.stringify({objs}));
+}

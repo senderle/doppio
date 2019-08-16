@@ -158,10 +158,10 @@ document.addEventListener('DOMContentLoaded', function main() {
         inputEl.setAttribute('id', id);
         inputEl.setAttribute('class', 'main-form-input newly-rendered');
 
-
-        if (id) {
-            subRoot.setAttribute('id', id);
-        }
+        // This should be removed if tests for projection pass
+        // if (id) {
+        //     subRoot.setAttribute('id', id);
+        // }
 
         for (var attribKey in attribs) {
             subRoot.setAttribute(attribKey, attribs[attribKey]);
@@ -611,6 +611,9 @@ document.addEventListener('DOMContentLoaded', function main() {
         let title = document.createTextNode(txt);
         header.appendChild(title);
         document.getElementById("search-results").appendChild(header);
+        
+        // Create map with records
+        renderProjectedMap(records);
         
         // Loop over and display all found records
         records.forEach(rec => {
