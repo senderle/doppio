@@ -51,7 +51,8 @@ ephemeralRecord = {
     'public_item_methods': ['GET'],
     'item_title': 'record',
     'allowed_roles': ['superuser', 'admin', 'user'],
-    'schema': main_schema
+    'schema': main_schema,
+    'pagination': False
 }
 
 geocodes = {

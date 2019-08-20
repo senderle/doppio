@@ -1063,7 +1063,7 @@ document.addEventListener('DOMContentLoaded', function main() {
         }
 
         // Http request
-        var path = 'https://localhost/ephemeralRecord?where={' + paths.join(',') + '}';
+        var path = '/ephemeralRecord?where={' + paths.join(',') + '}';
         console.log(path);
         var hxr = new XMLHttpRequest();
         hxr.open('GET', path, false);
