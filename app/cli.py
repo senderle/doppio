@@ -63,7 +63,7 @@ def init_cli(app):
             filename = dir + '/' + str(doc['_id']) + '.json'
 
             with open(filename, 'w') as outfile:
-                json.dump(json.loads(json_util.dumps(doc)), outfile)
+                outfile.write(json_util.dumps(doc))
 
             i += 1
 
