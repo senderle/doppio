@@ -112,3 +112,6 @@ accts.py
 
 # Database dumps
 dumps/*
+
+# VS Code
+.vscode
