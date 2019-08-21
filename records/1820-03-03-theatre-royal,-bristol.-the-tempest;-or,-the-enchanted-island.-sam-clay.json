@@ -1,0 +1,523 @@
+{
+  "ephemeralRecord": {
+    "archiveHoldingDocument": "British Library",
+    "callNumber": "lsidyv414d7cb2",
+    "containingCollection": "",
+    "dataCataloger": "SamClay",
+    "dimensions": "",
+    "documentType": "Playbill",
+    "pageNumber": "113",
+    "periodicalTitle": "",
+    "persistentUrl": "",
+    "printedArea": "",
+    "advertisements": [
+      "Shakespeare's Comedy of Errors, interspersed with Songs, Glees, &c. from the Pen of the Immortal Bard, as performing at the Theatre-Royal, Covent Garden, with the most enthusiastic applause, has been in rehearsal at this Theatre, and will speedily be produced. Also a Popular New Drama, called Ivanhoe; Or,  The Jew's Daughter! now performing in London with the greatest attraction and applause. And the new Farce of Too Late For Dinner now performing at the Theatre-Royal, Covent Garden with universal applause."
+    ],
+    "announcements": [
+      "No orders can be admitted.",
+      "Several novelties are in preparation."
+    ],
+    "documentPrinter": {
+      "location": "Bristol, St. John's Steps",
+      "name": "Major"
+    },
+    "shows": [
+      {
+        "date": "1820-03-03",
+        "doorsOpen": "18:00",
+        "location": "Bristol",
+        "performanceBegins": "19:00",
+        "stageManager": "",
+        "theaterCompany": "",
+        "venue": "Theatre-Royal, Bristol.",
+        "featuredAttractionsForShow": [
+          "A celebrated pedestrian, for a considerable sum, has undertaken to leave the bush-inn at six o'clock on Thursday Evening, Proceed on foot to the plough-inn, cheltenham, and return to the bush, in Bristol, by six o'clock, on Friday Evening, (92 Miles in 24 Hours) then precisely at seven o'clock, to start on the stage and Walk in presence of the Audience, 1 Mile in 11 Minuets, or Forfeit the sum in question."
+        ],
+        "notes": [
+          ""
+        ],
+        "occasions": [
+          {
+            "occasionAsStated": "",
+            "occasionType": "",
+            "beneficiary": [
+              ""
+            ],
+            "occasioner": [
+              ""
+            ]
+          }
+        ],
+        "performances": [
+          {
+            "genreClaim": "Play",
+            "kindOfPerformance": "Main Piece",
+            "orderOfPerformance": "1",
+            "title": "The Tempest; Or, The Enchanted Island.",
+            "contributors": [
+              {
+                "contributorName": "Shakespeare",
+                "contributorType": "Playwright"
+              },
+              {
+                "contributorName": "J. P. Kemble, Esq.",
+                "contributorType": "Playwright"
+              }
+            ],
+            "featuredAttractions": [
+              {
+                "attraction": "",
+                "isInterpolation": false
+              }
+            ],
+            "performers": [
+              {
+                "performerName": "Mr. Gladstanes",
+                "role": "Prosoeri",
+                "roleNotes": "a Magician",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Bond",
+                "role": "Alonza",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Desmond",
+                "role": "Hippolito",
+                "roleNotes": "a Youth who never saw a Woman",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Telbin",
+                "role": "Antonio",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Johnson",
+                "role": "Ferdinand",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Green",
+                "role": "Gonzalo",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Denning",
+                "role": "Trinenlo",
+                "roleNotes": "a Drunken Sailor",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Lascelles",
+                "role": "Caliban",
+                "roleNotes": "a Monster of the Island",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Newton",
+                "role": "Stephano",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Cooke",
+                "role": "Dorinda",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Moreton",
+                "role": "Miranda",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Worgman",
+                "role": "Ariel",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Unnamed Extras",
+                "role": "Spirits",
+                "roleNotes": "Unnamed Extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Unnamed Extras",
+                "role": "Furies",
+                "roleNotes": "Unnamed Extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Unnamed Extras",
+                "role": "Choruses",
+                "roleNotes": "Unnamed Extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              }
+            ]
+          },
+          {
+            "genreClaim": "Melo-Drame",
+            "kindOfPerformance": "After Piece",
+            "orderOfPerformance": "2",
+            "title": "Wallace, The Hero of Scotland",
+            "contributors": [
+              {
+                "contributorName": "Mr. Carrol",
+                "contributorType": "Scene Painter"
+              },
+              {
+                "contributorName": "Mr. Finlay",
+                "contributorType": "Scene Painter"
+              },
+              {
+                "contributorName": "Mr. Brown",
+                "contributorType": "Scene Painter"
+              },
+              {
+                "contributorName": "Mr. Lewis",
+                "contributorType": "Costumer"
+              },
+              {
+                "contributorName": "Mrs. Lewis",
+                "contributorType": "Costumer"
+              },
+              {
+                "contributorName": "Mr. Lascelles",
+                "contributorType": "Choreographer"
+              }
+            ],
+            "featuredAttractions": [
+              {
+                "attraction": "A Dance by Miss Parr",
+                "isInterpolation": true
+              }
+            ],
+            "performers": [
+              {
+                "performerName": "Mr. Gladstanes",
+                "role": "SIr William Wallace",
+                "roleNotes": "Scot",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Lascelles",
+                "role": "Sir Roger Kirkpatrick",
+                "roleNotes": "Scot",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Johnson",
+                "role": "Earl of Marr",
+                "roleNotes": "Scot",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Lewis",
+                "role": "Page",
+                "roleNotes": "Scot",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Brown",
+                "role": "Andrew",
+                "roleNotes": "Scot",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Telbin",
+                "role": "Earl of Fife",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Garthwaite",
+                "role": "Halbert",
+                "roleNotes": "Scot",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Newton",
+                "role": "Allan Ramsay",
+                "roleNotes": "Scot",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Cooke",
+                "role": "Earl of Dunrea",
+                "roleNotes": "Partizans of the English",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Bond",
+                "role": "Sir John Monteith",
+                "roleNotes": "Partizans of the English",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Cooke",
+                "role": "Lady Helen Marr",
+                "roleNotes": "Scot",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Raymond",
+                "role": "Isabel",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Lewis",
+                "role": "Madeline",
+                "roleNotes": "Scot",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Desmond",
+                "role": "Lady Marian",
+                "roleNotes": "Scot",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Unnamed Extras",
+                "role": "Ladies",
+                "roleNotes": "Unnamed Extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Unnamed Extras",
+                "role": "Soldiers",
+                "roleNotes": "Unnamed Extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Unnamed Extras",
+                "role": "Peasants",
+                "roleNotes": "Unnamed Extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Green",
+                "role": "Cressingham",
+                "roleNotes": "English",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Raymond",
+                "role": "Sir Gilvert Hambledon",
+                "roleNotes": "English",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. S. Collier",
+                "role": "Lord Morton",
+                "roleNotes": "English",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Brown",
+                "role": "Lord Mortimer",
+                "roleNotes": "English",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Lewis",
+                "role": "Gerrard",
+                "roleNotes": "English",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Unnamed Extras",
+                "role": "Knights",
+                "roleNotes": "Unnamed Extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Unnamed Extras",
+                "role": "Soldiers",
+                "roleNotes": "Unnamed Extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              }
+            ]
+          }
+        ],
+        "ticketing": {
+          "boxPrice": "",
+          "currency": "",
+          "galleryPrice": "",
+          "pitPrice": "",
+          "secondBoxPrice": "",
+          "secondGalleryPrice": "",
+          "secondPitPrice": "",
+          "secondUpperGalleryPrice": "",
+          "ticketingNotes": "",
+          "toBeHad": "Mr. Cozens",
+          "upperGalleryPrice": ""
+        }
+      }
+    ]
+  }
+}

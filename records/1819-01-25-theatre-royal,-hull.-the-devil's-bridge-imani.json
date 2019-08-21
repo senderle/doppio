@@ -1,0 +1,538 @@
+{
+  "ephemeralRecord": {
+    "archiveHoldingDocument": "British Library",
+    "callNumber": "lsidyv41bb4d56",
+    "containingCollection": "",
+    "dataCataloger": "Imani",
+    "dimensions": "",
+    "documentType": "Playbill",
+    "pageNumber": "28",
+    "periodicalTitle": "",
+    "persistentUrl": "",
+    "printedArea": "",
+    "advertisements": [
+      ""
+    ],
+    "announcements": [
+      ""
+    ],
+    "documentPrinter": {
+      "location": "Bowlalley-Lane, Hull",
+      "name": "W. Ross"
+    },
+    "shows": [
+      {
+        "date": "1819-01-25",
+        "doorsOpen": "18:00",
+        "location": "Hull",
+        "performanceBegins": "19:00",
+        "stageManager": "",
+        "theaterCompany": "",
+        "venue": "Theatre-Royal, Hull.",
+        "featuredAttractionsForShow": [
+          ""
+        ],
+        "notes": [
+          "The Devil's Bridge is noted to have been played for 65 nights at the Theatres Royal, Lyceum and Covent-Garden, with unbounded approbation."
+        ],
+        "occasions": [
+          {
+            "occasionAsStated": "Mr. Larkin's Benefit",
+            "occasionType": "Benefit Performance",
+            "beneficiary": [
+              "Mr. Larkin"
+            ],
+            "occasioner": [
+              ""
+            ]
+          }
+        ],
+        "performances": [
+          {
+            "genreClaim": "Dramatic Opera",
+            "kindOfPerformance": "Mainpiece",
+            "orderOfPerformance": "1",
+            "title": "The Devil's Bridge",
+            "contributors": [
+              {
+                "contributorName": "",
+                "contributorType": ""
+              }
+            ],
+            "featuredAttractions": [
+              {
+                "attraction": "During the Opera, the following (and a great variety of other) celebrated Songs: \"Is there a Heart?\"---\"Bright Sun I adore thee.\" The grand Picture Song of \"The Desolate Maid.\" \"Tho' Love is Warm a while\"-\"Rest, Weary Traveller.' The last Scene represents The Devil's Bridge in Switzerland, Which is Destroyed by A Grand and Awful Explosion.",
+                "isInterpolation": true
+              }
+            ],
+            "performers": [
+              {
+                "performerName": "Mr. Clarke",
+                "role": "Baron Toraldi",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": true,
+                  "newPerformerOrigin": "Theatre, Nottingham",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Larkin",
+                "role": "Belino",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Balls",
+                "role": "Fabricio",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Carr",
+                "role": "Paoli",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Stanley",
+                "role": "Marcelli",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Master Stanley",
+                "role": "Julio",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Remington",
+                "role": "Antonio",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. W. Chapman",
+                "role": "Petro",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. W. Remington",
+                "role": "Officer",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Parsons",
+                "role": "Herald",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Sherwin",
+                "role": "Florian",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Nicholls",
+                "role": "Guard",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Glover",
+                "role": "Guard",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Morris",
+                "role": "Guard",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Poole",
+                "role": "Countess Rosalina",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Leonard",
+                "role": "Caludine",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Wells",
+                "role": "Lauretta",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              }
+            ]
+          },
+          {
+            "genreClaim": "",
+            "kindOfPerformance": "Afterpiece",
+            "orderOfPerformance": "2",
+            "title": "Three Weeks after Marriage.",
+            "contributors": [
+              {
+                "contributorName": "",
+                "contributorType": ""
+              }
+            ],
+            "featuredAttractions": [
+              {
+                "attraction": "",
+                "isInterpolation": false
+              }
+            ],
+            "performers": [
+              {
+                "performerName": "Mr. Mansel",
+                "role": "Sir Charles Rackett",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Foster",
+                "role": "Druggett",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Stanley",
+                "role": "Lady Rackett",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Leonard",
+                "role": "Dimity",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Stuart",
+                "role": "Mrs. Druggett",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              }
+            ]
+          },
+          {
+            "genreClaim": "Burletta",
+            "kindOfPerformance": "Afterpiece",
+            "orderOfPerformance": "3",
+            "title": "Midas.",
+            "contributors": [
+              {
+                "contributorName": "`",
+                "contributorType": ""
+              }
+            ],
+            "featuredAttractions": [
+              {
+                "attraction": "",
+                "isInterpolation": false
+              }
+            ],
+            "performers": [
+              {
+                "performerName": "Mr. Remington",
+                "role": "Jupiter",
+                "roleNotes": "Immortal",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Diddear",
+                "role": "Juno",
+                "roleNotes": "Immortal",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Larkin",
+                "role": "Apollo",
+                "roleNotes": "Immortal",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Neville",
+                "role": "Pan",
+                "roleNotes": "Immortal",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Parsons",
+                "role": "Mars",
+                "roleNotes": "Immortal",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Nicholls",
+                "role": "Mercury",
+                "roleNotes": "Immortal",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Eborall",
+                "role": "Minerva",
+                "roleNotes": "Immortal",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Johnson",
+                "role": "Venus",
+                "roleNotes": "Immortal",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Green",
+                "role": "Hebe",
+                "roleNotes": "Immortal",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. W. Chapman",
+                "role": "Midas",
+                "roleNotes": "Mortal.",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Stanley",
+                "role": "Damætas",
+                "roleNotes": "Mortal.",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Foster",
+                "role": "Sileno",
+                "roleNotes": "Mortal.",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Poole",
+                "role": "Daphne",
+                "roleNotes": "Mortal.",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Stuart",
+                "role": "Mysis",
+                "roleNotes": "Mortal.",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Leonard",
+                "role": "Nysa",
+                "roleNotes": "Mortal.",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Morris",
+                "role": "Peasant",
+                "roleNotes": "Unnamed extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Glover",
+                "role": "Peasant",
+                "roleNotes": "Unnamed extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. French",
+                "role": "Peasant",
+                "roleNotes": "Unnamed extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Neville",
+                "role": "Peasant",
+                "roleNotes": "Unnamed extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              }
+            ]
+          }
+        ],
+        "ticketing": {
+          "boxPrice": "",
+          "currency": "",
+          "galleryPrice": "",
+          "pitPrice": "",
+          "secondBoxPrice": "",
+          "secondGalleryPrice": "",
+          "secondPitPrice": "",
+          "secondUpperGalleryPrice": "",
+          "ticketingNotes": "",
+          "toBeHad": "Tickets and Places to be had of Mr. Hope, at the Theatre, from Eleven till Two ; and of Mr. Larkin, No. 1, Blanket-row.",
+          "upperGalleryPrice": ""
+        }
+      }
+    ]
+  }
+}

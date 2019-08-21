@@ -1,0 +1,329 @@
+{
+  "ephemeralRecord": {
+    "archiveHoldingDocument": "British Library",
+    "callNumber": "lsidyv414d7cb2",
+    "containingCollection": "",
+    "dataCataloger": "SamClay",
+    "dimensions": "",
+    "documentType": "Playbill",
+    "pageNumber": "185",
+    "periodicalTitle": "",
+    "persistentUrl": "",
+    "printedArea": "",
+    "advertisements": [
+      "Miss Atkins, from the Theatre-Royal, Edinburgh, and Mr. T. Reeves, from the Lyceum and other London Theatres, are engaged.",
+      "Several popular new Dramas are in preparation, particularly the Vampire; Or, The Bride of the Isles, translated from the French by I. R. Planche Esq., the Music by Hart with New Scenery by Mr. Carroll, Dresses by Mr. and Mrs. Lewis, as performed with great attraction at the Theatre-Royal, English Opera. Likewise, the last new Tragedy of Wallace, now performing as the Theatre-Royal, Covent Garden, to crowded audience with the most distinguished approbation."
+    ],
+    "announcements": [
+      "No Person can on any account be admitted behind the Scenes. A few Tickets of admission for the Season, to Boxes and Pit, may be had by applying to Mr. Major, Printer and Mr. Cozens, at the Theatre."
+    ],
+    "documentPrinter": {
+      "location": "Bristol, St. John's Steps",
+      "name": "Major"
+    },
+    "shows": [
+      {
+        "date": "1820-12-29",
+        "doorsOpen": "18:00",
+        "location": "Bristol",
+        "performanceBegins": "19:00",
+        "stageManager": "",
+        "theaterCompany": "",
+        "venue": "Theatre-Royal, Bristol.",
+        "featuredAttractionsForShow": [
+          ""
+        ],
+        "notes": [
+          ""
+        ],
+        "occasions": [
+          {
+            "occasionAsStated": "",
+            "occasionType": "",
+            "beneficiary": [
+              ""
+            ],
+            "occasioner": [
+              ""
+            ]
+          }
+        ],
+        "performances": [
+          {
+            "genreClaim": "Tragedy",
+            "kindOfPerformance": "Main Piece",
+            "orderOfPerformance": "1",
+            "title": "Othello, Moor of Venice",
+            "contributors": [
+              {
+                "contributorName": "Shakespeare",
+                "contributorType": "Playwright"
+              }
+            ],
+            "featuredAttractions": [
+              {
+                "attraction": "End of the Play, a new Comic Song called \"The Calais Pacquet\" by Mr. Lane, A Double Hornpipe by Mr. Lascelles and Mrs. Best.",
+                "isInterpolation": true
+              }
+            ],
+            "performers": [
+              {
+                "performerName": "Mr. Carles",
+                "role": "Othello",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Lascelles",
+                "role": "Lodovico",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Johnson",
+                "role": "Iago",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Kinnard",
+                "role": "Duke of Venice",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Jones",
+                "role": "Cassio",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Latham",
+                "role": "Montano",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Lane",
+                "role": "Roderigo",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Ross",
+                "role": "Messenger",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Telbin",
+                "role": "Brabantio",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Desmond",
+                "role": "Emilia",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Hart",
+                "role": "Desdemona",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              }
+            ]
+          },
+          {
+            "genreClaim": "Comic Musical Farce",
+            "kindOfPerformance": "After Piece",
+            "orderOfPerformance": "2",
+            "title": "The Devil to Pay; Or, The Wives Metamorphosed.",
+            "contributors": [
+              {
+                "contributorName": "",
+                "contributorType": ""
+              }
+            ],
+            "featuredAttractions": [
+              {
+                "attraction": "",
+                "isInterpolation": false
+              }
+            ],
+            "performers": [
+              {
+                "performerName": "Mr. Bind",
+                "role": "Sir John Loverule",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Lane",
+                "role": "Jobson",
+                "roleNotes": "the Cobler",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Dumbulton",
+                "role": "Butler",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Ross",
+                "role": "Cook",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Reed",
+                "role": "Footman",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Woolmer",
+                "role": "Coachman",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Telbin",
+                "role": "Doctor",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Mara",
+                "role": "Lady Loverule",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Lewis",
+                "role": "Lettice",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Johnson",
+                "role": "Lucy",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Hart",
+                "role": "Nell",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              }
+            ]
+          }
+        ],
+        "ticketing": {
+          "boxPrice": "48",
+          "currency": "UK",
+          "galleryPrice": "18",
+          "pitPrice": "30",
+          "secondBoxPrice": "24",
+          "secondGalleryPrice": "12",
+          "secondPitPrice": "18",
+          "secondUpperGalleryPrice": "",
+          "ticketingNotes": "",
+          "toBeHad": "Mr. Cozens",
+          "upperGalleryPrice": ""
+        }
+      }
+    ]
+  }
+}

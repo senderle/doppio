@@ -1,0 +1,457 @@
+{
+  "ephemeralRecord": {
+    "archiveHoldingDocument": "British Library",
+    "callNumber": "lsidyv414d7cb2",
+    "containingCollection": "",
+    "dataCataloger": "SamClay",
+    "dimensions": "",
+    "documentType": "Playbill",
+    "pageNumber": "31",
+    "periodicalTitle": "",
+    "persistentUrl": "",
+    "printedArea": "",
+    "advertisements": [
+      "The admired Farce of The Sleeping Draught was received on Wednesday last with distinguished applause and will be performed for the second time on Wednesday evening."
+    ],
+    "announcements": [
+      "Positively for Three Nights Only",
+      "Prices as Usual"
+    ],
+    "documentPrinter": {
+      "location": "",
+      "name": ""
+    },
+    "shows": [
+      {
+        "date": "1819-06-29",
+        "doorsOpen": "",
+        "location": "Bristol",
+        "performanceBegins": "",
+        "stageManager": "",
+        "theaterCompany": "",
+        "venue": "Theatre-Royal, Bristol.",
+        "featuredAttractionsForShow": [
+          "Mr. M'Cready respectfully makes known to the Ladies and Gentlemen of Bristol and its Vicinity, that he shall prolong his season a few nights, for the purpose of introducing, with other great performers, Madame Mejanel, late principal Dancer at the Grand Opera, Paris, and last season, principal Dancer and Performer at the King's Theatre, Italian Opera House, London. Mademoiselle Mercerot, Dancer, from the same Theatre, and Monsieur Mejanel, late principal Actor of the Theatre-Royal, Lodeou, Paris, and at the Argyle Rooms, London, last Winter."
+        ],
+        "notes": [
+          ""
+        ],
+        "occasions": [
+          {
+            "occasionAsStated": "",
+            "occasionType": "",
+            "beneficiary": [
+              ""
+            ],
+            "occasioner": [
+              ""
+            ]
+          }
+        ],
+        "performances": [
+          {
+            "genreClaim": "Melo-drama",
+            "kindOfPerformance": "Main Piece",
+            "orderOfPerformance": "1",
+            "title": "A Tale of Mystery",
+            "contributors": [
+              {
+                "contributorName": "Holcroft",
+                "contributorType": "Playwright"
+              }
+            ],
+            "featuredAttractions": [
+              {
+                "attraction": "To which will be introduced a Divertisement, composed by Madame Mejanel",
+                "isInterpolation": true
+              },
+              {
+                "attraction": "a grand pas seul, by Madame Mejanel",
+                "isInterpolation": true
+              },
+              {
+                "attraction": "A grand pas de deux, by Madame Mejanel & Mademoiselle Mercerot",
+                "isInterpolation": true
+              }
+            ],
+            "performers": [
+              {
+                "performerName": "Mr. Gladstanes",
+                "role": "Count Romaldi",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Hooper",
+                "role": "Stephano",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Lascelles",
+                "role": "Malroglio",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Prior",
+                "role": "Francisco",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Gordon",
+                "role": "Michelli",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Johnson",
+                "role": "Exempt",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Manderson",
+                "role": "Count Bonamo",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Rivers",
+                "role": "Montano",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Lewis",
+                "role": "PIetro",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Patterson",
+                "role": "Selina",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Mara",
+                "role": "Fiametta",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              }
+            ]
+          },
+          {
+            "genreClaim": "French Melo-Drama",
+            "kindOfPerformance": "After Piece",
+            "orderOfPerformance": "2",
+            "title": "Pigmalion",
+            "contributors": [
+              {
+                "contributorName": "",
+                "contributorType": ""
+              }
+            ],
+            "featuredAttractions": [
+              {
+                "attraction": "Madame Mejanel will introduce a Grand Pas Seul.",
+                "isInterpolation": true
+              }
+            ],
+            "performers": [
+              {
+                "performerName": "Monsieur Mejanel",
+                "role": "Pigmalion",
+                "roleNotes": "performed in the French language",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Madame Mejanel",
+                "role": "Galatea",
+                "roleNotes": "introduce a Grand Pas Seul",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              }
+            ]
+          },
+          {
+            "genreClaim": "Farce",
+            "kindOfPerformance": "After Piece",
+            "orderOfPerformance": "3",
+            "title": "X, Y, Z!!!",
+            "contributors": [
+              {
+                "contributorName": "",
+                "contributorType": ""
+              }
+            ],
+            "featuredAttractions": [
+              {
+                "attraction": "",
+                "isInterpolation": false
+              }
+            ],
+            "performers": [
+              {
+                "performerName": "Mr. Rivers",
+                "role": "Captain Galliott",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Gordon",
+                "role": "Neddy Bray",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Darley",
+                "role": "Swagger",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Gladstanes",
+                "role": "Roscius Alldross",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Manderson",
+                "role": "Grubbleton",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Lewis",
+                "role": "Lounger",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Newton",
+                "role": "Ralph Hempseed",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Bennett",
+                "role": "Doddle",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Brown",
+                "role": "Waiter",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Mara",
+                "role": "Mrs. Mouser",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Patterson",
+                "role": "Maria",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Parr",
+                "role": "Betty",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Newton",
+                "role": "Dorah Mumwell",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              }
+            ]
+          },
+          {
+            "genreClaim": "Ballet Dance",
+            "kindOfPerformance": "After Piece",
+            "orderOfPerformance": "4",
+            "title": "Annette and Lubin.",
+            "contributors": [
+              {
+                "contributorName": "",
+                "contributorType": ""
+              }
+            ],
+            "featuredAttractions": [
+              {
+                "attraction": "",
+                "isInterpolation": false
+              }
+            ],
+            "performers": [
+              {
+                "performerName": "Mademoiselle Mercerot",
+                "role": "Annette",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Monsieur Mejanel",
+                "role": "Baillie",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Lascelles",
+                "role": "Lord of the Manor",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Madame Mejanel",
+                "role": "Lubin",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              }
+            ]
+          }
+        ],
+        "ticketing": {
+          "boxPrice": "",
+          "currency": "",
+          "galleryPrice": "",
+          "pitPrice": "",
+          "secondBoxPrice": "",
+          "secondGalleryPrice": "",
+          "secondPitPrice": "",
+          "secondUpperGalleryPrice": "",
+          "ticketingNotes": "",
+          "toBeHad": "Mr. Cozens",
+          "upperGalleryPrice": ""
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,432 @@
+{
+  "ephemeralRecord": {
+    "archiveHoldingDocument": "British Library",
+    "callNumber": "lsidyv41bb5658",
+    "containingCollection": "",
+    "dataCataloger": "Louie",
+    "dimensions": "",
+    "documentType": "Playbill",
+    "pageNumber": "57",
+    "periodicalTitle": "",
+    "persistentUrl": "",
+    "printedArea": "",
+    "advertisements": [
+      ""
+    ],
+    "announcements": [
+      "N.B. Any person having demands, are requested to send in their accounts on Saturday the 25th, to the Theatre, at twelve o'clock."
+    ],
+    "documentPrinter": {
+      "location": "Long Row, Nottingham",
+      "name": "G. Stretton"
+    },
+    "shows": [
+      {
+        "date": "1814-06-24",
+        "doorsOpen": "",
+        "location": "Nottingham",
+        "performanceBegins": "",
+        "stageManager": "",
+        "theaterCompany": "",
+        "venue": "Theatre Nottingham",
+        "featuredAttractionsForShow": [
+          "A new scene, painted by Mr. Robertson, representing the Rejoicings at Nottingham, with a perspective view of the Market Place, Exchange Hall, Oven Roasting, etc. In the front, groups of figures, in different positions, with the populace carrying Marquis Wellington in a triumphal car.",
+          "A comic song, written by Mr. Robertson, called Tom of Colwick's Peep into Nottingham, with a description of the different Sights he saw on the day of rejoicing.",
+          "A Dance, by Miss Maria Robertson.",
+          "A New Scene, painted by Mr. Robertson, from a correct View, (taken on the spot), of Porto Ferrajo, with the citadel, and the town of Voltarajo, in the Island of Elba, to which Napoleon Buonaparte, (lat emperor of the French) is banished",
+          "With a comic song by Mr. Robretson, called Illuminations, or Peace Offerings at Nottingham."
+        ],
+        "notes": [
+          "The Aehtiop features a lengthy blurb on the history told within the play, as well as the performance history of the play and its reception at Covent Gardent."
+        ],
+        "occasions": [
+          {
+            "occasionAsStated": "For the benefit of Mr. Robertson.",
+            "occasionType": "Benefit Performance",
+            "beneficiary": [
+              "Mr. Robertson"
+            ],
+            "occasioner": [
+              ""
+            ]
+          }
+        ],
+        "performances": [
+          {
+            "genreClaim": "Historical Drama",
+            "kindOfPerformance": "Main Piece",
+            "orderOfPerformance": "1",
+            "title": "The Aethiop: or, The Child of the Desert",
+            "contributors": [
+              {
+                "contributorName": "W. Dimond",
+                "contributorType": "Playwright"
+              }
+            ],
+            "featuredAttractions": [
+              {
+                "attraction": "With new and appropriate dresses, scenery, music, and decorations.",
+                "isInterpolation": false
+              },
+              {
+                "attraction": "The scenery consists of the Seraglio Terrace, with the Sultan's Galley, Ancient Burial Ground of the Royal House of Ali.",
+                "isInterpolation": false
+              },
+              {
+                "attraction": "Interior view of The Cavern of the Conspirators.",
+                "isInterpolation": false
+              },
+              {
+                "attraction": "Garden of the Seraglio.",
+                "isInterpolation": false
+              },
+              {
+                "attraction": "State Bed-Chamber of the Caliph Haroun Alraschid, and Grand Transparency.",
+                "isInterpolation": false
+              }
+            ],
+            "performers": [
+              {
+                "performerName": "Mr. Manly",
+                "role": "The Aethiop",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Carter",
+                "role": "Alexis",
+                "roleNotes": "(A Greek Christian)",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Jeffreson",
+                "role": "Almanzor",
+                "roleNotes": "(An Arabian Sage)",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Browne",
+                "role": "Caled",
+                "roleNotes": "(An Arab Slave)",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Farrar",
+                "role": "Giaffer",
+                "roleNotes": "(A Vizir)",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss C. Sidney",
+                "role": "Constantine",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Robertson",
+                "role": "Benmoussaff",
+                "roleNotes": "(A Cadi)",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Clarke",
+                "role": "Mustapha",
+                "roleNotes": "(An Emir)",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Earl",
+                "role": "Priest of the Cavern",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Manly",
+                "role": "Orasmin",
+                "roleNotes": "(the Child of the Desert)",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Rayner",
+                "role": "Zoe",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Sidney",
+                "role": "Grimnigra",
+                "roleNotes": "*Wife of Mustapha)",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Jeffreson",
+                "role": "Grimnildra",
+                "roleNotes": "(Wife to Benmoussaff)",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Sidney",
+                "role": "Immyne",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Jervoise",
+                "role": "Cephania",
+                "roleNotes": "(Niece to Almanzor, and wife of the Caliph)",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "",
+                "role": "",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              }
+            ]
+          },
+          {
+            "genreClaim": "Comic Divertisement of Dialogue, Songs, Dance, and Scenery",
+            "kindOfPerformance": "After Piece",
+            "orderOfPerformance": "2",
+            "title": "Orange Boven, or More Good News",
+            "contributors": [
+              {
+                "contributorName": "T. Dibdin",
+                "contributorType": "Playwright"
+              }
+            ],
+            "featuredAttractions": [
+              {
+                "attraction": "The piece opens with a view of the sea, with ships of war lying at anchor.",
+                "isInterpolation": false
+              },
+              {
+                "attraction": "The Prince of Orange on one side, and British Lion on the other.",
+                "isInterpolation": false
+              },
+              {
+                "attraction": "The last scene represents a picturesque rocky arch; in the front a large orange tree, in which are hung the colours of the friendly nations.",
+                "isInterpolation": false
+              },
+              {
+                "attraction": "A dance by the characters round the orange tree -- the orange tree is moved off, and through the rocky arch is seen the sea.",
+                "isInterpolation": false
+              },
+              {
+                "attraction": "Britannia lands from a boat, waves her spear, and a transparency descends, representing Neptune and Ceres reclining at ease, supported by the arms of England",
+                "isInterpolation": false
+              },
+              {
+                "attraction": "WIth a portrait of The Marquis of Wellington dispensing Peace to the World.",
+                "isInterpolation": false
+              },
+              {
+                "attraction": "Britannia addresses the audience, and the finale belonging to the piece finishes with the national air of \"Rule Britannia.\"",
+                "isInterpolation": false
+              }
+            ],
+            "performers": [
+              {
+                "performerName": "Mr. Clarke",
+                "role": "Sir Oliver",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Browne",
+                "role": "Captain Ardent",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Farrar",
+                "role": "Codicil",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Jeffreson",
+                "role": "Quit-rent",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Carter",
+                "role": "Vanderplank",
+                "roleNotes": "(A Dutchman)",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Martin",
+                "role": "Gubbins",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Robertson",
+                "role": "Robin",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Sidney",
+                "role": "Lady Ardent",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Sidney",
+                "role": "Henrietta",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Maria Robertson",
+                "role": "Dutch Girl",
+                "roleNotes": "(with a song)",
+                "newPerformerNotes": {
+                  "newPerformer": true,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Jeffreson",
+                "role": "Dame Spriggins",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Rayner",
+                "role": "Britannia",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              }
+            ]
+          }
+        ],
+        "ticketing": {
+          "boxPrice": "36",
+          "currency": "UK",
+          "galleryPrice": "12",
+          "pitPrice": "24",
+          "secondBoxPrice": "",
+          "secondGalleryPrice": "",
+          "secondPitPrice": "",
+          "secondUpperGalleryPrice": "",
+          "ticketingNotes": "",
+          "toBeHad": "Tickets, and places in the boxes, to be taken of Mr. Earl, at the Theatre, every morning from eleven o'clock till Two. Tickets also to be had of Mr. Stretton, Bookseller, No. 14, Long Row, and of Mr. Robertson, at his house by the Leen Side.",
+          "upperGalleryPrice": "30"
+        }
+      }
+    ]
+  }
+}

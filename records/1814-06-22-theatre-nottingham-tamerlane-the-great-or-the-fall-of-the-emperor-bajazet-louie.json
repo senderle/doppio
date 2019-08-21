@@ -1,0 +1,350 @@
+{
+  "ephemeralRecord": {
+    "archiveHoldingDocument": "British Library",
+    "callNumber": "lsidyv41bb5658",
+    "containingCollection": "",
+    "dataCataloger": "Louie",
+    "dimensions": "",
+    "documentType": "",
+    "pageNumber": "56",
+    "periodicalTitle": "",
+    "persistentUrl": "",
+    "printedArea": "",
+    "advertisements": [
+      "An advertisement for Mr. Robertson's benefit performance, fixed for Friday the 24th."
+    ],
+    "announcements": [
+      ""
+    ],
+    "documentPrinter": {
+      "location": "Poultry, Nottingham",
+      "name": "Mr. Robinson"
+    },
+    "shows": [
+      {
+        "date": "1814-06-22",
+        "doorsOpen": "18:00",
+        "location": "Nottingham",
+        "performanceBegins": "19:00",
+        "stageManager": "",
+        "theaterCompany": "",
+        "venue": "Theatre Nottingham",
+        "featuredAttractionsForShow": [
+          "A Comic Song by Mr. Robertson.",
+          "Dancing by Miss Sidney.",
+          "A New Comic Song called Elba room for Boney by Mr. Clarke."
+        ],
+        "notes": [
+          "Playbill features a blurb regarding the history and significance of Tamerlane, especially as it relates to the \"late Glorious Events,\" as well as a poem related to the play."
+        ],
+        "occasions": [
+          {
+            "occasionAsStated": "Mr. Clarke's Benefite",
+            "occasionType": "Benefit Performance",
+            "beneficiary": [
+              "Mr. Clarke"
+            ],
+            "occasioner": [
+              ""
+            ]
+          }
+        ],
+        "performances": [
+          {
+            "genreClaim": "Play",
+            "kindOfPerformance": "Main Piece",
+            "orderOfPerformance": "1",
+            "title": "Tamerlane the Great or the Fall of the Emperor Bajazet",
+            "contributors": [
+              {
+                "contributorName": "",
+                "contributorType": ""
+              }
+            ],
+            "featuredAttractions": [
+              {
+                "attraction": "",
+                "isInterpolation": false
+              }
+            ],
+            "performers": [
+              {
+                "performerName": "Mr. Carter",
+                "role": "Tamerlane",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Jefferson",
+                "role": "Moneses",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Farrar",
+                "role": "Axalla",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Earl",
+                "role": "Omar",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Jones",
+                "role": "Prince of Tanais",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Martin",
+                "role": "Mirvan",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Sidney",
+                "role": "Zama",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Browne",
+                "role": "Dervise",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Clarke",
+                "role": "Bajazet",
+                "roleNotes": "(for this Night)",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "A Young lady of Nottingham",
+                "role": "Selima",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Jervoise",
+                "role": "Aprasia",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              }
+            ]
+          },
+          {
+            "genreClaim": "Farce",
+            "kindOfPerformance": "After Piece",
+            "orderOfPerformance": "2",
+            "title": "Catherine and Petruchio, or the Taming of the Shrew",
+            "contributors": [
+              {
+                "contributorName": "",
+                "contributorType": ""
+              }
+            ],
+            "featuredAttractions": [
+              {
+                "attraction": "",
+                "isInterpolation": false
+              }
+            ],
+            "performers": [
+              {
+                "performerName": "Mr. Manly",
+                "role": "Petruchio",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Jefferson",
+                "role": "Hortensio",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Carter",
+                "role": "Biondello",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Sidney",
+                "role": "Nicholas",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Earl",
+                "role": "Nathaniel",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Manly",
+                "role": "Catharine",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Brown",
+                "role": "Baptista",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Farrer",
+                "role": "Music Master",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Clarke",
+                "role": "Taylor",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Martin",
+                "role": "Walter",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Robertson",
+                "role": "Grumio",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Rayner",
+                "role": "Bianca",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Sidney",
+                "role": "Curtis",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              }
+            ]
+          }
+        ],
+        "ticketing": {
+          "boxPrice": "36",
+          "currency": "UK",
+          "galleryPrice": "12",
+          "pitPrice": "24",
+          "secondBoxPrice": "",
+          "secondGalleryPrice": "",
+          "secondPitPrice": "",
+          "secondUpperGalleryPrice": "",
+          "ticketingNotes": "",
+          "toBeHad": "Mr. Earl, at the Theatre, every morning from eleven o'clock till Two. Tickets also to be had of Mr. Robinson, Printer, Poultry; Mr. Stretton, Long Row; and of Mr. Clarke at Mr. Cadman's, Woolpack Lane.",
+          "upperGalleryPrice": ""
+        }
+      }
+    ]
+  }
+}

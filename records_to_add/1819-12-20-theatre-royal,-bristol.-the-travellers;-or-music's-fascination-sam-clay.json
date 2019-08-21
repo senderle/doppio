@@ -1,0 +1,841 @@
+{
+  "ephemeralRecord": {
+    "archiveHoldingDocument": "British Library",
+    "callNumber": "lsidyv414d7cb2",
+    "containingCollection": "",
+    "dataCataloger": "SamClay",
+    "dimensions": "",
+    "documentType": "Playbill",
+    "pageNumber": "74",
+    "periodicalTitle": "",
+    "persistentUrl": "",
+    "printedArea": "",
+    "advertisements": [
+      "On Tuesday Evening, will be presented Sheridan's Comedy of The School For Scandal: Sir Perter Teazle, Mr M'Cready; Charles Surface, Mr. Denning; and Lady Teazle, Miss Desmond. After which, (positively the last time but one) the Historical Melo-Drame of Wallace, the Hero of Scotland. ",
+      "A Petite Comedy in two acts (founded on a Historical Anecdote) called A Short Reign and a Merry One! as now performing at the Theatre-Royal, Covent Garden, is in preparation. "
+    ],
+    "announcements": [
+      "No orders can by admitted."
+    ],
+    "documentPrinter": {
+      "location": "",
+      "name": ""
+    },
+    "shows": [
+      {
+        "date": "1819-12-20",
+        "doorsOpen": "",
+        "location": "Bristol",
+        "performanceBegins": "",
+        "stageManager": "",
+        "theaterCompany": "",
+        "venue": "Theatre-Royal, Bristol.",
+        "featuredAttractionsForShow": [
+          "First representation of the Travellers, Wherein the national melodies of various Kingdoms are introduced, and the progress of Music traced, Commencing at China and terminating in England."
+        ],
+        "notes": [
+          ""
+        ],
+        "occasions": [
+          {
+            "occasionAsStated": "",
+            "occasionType": "",
+            "beneficiary": [
+              ""
+            ],
+            "occasioner": [
+              ""
+            ]
+          }
+        ],
+        "performances": [
+          {
+            "genreClaim": "Operatic Drama",
+            "kindOfPerformance": "Main Piece",
+            "orderOfPerformance": "1",
+            "title": "The Travellers; Or Music's Fascination",
+            "contributors": [
+              {
+                "contributorName": "A. Cherry, Esq.",
+                "contributorType": "Playwright"
+              },
+              {
+                "contributorName": "Corri",
+                "contributorType": "Composer"
+              },
+              {
+                "contributorName": "Mr. Carroll",
+                "contributorType": "Scene Painter"
+              },
+              {
+                "contributorName": "Mr. Finlay",
+                "contributorType": "Scene Painter"
+              },
+              {
+                "contributorName": "Mr. Brown",
+                "contributorType": "Scene Painter"
+              },
+              {
+                "contributorName": "J. Brown",
+                "contributorType": "Scene Painter"
+              },
+              {
+                "contributorName": "Mr. Lewis",
+                "contributorType": "Costumer"
+              },
+              {
+                "contributorName": "Mrs. Lewis",
+                "contributorType": "Costumer"
+              },
+              {
+                "contributorName": "Mr. Jenkins",
+                "contributorType": "Machinist"
+              }
+            ],
+            "featuredAttractions": [
+              {
+                "attraction": "As performed at the Theatre-Royal, Drury Lane, upwards of 100 nights with unprecedented attraction and applause",
+                "isInterpolation": false
+              }
+            ],
+            "performers": [
+              {
+                "performerName": "Mr. Raymond",
+                "role": "Zaphimiri, Prince of China",
+                "roleNotes": "Traveller",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. M'Cready",
+                "role": "O'Gallagher",
+                "roleNotes": "Traveller",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Collier",
+                "role": "Koyan, his Friend & Companion",
+                "roleNotes": "Traveller",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Master Lewis",
+                "role": "Page",
+                "roleNotes": "Traveller",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Lewis",
+                "role": "Page",
+                "roleNotes": "Traveller",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Denning",
+                "role": "Mindora",
+                "roleNotes": "Traveller",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Herbert",
+                "role": "Celinda",
+                "roleNotes": "Traveller",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Bond",
+                "role": "The Emperor",
+                "roleNotes": "Character in China",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Telbin",
+                "role": "Chief Mandarin",
+                "roleNotes": "Character in China",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Garthwaite",
+                "role": "Delvo",
+                "roleNotes": "Character in China",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Stuart",
+                "role": "Mandarin",
+                "roleNotes": "unnamed extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Stuart",
+                "role": "Soldier",
+                "roleNotes": "unnamed extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Stuart",
+                "role": "Gardener",
+                "roleNotes": "unnamed extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Stuart",
+                "role": "Chinese Lady",
+                "roleNotes": "unnamed extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Newton",
+                "role": "Mandarin",
+                "roleNotes": "unnamed extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Newton",
+                "role": "Soldier",
+                "roleNotes": "unnamed extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Newton",
+                "role": "Gardener",
+                "roleNotes": "unnamed extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Stuart",
+                "role": "Chinese Lady",
+                "roleNotes": "unnamed extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Lewis",
+                "role": "Mandarin",
+                "roleNotes": "unnamed extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Lewis",
+                "role": "Soldier",
+                "roleNotes": "unnamed extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Lewis",
+                "role": "Soldier",
+                "roleNotes": "unnamed extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Lewis",
+                "role": "Gardener",
+                "roleNotes": "unnamed extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Lewis",
+                "role": "Chinese Lady",
+                "roleNotes": "unnamed extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Raymond",
+                "role": "Mandarin",
+                "roleNotes": "unnamed extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Raymond",
+                "role": "Soldier",
+                "roleNotes": "unnamed extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Raymond",
+                "role": "Gardener",
+                "roleNotes": "unnamed extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Raymond",
+                "role": "Chinese Lady",
+                "roleNotes": "unnamed extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Moreton",
+                "role": "Mandarin",
+                "roleNotes": "unnamed extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Moreton",
+                "role": "Soldier",
+                "roleNotes": "unnamed extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Moreton",
+                "role": "Gardener",
+                "roleNotes": "unnamed extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Moreton",
+                "role": "Chinese Lady",
+                "roleNotes": "unnamed extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Parr",
+                "role": "Mandarin",
+                "roleNotes": "unnamed extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Parr",
+                "role": "Soldier",
+                "roleNotes": "unnamed extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Parr",
+                "role": "Gardener",
+                "roleNotes": "unnamed extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Parr",
+                "role": "Chinese Lady",
+                "roleNotes": "unnamed extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Lewis",
+                "role": "Mandarin",
+                "roleNotes": "unnamed extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Lewis",
+                "role": "Soldier",
+                "roleNotes": "unnamed extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Lewis",
+                "role": "Gardener",
+                "roleNotes": "unnamed extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Lewis",
+                "role": "Chinese Lady",
+                "roleNotes": "unnamed extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Gladstanes",
+                "role": "Grand Vizier",
+                "roleNotes": "Characters in Turkey",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Lascelles",
+                "role": "Chief Aga of the Jannizaries",
+                "roleNotes": "Characters in Turkey",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Johnson",
+                "role": "Morad",
+                "roleNotes": "Characters in Turkey",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Parker",
+                "role": "Ben Ali",
+                "roleNotes": "Characters in Turkey",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Jarvis",
+                "role": "Selim",
+                "roleNotes": "Character in Turkey",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Parr",
+                "role": "Safie",
+                "roleNotes": "Character in Turkey, with a Dance",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Leigh",
+                "role": "Parazade",
+                "roleNotes": "Character in Turkey",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "unnamed extras",
+                "role": "Ladies",
+                "roleNotes": "unnamed extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "unnamed extras",
+                "role": "Jannizaries",
+                "roleNotes": "unnamed extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "unnamed extras",
+                "role": "Servants",
+                "roleNotes": "unnamed extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Stuart",
+                "role": "The Duke Posilipo",
+                "roleNotes": "Character in Italy",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Brown",
+                "role": "Barnini",
+                "roleNotes": "Character in Italy",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Jones",
+                "role": "Sanguino",
+                "roleNotes": "Character in Italy",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Telbin",
+                "role": "Teledo",
+                "roleNotes": "Character in Italy",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Darley",
+                "role": "Calvetti",
+                "roleNotes": "Character in Italy",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Percival",
+                "role": "Jacomo",
+                "roleNotes": "Character in Italy",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Jarvis",
+                "role": "Machioness Merida",
+                "roleNotes": "Character in Italy",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "unnamed extras",
+                "role": "Lazzaroni",
+                "roleNotes": "unnamed extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "unnamed extras",
+                "role": "Men",
+                "roleNotes": "unnamed extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "unnamed extras",
+                "role": "Women",
+                "roleNotes": "unnamed extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Newton",
+                "role": "Admiral Lord Hawser",
+                "roleNotes": "Character in England",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Denning",
+                "role": "Ben Buntline",
+                "roleNotes": "Character in England",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "unnamed extras",
+                "role": "Sailor",
+                "roleNotes": "unnamed extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "unnamed extras",
+                "role": "Lasses",
+                "roleNotes": "unnamed extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              }
+            ]
+          },
+          {
+            "genreClaim": "Farce",
+            "kindOfPerformance": "After Piece",
+            "orderOfPerformance": "2",
+            "title": "Ladies at Home; Or, Gentlemen! We Can Do Without You.",
+            "contributors": [
+              {
+                "contributorName": "",
+                "contributorType": ""
+              }
+            ],
+            "featuredAttractions": [
+              {
+                "attraction": "",
+                "isInterpolation": false
+              }
+            ],
+            "performers": [
+              {
+                "performerName": "Miss Desmod",
+                "role": "Mrs. Banter",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Jarvis",
+                "role": "Lady Lucretia",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Raymond",
+                "role": "Miss Buckram",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Stuart",
+                "role": "Lady Antidote",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Parr",
+                "role": "Jenny",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Newton",
+                "role": "Miss Prim",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Leigh",
+                "role": "Laura",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              }
+            ]
+          }
+        ],
+        "ticketing": {
+          "boxPrice": "",
+          "currency": "",
+          "galleryPrice": "",
+          "pitPrice": "",
+          "secondBoxPrice": "",
+          "secondGalleryPrice": "",
+          "secondPitPrice": "",
+          "secondUpperGalleryPrice": "",
+          "ticketingNotes": "",
+          "toBeHad": "Mr. Cozens",
+          "upperGalleryPrice": ""
+        }
+      }
+    ]
+  }
+}

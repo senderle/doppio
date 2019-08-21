@@ -1,0 +1,510 @@
+{
+  "ephemeralRecord": {
+    "archiveHoldingDocument": "British Library",
+    "callNumber": "lsidyv41bb4d56",
+    "containingCollection": "",
+    "dataCataloger": "Imani",
+    "dimensions": "",
+    "documentType": "Playbill",
+    "pageNumber": "47",
+    "periodicalTitle": "",
+    "persistentUrl": "",
+    "printedArea": "",
+    "advertisements": [
+      ""
+    ],
+    "announcements": [
+      "The Last Night But Six."
+    ],
+    "documentPrinter": {
+      "location": "Bowlalley-Lane, Hull",
+      "name": "W. Ross."
+    },
+    "shows": [
+      {
+        "date": "1819-02-25",
+        "doorsOpen": "",
+        "location": "Hull",
+        "performanceBegins": "",
+        "stageManager": "",
+        "theaterCompany": "",
+        "venue": "Theatre-Royal, Hull",
+        "featuredAttractionsForShow": [
+          ""
+        ],
+        "notes": [
+          ""
+        ],
+        "occasions": [
+          {
+            "occasionAsStated": "Benefit of Mr. Willis. Scene Painter.",
+            "occasionType": "Benefit Performance",
+            "beneficiary": [
+              "Mr. Willis"
+            ],
+            "occasioner": [
+              ""
+            ]
+          }
+        ],
+        "performances": [
+          {
+            "genreClaim": "Operatic Drama, in Five Acts.",
+            "kindOfPerformance": "Mainpiece",
+            "orderOfPerformance": "1",
+            "title": "The Travellers; Or Music's Fascination.",
+            "contributors": [
+              {
+                "contributorName": "Mr. Willis",
+                "contributorType": "Painter"
+              }
+            ],
+            "featuredAttractions": [
+              {
+                "attraction": "With entirely New and Splendid Scenery, Machinery, Dresses and Decorations.",
+                "isInterpolation": false
+              },
+              {
+                "attraction": "End of the Play, A Dance by Miss Green.",
+                "isInterpolation": true
+              },
+              {
+                "attraction": "A Comic Song by Mr. Chapman.",
+                "isInterpolation": true
+              },
+              {
+                "attraction": "Principal Scenery listed.",
+                "isInterpolation": false
+              }
+            ],
+            "performers": [
+              {
+                "performerName": "Mr. Calvert",
+                "role": "Zaphimira, Prince of China",
+                "roleNotes": "The Travellers",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Larkin",
+                "role": "Koyan, his friend & companion",
+                "roleNotes": "The Travellers",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Neville",
+                "role": "O'Gallagher",
+                "roleNotes": "The Travellers",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Master T. Foster",
+                "role": "Page",
+                "roleNotes": "The Travellers",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Master W. Foster",
+                "role": "Page",
+                "roleNotes": "The Travellers",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Diddear",
+                "role": "Mindora",
+                "roleNotes": "The Travellers",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Stanley",
+                "role": "Celinda",
+                "roleNotes": "The Travellers",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Carr",
+                "role": "The Emperor",
+                "roleNotes": "Act First, Characters in China.",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Remington",
+                "role": "Chief Mandarin",
+                "roleNotes": "Act First, Characters in China.",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Stanley",
+                "role": "Delvo, an old Gardener",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Unnamed",
+                "role": "Mandarins, Soldiers, Gardeners, &c.",
+                "roleNotes": "Act First, Characters in China.",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Balls",
+                "role": "Grand Vizier",
+                "roleNotes": "Act Second, Characters in Turkey.",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Willis",
+                "role": "Chief Aga of the Janizaries",
+                "roleNotes": "Act Second, Characters in Turkey.",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. W. Remington",
+                "role": "Morad",
+                "roleNotes": "Act Second, Characters in Turkey.",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Nicholls",
+                "role": "Selim",
+                "roleNotes": "Act Second, Characters in Turkey.",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Wells",
+                "role": "Parazede",
+                "roleNotes": "Act Second, Characters in Turkey.",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Chapman",
+                "role": "Safie",
+                "roleNotes": "Act Second, Characters in Turkey.",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Green",
+                "role": "Principal Dancer",
+                "roleNotes": "Act Second, Characters in Turkey.",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Unnamed",
+                "role": "Ladies, Janzaries, Servants, &c.",
+                "roleNotes": "Act Second, Characters in Turkey.",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Clarke",
+                "role": "The Duke of Posilipo",
+                "roleNotes": "Act Third and Fourth, Characters in Italy.",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Smith",
+                "role": "Sanguini",
+                "roleNotes": "Act Third and Fourth, Characters in Italy.",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Parsons",
+                "role": "Barnini",
+                "roleNotes": "Act Third and Fourth, Characters in Italy.",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Sherwin",
+                "role": "Toledo",
+                "roleNotes": "Act Third and Fourth, Characters in Italy.",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Morris",
+                "role": "Jacomo",
+                "roleNotes": "Act Third and Fourth, Characters in Italy.",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Poole",
+                "role": "The Marchioness of Merida",
+                "roleNotes": "Act Third and Fourth, Characters in Italy.",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Foster",
+                "role": "Admiral Lord Hawser",
+                "roleNotes": "Act Fifth, Characters in England.",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. W. Chapman",
+                "role": "Ben Buntline",
+                "roleNotes": "Act Fifth, Characters in England.",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Unnamed",
+                "role": "Sailors, Sailors' Lasses, &c.",
+                "roleNotes": "Act Fifth, Characters in England.",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              }
+            ]
+          },
+          {
+            "genreClaim": "Romantic Melo-Drama",
+            "kindOfPerformance": "Afterpiece",
+            "orderOfPerformance": "2",
+            "title": "The Broken Sword ; Or, The Torrent",
+            "contributors": [
+              {
+                "contributorName": "",
+                "contributorType": ""
+              }
+            ],
+            "featuredAttractions": [
+              {
+                "attraction": "",
+                "isInterpolation": false
+              }
+            ],
+            "performers": [
+              {
+                "performerName": "Mr. Neville",
+                "role": "The Baron",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Foster",
+                "role": "Captain Zavier",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Carr",
+                "role": "Claudio",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Clarke",
+                "role": "Col. Rigolio",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Stanley",
+                "role": "Pablo",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Balls",
+                "role": "Estevan",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Stanley",
+                "role": "Myrtillo",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Blanchard",
+                "role": "Rosara",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Poole",
+                "role": "Stella",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Wells",
+                "role": "Beatrice",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Eborall",
+                "role": "Jacintha",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              }
+            ]
+          }
+        ],
+        "ticketing": {
+          "boxPrice": "",
+          "currency": "",
+          "galleryPrice": "",
+          "pitPrice": "",
+          "secondBoxPrice": "",
+          "secondGalleryPrice": "",
+          "secondPitPrice": "",
+          "secondUpperGalleryPrice": "",
+          "ticketingNotes": "",
+          "toBeHad": "Tickets as usual ; and of Mr. Willis, at Mr. Gray's, Wellington Hotel, Mytongate.",
+          "upperGalleryPrice": ""
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,737 @@
+{
+  "ephemeralRecord": {
+    "archiveHoldingDocument": "Lewis Walpole Library",
+    "callNumber": "767 P69B H87 1793 2/5",
+    "containingCollection": "Yale University Library",
+    "dataCataloger": "Michael Gamer",
+    "dimensions": "31 x 20 cm",
+    "documentType": "Playbill",
+    "pageNumber": "",
+    "periodicalTitle": "",
+    "persistentUrl": "http://hdl.handle.net/10079/bibid/9811447",
+    "printedArea": "",
+    "advertisements": [
+      ""
+    ],
+    "announcements": [
+      "THE LAST NIGHT",
+      "Miss REYNOLDS Health being now in an improving State, she has therefore kindly promised the Exertion of her best Endeavours of the undermentioned Night,--which has enabled Mr. CHERRY to assure the Public, that the Entertainments herein advertised will be performed (without Alteration or Omission) with the strictest Attention to their Propriety,--and in such a Manner as he respectfully hopes will insure him their future Patronage and Support.",
+      "Benefit of Mr. and Mrs. Cherry."
+    ],
+    "documentPrinter": {
+      "location": "Hull",
+      "name": "Rawson & Co."
+    },
+    "shows": [
+      {
+        "date": "1793-02-05",
+        "doorsOpen": "",
+        "location": "Hull",
+        "performanceBegins": "",
+        "stageManager": "",
+        "theaterCompany": "",
+        "venue": "Theatre in Lowgate",
+        "featuredAttractionsForShow": [
+          ""
+        ],
+        "notes": [
+          ""
+        ],
+        "occasions": [
+          {
+            "occasionAsStated": "Benefit of Mr. and Mrs. Cherry",
+            "occasionType": "Benefit Performance",
+            "beneficiary": [
+              "Mr Cherry",
+              "Mrs Cherry"
+            ],
+            "occasioner": [
+              ""
+            ]
+          }
+        ],
+        "performances": [
+          {
+            "genreClaim": "Comedy",
+            "kindOfPerformance": "Benefit",
+            "orderOfPerformance": "1",
+            "title": "The Stratagem",
+            "contributors": [
+              {
+                "contributorName": "",
+                "contributorType": ""
+              }
+            ],
+            "featuredAttractions": [
+              {
+                "attraction": "",
+                "isInterpolation": false
+              }
+            ],
+            "performers": [
+              {
+                "performerName": "Mr Hamerton",
+                "role": "Archer",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr Elliston",
+                "role": "Aimwell",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr Leng",
+                "role": "Boniface",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr Warren",
+                "role": "Gibbet",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr Stephens",
+                "role": "Mr Sullen",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr Michell",
+                "role": "Father Foigard",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr Turpin",
+                "role": "Sir Charles Freeman",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr Cherry",
+                "role": "Scrub",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs Brown",
+                "role": "Cherry",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs Wood",
+                "role": "Dorinda",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs Leng",
+                "role": "Lady Bountiful",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs French",
+                "role": "Gypsey",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs Simpson",
+                "role": "Mrs Sullen",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              }
+            ]
+          },
+          {
+            "genreClaim": "Comic Sketch",
+            "kindOfPerformance": "Benefit",
+            "orderOfPerformance": "2",
+            "title": "Irish Darby's RETURN to Hull",
+            "contributors": [
+              {
+                "contributorName": "Mr Cherry",
+                "contributorType": "Playwright"
+              }
+            ],
+            "featuredAttractions": [
+              {
+                "attraction": "With his Reception at York, Leeds,--Description of DONCASTER RACES, &c. &c. ",
+                "isInterpolation": false
+              },
+              {
+                "attraction": "Written, and to be spoken in Character, by Mr CHERRY",
+                "isInterpolation": false
+              }
+            ],
+            "performers": [
+              {
+                "performerName": "Mr Cherry",
+                "role": "Irish Darby",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "",
+                "role": "",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "",
+                "role": "",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "",
+                "role": "",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "",
+                "role": "",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "",
+                "role": "",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "",
+                "role": "",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "",
+                "role": "",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "",
+                "role": "",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "",
+                "role": "",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "",
+                "role": "",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "",
+                "role": "",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "",
+                "role": "",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "",
+                "role": "",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              }
+            ]
+          },
+          {
+            "genreClaim": "Comic, Satiric, Operatic, Pantomime ROMANCE",
+            "kindOfPerformance": "Benefit",
+            "orderOfPerformance": "3",
+            "title": "Harlequin on the Stocks, or, A Pantomime Launched",
+            "contributors": [
+              {
+                "contributorName": "Mr Cherry",
+                "contributorType": "Playwright"
+              },
+              {
+                "contributorName": "Mr Michell",
+                "contributorType": "Scene Painter"
+              }
+            ],
+            "featuredAttractions": [
+              {
+                "attraction": "The Music of the Songs, Duets, Glees, &c. selected from the Works of the most celebrated Modern Composers",
+                "isInterpolation": false
+              },
+              {
+                "attraction": "With incidental SCENERY, (painted by Mr. Michell), many entertaining and pantomimic TRANSFORMATIONS, and every necessary Decoration",
+                "isInterpolation": false
+              },
+              {
+                "attraction": "",
+                "isInterpolation": false
+              }
+            ],
+            "performers": [
+              {
+                "performerName": "Mr Cherry",
+                "role": "Jeffery Jingle (the Poet)",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr Warren",
+                "role": "Lord Dulwit",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr Wood",
+                "role": "Painter",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr Stephens",
+                "role": "Tragic Poet",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr Michell",
+                "role": "First Carpenter",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr Leng",
+                "role": "Prompter",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr Turpin",
+                "role": "Second Carpenter",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr Southgate",
+                "role": "Taylor",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr Jerman",
+                "role": "Prompter's Call",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr Penson",
+                "role": "Opera Composer",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Reynolds",
+                "role": "The Genius of Pantomime",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr Brown",
+                "role": "Harlequin",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr Warren",
+                "role": "Old Nabob",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr Stephens",
+                "role": "Marquis le Cayenne",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr Michell",
+                "role": "First Robber, (with a Song)",
+                "roleNotes": "with a Song",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr Wood",
+                "role": "Satyr",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr Turpin",
+                "role": "Dyrad",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr Southgate",
+                "role": "Mountebank, (with a Song)",
+                "roleNotes": "with a Song",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr Snagg",
+                "role": "Naiad",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr Jerman",
+                "role": "Spectre",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr Penson",
+                "role": "The Clown",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs French",
+                "role": "Milliner",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Cummins",
+                "role": "Melpomone",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss L. Cummins",
+                "role": "Clio",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Wood",
+                "role": "Thalia",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Cherry",
+                "role": "Terpsichore",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs Southgate",
+                "role": "Colombine",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              }
+            ]
+          },
+          {
+            "genreClaim": "A Petit Piece",
+            "kindOfPerformance": "Benefit",
+            "orderOfPerformance": "4",
+            "title": "The Generous Tar; Or, Sailors in and out of their Element",
+            "contributors": [
+              {
+                "contributorName": "John O'Keefe",
+                "contributorType": "Playwright"
+              }
+            ],
+            "featuredAttractions": [
+              {
+                "attraction": "",
+                "isInterpolation": false
+              }
+            ],
+            "performers": [
+              {
+                "performerName": "Mr Cherry",
+                "role": "Tom Grog",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr Turpin",
+                "role": "Beau Binnacle",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr Michell",
+                "role": "Sam Stern",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              }
+            ]
+          }
+        ],
+        "ticketing": {
+          "boxPrice": "",
+          "currency": "",
+          "galleryPrice": "",
+          "pitPrice": "",
+          "secondBoxPrice": "",
+          "secondGalleryPrice": "",
+          "secondPitPrice": "",
+          "secondUpperGalleryPrice": "",
+          "ticketingNotes": "",
+          "toBeHad": "Tickets to be had at RAWSON & Co. Printers and Booksellers in Lowgate; at the Theatre Coffeehouse, Finkle-Street; of Mr Swalwell at the Theatre; and of Mr Cherry at Mr Atkinson's, opposite the Trinity-House.",
+          "upperGalleryPrice": ""
+        }
+      }
+    ]
+  }
+}

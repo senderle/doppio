@@ -1,0 +1,300 @@
+{
+  "ephemeralRecord": {
+    "archiveHoldingDocument": "British Library",
+    "callNumber": "lsidyv414d7cb2",
+    "containingCollection": "",
+    "dataCataloger": "SamClay",
+    "dimensions": "",
+    "documentType": "Playbill",
+    "pageNumber": "170",
+    "periodicalTitle": "",
+    "persistentUrl": "",
+    "printedArea": "",
+    "advertisements": [
+      ""
+    ],
+    "announcements": [
+      "Two New Dramas."
+    ],
+    "documentPrinter": {
+      "location": "",
+      "name": ""
+    },
+    "shows": [
+      {
+        "date": "1820-06-12",
+        "doorsOpen": "",
+        "location": "Bristol",
+        "performanceBegins": "",
+        "stageManager": "",
+        "theaterCompany": "",
+        "venue": "Theatre-Royal, Bristol.",
+        "featuredAttractionsForShow": [
+          "Two New Dramas"
+        ],
+        "notes": [
+          ""
+        ],
+        "occasions": [
+          {
+            "occasionAsStated": "With every sentiment of respect and gratitude, Miss Desmond makes known to the Ladies and Gentlemen of Bristol, Clifton, and their Vicinities, that her Benefit is appointed to take place on Monday Evening.",
+            "occasionType": "Benefit Performance",
+            "beneficiary": [
+              "Miss Desmond"
+            ],
+            "occasioner": [
+              ""
+            ]
+          }
+        ],
+        "performances": [
+          {
+            "genreClaim": "New Historical Tragedy",
+            "kindOfPerformance": "Main Piece",
+            "orderOfPerformance": "1",
+            "title": "Virginius; Or, The Liberation of Rome.",
+            "contributors": [
+              {
+                "contributorName": "Sheridan Knowles, Esq.",
+                "contributorType": "Playwright"
+              }
+            ],
+            "featuredAttractions": [
+              {
+                "attraction": "With new Dresses, Decorations, &c. as performed at the Theatre-Royal, Covent Garden and received with rivetted attention which was never for a moment withdrawn but by the interruption of involuntary applause that burst forth from all parts of the House.",
+                "isInterpolation": false
+              },
+              {
+                "attraction": "End of the Play, a Comic Song by Mr. Newton, Miss Newton will sing a Cruel Song accompanied on the Violin by Mr. Lascelles in the character of a couple of Ballad SIngers, \"Darby Kelly\" by Mr. Cogan, The Minuet de la Cour and Cavotte by the Misses Giroux, who have kindly volunteered their aid.",
+                "isInterpolation": true
+              }
+            ],
+            "performers": [
+              {
+                "performerName": "Mr. Gladstanes",
+                "role": "Appius Claudius",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Acland ",
+                "role": "Virbulanus",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Johnson",
+                "role": "Virginius",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Lascelles",
+                "role": "Marcius",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Stuart",
+                "role": "Icilius",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. B. Johnson",
+                "role": "Publius",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Raymond",
+                "role": "Claudius",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Lewis",
+                "role": "Honorius",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Telbin",
+                "role": "Siccius Dentatus",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Cooke",
+                "role": "Valerius",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Bond",
+                "role": "Numetorius",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Garthwaite",
+                "role": "Plebeian",
+                "roleNotes": "Unnamed Extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Dighton",
+                "role": "Plebeian",
+                "roleNotes": "Unnamed Extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Cogan",
+                "role": "Spurius Oppius",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Moreton",
+                "role": "Servia",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Cogan",
+                "role": "Slave",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Desmond",
+                "role": "Virginia",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              }
+            ]
+          },
+          {
+            "genreClaim": "Melo Dramatic Entertainment",
+            "kindOfPerformance": "After Pieces",
+            "orderOfPerformance": "2",
+            "title": "Meg Murnoch, The Mountain Hag; Or, The Fatal Glen of Lorin.",
+            "contributors": [
+              {
+                "contributorName": "Mr. Barrymore",
+                "contributorType": "Playwright"
+              }
+            ],
+            "featuredAttractions": [
+              {
+                "attraction": "Performed in London with the most decided applause and admiration.",
+                "isInterpolation": false
+              },
+              {
+                "attraction": "New and appropriate Scenery, CHaracteristic Dresses, Incidents, and Decorations.",
+                "isInterpolation": false
+              },
+              {
+                "attraction": "In the course of the Piece, the following Scenery, Incidents, &c.: The Cottage of Duncan, and the Mysterious Appearance of Meg Murnoch; The Glen of Lorin and meeting of Fitzarran and Meg; The Bandittie enter, Fitzaran discovers his Father to make him great is leagued with Banditti and plotting the Death of Young Malcolm; The Interior of the Refectory where, after various disappointments, the Banditti enter and secure Young Malcolm, giving him by mistake to Meg, Fitzarran is suspected to be the villain, and to clear himself goes in pursuit; a Grand Combat, between Vich Ivor and Meg Murnoch, the latter Triumphs and secures the boy. With various other Scenes, &c. &c.",
+                "isInterpolation": false
+              }
+            ],
+            "performers": [
+              {
+                "performerName": "",
+                "role": "",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              }
+            ]
+          }
+        ],
+        "ticketing": {
+          "boxPrice": "",
+          "currency": "",
+          "galleryPrice": "",
+          "pitPrice": "",
+          "secondBoxPrice": "",
+          "secondGalleryPrice": "",
+          "secondPitPrice": "",
+          "secondUpperGalleryPrice": "",
+          "ticketingNotes": "",
+          "toBeHad": "Mr. Cozens",
+          "upperGalleryPrice": ""
+        }
+      }
+    ]
+  }
+}

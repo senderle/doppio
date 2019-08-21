@@ -1,0 +1,326 @@
+{
+  "ephemeralRecord": {
+    "archiveHoldingDocument": "British Library",
+    "callNumber": "lsidyv414d7cb2",
+    "containingCollection": "",
+    "dataCataloger": "SamClay",
+    "dimensions": "",
+    "documentType": "Playbill",
+    "pageNumber": "182",
+    "periodicalTitle": "",
+    "persistentUrl": "",
+    "printedArea": "",
+    "advertisements": [
+      "Leader of the Band, Mr. Spray, from the Theaters-Royal, Chester, Cheltenham, &c. Nights of Performing the Week: Tuesday, Wednesday, Thursday, and Friday.",
+      "Miss Atkins, from the Theatre-Royal, Edinburgh, and Mr. T. Reeves, from the Lyceum and other London Theatres, are engaged.",
+      "Several popular new Dramas are in preparation, particularly the Vampire; or, the Bride of the Isles, translated from the French by I. R. Planche, Esq. the Music by Davey, with New Scenery by Mr. Carroll, Dresses by Mr. and Mrs. Lewis, as performed with great attraction at the Theatre-Royal, English Opera.",
+      "On Wednesday Evening will be presented the Tragedy of Venice Preserved; Or, a Plot Discovered, Belvidera by Miss Desmond. After which, a Comic Piece called The Actress of all Work in which Miss Hart will perform the principal Characters. To conclude with the Farce of Rosina, the part of Rosina by a Young Lady being her first appearance on any Stage, Belville by Mr. Bing from the Theatre-Royal, Brighton, Captain Belville by Mr. Lathan from the Theatre-Royal, Margate, being their first appearance here."
+    ],
+    "announcements": [
+      "The Boudoir has been again tastefully fitted up for the accommodation of Ladies and Gentlemen, who visit the Theatre at second Price.",
+      "No Person can on any account be admitted behind the Scenes. A few Tickets of admission for that Season, to Boxes and Pit, may be had by applying to Mr. Major, Printer and Mr. Cozens at the Theatre."
+    ],
+    "documentPrinter": {
+      "location": "Bristol, St. John's Steps",
+      "name": "Major"
+    },
+    "shows": [
+      {
+        "date": "1820-12-26",
+        "doorsOpen": "18:00",
+        "location": "Bristol",
+        "performanceBegins": "19:00",
+        "stageManager": "",
+        "theaterCompany": "",
+        "venue": "Theatre-Royal, Bristol.",
+        "featuredAttractionsForShow": [
+          "The Decorations and Embellishments being now completely finished, in a very superior style, by and under the direction of Mr. William Edkins the Nobility, Gentry, and the Public in general are respectfully informed that the Theatre will be opened for the Season"
+        ],
+        "notes": [
+          ""
+        ],
+        "occasions": [
+          {
+            "occasionAsStated": "",
+            "occasionType": "",
+            "beneficiary": [
+              ""
+            ],
+            "occasioner": [
+              ""
+            ]
+          }
+        ],
+        "performances": [
+          {
+            "genreClaim": "Comedy",
+            "kindOfPerformance": "Main Piece",
+            "orderOfPerformance": "1",
+            "title": "The Honey Moon; Or, How to Rule a Wife.",
+            "contributors": [
+              {
+                "contributorName": "",
+                "contributorType": ""
+              }
+            ],
+            "featuredAttractions": [
+              {
+                "attraction": "In Act 4th, a Rural Dance, incidental to the Piece by the Characters.",
+                "isInterpolation": true
+              },
+              {
+                "attraction": "End of the Play, a medley Pas Seul by Mrs. Best, late Miss Parry.",
+                "isInterpolation": true
+              }
+            ],
+            "performers": [
+              {
+                "performerName": "Mr. Johnson",
+                "role": "Duke Aranza",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Carles",
+                "role": "Rolando",
+                "roleNotes": "Theatres-Royal, Birmingham, Brighton, &c. &c.",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Johnes",
+                "role": "Count Mountalbin",
+                "roleNotes": "Theatre-Royal, Haymarket",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Lane",
+                "role": "Jaquez",
+                "roleNotes": "Theatre-Royal, Birmingham, Brighton, &c.",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Woolman",
+                "role": "Lampedo",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": true,
+                  "newPerformerOrigin": "Theatre-Royal, Norwhich",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Telbin",
+                "role": "Balthazer",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Ross",
+                "role": "Lopez",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Reed",
+                "role": "Campillo",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Jones",
+                "role": "Volante",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": true,
+                  "newPerformerOrigin": "Theatre-Royal, Haymarket",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Johnson",
+                "role": "Zamora",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Mara",
+                "role": "Hostess",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Hart",
+                "role": "Julianna",
+                "roleNotes": "Theatre-Royal, Newcastle upon Tyne, Co.",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              }
+            ]
+          },
+          {
+            "genreClaim": "Farce",
+            "kindOfPerformance": "After Piece",
+            "orderOfPerformance": "2",
+            "title": "The Spoil'd Child.",
+            "contributors": [
+              {
+                "contributorName": "",
+                "contributorType": ""
+              }
+            ],
+            "featuredAttractions": [
+              {
+                "attraction": "",
+                "isInterpolation": false
+              }
+            ],
+            "performers": [
+              {
+                "performerName": "Miss Hart",
+                "role": "Little Pickle",
+                "roleNotes": "the Spoil'd Child",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Telbin",
+                "role": "Old Pickle",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Woolman",
+                "role": "John",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Reed",
+                "role": "James",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Lane",
+                "role": "Tag",
+                "roleNotes": "the Author",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Johnson",
+                "role": "Maria",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Jones",
+                "role": "Susan",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Lewis",
+                "role": "Nurse",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Mara",
+                "role": "Miss Pickle",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              }
+            ]
+          }
+        ],
+        "ticketing": {
+          "boxPrice": "48",
+          "currency": "UK",
+          "galleryPrice": "18",
+          "pitPrice": "30",
+          "secondBoxPrice": "24",
+          "secondGalleryPrice": "12",
+          "secondPitPrice": "18",
+          "secondUpperGalleryPrice": "",
+          "ticketingNotes": "",
+          "toBeHad": "Mr. Cozens",
+          "upperGalleryPrice": ""
+        }
+      }
+    ]
+  }
+}

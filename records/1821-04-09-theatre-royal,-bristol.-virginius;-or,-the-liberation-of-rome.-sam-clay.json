@@ -1,0 +1,485 @@
+{
+  "ephemeralRecord": {
+    "archiveHoldingDocument": "British Library",
+    "callNumber": "lsidyv414d7cb2",
+    "containingCollection": "",
+    "dataCataloger": "SamClay",
+    "dimensions": "",
+    "documentType": "Playbill",
+    "pageNumber": "256",
+    "periodicalTitle": "",
+    "persistentUrl": "",
+    "printedArea": "",
+    "advertisements": [
+      "On Tuesday Evening will be presented the new Historical Tragedy called Wallace, the part of Wallace, Regent of Scotland, by Mr. Macready as originally performed at him at the Theatre-Royal, Covent Garden being his first appearance in that Character on this Stage. To which will be added the admired Melo-Drame of Therese, the Orphan of Geneva.",
+      "Last Night of Mr. Macready's Engagement will be on Wednesday Evening when will be presented the Tragedy of Macbeth, King of Scotland, the part of Macbeth by Mr. Macready, being his first appearance in that Character on this Stage. To which will be added, second time, the Drama called The Lady and The Devil."
+    ],
+    "announcements": [
+      "No Orders can be admitted."
+    ],
+    "documentPrinter": {
+      "location": "",
+      "name": ""
+    },
+    "shows": [
+      {
+        "date": "1821-04-09",
+        "doorsOpen": "",
+        "location": "Bristol",
+        "performanceBegins": "",
+        "stageManager": "",
+        "theaterCompany": "",
+        "venue": "Theatre-Royal, Bristol.",
+        "featuredAttractionsForShow": [
+          "The Manager begs leave most respectfully to make known in the Ladies and Gentlemen of Bristol, Clifton, and their VIcinities that having obtained from the Proprietors of the Theatre-Royal, Covent Garden a short leave of absence for his Son, he has the honor to announce him for Three Nights' Performance at this Theatre. Mr. Macready of the Theatre-Royal, Covent Garden will perform on Monday Evening."
+        ],
+        "notes": [
+          ""
+        ],
+        "occasions": [
+          {
+            "occasionAsStated": "",
+            "occasionType": "",
+            "beneficiary": [
+              ""
+            ],
+            "occasioner": [
+              ""
+            ]
+          }
+        ],
+        "performances": [
+          {
+            "genreClaim": "Historical Tragedy",
+            "kindOfPerformance": "Main Piece",
+            "orderOfPerformance": "1",
+            "title": "Virginius; Or, the Liberation of Rome.",
+            "contributors": [
+              {
+                "contributorName": "",
+                "contributorType": ""
+              }
+            ],
+            "featuredAttractions": [
+              {
+                "attraction": "",
+                "isInterpolation": false
+              }
+            ],
+            "performers": [
+              {
+                "performerName": "Mr. Carles",
+                "role": "Appius Claudius",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Atkins",
+                "role": "Spurius Oppius",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. BIng",
+                "role": "Virbulanus",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Lascelles",
+                "role": "Caius Claudius",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Reed",
+                "role": "Marcus",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. J. Reeve",
+                "role": "Dentatus",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Macready",
+                "role": "Virginius",
+                "roleNotes": "being his second appearance is that Character on this Stage.",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Telbin",
+                "role": "Numitorius",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Jones",
+                "role": "Icilius",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Ross",
+                "role": "Lucius",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Lewis",
+                "role": "Publius",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Dumbulton",
+                "role": "Decius",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Jenkins",
+                "role": "Sextus",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Kinnard",
+                "role": "Titus",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Lane",
+                "role": "Servius",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Woolmer",
+                "role": "Cneius",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Jones",
+                "role": "Servia",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Lewis",
+                "role": "Slave",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Atkins",
+                "role": "VIrginia",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              }
+            ]
+          },
+          {
+            "genreClaim": "Drama",
+            "kindOfPerformance": "After Piece",
+            "orderOfPerformance": "2",
+            "title": "The Fate of Calas.",
+            "contributors": [
+              {
+                "contributorName": "Mr. Carroll",
+                "contributorType": "Scene Painter"
+              },
+              {
+                "contributorName": "Mr. Atkins",
+                "contributorType": "Scene Painter"
+              },
+              {
+                "contributorName": "Mr. Lewis",
+                "contributorType": "Costumer"
+              },
+              {
+                "contributorName": "Mrs. Lewis",
+                "contributorType": "Costumer"
+              }
+            ],
+            "featuredAttractions": [
+              {
+                "attraction": "As performed in London with the greatest applause.",
+                "isInterpolation": false
+              },
+              {
+                "attraction": "New Music, Scenery, and Decorations.",
+                "isInterpolation": false
+              }
+            ],
+            "performers": [
+              {
+                "performerName": "Mr. Carles",
+                "role": "Calas",
+                "roleNotes": "a respectable Merchant of Toulouse",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Lascelles",
+                "role": "Marc Antoine Calas",
+                "roleNotes": "his Son",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Johnson",
+                "role": "Edward",
+                "roleNotes": "betrothed to the Daughter of Calas",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Jones",
+                "role": "Ambroise",
+                "roleNotes": "Enemy of the House of Calas",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Telbin",
+                "role": "The Capitoul",
+                "roleNotes": "or First Magistrate of Toulouse",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Lane",
+                "role": "Jacob",
+                "roleNotes": "an Old Domestic of Calas",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. J. Reeve",
+                "role": "Lawrence",
+                "roleNotes": "Attendant on Edward and Suitor to Jeanette",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Ross",
+                "role": "Gilbert",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Lewis",
+                "role": "Assistant Judge",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Atkins",
+                "role": "Assistant Judge",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Dumbulton",
+                "role": "Counsellor, Gentleman, and Page of the Chamber of Justice",
+                "roleNotes": "Unnamed Extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Kinnard",
+                "role": "Counsellor, Gentleman, and Page of the Chamber of Justice",
+                "roleNotes": "Unnamed Extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Reed",
+                "role": "Counsellor, Gentleman, and Page of the Chamber of Justice",
+                "roleNotes": "Unnamed Extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. H. Lewis",
+                "role": "Counsellor, Gentleman, and Page of the Chamber of Justice",
+                "roleNotes": "Unnamed Extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Aylett",
+                "role": "Jeannette",
+                "roleNotes": "Daughter of Jacob and Attendant on Pauline",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Atkins",
+                "role": "Pauline",
+                "roleNotes": "Daughter of M. & Madame Calas",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Desmond",
+                "role": "Madame Calas",
+                "roleNotes": "a Native of England",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              }
+            ]
+          }
+        ],
+        "ticketing": {
+          "boxPrice": "",
+          "currency": "",
+          "galleryPrice": "",
+          "pitPrice": "",
+          "secondBoxPrice": "",
+          "secondGalleryPrice": "",
+          "secondPitPrice": "",
+          "secondUpperGalleryPrice": "",
+          "ticketingNotes": "",
+          "toBeHad": "Mr. Cozens",
+          "upperGalleryPrice": ""
+        }
+      }
+    ]
+  }
+}

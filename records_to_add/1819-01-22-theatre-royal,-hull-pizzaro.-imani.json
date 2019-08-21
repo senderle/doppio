@@ -1,0 +1,620 @@
+{
+  "ephemeralRecord": {
+    "archiveHoldingDocument": "British Library",
+    "callNumber": "lsidyv41bb4d56",
+    "containingCollection": "",
+    "dataCataloger": "Imani",
+    "dimensions": "",
+    "documentType": "Playbill",
+    "pageNumber": "27",
+    "periodicalTitle": "",
+    "persistentUrl": "",
+    "printedArea": "",
+    "advertisements": [
+      ""
+    ],
+    "announcements": [
+      ""
+    ],
+    "documentPrinter": {
+      "location": "Lowgate, Hull",
+      "name": "W. Rawson"
+    },
+    "shows": [
+      {
+        "date": "1819-01-22",
+        "doorsOpen": "",
+        "location": "Hull",
+        "performanceBegins": "",
+        "stageManager": "",
+        "theaterCompany": "",
+        "venue": "Theatre-Royal, Hull",
+        "featuredAttractionsForShow": [
+          ""
+        ],
+        "notes": [
+          ""
+        ],
+        "occasions": [
+          {
+            "occasionAsStated": "Benefit of Mrs. Eborall",
+            "occasionType": "Benefit Performance",
+            "beneficiary": [
+              "Mrs. Eborall"
+            ],
+            "occasioner": [
+              ""
+            ]
+          }
+        ],
+        "performances": [
+          {
+            "genreClaim": "",
+            "kindOfPerformance": "Mainpiece",
+            "orderOfPerformance": "1",
+            "title": "Pizzaro.",
+            "contributors": [
+              {
+                "contributorName": "",
+                "contributorType": ""
+              }
+            ],
+            "featuredAttractions": [
+              {
+                "attraction": "With entirely new and splendid Scenery, Machinery, Dresses, and Decorations.",
+                "isInterpolation": false
+              },
+              {
+                "attraction": "Scenery. Pizarro's Magnificent Pavilion. Council of War, and Assemblage of the Spanish Troops. Temple of the Sun-High Altar-Procession of the Peruvian Army-Priests, Priestesses-Grand Chorus. View of the Peruvian Camp-Battle and Rout of the Spaniards. Wild Retreat Among the Rocks. Grand Funeral Procession, and Solemn Dirge over the Body of Rolla.",
+                "isInterpolation": false
+              },
+              {
+                "attraction": "A Comic Song by Mr. W. Chapman.",
+                "isInterpolation": true
+              },
+              {
+                "attraction": "",
+                "isInterpolation": false
+              }
+            ],
+            "performers": [
+              {
+                "performerName": "Mr. Neville",
+                "role": "Pizarro, the Spanish General",
+                "roleNotes": "Spaniard",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Balls",
+                "role": "Alonzo",
+                "roleNotes": "Spaniard",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Parsons",
+                "role": "Davilla",
+                "roleNotes": "Spaniard",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Stanley",
+                "role": "Valverde",
+                "roleNotes": "Spaniard",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Foster",
+                "role": "Las Casas",
+                "roleNotes": "Spaniard",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Willis",
+                "role": "Gonzalez",
+                "roleNotes": "Spaniard",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Remington",
+                "role": "Gomez",
+                "roleNotes": "Spaniard",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Wilson",
+                "role": "Castilian Soldier.",
+                "roleNotes": "Spaniard",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Smith",
+                "role": "Almagro",
+                "roleNotes": "Spaniard",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Diddear",
+                "role": "Elvira, Pizarro's Mistress",
+                "roleNotes": "Spaniard",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Carr",
+                "role": "Ataliba, King of Quito",
+                "roleNotes": "Peruvian",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Calvert",
+                "role": "Rolla, Commander of the Peruvian Army",
+                "roleNotes": "Peruvian",
+                "newPerformerNotes": {
+                  "newPerformer": true,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Sherwin",
+                "role": "Blind Soldier",
+                "roleNotes": "Peruvian",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. W.Remington",
+                "role": "Orano",
+                "roleNotes": "Peruvian",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Larkin",
+                "role": "High Priest",
+                "roleNotes": "Peruvian",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. W. Chapman",
+                "role": "Orozembo",
+                "roleNotes": "Peruvian",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Master Foster",
+                "role": "Boy",
+                "roleNotes": "Peruvian",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Master Stanley",
+                "role": "Cora's Child",
+                "roleNotes": "Peruvian",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Stanley",
+                "role": "Cora, Wife to Alonzo",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Poole",
+                "role": "High Priestess",
+                "roleNotes": "Peruvian",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Nichols",
+                "role": "Peruvian Officer",
+                "roleNotes": "Unnamed extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Glover",
+                "role": "Peruvian Officer",
+                "roleNotes": "Unnamed extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Morris",
+                "role": "Peruvian Officer",
+                "roleNotes": "Unnamed extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Leonard",
+                "role": "Priestess and Virgin of the Sun",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Eborall",
+                "role": "Priestess and Virgin of the Sun",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Stuart",
+                "role": "Priestess and Virgin of the Sun",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Johnson",
+                "role": "Priestess and Virgin of the Sun",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. French",
+                "role": "Priestess and Virgin of the Sun",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Robertsons",
+                "role": "Priestess and Virgin of the Sun",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Neville",
+                "role": "Priestess and Virgin of the Sun",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Wells",
+                "role": "Priestess and Virgin of the Sun",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Blanchard",
+                "role": "Priestess and Virgin of the Sun",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Green",
+                "role": "Priestess and Virgin of the Sun",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              }
+            ]
+          },
+          {
+            "genreClaim": "Ballet of Action",
+            "kindOfPerformance": "Afterpiece",
+            "orderOfPerformance": "2",
+            "title": "The Gretna Green Blacksmith.",
+            "contributors": [
+              {
+                "contributorName": "",
+                "contributorType": ""
+              }
+            ],
+            "featuredAttractions": [
+              {
+                "attraction": "A Song by Miss Poole",
+                "isInterpolation": true
+              }
+            ],
+            "performers": [
+              {
+                "performerName": "Mr. Remington",
+                "role": "Simon Tackum, the Blacksmith",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Willis",
+                "role": "Mrs. McMicklethwack",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Stanley",
+                "role": "Sandy",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. W. Remington",
+                "role": "Sawney Little Brains",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Wells",
+                "role": "Moggy",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Green",
+                "role": "Jenney",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              }
+            ]
+          },
+          {
+            "genreClaim": "Burletta Operatic, Serio Comic Piece",
+            "kindOfPerformance": "Afterpiece",
+            "orderOfPerformance": "3",
+            "title": "Amoroso, King of Abbobekocrackaponokopizzicatokatterfelto ! !!",
+            "contributors": [
+              {
+                "contributorName": "",
+                "contributorType": ""
+              }
+            ],
+            "featuredAttractions": [
+              {
+                "attraction": "",
+                "isInterpolation": false
+              }
+            ],
+            "performers": [
+              {
+                "performerName": "Mr. Chapman",
+                "role": "Amorose (King)",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Neville",
+                "role": "Roastando, (his Cook)",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Stanley",
+                "role": "Blusterbus (Yeoman of the Guard)",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Larkin",
+                "role": "First Lord of the Bedchamber",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Parsons",
+                "role": "Second Ditto",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Wells",
+                "role": "Quoquetinda, Queen",
+                "roleNotes": "in love with Roastando",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Leonard",
+                "role": "Mollidusta, Chambermaid",
+                "roleNotes": "beloved by the King, but in love with Blusterbus",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. W. Remington",
+                "role": "Gentleman in Waiting",
+                "roleNotes": "Unnamed extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Nicholls",
+                "role": "Gentleman in Waiting",
+                "roleNotes": "Unnamed extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              }
+            ]
+          }
+        ],
+        "ticketing": {
+          "boxPrice": "",
+          "currency": "",
+          "galleryPrice": "",
+          "pitPrice": "",
+          "secondBoxPrice": "",
+          "secondGalleryPrice": "",
+          "secondPitPrice": "",
+          "secondUpperGalleryPrice": "",
+          "ticketingNotes": "",
+          "toBeHad": "Tickets and Places as usual ; and of Mrs. Eborall, Kingston-Court, Blanket-Row.",
+          "upperGalleryPrice": ""
+        }
+      }
+    ]
+  }
+}

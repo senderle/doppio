@@ -1,0 +1,390 @@
+{
+  "ephemeralRecord": {
+    "archiveHoldingDocument": "British Library",
+    "callNumber": "lsidyv3f9dd1e3",
+    "containingCollection": "",
+    "dataCataloger": "Kirara",
+    "dimensions": "",
+    "documentType": "Playbill",
+    "pageNumber": "19",
+    "periodicalTitle": "",
+    "persistentUrl": "",
+    "printedArea": "",
+    "advertisements": [
+      "On Tuesday (by particular desire,) Cumberland's Comedy of the West Indian, with the Musical Farce of The Prize; or 2, 5, 3 , 8.",
+      "On Thursday, Tobin's Comedy of the Honey Moon, with the last New and highly popular Melo-Drama of The Woodman's Hut.",
+      "On Saturday, Shakespeare;s Historical Play of Henry the Fourth, with the Comedy (in three Acts,) called The Three and The Deuce"
+    ],
+    "announcements": [
+      ""
+    ],
+    "documentPrinter": {
+      "location": "Marquis Court, London",
+      "name": "C. Lowndes"
+    },
+    "shows": [
+      {
+        "date": "1814-09-24",
+        "doorsOpen": "17:30",
+        "location": "Drury Lane",
+        "performanceBegins": "18:30",
+        "stageManager": "",
+        "theaterCompany": "Their Majesties' Servants",
+        "venue": "Theatre Royal",
+        "featuredAttractionsForShow": [
+          "An Occasional Address, will be spoken by Mrs. Edwin"
+        ],
+        "notes": [
+          ""
+        ],
+        "occasions": [
+          {
+            "occasionAsStated": "",
+            "occasionType": "",
+            "beneficiary": [
+              ""
+            ],
+            "occasioner": [
+              ""
+            ]
+          }
+        ],
+        "performances": [
+          {
+            "genreClaim": "Comedy",
+            "kindOfPerformance": "Main Piece",
+            "orderOfPerformance": "1",
+            "title": "The Hypocrite.",
+            "contributors": [
+              {
+                "contributorName": "Bickerstaff",
+                "contributorType": "Playwright"
+              }
+            ],
+            "featuredAttractions": [
+              {
+                "attraction": "",
+                "isInterpolation": false
+              }
+            ],
+            "performers": [
+              {
+                "performerName": "Mr. Powell",
+                "role": "Sir John Lambert",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Downton",
+                "role": "Doctor Cantwell",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Wrench",
+                "role": "Colonel Lambert",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Holland",
+                "role": "Darnley",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Oxberry",
+                "role": "Maw-worth",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Barnard",
+                "role": "Seward",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Maddocks",
+                "role": "Officer",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. J. West",
+                "role": "Servant",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Evans",
+                "role": "Footman",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Sparks",
+                "role": "Old Lady Lambert",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Orger",
+                "role": "Old Lady Lambert",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Edwin",
+                "role": "Charlotte",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Chatterly",
+                "role": "Maid",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              }
+            ]
+          },
+          {
+            "genreClaim": "Comick Opera",
+            "kindOfPerformance": "After PIece",
+            "orderOfPerformance": "2",
+            "title": "Turnpick Gate",
+            "contributors": [
+              {
+                "contributorName": "",
+                "contributorType": ""
+              }
+            ],
+            "featuredAttractions": [
+              {
+                "attraction": "",
+                "isInterpolation": false
+              }
+            ],
+            "performers": [
+              {
+                "performerName": "Mr. J. Smith",
+                "role": "Sir Edward Dashaway",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Hughes",
+                "role": "Smart",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Pyne",
+                "role": "Henry Blunt",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Munden",
+                "role": "Crack",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Knight",
+                "role": "Robert Maythorn",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Carr",
+                "role": "Old Maythorn",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Maddocks",
+                "role": "Steward",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Cooke",
+                "role": "First Sailor",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Appleby",
+                "role": "Second Sailor",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. I. West",
+                "role": "Groom",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Buxton",
+                "role": "Bailiff",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Bannister",
+                "role": "Joe Standfast",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Henley",
+                "role": "Landlady",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Kelly",
+                "role": "Peggy",
+                "roleNotes": "Mrs Orgen acted Peggy, Miss Kelly being taken ill.",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Poole",
+                "role": "Mary",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              }
+            ]
+          }
+        ],
+        "ticketing": {
+          "boxPrice": "84",
+          "currency": "UK",
+          "galleryPrice": "24",
+          "pitPrice": "42",
+          "secondBoxPrice": "42",
+          "secondGalleryPrice": "12",
+          "secondPitPrice": "24",
+          "secondUpperGalleryPrice": "6",
+          "ticketingNotes": "",
+          "toBeHad": "Boxes and Places to be taken of Mr. Spring, Box Office, Little Russell Street, from ten till Four, and of whome may be had a Private Box, (Nightly).",
+          "upperGalleryPrice": "12"
+        }
+      }
+    ]
+  }
+}

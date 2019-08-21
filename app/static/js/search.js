@@ -1078,7 +1078,7 @@ document.addEventListener('DOMContentLoaded', function main() {
         records.forEach(el => {
             ids.push(el['_id']);
         });
-        console.log(ids);
+        // console.log(ids);
 
         localStorage.setItem("responseIDs", ids);
 

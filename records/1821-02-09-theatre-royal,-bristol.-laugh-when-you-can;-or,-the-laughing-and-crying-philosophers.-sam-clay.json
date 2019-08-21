@@ -1,0 +1,543 @@
+{
+  "ephemeralRecord": {
+    "archiveHoldingDocument": "British Library",
+    "callNumber": "lsidyv414d7cb2",
+    "containingCollection": "",
+    "dataCataloger": "SamClay",
+    "dimensions": "",
+    "documentType": "Playbill",
+    "pageNumber": "219",
+    "periodicalTitle": "",
+    "persistentUrl": "",
+    "printedArea": "",
+    "advertisements": [
+      "A grand Melo Dramatic Entertainment founded on a Tale in the Arabian Night's Entertainments with splendid Drames, Decorations, andScenery has been a considerable time in preparation called The Ninth Statue; Or, the Irishman in Bagdad as performed at the Theatre-Royal, Drury Lane with great attraction and every expression of applause and satisfaction will speedily be brought forward.",
+      "On Monday Evening will be presented (never acted here) the admired Melo Drame of The Heart of Mid-Lothian; Or, the Lily of St. Leonards, as performed at the Surrey Theatre wit great approbation. To which will be added the Melo Drame of The Vampire; Or, the Bride of the Isles.",
+      "On Tuesday Evening will be presented Shakespeare's Grand Tragedy of Macbeth."
+    ],
+    "announcements": [
+      "No Person can on any account be admitted behind the Scenes.",
+      "Nights of Performing: Monday, Tuesday, Wednesday, and Friday."
+    ],
+    "documentPrinter": {
+      "location": "",
+      "name": ""
+    },
+    "shows": [
+      {
+        "date": "1821-02-09",
+        "doorsOpen": "18:00",
+        "location": "Bristol",
+        "performanceBegins": "19:00",
+        "stageManager": "",
+        "theaterCompany": "",
+        "venue": "Theatre-Royal, Bristol.",
+        "featuredAttractionsForShow": [
+          ""
+        ],
+        "notes": [
+          ""
+        ],
+        "occasions": [
+          {
+            "occasionAsStated": "",
+            "occasionType": "",
+            "beneficiary": [
+              ""
+            ],
+            "occasioner": [
+              ""
+            ]
+          }
+        ],
+        "performances": [
+          {
+            "genreClaim": "Comedy",
+            "kindOfPerformance": "Main Piece",
+            "orderOfPerformance": "1",
+            "title": "Laugh when you Can; Or, the Laughing and Crying Philosophers.",
+            "contributors": [
+              {
+                "contributorName": "",
+                "contributorType": ""
+              }
+            ],
+            "featuredAttractions": [
+              {
+                "attraction": "",
+                "isInterpolation": false
+              }
+            ],
+            "performers": [
+              {
+                "performerName": "Mr. Johnson",
+                "role": "Gossamer",
+                "roleNotes": "the Laughing Philosopher",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Carles",
+                "role": "Captain Mortimer",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Jones",
+                "role": "Delville",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Lane",
+                "role": "Bonus",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Lascelles",
+                "role": "Sambo",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Ross",
+                "role": "Gregory",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Woolmer",
+                "role": "Costly",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Dumbulton",
+                "role": "Waiter",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Reed",
+                "role": "Servant",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Lewis",
+                "role": "Charles Mortimer",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Mara",
+                "role": "Miss Croomly",
+                "roleNotes": "the Crying Philosopher",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Atkins",
+                "role": "Mrs. Mortimer",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Johnson",
+                "role": "Dorothy",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Aylett",
+                "role": "Emily",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": true,
+                  "newPerformerOrigin": "Theatre Cheltenham",
+                  "newRole": false
+                }
+              }
+            ]
+          },
+          {
+            "genreClaim": "Interlude",
+            "kindOfPerformance": "After Piece",
+            "orderOfPerformance": "2",
+            "title": "Sylvester Daggerwood; Or, New Hay at the Old Market.",
+            "contributors": [
+              {
+                "contributorName": "",
+                "contributorType": ""
+              }
+            ],
+            "featuredAttractions": [
+              {
+                "attraction": "Mr. J. Reeve will give Imitations of the following London Performers, viz. Mr. Mathews at Home, Mr. Harley in Amoroso, Mr. Munden in Old Dozey, Mr. Farren in Sir John Trotley, Mr. Blanchard in Sir Simon Rochdale, and Mr. Kean in Bertram & Brutus.",
+                "isInterpolation": true
+              }
+            ],
+            "performers": [
+              {
+                "performerName": "Mr. J. Reeve",
+                "role": "Sylvester Daggerwood",
+                "roleNotes": "Mr. J. Reeve will give Imitations of the following London Performers, viz. Mr. Mathews at Home, Mr. Harley in Amoroso, Mr. Munden in Old Dozey, Mr. Farren in Sir John Trotley, Mr. Blanchard in Sir Simon Rochdale, and Mr. Kean in Bertram & Brutus.",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Telbin",
+                "role": "Fustian",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Ross",
+                "role": "Servant",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              }
+            ]
+          },
+          {
+            "genreClaim": "Broad Comic Extravaganza Entertainment, grand Moral, Satirical, Tragical, Comical, Operatical, Melodramatical, Pantomimical, Critical, Infernal, Terrestrial, Celestial, one word in all, Gallymaufricalollapodridacal, Burletta Spectacle",
+            "kindOfPerformance": "After Piece",
+            "orderOfPerformance": "3",
+            "title": "Giovanni in London; Or, The Libertine Reclaimed.",
+            "contributors": [
+              {
+                "contributorName": "Mr. Lewis",
+                "contributorType": "Costumer"
+              },
+              {
+                "contributorName": "Mrs. Lewis",
+                "contributorType": "Costumer"
+              },
+              {
+                "contributorName": "Mr. Carroll",
+                "contributorType": "Scene Painter"
+              },
+              {
+                "contributorName": "Mr. Atkins",
+                "contributorType": "Scene Painter"
+              }
+            ],
+            "featuredAttractions": [
+              {
+                "attraction": "In Act the First, a Grand Masquerade.",
+                "isInterpolation": true
+              }
+            ],
+            "performers": [
+              {
+                "performerName": "Mr. Bing",
+                "role": "Don Giovanni",
+                "roleNotes": "the Libertine Reclaimed",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. J. Reeve",
+                "role": "Leporello",
+                "roleNotes": "his Valet of all Work",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Lascelles",
+                "role": "Mr. Florentine Finicken",
+                "roleNotes": "an amorous Haberdasher",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Woolmer",
+                "role": "Mr. Deputy English",
+                "roleNotes": "an eminent Common Councilman",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Kinnard",
+                "role": "Pluto",
+                "roleNotes": "King of the Infernal Regions",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Telbin",
+                "role": "Charon",
+                "roleNotes": "the Ferryman at Styx",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. James",
+                "role": "Mercury",
+                "roleNotes": "Turnkey and Messenger to Pluto",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Latham",
+                "role": "Firedrake",
+                "roleNotes": "a Singing Demon",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Lewis",
+                "role": "Drainemdry",
+                "roleNotes": "Landlord of the Punchbowl and Magpie",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Dumbulton",
+                "role": "Perous",
+                "roleNotes": "a flourishing Coachmaker",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Atkins",
+                "role": "Simkins",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Jones",
+                "role": "Popinjay",
+                "roleNotes": "Foreman to Finicken",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Ross",
+                "role": "Shirk",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Best",
+                "role": "Prosperpine",
+                "roleNotes": "Queen of the Infernal Regions",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Jones",
+                "role": "Mrs. Leporello",
+                "roleNotes": "Wife to Leporello, late Donna Anna",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Hart",
+                "role": "Miss Constantia Quixotte",
+                "roleNotes": "a young Lady of Fortune and Romantic Ideas",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Johnson",
+                "role": "Mrs. English",
+                "roleNotes": "the Deputy's young Wife",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Mara",
+                "role": "Mrs. Drainemdry",
+                "roleNotes": "Rescued Souls",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Lewis",
+                "role": "Mrs. Prous",
+                "roleNotes": "Rescued Souls",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss M'Ghie",
+                "role": "Mrs. Simpkins",
+                "roleNotes": "Rescued SOuls",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Parr",
+                "role": "Squalling Fan",
+                "roleNotes": "Ci-devant Bride",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Atkins",
+                "role": "Succubus",
+                "roleNotes": "amorous Furies",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Thomas",
+                "role": "Tartarus",
+                "roleNotes": "amorous Furies",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              }
+            ]
+          }
+        ],
+        "ticketing": {
+          "boxPrice": "48",
+          "currency": "UK",
+          "galleryPrice": "18",
+          "pitPrice": "30",
+          "secondBoxPrice": "24",
+          "secondGalleryPrice": "12",
+          "secondPitPrice": "18",
+          "secondUpperGalleryPrice": "",
+          "ticketingNotes": "",
+          "toBeHad": "Mr. Cozens",
+          "upperGalleryPrice": ""
+        }
+      }
+    ]
+  }
+}

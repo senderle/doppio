@@ -1,0 +1,278 @@
+{
+  "ephemeralRecord": {
+    "archiveHoldingDocument": "British Library",
+    "callNumber": "lsidyv41bb4d56",
+    "containingCollection": "",
+    "dataCataloger": "Imani",
+    "dimensions": "",
+    "documentType": "Playbill",
+    "pageNumber": "49",
+    "periodicalTitle": "",
+    "persistentUrl": "",
+    "printedArea": "",
+    "advertisements": [
+      ""
+    ],
+    "announcements": [
+      "The Manager respectfully informs the Public, that Miss Kelly, from the Theatre-Royal, Drury-Lane, is engaged for the remaining five Nights of the Season, and will make her first appearance This Evening Monday, March 1st, 1819.",
+      "Any persons having Demands upon the Theatre, are requested to send them in immediately to Mr. Mansel."
+    ],
+    "documentPrinter": {
+      "location": "Lowgate, Hull",
+      "name": "W. Rawson"
+    },
+    "shows": [
+      {
+        "date": "1819-03-01",
+        "doorsOpen": "18:00",
+        "location": "Hull",
+        "performanceBegins": "19:00",
+        "stageManager": "",
+        "theaterCompany": "",
+        "venue": "Theatre-Royal, Hull.",
+        "featuredAttractionsForShow": [
+          "The Manager respectfully informs the Public, that Miss Kelly, from the Theatre-Royal, Drury-Lane, is engaged for the remaining five Nights of the Season, and will make her first appearance This Evening Monday, March 1st, 1819.",
+          "In the course of the Evening, A favourite Ballad by Miss Kelly. Accompanied by herself on the Harp."
+        ],
+        "notes": [
+          "A note is attached on the page following this playbill changing the Farce to The Prize ; Or 2, 5, 3, 8."
+        ],
+        "occasions": [
+          {
+            "occasionAsStated": "",
+            "occasionType": "",
+            "beneficiary": [
+              ""
+            ],
+            "occasioner": [
+              ""
+            ]
+          }
+        ],
+        "performances": [
+          {
+            "genreClaim": "Comedy",
+            "kindOfPerformance": "Mainpiece",
+            "orderOfPerformance": "1",
+            "title": "The Will",
+            "contributors": [
+              {
+                "contributorName": "",
+                "contributorType": ""
+              }
+            ],
+            "featuredAttractions": [
+              {
+                "attraction": "A Song by Miss Poole.",
+                "isInterpolation": true
+              },
+              {
+                "attraction": "A Dance by Miss Green.",
+                "isInterpolation": true
+              },
+              {
+                "attraction": "A Comic Song by Mr. Chapman.",
+                "isInterpolation": true
+              }
+            ],
+            "performers": [
+              {
+                "performerName": "Mr. Foster",
+                "role": "Sir Solomon Cynic",
+                "roleNotes": "Mr. Clarke",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. S. Chapman",
+                "role": "Howard",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": true,
+                  "newPerformerOrigin": "Theatre-Royal, Newcastle",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Mansel",
+                "role": "Veritas",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": true
+                }
+              },
+              {
+                "performerName": "Mr. Neville",
+                "role": "Realise",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Stanley",
+                "role": "Robert",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Remington",
+                "role": "Old Copsley",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Kelly",
+                "role": "Albina Manderville",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Stuart",
+                "role": "Mrs. Rigid",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Blanchard",
+                "role": "Cicely Copsley",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              }
+            ]
+          },
+          {
+            "genreClaim": "Farce",
+            "kindOfPerformance": "Afterpiece",
+            "orderOfPerformance": "2",
+            "title": "The Prize; Or 2, 5, 3, 8.",
+            "contributors": [
+              {
+                "contributorName": "",
+                "contributorType": ""
+              }
+            ],
+            "featuredAttractions": [
+              {
+                "attraction": "",
+                "isInterpolation": false
+              }
+            ],
+            "performers": [
+              {
+                "performerName": "Mr. Foster",
+                "role": "Caddy",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Carr",
+                "role": "Captain Heartwell",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. S. Chapman",
+                "role": "Lenitive",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. W. Chapman",
+                "role": "Label",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. W. Chapman",
+                "role": "Juba",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. French",
+                "role": "Mrs. Caddy",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Kelly",
+                "role": "Caroline",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              }
+            ]
+          }
+        ],
+        "ticketing": {
+          "boxPrice": "36",
+          "currency": "UK",
+          "galleryPrice": "18",
+          "pitPrice": "30",
+          "secondBoxPrice": "",
+          "secondGalleryPrice": "",
+          "secondPitPrice": "",
+          "secondUpperGalleryPrice": "",
+          "ticketingNotes": "",
+          "toBeHad": "",
+          "upperGalleryPrice": "12"
+        }
+      }
+    ]
+  }
+}

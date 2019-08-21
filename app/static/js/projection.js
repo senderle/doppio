@@ -564,6 +564,12 @@ document.addEventListener('DOMContentLoaded', function main() {
         }
 
         var ids = localStorage.getItem("responseIDs").split(',');
+        
+        // If ids returned no value
+        if (ids.length === 1 && ids[0] == '') {
+            ids = [];
+        }
+
         var records = [];
         
         // If no field is selected, show all the fields
@@ -595,7 +601,7 @@ document.addEventListener('DOMContentLoaded', function main() {
 
                 var reqPath = 'ephemeralRecord/' + ids[i] + '?projection=' + urlPath ;
                 
-                console.log(reqPath);
+                // console.log(reqPath);
 
                 var hxr = new XMLHttpRequest();
                 hxr.open('GET', reqPath, false);

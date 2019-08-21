@@ -1,0 +1,659 @@
+{
+  "ephemeralRecord": {
+    "archiveHoldingDocument": "British Library",
+    "callNumber": "lsidyv414d7cb2",
+    "containingCollection": "",
+    "dataCataloger": "SamClay",
+    "dimensions": "",
+    "documentType": "Playbill",
+    "pageNumber": "105",
+    "periodicalTitle": "",
+    "persistentUrl": "",
+    "printedArea": "",
+    "advertisements": [
+      ""
+    ],
+    "announcements": [
+      "No orders can be admitted.",
+      "Copies of the new God Save The King will be delivered after doors gratis."
+    ],
+    "documentPrinter": {
+      "location": "Bristol, St. John's Steps",
+      "name": "Major"
+    },
+    "shows": [
+      {
+        "date": "1820-02-21",
+        "doorsOpen": "18:00",
+        "location": "Bristol",
+        "performanceBegins": "19:00",
+        "stageManager": "",
+        "theaterCompany": "",
+        "venue": "Theatre-Royal, Bristol.",
+        "featuredAttractionsForShow": [
+          ""
+        ],
+        "notes": [
+          ""
+        ],
+        "occasions": [
+          {
+            "occasionAsStated": "",
+            "occasionType": "",
+            "beneficiary": [
+              ""
+            ],
+            "occasioner": [
+              ""
+            ]
+          }
+        ],
+        "performances": [
+          {
+            "genreClaim": "Play",
+            "kindOfPerformance": "Main Piece",
+            "orderOfPerformance": "1",
+            "title": "King Henry the VIII; Or, The Fall of Cardinal Wolsey.",
+            "contributors": [
+              {
+                "contributorName": "Shakespeare",
+                "contributorType": "Playwright"
+              }
+            ],
+            "featuredAttractions": [
+              {
+                "attraction": "In Act First, the Apprehension of Edward Bohun, Duke of Buckingham, for High Treason. A Spledid Banquet, Given at York Place, by Cardinal Wolsey where King Henry the 8th first meets Anne Bullen. A Dance incidental to the piece.",
+                "isInterpolation": false
+              },
+              {
+                "attraction": "In Act Second, THe Awful Procession of Edward Bohun. Duke of Buckingham, going to Execution on Twoer Hill. The Trial of Katherine of Aragon, Queen of England, before the whole Court, sitting in the Hall at Blackfriars.",
+                "isInterpolation": false
+              },
+              {
+                "attraction": "In Act Third, The Disgrace and fall of Cardinal Wolsey.",
+                "isInterpolation": false
+              },
+              {
+                "attraction": "In Act Fourth, the Amiable Sufferings and consequent Death of the Divorced Queen Katherine, at her Retirement at Kimbolton.",
+                "isInterpolation": false
+              },
+              {
+                "attraction": "In Act Fifth, The Accusation of Cranmer, Archbishop of Canterbury before the Privy Council. The Grand Ceremonial of the Christening of Queen Anne Bullen's Daughter, afterward the Renowned Queen Elizabeth of England.",
+                "isInterpolation": false
+              },
+              {
+                "attraction": "End of the Play, an Epicedium and appropriate Pieces of Music. In Memory of the late Mournful Event, Miss Desmond will recite A Monody, written by a Gentlemen of this City. The Grand National Anthem of \"God Save The King!\" with additional Verses, written on the occasion by G. Colman the Younger and a Gentleman of this City, to be sung by the entire Company, and numerous Assistants which was received on Thursday and Friday Evenings with the most rapturous applause.",
+                "isInterpolation": false
+              }
+            ],
+            "performers": [
+              {
+                "performerName": "Mr. Herbert Lee",
+                "role": "King Henry the 8th",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Bond",
+                "role": "Wolsey",
+                "roleNotes": "Cardinal of York, Lord High Chancellor of England, Bishop of Durham, Abbot of Saint Albans, &c.",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Cooke",
+                "role": "Cardinal Campeius",
+                "roleNotes": "sent Legate from Julius de Medicis, Pope Clement the 7th, to the Court of England",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Telbin",
+                "role": "Thomas Cranmer",
+                "roleNotes": "Archbishop of Canterbury",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Lascelles",
+                "role": "Thomas Duke of Norfolk",
+                "roleNotes": "Earl Marshal of England",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Stuart",
+                "role": "Edward Bohun",
+                "roleNotes": "Duke of Buckingham",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Lewis",
+                "role": "Brandon",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Denning",
+                "role": "Stephen Gardiner",
+                "roleNotes": "Bishop of Winchester",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Greene",
+                "role": "Sir Thomas Lovell",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Newton",
+                "role": "Lord Sands",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Raymond",
+                "role": "THomas Cromwell",
+                "roleNotes": "Secretary to Cardinal Wolsey, afterwards created Earl of Essex",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Johnson",
+                "role": "Charles Knyvet ",
+                "roleNotes": "Surveyor to the Duke of Buckingham",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Gladstanes",
+                "role": "Earl of Surry",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Desmond",
+                "role": "Katherine of Aragon",
+                "roleNotes": "Daughter of Ferdinand 5th, King of Castitle, Widow of Prince Arthur, Son of Henry the 7th, upon his death married to Henry the 8th, and afterwards divorced",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Lewis",
+                "role": "Duchess of Nofolk",
+                "roleNotes": "Sponsor to Queen Elizabeth",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Newton",
+                "role": "Marchioness of Dorset",
+                "roleNotes": "Sponsor to Queen Elizabeth",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Stuart",
+                "role": "Lady Denny",
+                "roleNotes": "Friend to Anne Balien",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Cooke",
+                "role": "Anne Bullen",
+                "roleNotes": "Daughter of Sir Thomas Bullen and Maid of Honour to Queen Katherine, created Marchioness of Pembroke, and upon the divorce of Queen Katherine of Aragon crowned Queen Consort of England",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Herbert",
+                "role": "Patience",
+                "roleNotes": "with the much admired Song of \"Angels ever bright and fair\"",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Raymond",
+                "role": "Agatha",
+                "roleNotes": "Attendant of Queen Katherine",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Gladstanes",
+                "role": "Cicely",
+                "roleNotes": "Attendant on Queen Katherine",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Unnamed extras",
+                "role": "Lords and Ladies attending the Court",
+                "roleNotes": "Unnamed extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Unnamed extras",
+                "role": "Pages of Honour",
+                "roleNotes": "Unnamed extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Unnamed Extras",
+                "role": "Priests",
+                "roleNotes": "Unnamed Extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Unnamed Extras",
+                "role": "Guards",
+                "roleNotes": "Unnamed Extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              }
+            ]
+          },
+          {
+            "genreClaim": "Historical Melo-Dramatic Spectacle",
+            "kindOfPerformance": "After Piece",
+            "orderOfPerformance": "2",
+            "title": "Valentine and Orson; Or, the Wild Man of the Woods.",
+            "contributors": [
+              {
+                "contributorName": "",
+                "contributorType": ""
+              }
+            ],
+            "featuredAttractions": [
+              {
+                "attraction": "In Act 2nd , the favourite Duet of \"When A Little Farm We Keep\" by Mr. Denning and Miss Herbert.",
+                "isInterpolation": false
+              }
+            ],
+            "performers": [
+              {
+                "performerName": "Mr. Bond",
+                "role": "Pepin, King of France",
+                "roleNotes": "French",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Johnson",
+                "role": "Henry, Prince of the Blood",
+                "roleNotes": "French",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. S. Collier",
+                "role": "Haufray, Prince of the Blood",
+                "roleNotes": "French",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Unnamed Extras",
+                "role": "Peers of France",
+                "roleNotes": "Unnamed Extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Unnamed Extras",
+                "role": "Soldiers",
+                "roleNotes": "Unnamed Extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Raymond",
+                "role": "Valentine, a Foundling",
+                "roleNotes": "French",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Lascelles",
+                "role": "Orson, a Wild Man",
+                "roleNotes": "French",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Lewis",
+                "role": "Page",
+                "roleNotes": "French",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Master Lewis",
+                "role": "Page",
+                "roleNotes": "French",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Collier",
+                "role": "Citizen of Orleans",
+                "roleNotes": "Unnamed Extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Garthwaite",
+                "role": "Citizens of Orleans",
+                "roleNotes": "Unnamed Extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Lewis",
+                "role": "Citizens of Orleans",
+                "roleNotes": "Unnamed Extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Telbin",
+                "role": "Blandiman ",
+                "roleNotes": "French",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Denning",
+                "role": "Hugo",
+                "roleNotes": "Unnamed Extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Newton",
+                "role": "The Empress Belisania",
+                "roleNotes": "French ",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Herbert",
+                "role": "Agatha",
+                "roleNotes": "French",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Moreton",
+                "role": "Florimundo of Aquitaine",
+                "roleNotes": "French",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Lewis",
+                "role": "Cicely",
+                "roleNotes": "French",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Raymond",
+                "role": "Lady",
+                "roleNotes": "Unnamed Extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Gladstanes",
+                "role": "Lady",
+                "roleNotes": "Unnamed Extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Parr",
+                "role": "Ladies",
+                "roleNotes": "Unnamed Extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Desmond",
+                "role": "Princess Eglantine",
+                "roleNotes": "French",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Green",
+                "role": "The Sorcerer Agramant, the Green Knight",
+                "roleNotes": "Saracens",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Newton",
+                "role": "The Genius Pacolet",
+                "roleNotes": "Saracens",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Lewis",
+                "role": "The Golden Oracle",
+                "roleNotes": "Saracens",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Unnamed Extras",
+                "role": "Soldiers",
+                "roleNotes": "Unnamed Extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Unnamed Extras",
+                "role": "Priests",
+                "roleNotes": "Unnamed Extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Unnamed Extras",
+                "role": "Magicians",
+                "roleNotes": "Unnamed Extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              }
+            ]
+          }
+        ],
+        "ticketing": {
+          "boxPrice": "",
+          "currency": "",
+          "galleryPrice": "",
+          "pitPrice": "",
+          "secondBoxPrice": "",
+          "secondGalleryPrice": "",
+          "secondPitPrice": "",
+          "secondUpperGalleryPrice": "",
+          "ticketingNotes": "",
+          "toBeHad": "Mr. Cozens",
+          "upperGalleryPrice": ""
+        }
+      }
+    ]
+  }
+}

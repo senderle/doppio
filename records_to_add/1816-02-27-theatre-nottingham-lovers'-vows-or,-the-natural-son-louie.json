@@ -1,0 +1,372 @@
+{
+  "ephemeralRecord": {
+    "archiveHoldingDocument": "British Library",
+    "callNumber": "lsidyv41bb5658",
+    "containingCollection": "",
+    "dataCataloger": "Louie",
+    "dimensions": "",
+    "documentType": "Playbill",
+    "pageNumber": "66",
+    "periodicalTitle": "",
+    "persistentUrl": "",
+    "printedArea": "",
+    "advertisements": [
+      "A military band will attend on this occasion"
+    ],
+    "announcements": [
+      "Will be performed, by a party of Young Gentlemen and Ladies (Who never appeared on any stage)",
+      "The box plan will be left at the theatre, from eleven o'clock till two each day, from the 20th to the 27th; where places may be taken."
+    ],
+    "documentPrinter": {
+      "location": "Nottingham",
+      "name": "G. Stretton"
+    },
+    "shows": [
+      {
+        "date": "1816-02-27",
+        "doorsOpen": "17:00",
+        "location": "Nottingham",
+        "performanceBegins": "19:00",
+        "stageManager": "",
+        "theaterCompany": "",
+        "venue": "Theatre Nottingham",
+        "featuredAttractionsForShow": [
+          "Preceding the play, an address, by Mr. Claridge.",
+          "End of the play, a Comic Song, by Mr. Joynes.",
+          "A Spouting Epilogue, by Mr. Murrel",
+          "A Comic Song, by Mr. Holland"
+        ],
+        "notes": [
+          "Gallery doors open at 17:00, pit and boxes at 18:00"
+        ],
+        "occasions": [
+          {
+            "occasionAsStated": "For the Benefit of The General Hospital",
+            "occasionType": "Benefit Performance",
+            "beneficiary": [
+              "The General Hospital"
+            ],
+            "occasioner": [
+              "The Right Worshipful the Mayor"
+            ]
+          }
+        ],
+        "performances": [
+          {
+            "genreClaim": "Play",
+            "kindOfPerformance": "Main Piece",
+            "orderOfPerformance": "1",
+            "title": "Lovers' Vows or, The Natural Son",
+            "contributors": [
+              {
+                "contributorName": "Kotzebue",
+                "contributorType": "Playwright"
+              }
+            ],
+            "featuredAttractions": [
+              {
+                "attraction": "",
+                "isInterpolation": false
+              }
+            ],
+            "performers": [
+              {
+                "performerName": "Mr. Murrel",
+                "role": "Baron Wildenhaim",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": true,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Whitchurch",
+                "role": "Count Cassel",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": true,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Brown",
+                "role": "Anhalt",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": true,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Joynes",
+                "role": "Verdun",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": true,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Holland",
+                "role": "Cottager",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": true,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Bradfield",
+                "role": "Landlord",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": true,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Claridge",
+                "role": "Farmer",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": true,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Harpham",
+                "role": "Countryman",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": true,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Trueman",
+                "role": "Frederick",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": true,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Willmott",
+                "role": "Agatha Friburg",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": true,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Trowell",
+                "role": "Cottager's Wife",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": true,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Mason",
+                "role": "Country Girl",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": true,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Bentley",
+                "role": "Amelia Wildenhaim",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": true,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Unnamed Extras",
+                "role": "Servants",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Unnamed Extras",
+                "role": "Huntsmen",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              }
+            ]
+          },
+          {
+            "genreClaim": "Interlude",
+            "kindOfPerformance": "After Piece",
+            "orderOfPerformance": "2",
+            "title": "The Three Old Women Weatherwise, or A Peep at the Comet.",
+            "contributors": [
+              {
+                "contributorName": "",
+                "contributorType": ""
+              }
+            ],
+            "featuredAttractions": [
+              {
+                "attraction": "Consisting of songs, recitations, &c.",
+                "isInterpolation": false
+              }
+            ],
+            "performers": [
+              {
+                "performerName": "",
+                "role": "",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              }
+            ]
+          },
+          {
+            "genreClaim": "Farce",
+            "kindOfPerformance": "After Piece",
+            "orderOfPerformance": "3",
+            "title": "Two Strings to Your Bow; or, The Proof of the Pudding is in the Eating",
+            "contributors": [
+              {
+                "contributorName": "",
+                "contributorType": ""
+              }
+            ],
+            "featuredAttractions": [
+              {
+                "attraction": "",
+                "isInterpolation": false
+              }
+            ],
+            "performers": [
+              {
+                "performerName": "Mr. Murrel",
+                "role": "Don Pedro",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": true,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Bradfield",
+                "role": "Don Sancho",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": true,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Whitchurch",
+                "role": "Octavio",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": true,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Joynes",
+                "role": "Borachio",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": true,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Trueman",
+                "role": "Lazarillo",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": true,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Mason",
+                "role": "Donna Clara",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": true,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Wilmott",
+                "role": "Maid",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": true,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Carpenter",
+                "role": "Leonora",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": true,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              }
+            ]
+          }
+        ],
+        "ticketing": {
+          "boxPrice": "36",
+          "currency": "UK",
+          "galleryPrice": "12",
+          "pitPrice": "24",
+          "secondBoxPrice": "",
+          "secondGalleryPrice": "",
+          "secondPitPrice": "",
+          "secondUpperGalleryPrice": "",
+          "ticketingNotes": "",
+          "toBeHad": "",
+          "upperGalleryPrice": "30"
+        }
+      }
+    ]
+  }
+}
