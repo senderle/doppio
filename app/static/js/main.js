@@ -555,7 +555,7 @@ document.addEventListener('DOMContentLoaded', function main () {
 
     // LOAD BY ID
     var loadRecord = document.getElementById('playbill-load');
-    loadRecord.addEventListener('click', function() {
+    function loadRecordById() {
         statusAlert.innerHTML = '';
         var pid = (window.location.hash.substr(1) !== '') ? window.location.hash.substr(1) : document.getElementById('playbill-id').value;
 
@@ -580,7 +580,8 @@ document.addEventListener('DOMContentLoaded', function main () {
         }
 
         focusTop();
-    });
+    }
+    loadRecord.addEventListener('click', loadRecordById);
 
     // LOAD FROM LOCAL JSON FILE
     var loadFileChooser = document.getElementById('local-load');
@@ -617,7 +618,7 @@ document.addEventListener('DOMContentLoaded', function main () {
     resetForm();
 
     if (window.location.hash.substr(1) !== '') {
-        document.getElementById('playbill-load').click();
+        loadRecordById();
     }
 
 });
