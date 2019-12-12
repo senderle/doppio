@@ -10,7 +10,7 @@ a.button {
 
 /*main class includes the body of the home, search, and login pages*/
 .main div {
-    margin: 2px 4px 2px 12px;
+    margin: 2px 4px 2px 30px;
 }
 
 div#wrapper {
@@ -43,7 +43,7 @@ div.subform-group {
 
 div.ui-element {
     background: rgba(0, 0, 0, 0.05);
-    padding: 4px 4px 4px 16px;
+    padding: 4px 8px 4px 8px;
     border-radius: 4px;
     min-width: 30px;
 }
@@ -249,17 +249,12 @@ ul {
     font-size: 14px;
 }
 
-#search-results a:link,
-#search-results a:visited {
-    color: black;
+#search-results a {
     text-decoration: none;
-    font-size: 16px;
-    font-weight: bold;
 }
 
-#search-results a:hover,
-#search-results a:active {
-    color: #0000EE;
+#search-results hr {
+    border-top: 3px double;
 }
 
 #search-window {
