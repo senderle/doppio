@@ -510,7 +510,8 @@ document.addEventListener('DOMContentLoaded', function main () {
 
         var dl = document.createElement('a');
         dl.setAttribute('href', 'data:text/plain;charset=utf-8,' +
-                encodeURIComponent(JSON.stringify(out, null, 2)));
+                encodeURIComponent(yaml.safeDump(out)));
+                // encodeURIComponent(JSON.stringify(out, null, 2)));
         dl.setAttribute('download', filename);
         dl.style.display = 'none';
 
