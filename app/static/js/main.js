@@ -506,11 +506,11 @@ document.addEventListener('DOMContentLoaded', function main () {
             assignKey(out, elements[i].id, value);
         }
 
-        var filename = jsonToFilename(out);
+        var filename = jsonToFilename(out) + '.yaml';
 
         var dl = document.createElement('a');
-        dl.setAttribute('href', 'data:text/plain;charset=utf-8,' +
-                encodeURIComponent(yaml.safeDump(out)));
+        dl.setAttribute('href', 'data:text/yaml;charset=utf-8,' +
+                encodeURIComponent(jsyaml.safeDump(out)));
                 // encodeURIComponent(JSON.stringify(out, null, 2)));
         dl.setAttribute('download', filename);
         dl.style.display = 'none';
@@ -596,7 +596,8 @@ document.addEventListener('DOMContentLoaded', function main () {
         resetForm();
 
         reader.addEventListener('load', function(evt) {
-            obj = JSON.parse(evt.target.result);
+            // obj = JSON.parse(evt.target.result);
+            obj = jsyaml.safeLoad(evt.target.result);
 
             walkObj(obj, walkObjHelper());
             var elements = document.querySelectorAll('.main-form-input');
