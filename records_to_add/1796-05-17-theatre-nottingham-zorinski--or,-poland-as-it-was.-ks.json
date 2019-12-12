@@ -1,0 +1,429 @@
+{
+  "ephemeralRecord": {
+    "archiveHoldingDocument": "British Library",
+    "callNumber": "lsidyv41bb4047",
+    "containingCollection": "",
+    "dataCataloger": "KS",
+    "dimensions": "",
+    "documentType": "Playbill",
+    "periodicalTitle": "",
+    "persistentUrl": "",
+    "printedArea": "",
+    "advertisements": [
+      ""
+    ],
+    "announcements": [
+      "",
+      ""
+    ],
+    "documentPrinter": {
+      "location": "Nottingham",
+      "name": "Burbage and Stretton, printers, Long Row."
+    },
+    "shows": [
+      {
+        "date": "1796-05-17",
+        "doorsOpen": "17:45",
+        "location": "Nottingham",
+        "performanceBegins": "18:45",
+        "theaterCompany": "",
+        "venue": "Theatre Nottingham",
+        "featuredAttractionsForShow": [
+          "A comic song; or favourite Irish lilt, by Mr. Franklin.",
+          "A comic song by Mr. Robertson.",
+          "And to conclude with a View of the Infernal Regions, and Shower of Fire. Days of Playing this Week, Wednesday, and Friday."
+        ],
+        "notes": [
+          "First performance of \"Zorinski\" at Nottingham."
+        ],
+        "occasions": [
+          {
+            "occasionAsStated": "",
+            "occasionType": "",
+            "beneficiary": [
+              ""
+            ],
+            "occasioner": [
+              ""
+            ]
+          }
+        ],
+        "performances": [
+          {
+            "genreClaim": "Tragedy",
+            "kindOfPerformance": "Main Piece",
+            "orderOfPerformance": "1",
+            "title": "Zorinski: Or, Poland as it was.",
+            "contributors": [
+              {
+                "contributorName": "Dr. Arnold",
+                "contributorType": ""
+              }
+            ],
+            "featuredAttractions": [
+              "Interspersed with airs, duets, trios, chorusses, &c. "
+            ],
+            "performers": [
+              {
+                "performerName": "Mr. Pero",
+                "performerNotes": "",
+                "role": "Casimir",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Manely",
+                "performerNotes": "",
+                "role": "Zorinski",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Thorpe",
+                "performerNotes": "",
+                "role": "Rodomsko",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Thorne",
+                "performerNotes": "",
+                "role": "Radanzo",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Robertson",
+                "performerNotes": "",
+                "role": "Zarrno",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Franklin",
+                "performerNotes": "",
+                "role": "O'Curragh",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Amalekite",
+                "performerNotes": "",
+                "role": "Mr. O'Brien",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Sidney",
+                "performerNotes": "",
+                "role": "Witski",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Earl",
+                "performerNotes": "",
+                "role": "Naclo",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Robinson",
+                "performerNotes": "",
+                "role": "Rosolia",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Thorne",
+                "performerNotes": "",
+                "role": "Rachael",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Winifred",
+                "performerNotes": "",
+                "role": "Mrs. Robertson",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Sidney",
+                "performerNotes": "",
+                "role": "Slave",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Sisson",
+                "performerNotes": "",
+                "role": "Slave",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. O'Brien",
+                "performerNotes": "",
+                "role": "Slave",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Jerrold",
+                "performerNotes": "",
+                "role": "Slave",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              }
+            ]
+          },
+          {
+            "genreClaim": "Pantomime",
+            "kindOfPerformance": "After Piece",
+            "orderOfPerformance": "2",
+            "title": "DON JUAN; or THE LIBERTINE DESTROYED.",
+            "contributors": [
+              {
+                "contributorName": "",
+                "contributorType": ""
+              }
+            ],
+            "featuredAttractions": [
+              "In the course of the Entertainment will be presented the following beautiful Scenes. A Tempestuous Sea and Shipwreck. A Grand Equestrian Statue."
+            ],
+            "performers": [
+              {
+                "performerName": "Mr. Franklin",
+                "performerNotes": "",
+                "role": "Don Juan (the Libertine)",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Pero",
+                "performerNotes": "",
+                "role": "Commandant",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Thorne",
+                "performerNotes": "",
+                "role": "Ferdinando (the Lover)",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Thorpe",
+                "performerNotes": "",
+                "role": "Alguazil",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Sidney",
+                "performerNotes": "",
+                "role": "Fisherman",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Jerrold",
+                "performerNotes": "",
+                "role": "Midshipman (with a Song)",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. O'brien",
+                "performerNotes": "",
+                "role": "Sailor",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Ashlin",
+                "performerNotes": "",
+                "role": "Sailors",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Earl",
+                "performerNotes": "",
+                "role": "Masquerader",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Peters",
+                "performerNotes": "",
+                "role": "Servant",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Robertson",
+                "performerNotes": "",
+                "role": "Scaramouch",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Sisson",
+                "performerNotes": "",
+                "role": "Donna Anna",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. O'Brien",
+                "performerNotes": "",
+                "role": "Lady",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Robinson",
+                "performerNotes": "",
+                "role": "Lady",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Sidney",
+                "performerNotes": "",
+                "role": "Mady",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Robertson",
+                "performerNotes": "",
+                "role": "Two Fisherwomen with a Duet",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Thorne",
+                "performerNotes": "",
+                "role": "Two Fisherwomen with a Duet",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              }
+            ]
+          }
+        ],
+        "ticketing": {
+          "boxPrice": "36",
+          "costsOrFees": "",
+          "currency": "UK",
+          "galleryPrice": "12",
+          "toBeHad": "Places for the Boxes to be taken from Eleven till Three; and Tickets to be had of Messers.",
+          "totalReceipts": "",
+          "upperGalleryPrice": "30"
+        }
+      }
+    ]
+  }
+}

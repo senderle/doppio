@@ -44,7 +44,7 @@ def init_cli(app):
 
         if not os.path.exists(dir):
             os.mkdir(dir)
-        else:
+        else: 
             shutil.rmtree(dir)
             os.makedirs(dir)
 

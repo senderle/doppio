@@ -1,0 +1,422 @@
+{
+  "ephemeralRecord": {
+    "archiveHoldingDocument": "British Library",
+    "callNumber": "lsidyv3f9dd1e3",
+    "containingCollection": "",
+    "dataCataloger": "Kirara",
+    "dimensions": "",
+    "documentType": "Playbill",
+    "pageNumber": "29",
+    "periodicalTitle": "",
+    "persistentUrl": "",
+    "printedArea": "",
+    "advertisements": [
+      "To-morrow, the popular Comedy of John Bull, after which, will be revived, with renewed splendour, the Grand Melo-dramatick Oriental Romance of Illusion; or The Trances of Nourjahad.",
+      "On Thursday, (1st time this season) Mr. Kean will appear in the Character of Hamlet. After which the Musical Entertainment called Of Age To-Morrow.",
+      "On Saturday, will be produced, a New Comedy, in Five Acts, to be called Policy; or Thus Runs the World Away. To which will be added, (3d time this season,) the Meo-dramatick Romance of the Woodman's Hut.",
+      "On Monday, In consequence of the continued unbound Attraction of Shakespeare's King Richard the Third, Mr. Kean will make his Third Appearance in that Tragedy, which to accomodate the numerous Parties who have hitherto been unable to obtain places, will be repeated every succeeding Monday till further Notice.",
+      "Mr. Kean's Performance of Othello having on Thursday Night been greeted with most unbounded and ethusiastick Acclamations of Applause, by a brilliant and overflowing Audience; that Play will be repeated on Thursday the 20th Instant."
+    ],
+    "announcements": [
+      "The Publick are respectfully informed, that in consequence of the sudden and severe Indisposition of Mrs. Dickons, the Opera of Lionel and Clarissa is unavoidably postponed."
+    ],
+    "documentPrinter": {
+      "location": "Marquis Court, London.",
+      "name": "C. Lowndes"
+    },
+    "shows": [
+      {
+        "date": "1814-10-11",
+        "doorsOpen": "",
+        "location": "Drury Lane",
+        "performanceBegins": "",
+        "stageManager": "",
+        "theaterCompany": "His Majesties' Servants",
+        "venue": "Theatre Royal",
+        "featuredAttractionsForShow": [
+          ""
+        ],
+        "notes": [
+          ""
+        ],
+        "occasions": [
+          {
+            "occasionAsStated": "",
+            "occasionType": "",
+            "beneficiary": [
+              ""
+            ],
+            "occasioner": [
+              ""
+            ]
+          }
+        ],
+        "performances": [
+          {
+            "genreClaim": "Comedy",
+            "kindOfPerformance": "Main Piece",
+            "orderOfPerformance": "1",
+            "title": "The Rivala",
+            "contributors": [
+              {
+                "contributorName": "",
+                "contributorType": ""
+              }
+            ],
+            "featuredAttractions": [
+              {
+                "attraction": "",
+                "isInterpolation": false
+              }
+            ],
+            "performers": [
+              {
+                "performerName": "Mr. Downton",
+                "role": "Sir Anthony Absolute",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Elliston",
+                "role": "Captain Absolute",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Holland",
+                "role": "Faulkand",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Bannister",
+                "role": "Acres",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Johnstone",
+                "role": "Sir Lucius O'Trigger",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. De Camp",
+                "role": "Fag",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Penley",
+                "role": "David",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Sparks",
+                "role": "Mrs. Malaprop",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Davison",
+                "role": "Julia",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs Edwin",
+                "role": "Lydia Languish",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Harlowe",
+                "role": "Lucy",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              }
+            ]
+          },
+          {
+            "genreClaim": "Melo-Dramatick Romance",
+            "kindOfPerformance": "After Piece",
+            "orderOfPerformance": "2",
+            "title": "The Woodman's Hut",
+            "contributors": [
+              {
+                "contributorName": "",
+                "contributorType": ""
+              }
+            ],
+            "featuredAttractions": [
+              {
+                "attraction": "",
+                "isInterpolation": false
+              }
+            ],
+            "performers": [
+              {
+                "performerName": "Mr. Rae",
+                "role": "Ferdinand Count Conenberg",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Crooke",
+                "role": "Werther",
+                "roleNotes": "Werther (his friend)",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Raymond",
+                "role": "Wolfender",
+                "roleNotes": "Wolfender (an Emissary employed against the Count)",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. I. Wallack",
+                "role": "Kaunitz",
+                "roleNotes": "his Comrades",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Chatterley",
+                "role": "Dangerfeldt",
+                "roleNotes": "his Comrades",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Smith",
+                "role": "Schampt",
+                "roleNotes": "his Comrades",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Lovegrove",
+                "role": "Bruhl",
+                "roleNotes": "Bruhl (the Woodman)",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Oxberry",
+                "role": "Moritz",
+                "roleNotes": "Moritz (his Nephew)",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Evans",
+                "role": "Vassals & Soldiers",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Buxton",
+                "role": "Vassals & Soldiers",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. I. West",
+                "role": "Vassals & Soldiers",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Ebsworth",
+                "role": "Vassals & Soldiers",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Appleby",
+                "role": "Woodcutter",
+                "roleNotes": "Woodcutters",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Brown",
+                "role": "Woodcutter",
+                "roleNotes": "Woodcutters",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Coste",
+                "role": "Woodcutter",
+                "roleNotes": "Woodcutters",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Hope",
+                "role": "Woodcutter",
+                "roleNotes": "Woodcutters",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Matthews",
+                "role": "Woodcutter",
+                "roleNotes": "Woodcutters",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Kelly",
+                "role": "Amelia",
+                "roleNotes": "Amelia (Daughter of the late Count Conenberg)",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss C. Bristow",
+                "role": "Maria",
+                "roleNotes": "Maria (her Foster Sister)",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Bland",
+                "role": "Laura",
+                "roleNotes": "Laura (an Inmate of the Count's Castle)",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              }
+            ]
+          }
+        ],
+        "ticketing": {
+          "boxPrice": "",
+          "currency": "",
+          "galleryPrice": "",
+          "pitPrice": "",
+          "secondBoxPrice": "",
+          "secondGalleryPrice": "",
+          "secondPitPrice": "",
+          "secondUpperGalleryPrice": "",
+          "ticketingNotes": "",
+          "toBeHad": "Books of the Melo-Drame to be had in the Theatre, and of Mr. Miller, Bow-Street.",
+          "upperGalleryPrice": ""
+        }
+      }
+    ]
+  }
+}
