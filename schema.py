@@ -30,20 +30,18 @@ main_schema = {
                                   "phrase of your choice.")
             },
             'dimensions': {
-                'type': 'string', # could change if divided into 2 fields
-                'maxlength': 700, # will probably change?
-                'documentation': ("A comma-separated 2-tuple containing the length "
-                                  "and width of the document in centimeters.")
+                'type': 'dict',
+                'schema': {
+                    'length': {
+                        'type': 'number',
+                        'documentation': "The length of the document in centimeters."
+                    },
+                    'width': {
+                        'type': 'number',
+                        'documentation': "The width of the document in centimeters."
+                    }
+                }
             },
-            #'dimensions': {
-            #   'type': 'dict',
-            #   'schema': {
-            #       'length': {
-            #           'type': 'number'
-            #       },
-            #       'width': {
-            #           'type': 'number'
-            #}
             'documentType': {
                 'type': 'string',
                 'formType': 'select',
@@ -75,11 +73,17 @@ main_schema = {
                                   "about the document may be found.")
             },
             'printedArea': {
-                'type': 'string', # could change if divided into 2 fields (see 'dimensions')
-                'maxlength': 700, # may also have to change
-                'documentation': ("A comma-separated 2-tuple containing the length "
-                                  "and width of the printed area of the document in "
-                                  "centimeters.")
+                'type': 'dict',
+                'schema': {
+                    'length': {
+                        'type': 'number',
+                        'documentation': "The length of the printed area in centimeters."
+                    },
+                    'width': {
+                        'type': 'number',
+                        'documentation': "The width of the printed area in centimeters."
+                    }
+                }
             },
             'advertisements': {
                 'type': 'list',
@@ -256,13 +260,46 @@ main_schema = {
                             'schema': {
                                 'type': 'dict',
                                 'schema': {
-                                    'genreClaim': {
+                                    'playbillGenreClaim': {
+                                        'order': 4,
                                         'type': 'string',
                                         'maxlength': 700,
                                         'documentation': ("The genre claim, exactly as given "
                                                           "by the document.")
                                     },
+                                    'ourGenreAttribution': {
+                                        'order': 5,
+                                        'type': 'list',
+                                        'schema': {
+                                            'type': 'string',
+                                            'formType': 'select',
+                                            'allowed': [
+                                                '',
+                                                'Address',
+                                                'Ballet',
+                                                'Burlesque',
+                                                'Burletta',
+                                                'Comedy',
+                                                'Comic Opera',
+                                                'Drama',
+                                                'Farce',
+                                                'Interlude',
+                                                'Melodrama',
+                                                'Opera',
+                                                'Pantomime',
+                                                'Play',
+                                                'Tragedy ',
+                                            ],
+                                            'maxlength': 700,
+                                            'documentation': ("The genre tag assigned to this play. Whereas "
+                                                              "\"Genre Claim\" records the playbill's claim "
+                                                              "about a given play's genre, this category reflects "
+                                                              "the cataloger's judgment, and provides a controlled "
+                                                              "genre vocabulary.")
+                                        },
+                                    },
                                     'kindOfPerformance': {
+                                        'order': 1,
                                         'type': 'string',
                                         #'allowed': ["Main Piece", "After Piece"],
                                         'maxlength': 700,
@@ -270,6 +307,7 @@ main_schema = {
                                                           "Main Piece or After Piece.")
                                     },
                                     'orderOfPerformance': {
+                                        'order': 2,
                                         'type': 'integer',
                                         'nullable': True,
                                         'documentation': ("An integer describing the position "
@@ -280,6 +318,7 @@ main_schema = {
                                                           "within the last full piece listed.")
                                     },
                                     'title': {
+                                        'order': 3,
                                         'type': 'string',
                                         'maxlength': 700,
                                         'documentation': ("The title of the work being "
@@ -287,6 +326,7 @@ main_schema = {
                                                           "document.")
                                     },
                                     'contributors': {
+                                        'order': 6,
                                         'type': 'list',
                                         'schema': {
                                             'type': 'dict',
@@ -313,6 +353,7 @@ main_schema = {
                                         }
                                     },
                                     'featuredAttractions': {
+                                        'order': 7,
                                         'type': 'list',
                                         'schema': {
                                             'type': 'dict',
@@ -339,6 +380,7 @@ main_schema = {
                                         }
                                     },
                                     'performers': {
+                                        'order': 8,
                                         'type': 'list',
                                         'schema': {
                                             'type': 'dict',
