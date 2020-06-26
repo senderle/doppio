@@ -85,17 +85,6 @@ main_schema = {
                     }
                 }
             },
-            'advertisements': {
-                'type': 'list',
-                'schema': {
-                    'type': 'string',
-                    'formType': 'textarea',
-                    'maxlength': 2000,
-                    'documentation': ("The text of each advertisement, as given by "
-                                      "the document, to be entered at the discretion "
-                                      "of the cataloger.")
-                }
-            },
             'announcements': {
                 'type': 'list',
                 'schema': {
@@ -297,14 +286,6 @@ main_schema = {
                                                               "the cataloger's judgment, and provides a controlled "
                                                               "genre vocabulary.")
                                         },
-                                    },
-                                    'kindOfPerformance': {
-                                        'order': 1,
-                                        'type': 'string',
-                                        #'allowed': ["Main Piece", "After Piece"],
-                                        'maxlength': 700,
-                                        'documentation': ("Kind of performance. May either be "
-                                                          "Main Piece or After Piece.")
                                     },
                                     'orderOfPerformance': {
                                         'order': 2,
