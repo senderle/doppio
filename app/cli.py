@@ -5,9 +5,23 @@ from bson import json_util, ObjectId
 
 # Command Line Management Commands #
 
-# Create user to access website
+# Check for existing file and avoid overwriting it
+# by appending a number.
+def check_filename(f):
+    new_f = f
+    if os.path.exists(f):
+        n = 1
+        new_f, ext = os.path.splitext(f)
+        new_f_template = new_f + '-{}{}'
+        new_f = new_f_template.format(n, ext)
+        while os.path.exists(new_f):
+            n += 1
+            new_f = new_f_template.format(n, ext)
+    return new_f
+
 def init_cli(app):
 
+    # Create user to access website
     @app.cli.command()
     def createsuperuser():
 
@@ -38,16 +52,12 @@ def init_cli(app):
 
     # Dump data from mongo to json files
     @app.cli.command()
-    def dumptojson():
-
-        dir = 'dumps'
+    @click.argument('dir')
+    def dumptojson(dir):
 
         if not os.path.exists(dir):
-            os.mkdir(dir)
-        else:
-            shutil.rmtree(dir)
-            os.makedirs(dir)
-
+            click.echo("Folder {} could not be found".format(dir))
+            return
 
         collection = app.data.driver.db[EVE_MAIN_COLLECTION]
         docs = collection.find()
@@ -67,7 +77,7 @@ def init_cli(app):
 
             i += 1
 
-        click.echo("Dumped %d objects into the dumps directory" % (i,))
+        click.echo("Dumped {} objects into {}".format(i, dir))
 
 
     # Read data from json dump to the database
