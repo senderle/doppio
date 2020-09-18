@@ -1,6 +1,9 @@
 # Move most recent data to archive.
 mv -f data/backups/latest/* data/backups/dated/
 
+# Create a new backup folder.
+mkdir data/backups/latest/`date +'%Y-%m-%d'`
+
 # Run the backup routine in a disposable container.
 docker-compose -f production.yml run --rm eve flask exportjson data/backups/latest/`date +'%Y-%m-%d'`
 
