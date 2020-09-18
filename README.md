@@ -154,7 +154,7 @@ of the container with the name `pdb_eve`.
 
 Now, type:
 
-    $ docker exec -it (Container ID) flask dumptojson
+    $ docker exec -it (Container ID) flask exportjson
 
 The folder `dumps` will be created in the root directory and all of the
 entries will be present in it as their wn json files.

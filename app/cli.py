@@ -53,7 +53,7 @@ def init_cli(app):
     # Dump data from mongo to json files
     @app.cli.command()
     @click.argument('dir')
-    def dumptojson(dir):
+    def exportjson(dir):
 
         if not os.path.exists(dir):
             click.echo("Folder {} could not be found".format(dir))
