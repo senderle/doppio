@@ -1,0 +1,298 @@
+ephemeralRecord:
+  archiveHoldingDocument: British Library
+  callNumber: lsidyv41bb4047_1796-1837_Theatre_Nottingham_0048
+  containingCollection: British Library Playbills
+  dataCataloger: Cassidy Holahan
+  documentType: Playbill
+  pageNumber: ''
+  periodicalTitle: ''
+  persistentUrl: ''
+  announcements:
+    - >-
+      For this Evening only, the Gentlemen of the Harmonic Society having kindly
+      offered their services, will in the course of the Evening, play several of
+      their most favourite Airs, &c.
+  dimensions:
+    length: ''
+    width: ''
+  documentPrinter:
+    location: Nottingham
+    name: G. Stretton
+  printedArea:
+    length: ''
+    width: ''
+  shows:
+    - date: '1824-06-16'
+      doorsOpen: ''
+      location: ''
+      performanceBegins: ''
+      stageManager: ''
+      theaterCompany: ''
+      venue: Theatre Nottingham
+      featuredAttractionsForShow:
+        - ''
+      notes:
+        - >-
+          [Description of the Nun]: Don Raymond having taken leave of his
+          Father, sets out on his Travels, but stopping at Madrid, meets with
+          the fair Agnes, who is placed in a Convent opposite his hotel. He
+          quits Madrid to pursue his journey, but having taken as a guide a
+          Bandit, HE IS DECOYED IN THE FOREST TO THE COTTAGE OF BAPTISTE. After
+          escaping the treachery of the two sons of Baptiste, by the heroism of
+          Marguerette who before he retires to bed, shews the pillow Which is
+          covered with Blood. He preserves the life of Agnes, who is also
+          decoyed to the Cottage, conveys her to the Castle of Lindenberg. He is
+          refused the hand of Agnes by her Uncle, when he endeavours to procure
+          and interview with her by a scroll, on which is written- "When the
+          Castle Bell tolls one, Expect me as the Bleeding Nun!" He attends the
+          appointed spot, when the real spectre appears to him with a lamp and a
+          dagger, decoys him to an unfrequented part of the Wood, and vanishes
+          in a FLAME OF FIRE!! When a scroll appears written in Letters of
+          Blood! "Protect the Child of the Murdered Agnes." Agnes  also attends
+          as the Ghost, who after disappointments, meets with Raymond, and their
+          union is sanctioned by the presence of the BLEEDING NUN, And the
+          Destruction of the Banditti. 
+      occasions:
+        - occasionAsStated: >-
+            Mr. Pindar respectfully informs the Nobility, Gentry, his Friends,
+            and the Public in general, that his Benefit is fixed for Wednesday
+            Evening, June 16th, 1824
+          occasionType: Benefit Performance
+          beneficiary:
+            - Mr. Pindar
+          occasioner:
+            - ''
+      performances:
+        - orderOfPerformance: '1'
+          title: Romeo and Juliet
+          timePerformedInSeason: ''
+          playbillGenreClaim: Tragedy
+          ourGenreAttribution:
+            - Tragedy
+          contributors:
+            - contributorName: ''
+              contributorType: ''
+          featuredAttractions:
+            - attraction: 'A Comic Song, by Mr. Fromow'
+              isInterpolation: false
+            - attraction: 'A Hornpipe, by Mr. Lassells'
+              isInterpolation: false
+            - attraction: >-
+                An Entire New Song Called the Nottingham Twist Man, by Mr.
+                Carrol
+              isInterpolation: false
+            - attraction: >-
+                In the Course of the Evening, Mr. Manders will introduce his
+                Imitation of celebrated Performers, vis. Matthews, Young, John
+                Kemble, Harley, Braham, Jones, Munden, and Kean
+              isInterpolation: false
+          performers:
+            - performerName: Mr. Pindar
+              role: Romeo
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Carrol
+              role: Mercutio
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Fromow
+              role: Capulet
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Lassells
+              role: Tibalt
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Palmer
+              role: Benvolio
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Manders
+              role: Paris
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Hart
+              role: Friar Lawrence
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Earl
+              role: Friar John
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Robinson
+              role: Balthasar
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Hunter
+              role: Peter
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Kirk
+              role: Apothecary
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Payne
+              role: Lady Capulet
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Cherry
+              role: Juliet
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Sidney
+              role: Nurse
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+        - orderOfPerformance: '2'
+          title: 'Nun, or The Travellers Benighted'
+          timePerformedInSeason: ''
+          playbillGenreClaim: Melo Drama
+          ourGenreAttribution:
+            - Melodrama
+          contributors:
+            - contributorName: ''
+              contributorType: ''
+          featuredAttractions:
+            - attraction: >-
+                The interesting Melo Drama, founded on an Historical Fact, has
+                for some years been the favourite of the London Theatres.
+              isInterpolation: false
+          performers:
+            - performerName: Mr. Pindar
+              role: Don Raymond
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Hunter
+              role: Don Felix
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Fromow
+              role: Theodore (Valet to Don Raymond)
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Earl
+              role: Conrad
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Sidney
+              role: Cunegonda (her duenna)
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Sidney
+              role: Portress
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Cherry
+              role: Annette
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Hart
+              role: Baptiste (Captain to the Gang)
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Lassells
+              role: Robert (his Son)
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Manders
+              role: Jaques (his Son)
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Palmer
+              role: Claude (the treacherous Guide)
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Manly
+              role: Marguerette (Wife to Baptiste)
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+      ticketing:
+        boxPrice: '60'
+        currency: UK
+        galleryPrice: '12'
+        pitPrice: '24'
+        secondBoxPrice: '24'
+        secondGalleryPrice: ''
+        secondPitPrice: '12'
+        secondUpperGalleryPrice: '18'
+        ticketingNotes: 'Mr. Pinder, Mr. Earl'
+        toBeHad: ''
+        upperGalleryPrice: '30'

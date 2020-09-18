@@ -1,0 +1,380 @@
+ephemeralRecord:
+  archiveHoldingDocument: British Library
+  callNumber: lsidyv414c0153_1827-1830_Theatre_Royal_Bath_0355
+  containingCollection: British Library Playbills
+  dataCataloger: Cassidy Holahan
+  documentType: Playbill
+  pageNumber: ''
+  periodicalTitle: ''
+  persistentUrl: ''
+  announcements:
+    - ''
+  dimensions:
+    length: ''
+    width: ''
+  documentPrinter:
+    location: ''
+    name: ''
+  printedArea:
+    length: ''
+    width: ''
+  shows:
+    - date: '1830-03-29'
+      doorsOpen: ''
+      location: Bath
+      performanceBegins: ''
+      stageManager: ''
+      theaterCompany: ''
+      venue: 'Theatre-Royal, Bath'
+      featuredAttractionsForShow:
+        - ''
+      notes:
+        - ''
+      occasions:
+        - occasionAsStated: 'For the Benefit of Mr. Trevena, Mr. Griffith, And Mr. Doyne'
+          occasionType: Benefit Performance
+          beneficiary:
+            - Mr. Trevena
+            - Mr. Griffith
+            - Mr. Doyne
+          occasioner:
+            - ''
+      performances:
+        - orderOfPerformance: '1'
+          title: The Slave
+          timePerformedInSeason: ''
+          playbillGenreClaim: Operatic Play
+          ourGenreAttribution:
+            - Opera
+          contributors:
+            - contributorName: ''
+              contributorType: ''
+          featuredAttractions:
+            - attraction: >-
+                In Act Second, A Pas Seul, by Master G. Saunders; And a Pas de
+                Trois, by Mr. Webster, Miss Salmon, and Miss Griffiths
+              isInterpolation: false
+            - attraction: >-
+                Incidental to the Opera, the following SONGS, &c: "The Mocking
+                Bird," and "Sons of Freedom," by Miss Watson. "Who Would Not
+                Marry a Soldier?" by Miss Barrett. "The Soldier's Tear," "March
+                to the Battle Field," and "Who Would Not Love," by Mr. Bianchi
+                Taylor. "My Native Highland Home," and "A Highland Laddie Heard
+                of War," by Mr. Aldridge.
+              isInterpolation: false
+            - attraction: >-
+                At the end of the Play, Mr. Montague will sing "I'm a Jolly
+                Roving Tar," in Character. A favorite Comic Song called "Dinner
+                for One," by Mr. Woulds. A Comic Duet, by Mrs. Woulds and Mr.
+                Ayliffe. A Comic Song, "The Bag of Nails", by Mr. Griffith.
+              isInterpolation: false
+          performers:
+            - performerName: Mr. Stuart
+              role: Gambia (the Siave)
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Doyne
+              role: Governor of Surinam
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. B. Taylor
+              role: Captain Clifton
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Aldridge
+              role: Captain Malcolm
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Trevena
+              role: Colonel Lindenburg
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Montague
+              role: Mathew Sharpset
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Jones
+              role: Sam Sharpet
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Woulds
+              role: Fogrum
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Connor
+              role: Somerdyke
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Griffith
+              role: Jailor
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Field
+              role: Provost
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Lansdown
+              role: Officer
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Lodge
+              role: First Planter
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Cooke
+              role: Second Planter
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Pearce
+              role: Third Planter
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Watson
+              role: Zelinda (a Quadroon Slave)
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Doyne
+              role: Mrs. Lindenburg
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Barrett
+              role: Stella Clifton
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Darley
+              role: Miss Von Frump
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Webster
+              role: Singer
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Salmon
+              role: Singer
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Griffiths
+              role: Salmon
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Master G. Saunders
+              role: Singer
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+        - orderOfPerformance: '2'
+          title: 'Raymond and Agnes; Or, The Bleeding Nun'
+          timePerformedInSeason: ''
+          playbillGenreClaim: Melo-Dramatic Romance
+          ourGenreAttribution:
+            - Melodrama
+          contributors:
+            - contributorName: ''
+              contributorType: ''
+          featuredAttractions:
+            - attraction: 'With the original music, appropriate scenery, machinery, &c.'
+              isInterpolation: false
+          performers:
+            - performerName: Mr. Mason
+              role: Raymond
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Ayliffe
+              role: Theodore
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Doyne
+              role: Don Felix (Father to Raymond)
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Connor
+              role: Baron Lindenberg
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Griffith
+              role: >-
+                Baptiste (a Bandit, living as a Woodman in the Forest of
+                Rosenwold)
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Jones
+              role: Robert
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Trevena
+              role: Jacques
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Aldridge
+              role: 'Claude (a Postillion, in league with the Robbers)'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Field
+              role: Conrad
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Lodge
+              role: Marco
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss A. Connor
+              role: Child
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Ashton
+              role: Agnes
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Darley
+              role: Cunegonda (her Duenna)
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Doyne
+              role: Baronness Lindenberg
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss J. Cooke
+              role: Ursula
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Taylor
+              role: Margueritte (Wife of Baptiste)
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Barrett
+              role: The Bleeding Nun
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+      ticketing:
+        boxPrice: ''
+        currency: ''
+        galleryPrice: ''
+        pitPrice: ''
+        secondBoxPrice: ''
+        secondGalleryPrice: ''
+        secondPitPrice: ''
+        secondUpperGalleryPrice: ''
+        ticketingNotes: ''
+        toBeHad: >-
+          Mr. Trevena, No. 15, Beaufort Square; Mr. Griffith, No. 3, St. James's
+          Parade; and of Mr. Doyne, No. 7, James Street
+        upperGalleryPrice: ''

@@ -1,0 +1,366 @@
+ephemeralRecord:
+  archiveHoldingDocument: British Library
+  callNumber: lsidyv4045b355_1809-1815_Theatre_Royal_Haymarket_337
+  containingCollection: British Library Playbills
+  dataCataloger: Cassidy Holahan
+  documentType: Playbill
+  pageNumber: ''
+  periodicalTitle: ''
+  persistentUrl: ''
+  announcements:
+    - ''
+  dimensions:
+    length: ''
+    width: ''
+  documentPrinter:
+    location: ''
+    name: ''
+  printedArea:
+    length: ''
+    width: ''
+  shows:
+    - date: '1812-09-24'
+      doorsOpen: '17:30'
+      location: London
+      performanceBegins: '18:30'
+      stageManager: ''
+      theaterCompany: ''
+      venue: 'Theatre-Royal, Hay-Market'
+      featuredAttractionsForShow:
+        - ''
+      notes:
+        - ''
+      occasions:
+        - occasionAsStated: ''
+          occasionType: ''
+          beneficiary:
+            - ''
+          occasioner:
+            - ''
+      performances:
+        - orderOfPerformance: '1'
+          title: 'She stoops to conquer'
+          timePerformedInSeason: ''
+          playbillGenreClaim: Comedy
+          ourGenreAttribution:
+            - Comedy
+          contributors:
+            - contributorName: ''
+              contributorType: ''
+          featuredAttractions:
+            - attraction: ''
+              isInterpolation: false
+          performers:
+            - performerName: 'Mr. Munden'
+              role: 'Mr. Hardcastle'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: 'Mr. Grove'
+              role: 'Sir Charles Marlow'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: 'Mr. Flowerdew'
+              role: 'Hastings'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Salter
+              role: 'Young Marlow'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: 'Mr. Villers'
+              role: 'Stingo'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Dalton
+              role: 'Muggins'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Finn
+              role: 'Twist'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: 'Mr. Noble'
+              role: Diggory
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Hardy
+              role: 'Giles'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Minton
+              role: 'Jeremy'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Widdicombe
+              role: 'Roger'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Auld
+              role: 'Ralph'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Mathews
+              role: 'Tony Lumpkn'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Grove
+              role: Mrs. Hardcastle
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Gibbs
+              role: Miss Hardcastle
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Bellchambers
+              role: Miss Neville
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+        - orderOfPerformance: '2'
+          title: 'The Ghost'
+          timePerformedInSeason: '1'
+          playbillGenreClaim: ''
+          ourGenreAttribution:
+            - ''
+          contributors:
+            - contributorName: ''
+              contributorType: ''
+          featuredAttractions:
+            - attraction: ''
+              isInterpolation: false
+          performers:
+            - performerName: 'Mr. Minton'
+              role: 'Sir Jeffery Constant'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: 'Mr. Flowerdew'
+              role: 'Captain Constant'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: 'Mr. Grove'
+              role: 'Trusty'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: 'Mr. Betterton, Jun.'
+              role: 'Clinch'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: 'Mr. Bennett'
+              role: 'Roger'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: 'Miss De Camp'
+              role: 'Belinda'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: 'Mrs. Grove'
+              role: 'Dorothy'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+        - orderOfPerformance: '3'
+          title: 'The Travellers Benighted; Or, The Forest of Rosenwald'
+          timePerformedInSeason: '15'
+          playbillGenreClaim: Melo-Drame
+          ourGenreAttribution:
+            - Melodrama
+          contributors:
+            - contributorName: Haydyn
+              contributorType: Overture and Musick selected from
+            - contributorName: Mozart
+              contributorType: Overture and Musick selected from
+          featuredAttractions:
+            - attraction: ''
+              isInterpolation: false
+          performers:
+            - performerName: Mr. Williams
+              role: Don Felix
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Villers
+              role: Baron Lindenberg
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: 'Mr. Betterton, Jun.'
+              role: Raymond
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Bennett
+              role: Theodore
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Martin
+              role: Baptiste
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Noble
+              role: Claude
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Finn
+              role: Jaques
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Grove
+              role: Marco
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Minton
+              role: Conrad
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Terry
+              role: Robert
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Bellchambers
+              role: Agnes
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Grove
+              role: Beatrice
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Stokes
+              role: Ursula
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Kendall
+              role: Bleeding Nun
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss De Camp
+              role: Annette
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Gibbs
+              role: Marguerette
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+      ticketing:
+        boxPrice: '60'
+        currency: ''
+        galleryPrice: '24'
+        pitPrice: '36'
+        secondBoxPrice: '36'
+        secondGalleryPrice: '12'
+        secondPitPrice: '18'
+        secondUpperGalleryPrice: '6'
+        ticketingNotes: 'Second Price will commence every Evening, precisely at Half Past Eight O'Clock'
+        toBeHad: 'Mr. Massingham'
+        upperGalleryPrice: '12'

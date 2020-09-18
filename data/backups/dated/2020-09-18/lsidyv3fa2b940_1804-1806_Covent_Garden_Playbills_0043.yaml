@@ -1,0 +1,556 @@
+ephemeralRecord:
+  archiveHoldingDocument: British Library
+  callNumber: lsidyv3fa2b940_1804-1806_Covent_Garden_Playbills_0043
+  containingCollection: British Library Playbills
+  dataCataloger: Cassidy Holahan
+  documentType: Playbill
+  pageNumber: ''
+  periodicalTitle: ''
+  persistentUrl: ''
+  announcements:
+    - ''
+  dimensions:
+    length: ''
+    width: ''
+  documentPrinter:
+    location: 2, Bow-street
+    name: E. Macleish
+  printedArea:
+    length: ''
+    width: ''
+  shows:
+    - date: '1804-10-17'
+      doorsOpen: '17:30'
+      location: London
+      performanceBegins: '18:30'
+      stageManager: ''
+      theaterCompany: ''
+      venue: Covent Garden
+      featuredAttractionsForShow:
+        - ''
+      notes:
+        - Eighteenth time
+      occasions:
+        - occasionAsStated: ''
+          occasionType: ''
+          beneficiary:
+            - ''
+          occasioner:
+            - ''
+      performances:
+        - orderOfPerformance: '1'
+          title: The Blind Bargain; Or, Hear Him Out
+          timePerformedInSeason: '18'
+          playbillGenreClaim: Comedy
+          ourGenreAttribution:
+            - Comedy
+          contributors:
+            - contributorName: ''
+              contributorType: ''
+          featuredAttractions:
+            - attraction: With New Scenes and Dresses
+              isInterpolation: false
+            - attraction: Eighteenth time
+              isInterpolation: false
+            - attraction: Miss Davies, (with a Song in Character)
+              isInterpolation: false
+          performers:
+            - performerName: Mr. Fawcett
+              role: ''
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Lewis
+              role: ''
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Farley
+              role: ''
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Emery
+              role: ''
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Blanchard
+              role: ''
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Kemble
+              role: ''
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Master Cone
+              role: ''
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Jefferies
+              role: ''
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Curties
+              role: ''
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Abbot
+              role: ''
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Atkins
+              role: ''
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Gibbs
+              role: ''
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Davenport
+              role: ''
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Davies
+              role: ''
+              roleNotes: With a Song in Character
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Emery
+              role: ''
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+        - orderOfPerformance: '2'
+          title: 'Raymond and Agnes; Or, The Bleeding Nun'
+          timePerformedInSeason: '7'
+          playbillGenreClaim: Grand Serious Pantomime
+          ourGenreAttribution:
+            - Ballet
+            - Pantomime
+          contributors:
+            - contributorName: Mr. Reeve
+              contributorType: 'Composer, overture and music'
+            - contributorName: Mr. Farley
+              contributorType: 'Composer, ballet'
+            - contributorName: Mr. Phillips
+              contributorType: Scenery
+            - contributorName: Mr. Whitmore
+              contributorType: Scenery
+            - contributorName: Mr. Hollogan
+              contributorType: Scenery
+            - contributorName: Mr. Sloper
+              contributorType: Machinery
+            - contributorName: Mr. Goostrees
+              contributorType: Machinery
+            - contributorName: Mr. Dick
+              contributorType: Dresses (costume)
+            - contributorName: Mrs. Egan
+              contributorType: Dresses (costume)
+          featuredAttractions:
+            - attraction: With New Scenes, Dresses, and Decorations
+              isInterpolation: true
+            - attraction: 7th time
+              isInterpolation: true
+          performers:
+            - performerName: Mr. Farley
+              role: Don Raymond
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Bologna
+              role: Don Felix
+              roleNotes: Father to Raymond
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Jefferies
+              role: Count of Lindenbergh
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Menage
+              role: Theodore
+              roleNotes: Page to Raymond
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Dubois
+              role: Baptist
+              roleNotes: A robber
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Bologna
+              role: Jaques
+              roleNotes: Baptist's son
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. L. Bologna
+              role: Jaques
+              roleNotes: Baptist's son
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. King
+              role: Claud
+              roleNotes: A Postillion and one of the Banditti
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Harley
+              role: Father Ausellum
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Atkins
+              role: Master of Hotel
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Wilde
+              role: Old Steward (to Felix)
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Burden
+              role: 'Friar / Mulleteer '
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Curties
+              role: 'Friar / Mulleteer '
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Denman
+              role: 'Friar / Mulleteer '
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Everard
+              role: 'Friar / Mulleteer '
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Fairclough
+              role: Friar / Mulleteer and choral boy
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Kendrick
+              role: 'Friar / Mulleteer '
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Lee
+              role: 'Friar / Mulleteer '
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Linton
+              role: 'Friar / Mulleteer '
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Odwell
+              role: Friar / Mulleteer
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Potts
+              role: Friar / Mulleteer
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Street
+              role: 'Friar / Mulleteer '
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Tett
+              role: 'Friar / Mulleteer '
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Tett
+              role: 'Friar / Mulleteer '
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Follett
+              role: Countess of Lindenbergh
+              roleNotes: Step-mother to Agnes
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Searle
+              role: Agnes
+              roleNotes: Daughter to the Count of Lindenbergh
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: true
+            - performerName: Miss B. Bologna
+              role: Annette
+              roleNotes: Daughter to the Count of Lindenbergh
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: true
+            - performerName: Miss Leserve
+              role: Abbess of St. Claire
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Cox
+              role: Cicely
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. St. Leger
+              role: Margaret
+              roleNotes: Baptist's mistress
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Watts
+              role: Spectre of the Bleeding Nun
+              roleNotes: Mother of Agnes
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Madame Benson
+              role: Nun of the Convent of St. Clair
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Madame Bologna
+              role: Nun of the Convent of St. Clair
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Madame Bologna
+              role: Nun of the Convent of St. Clair
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Madame Burnet
+              role: Nun of the Convent of St. Clair
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Madame Castelle
+              role: Nun of the Convent of St. Clair
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Madame Dibdin
+              role: Nun of the Convent of St. Clair
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Madame Findlay
+              role: Nun of the Convent of St. Clair
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Madame Frederick
+              role: Nun of the Convent of St. Clair
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Madame Iliff
+              role: Nun of the Convent of St. Clair
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Madame Masters
+              role: Nun of the Convent of St. Clair
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Madame Price
+              role: Nun of the Convent of St. Clair
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Madame Whitmore
+              role: Nun of the Convent of St. Clair
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Madame Wilkins
+              role: Nun of the Convent of St. Clair
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Abbot
+              role: Domestic
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Lewis
+              role: Domestic
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Powers
+              role: Domestic
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Ratchford
+              role: Domestic
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Sarjant
+              role: Domestic
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Truman
+              role: Domestic
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+      ticketing:
+        boxPrice: '72'
+        currency: ''
+        galleryPrice: '24'
+        pitPrice: '42'
+        secondBoxPrice: ''
+        secondGalleryPrice: ''
+        secondPitPrice: ''
+        secondUpperGalleryPrice: ''
+        ticketingNotes: 'Places for the boxes to be taken of Mr. Brandon, at the Box Office in Hart-street. No money to be returned'
+        toBeHad: ''
+        upperGalleryPrice: '12'

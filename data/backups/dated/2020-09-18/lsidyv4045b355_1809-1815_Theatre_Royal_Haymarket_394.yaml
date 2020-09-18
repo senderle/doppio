@@ -1,0 +1,276 @@
+ephemeralRecord:
+  archiveHoldingDocument: British Library
+  callNumber: lsidyv4045b355_1809-1815_Theatre_Royal_Haymarket_394
+  containingCollection: British Library Playbills
+  dataCataloger: Cassidy Holahan
+  documentType: Playbill
+  pageNumber: ''
+  periodicalTitle: ''
+  persistentUrl: ''
+  announcements:
+    - ''
+  dimensions:
+    length: ''
+    width: ''
+  documentPrinter:
+    location: 'London'
+    name: 'T. Woodfall'
+  printedArea:
+    length: ''
+    width: ''
+  shows:
+    - date: '1814-08-04'
+      doorsOpen: '18:00'
+      location: London
+      performanceBegins: '19:00'
+      stageManager: ''
+      theaterCompany: ''
+      venue: 'Theatre-Royal, Hay-Market'
+      featuredAttractionsForShow:
+        - ''
+      notes:
+        - ''
+      occasions:
+        - occasionAsStated: ''
+          occasionType: ''
+          beneficiary:
+            - ''
+          occasioner:
+            - ''
+      performances:
+        - orderOfPerformance: '1'
+          title: 'Who wants a Guinea?'
+          timePerformedInSeason: ''
+          playbillGenreClaim: Comedy
+          ourGenreAttribution:
+            - Comedy
+          contributors:
+            - contributorName: ''
+              contributorType: ''
+          featuredAttractions:
+            - attraction: ''
+              isInterpolation: false
+          performers:
+            - performerName: 'Mr. Terry'
+              role: 'Torrent'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: 'Mr. Eyre'
+              role: 'Heartly'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: 'Mr. Grove'
+              role: 'Hogmore'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: 'Master Mason'
+              role: 'Boy'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Tokely
+              role: 'Solomon Gundy'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: 'Mr. Brunton'
+              role: 'Barford'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Mason
+              role: 'Jonathan Oldskirt'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Jones
+              role: Sir Larry Mac Murragh
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: 'Mr. Barnard'
+              role: Henry
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Rayner
+              role: 'Andrew Bang'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Hughes
+              role: 'Fanny'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Grove
+              role: 'Mrs. Galstonbury'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Lacy
+              role: Amy
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+        - orderOfPerformance: '2'
+          title: 'The Travellers Benighted; Or, The Forest of Rosenwald'
+          timePerformedInSeason: ''
+          playbillGenreClaim: Melo-Drame
+          ourGenreAttribution:
+            - Melodrama
+          contributors:
+            - contributorName: Haydyn
+              contributorType: Overture and Musick selected from
+            - contributorName: Mozart
+              contributorType: Overture and Musick selected from
+          featuredAttractions:
+            - attraction: ''
+              isInterpolation: false
+          performers:
+            - performerName: Mr. Barnard
+              role: Raymond
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: 'Mr. Tokely'
+              role: Theodore
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Martin
+              role: Baptiste
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Minton
+              role: Conrad
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Menage
+              role: Claude
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Dornton
+              role: Jaques
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Grove
+              role: Marco
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Gomery
+              role: Robert
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Hughes
+              role: Agnes
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Grove
+              role: Beatrice
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Daly
+              role: Ursula
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Kendall
+              role: Bleeding Nun
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Lacy
+              role: Annette
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Master R. Stokes
+              role: Child
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Gibbs
+              role: Marguerette
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+      ticketing:
+        boxPrice: '60'
+        currency: ''
+        galleryPrice: '24'
+        pitPrice: '36'
+        secondBoxPrice: ''
+        secondGalleryPrice: '12'
+        secondPitPrice: ''
+        secondUpperGalleryPrice: ''
+        ticketingNotes: ''
+        toBeHad: 'Mr. Massingham'
+        upperGalleryPrice: ''

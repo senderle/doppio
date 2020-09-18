@@ -1,0 +1,640 @@
+ephemeralRecord:
+  archiveHoldingDocument: British Library
+  callNumber: lsidyv4332b851_1809-1821_Lyceum_English_Opera_0434
+  containingCollection: British Library Playbills
+  dataCataloger: Cassidy Holahan
+  documentType: Playbill
+  pageNumber: ''
+  periodicalTitle: ''
+  persistentUrl: ''
+  announcements:
+    - ''
+  dimensions:
+    length: ''
+    width: ''
+  documentPrinter:
+    location: 'Marquis-Court, Drury-Lane'
+    name: 'Lowndes'
+  printedArea:
+    length: ''
+    width: ''
+  shows:
+    - date: '1820-07-10'
+      doorsOpen: '18:30'
+      location: London
+      performanceBegins: '19:00'
+      stageManager: Mr. Bartley
+      theaterCompany: ''
+      venue: Lyceum English Opera House
+      featuredAttractionsForShow:
+        - >-
+          'The Spacious Saloon Has been again tastefully fitted up, with a New Design, Representing An Illuminated Oriental Garden, and will be open as usual at Eight o'Clock, for the admittance of the Second Price, which commences at Nine.'
+      notes:
+        - 'The superior Band of this Theatre is under the direction of Mr. Mountain. Stage Manager, Mr. Bartley. The Melodramatick Department under the superintendance of Mr. T. P. Cooke.'
+      occasions:
+        - occasionAsStated: ''
+          occasionType: ''
+          beneficiary:
+            - ''
+          occasioner:
+            - ''
+      performances:
+        - orderOfPerformance: '1'
+          title: 'The Promissory Note'
+          timePerformedInSeason: '9'
+          playbillGenreClaim: Comick Operetta
+          ourGenreAttribution:
+            - Comic Opera
+          contributors:
+            - contributorName: Mr. Bochsa
+              contributorType: 'Composer, musick'
+            - contributorName: Mr. Gill
+              contributorType: 'Scenery'
+          featuredAttractions:
+            - attraction: 'The Promissory Note is published, and may be had in the Theatre, or of Mr. Miller, 41, Lisle Street, Leicester Square'
+              isInterpolation: false
+          performers:
+            - performerName: Mr. Wrench
+              role: Mr. Markham
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Pearman
+              role: Mr. Scamper
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Salter
+              role: Nicks
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Lodge
+              role: Follower
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Collingbourn
+              role: Follower
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. W. S. Chatterley
+              role: Mrs. Markham
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Carew
+              role: Caroline
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Kelly
+              role: Cicely
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+        - orderOfPerformance: '2'
+          title: 'The Hunchback; Or, Frolicks in Bagdad'
+          timePerformedInSeason: '2'
+          playbillGenreClaim: Musical Farce
+          ourGenreAttribution:
+            - Farce
+          contributors:
+            - contributorName: Mr. Jolly
+              contributorType: 'Composer, music'
+            - contributorName: Mr. Bishop
+              contributorType: 'Composer, music'
+            - contributorName: Mr. A. Thiselton
+              contributorType: 'Scenery'
+          featuredAttractions:
+            - attraction: 'Founded on one of the popular Tales in the Arabian Nights' Entertainments'
+              isInterpolation: false
+          performers:
+            - performerName: Mr. Rowbotham
+              role: Bassa of Bagdad
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Wilkinson
+              role: 'Cross-leg (a Christian Taylor)'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. W. S. Chatterley
+              role: 'Zebede (a Jew, the Purveyor)'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Harley
+              role: 'Crumpy, (the Hunchback)'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Broadhurst
+              role: Alexis
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. T. P. Cooke
+              role: Dr. Quinquina
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Webster
+              role: Babouc
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Lodge
+              role: Cadi
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Lancaster
+              role: Crier
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Minton
+              role: Habby
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Kenneth
+              role: Dominique
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. R. Phillips
+              role: Courier
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Lancaster
+              role: Boy
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Bowman
+              role: 'Officer, Soldier, Mute, Mob'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Collingbourn
+              role: 'Officer, Soldier, Mute, Mob'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Elsmore
+              role: 'Officer, Soldier, Mute, Mob'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Jenkins
+              role: 'Officer, Soldier, Mute, Mob'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Lewis
+              role: 'Officer, Soldier, Mute, Mob'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Nickols
+              role: 'Officer, Soldier, Mute, Mob'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Phillips
+              role: 'Officer, Soldier, Mute, Mob'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Proud
+              role: 'Officer, Soldier, Mute, Mob'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Spratley
+              role: 'Officer, Soldier, Mute, Mob'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Shaw
+              role: 'Officer, Soldier, Mute, Mob'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Love
+              role: Dora
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss I. Stevenson
+              role: 'Juggy (Cross-leg's Wife)'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Hobbs
+              role: Neighbor
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Jerrold
+              role: Neighbor
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss M. Jerrold
+              role: Neighbor
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Lancaster
+              role: Neighbor
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Mansell
+              role: Neighbor
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Mears
+              role: Neighbor
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Miller
+              role: Neighbor
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Newton
+              role: Neighbor
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Shaw
+              role: Neighbor
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Tokely
+              role: Neighbor
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Webster
+              role: Neighbor
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+        - orderOfPerformance: '3'
+          title: 'Raymond and Agnes; Or, The Bleeding Nun'
+          timePerformedInSeason: '1'
+          playbillGenreClaim: Serious Ballet
+          ourGenreAttribution:
+            - Ballet
+            - Melodrama
+          contributors:
+            - contributorName: Mr. Reeve
+              contributorType: 'Composer, music'
+            - contributorName: Mr. T. P. Cooke
+              contributorType: 'Producer, ballet'
+          featuredAttractions:
+            - attraction: 'The Melodramatick Deparment under the superintendance of Mr. T. P. Cooke'
+              isInterpolation: false
+          performers:
+            - performerName: Mr. Webster
+              role: Don Raymond
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. R. Phillips
+              role: 'Don Felix, Father to Raymond'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Rowbotham
+              role: Count of Lindenbergh
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Walbourn
+              role: 'Theodore, Page to Raymond'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Kenneth
+              role: 'Marco, Master of the Hotel'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. T. P. Cooke
+              role: 'Robert, robber'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Collingbourn
+              role: 'Jacques, robber'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Salter
+              role: 'Baptiste, their father'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Fisher
+              role: 'Claude, a Postillion and one of the Banditti'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Elsmore
+              role: ''
+              roleNotes: 'Monk Domestic, &c.'
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Bowman
+              role: 'Monk Domestic, &c.'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Jenkins
+              role: 'Monk Domestic, &c.'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Lewis
+              role: 'Monk Domestic, &c.'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Nickols
+              role: 'Monk Domestic, &c.'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Phillips
+              role: 'Monk Domestic, &c.'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Proud
+              role: 'Monk Domestic, &c.'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Spratley
+              role: 'Monk Domestic, &c.'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Shaw
+              role: 'Monk Domestic, &c.'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. W. S. Chatterley
+              role: 'Margueritte, Baptiste''s Mistress'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Shaw
+              role: The Child
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Shaw
+              role: 'Spectre of the Bleeding Nun, Mother of Agnes'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Webster
+              role: 'Countess of Lindenbergh, Step-mother to Agnes'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Jerrold
+              role: Abbess of St. Claire
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Jerrold
+              role: Annette
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Love
+              role: 'Agnes, Dauther to the Count of Lindenbergh'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Hobbs
+              role: Nun of the Convent of St. Claire
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Lancaster
+              role: Nun of the Convent of St. Claire
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Mansell
+              role: Nun of the Convent of St. Claire
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Mears
+              role: Nun of the Convent of St. Claire
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Miller
+              role: Nun of the Convent of St. Claire
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Newton
+              role: Nun of the Convent of St. Claire
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Shaw
+              role: Nun of the Convent of St. Claire
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Tokely
+              role: Nun of the Convent of St. Claire
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+      ticketing:
+        boxPrice: '60'
+        currency: 'UK'
+        galleryPrice: '24'
+        pitPrice: '30'
+        secondBoxPrice: '30'
+        secondGalleryPrice: ''
+        secondPitPrice: '18'
+        secondUpperGalleryPrice: ''
+        ticketingNotes: 'Boxes, Places, Tickets, Admissions for the Season, and PRivate Boxes (with the advantage of a seperate Entrance in Exeter Street) to be had of Mr. Stevenson at the Box-Office, Strand Entrance, from 10 till 4; and of Mr. Fearman, Library, 170, New Bond St. No Money to be returned'
+        toBeHad: ''
+        upperGalleryPrice: '12'

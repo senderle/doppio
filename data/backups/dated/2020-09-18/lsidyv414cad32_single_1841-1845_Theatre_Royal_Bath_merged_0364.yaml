@@ -1,0 +1,396 @@
+ephemeralRecord:
+  archiveHoldingDocument: British Library
+  callNumber: lsidyv414cad32_single_1841-1845_Theatre_Royal_Bath_merged_0364
+  containingCollection: British Library Playbills
+  dataCataloger: Cassidy Holahan
+  documentType: Playbill
+  pageNumber: ''
+  periodicalTitle: ''
+  persistentUrl: ''
+  announcements:
+    - >-
+      Mr. Leclercq is announcing his and Family's Benefit, begs leave most
+      respectfully to return his grateful thanks for the liberal encouragement
+      he and they have received during their Engagement at this Theatre, and
+      most humbly solicits the honor of the Nobility, Gentry, and Public's
+      patronage on the above Evening.
+    - >-
+      Mr. Conway Edwards, the successful Author of the interesting Drama,
+      entitled FIRST LOVE, has, in a most generous manner, consented to its
+      being performed on this occasion.
+    - >-
+      A new Ballet, in which the Four Children, Miss, Miss Louise, Masters
+      Charles and Arthur Leclercq will appear, being 9, 7, 5, and 3 years old.
+    - >-
+      An interesting Romantic Melo-Drama, from the popular Works of the late M.
+      G. Lewis, Esq.
+  dimensions:
+    length: ''
+    width: ''
+  documentPrinter:
+    location: Bath
+    name: John and James Keene
+  printedArea:
+    length: ''
+    width: ''
+  shows:
+    - date: '1841-05-20'
+      doorsOpen: ''
+      location: Bath
+      performanceBegins: ''
+      stageManager: Mr. Woulds
+      theaterCompany: ''
+      venue: 'Theatre-Royal, Bath'
+      featuredAttractionsForShow:
+        - ''
+      notes:
+        - ''
+      occasions:
+        - occasionAsStated: >-
+            For the Benefit of Mr. and Mrs. Leclerq and Family; And positively
+            the Last Night but One of the Season
+          occasionType: Benefit Performance
+          beneficiary:
+            - Mr. Leclercq
+            - Mrs. Leclercq
+          occasioner:
+            - ''
+      performances:
+        - orderOfPerformance: '1'
+          title: First Love!
+          timePerformedInSeason: '2'
+          playbillGenreClaim: Drama
+          ourGenreAttribution:
+            - Drama
+          contributors:
+            - contributorName: Mr. Ormonde
+              contributorType: 'Writer, song, "The Fine Young Irish Gentleman"'
+          featuredAttractions:
+            - attraction: >-
+                The Orchestra will Perform Several Sets of the most Popular
+                Waltzes, Galopes, &c.
+              isInterpolation: false
+            - attraction: >-
+                Miss L. Bruce will, in Character Sing (for the first time here)
+                her original Song, written by Mr. Ormonde, entitled, "The Fine
+                Young Irish Gentleman," Or, "The Exploits of a Sporting Marquis"
+              isInterpolation: true
+          performers:
+            - performerName: Mr. Davis
+              role: Lester Burton
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Rogers
+              role: Percy Manly
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Ormonde
+              role: Sir William Stanton
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: A Distinguished Amateur
+              role: Master Bellows
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Edmund Glover
+              role: Master Grimes
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Woulds
+              role: Master Saw
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Kimber
+              role: Landlord
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Leclercq
+              role: Iola
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Bartlett
+              role: Margaret
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Cuthbert
+              role: Annette
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Rodgers
+              role: Landlady
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+        - orderOfPerformance: '2'
+          title: Little Goody Two Shoes!
+          timePerformedInSeason: '1'
+          playbillGenreClaim: 'Comic Ballet, or Gossip''s Tale'
+          ourGenreAttribution:
+            - Ballet
+          contributors:
+            - contributorName: Mr. Leclercq
+              contributorType: Arranged Ballet
+          featuredAttractions:
+            - attraction: The Ballet terminates with A Grand Fancy Ball Al Fresco
+              isInterpolation: false
+            - attraction: >-
+                Mr., Mrs., and Miss Leclercq, Miss Cuthbert, and Mrs. Rogers
+                will Dance Mr. Leclercq's Celebrated Dance of Follies, In which
+                Mr. Leclercq will perform his Double Beat on the Tambourine, in
+                the Air
+              isInterpolation: false
+            - attraction: Several Juvenile Amateurs Will Appear
+              isInterpolation: false
+          performers:
+            - performerName: Mr. Leclercq
+              role: Sir James Goodheart
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Bland
+              role: Gaffer Grey
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Rogers
+              role: Grasphard (the Steward)
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Kimber
+              role: Bailiff
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Gash
+              role: Bailiff
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Leclercq
+              role: Lady Goodheart
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Leclercq
+              role: Georgina
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Louise Leclercq
+              role: Little Goody Two Shoes
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Bartlett
+              role: Gossip Grey
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Master Charles Leclercq
+              role: Charley (the Dunce)
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Master Arthur Leclercq
+              role: Tommy (the Learned)
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: ''
+              role: ''
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+        - orderOfPerformance: '3'
+          title: 'Raymond and Agnes, Or, The Bleeding Nun of Lindenburgh!'
+          timePerformedInSeason: ''
+          playbillGenreClaim: Romance
+          ourGenreAttribution:
+            - Melodrama
+          contributors:
+            - contributorName: ''
+              contributorType: ''
+          featuredAttractions:
+            - attraction: 'In the course of the Romance, Several Combats!'
+              isInterpolation: false
+            - attraction: >-
+                Mysterious Appearance of the Bleeding Nun! "Protect the Child of
+                the Murdered Agnes!"
+              isInterpolation: false
+            - attraction: Grand and impressive Tableau of the Triumph of Virtue!
+              isInterpolation: false
+          performers:
+            - performerName: Mr. Davis
+              role: Don Raymond
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. J. Bedford
+              role: Theodore
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Bland
+              role: Don Felix
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Woulds
+              role: Agnes
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Smithson
+              role: Annette
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: MR. Leclercq
+              role: Robert
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Gerrish
+              role: Marco
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Kimber
+              role: Conrad
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Bartlett
+              role: Ursula
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Rogers
+              role: Portress
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Tilbury
+              role: Baptiste
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Webb
+              role: Claude
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Rogers
+              role: Jaques
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Leclercq
+              role: Marguerette
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Cuthbert
+              role: Bleeding Nun
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+      ticketing:
+        boxPrice: ''
+        currency: ''
+        galleryPrice: ''
+        pitPrice: ''
+        secondBoxPrice: ''
+        secondGalleryPrice: ''
+        secondPitPrice: ''
+        secondUpperGalleryPrice: ''
+        ticketingNotes: ''
+        toBeHad: 'Mr. and Mrs. Leclercq, Mr. Brownell'
+        upperGalleryPrice: ''

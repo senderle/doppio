@@ -1,0 +1,711 @@
+ephemeralRecord:
+  archiveHoldingDocument: British Library
+  callNumber: lsidyv400cedb2_1827-1828_Covent_Garden_with_Anniversary_Festivals_0391
+  containingCollection: British Library Playbills
+  dataCataloger: Cassidy Holahan
+  documentType: Playbill
+  pageNumber: ''
+  periodicalTitle: ''
+  persistentUrl: ''
+  announcements:
+    - ''
+  dimensions:
+    length: ''
+    width: ''
+  documentPrinter:
+    location: ''
+    name: ''
+  printedArea:
+    length: ''
+    width: ''
+  shows:
+    - date: '1828-10-20'
+      doorsOpen: '18:30'
+      location: London
+      performanceBegins: '19:00'
+      stageManager: ''
+      theaterCompany: ''
+      venue: 'Theatre Royal, Covent-Garden'
+      featuredAttractionsForShow:
+        - ''
+      notes:
+        - >-
+          The Public is respectfully informed Mr. Kean will perform on Thursday next, the character of Sir Giles Overreach, int he Play of A New Way to Pay Old Debts.
+      occasions:
+        - occasionAsStated: ''
+          occasionType: ''
+          beneficiary:
+            - ''
+          occasioner:
+            - ''
+      performances:
+        - orderOfPerformance: '1'
+          title: King Richard the Third
+          timePerformedInSeason: ''
+          playbillGenreClaim: Tragedy
+          ourGenreAttribution:
+            - Tragedy
+          contributors:
+            - contributorName: ''
+              contributorType: ''
+          featuredAttractions:
+            - attraction: ''
+              isInterpolation: false
+          performers:
+            - performerName: Mr. Egerton
+              role: King Henry the Sixth
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Fortescue
+              role: Prince of Wales
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Watson
+              role: Duke of York
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Kean
+              role: Richard, Duke of Gloster
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Diddear
+              role: Duke of Buckingham
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. J. Vining
+              role: Duke of Norfolk
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Goodson
+              role: Earl of Oxford
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. C. Kemble
+              role: Earl of Richmond
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Evans
+              role: Lord Stanley
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Atkins
+              role: Lord Mayor
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Raymond
+              role: Sir Wm. Brandon
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Crumtpon
+              role: Sir Watter Blunt
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Holl
+              role: Sir Richard Ratcliffe
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Horrebow
+              role: Sir Wm. Catesby
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Irwin
+              role: Sir Robert Brakenbury
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Henry
+              role: Sir James Tyrrel
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Shegog
+              role: Alderman
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Fuller
+              role: Alderman
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Mears
+              role: Officer
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Austin
+              role: Officer
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Turnour
+              role: Forest
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Matthews
+              role: Dighton
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Lacy
+              role: Queen Elizabeth
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Jarman
+              role: Lady Anne
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Weston
+              role: Duchess of York
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+        - orderOfPerformance: '2'
+          title: 'Raymond and Agnes: Or, The Bleeding Nun'
+          timePerformedInSeason: '4'
+          playbillGenreClaim: Grand Serious Ballet of Action
+          ourGenreAttribution:
+            - Pantomime
+            - Melodrama
+            - Ballet
+          contributors:
+            - contributorName: Farley
+              contributorType: Author
+            - contributorName: Mr. Reeve
+              contributorType: 'Composer, Overture and Music'
+            - contributorName: Mr. Grieve
+              contributorType: Scenery
+            - contributorName: Mr. T. Grieve
+              contributorType: Scenery
+            - contributorName: Mr. W. Grieve
+              contributorType: Scenery
+            - contributorName: Mr. E. Saul
+              contributorType: Machinery
+            - contributorName: Miss Abbott
+              contributorType: Dress / Costume
+            - contributorName: Mr. Head
+              contributorType: Dress / Costume
+          featuredAttractions:
+            - attraction: ''
+              isInterpolation: false
+          performers:
+            - performerName: Mr. J. Vining
+              role: Don Raymond
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. J. Cooper
+              role: Don Felix
+              roleNotes: Father to Raymond
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Horrebow
+              role: Count of Lindenbergh
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. F. Suiton
+              role: Theodore
+              roleNotes: Page to Raymond
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. O. Smith
+              role: Baptist
+              roleNotes: A Robber
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. J. S. Grimaldi
+              role: Robert
+              roleNotes: Baptist's son
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. T. Blanchard
+              role: Jaques
+              roleNotes: Baptist's son
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Turnour
+              role: Claude
+              roleNotes: 'A Postilion, and one of the Banditti'
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Austin
+              role: Father Anselm
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Matthews
+              role: Master of Hotel
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Sutton
+              role: Old Steward (to Felix)
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Ashton
+              role: Friar
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Birt
+              role: Friar
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Caulfield
+              role: Friar
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Norts
+              role: Friar
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Shegog
+              role: Friar
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. C. Tett
+              role: Friar
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Beale
+              role: Muleteer
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Fuller
+              role: Muleteer
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Goodson
+              role: Muleteer
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Crumpton
+              role: Muleteer
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Irwin
+              role: Muleteer
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. May
+              role: Muleteer
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Mears
+              role: Muleteer
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. S. Tett
+              role: Muleteer
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Tinney
+              role: Muleteer
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Banks
+              role: Domestic
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Baker
+              role: Domestic
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Boodle
+              role: Domestic
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Griffiths
+              role: Domestic
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Thurston
+              role: Domestic
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Vedy
+              role: Countess of Lindenbergh
+              roleNotes: Step-mother to Agnes
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss J. Scott
+              role: Agnes
+              roleNotes: Daughter to the Count of Lindenbergh
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Egan
+              role: Annette
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Wilson
+              role: Abbess of St. Clair
+              roleNotes: Daughter to the Count of Lindenbergh
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Vials
+              role: Cicely
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Vining
+              role: Maugerette
+              roleNotes: Baptista's Mistress
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Marshall
+              role: Her [Maugerette's] Child
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Rountree
+              role: Spectre of the Bleeding Nun
+              roleNotes: Mother of Agnes
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Madame Appleton
+              role: Nun of the Convent of St. Clair
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Madame Brown
+              role: Nun of the Convent of St. Clair
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Madame Clark
+              role: Nun of the Convent of St. Clair
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Madame Fenwick
+              role: Nun of the Convent of St. Clair
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Madame Goodwin
+              role: Nun of the Convent of St. Clair
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Madame Hudson
+              role: Nun of the Convent of St. Clair
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Madame Nicholson
+              role: Nun of the Convent of St. Clair
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Madame Parsloe
+              role: Nun of the Convent of St. Clair
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Madame Perry
+              role: Nun of the Convent of St. Clair
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Madam Phillips
+              role: Nun of the Convent of St. Clair
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Austin
+              role: Spanish Peasantry
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Cooper
+              role: Spanish Peasantry
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Grant
+              role: Spanish Peasantry
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Heath
+              role: Spanish Peasantry
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Matthews
+              role: Spanish Peasantry
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Sutton
+              role: Spanish Peasantry
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. F. Sutton
+              role: Spanish Peasantry
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Madame Bates
+              role: Spanish Peasantry
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Madame Griffiths
+              role: ''
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Madame Reed
+              role: Spanish Peasantry
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Madame Ryals
+              role: Spanish Peasantry
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Madame Shotter
+              role: Spanish Peasantry
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Madame Thomasiu
+              role: Spanish Peasantry
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Madame Vials
+              role: Spanish Peasantry
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+      ticketing:
+        boxPrice: ''
+        currency: ''
+        galleryPrice: ''
+        pitPrice: ''
+        secondBoxPrice: ''
+        secondGalleryPrice: ''
+        secondPitPrice: ''
+        secondUpperGalleryPrice: ''
+        ticketingNotes: ''
+        toBeHad: ''
+        upperGalleryPrice: ''

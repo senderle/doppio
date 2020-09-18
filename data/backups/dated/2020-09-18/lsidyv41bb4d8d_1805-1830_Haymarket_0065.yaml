@@ -1,0 +1,304 @@
+ephemeralRecord:
+  archiveHoldingDocument: British Library
+  callNumber: lsidyv41bb4d8d_1805-1830_Haymarket_0058
+  containingCollection: British Library Playbills
+  dataCataloger: Cassidy Holahan
+  documentType: Playbill
+  pageNumber: ''
+  periodicalTitle: ''
+  persistentUrl: ''
+  announcements:
+    - ''
+  dimensions:
+    length: ''
+    width: ''
+  documentPrinter:
+    location: ''
+    name: ''
+  printedArea:
+    length: ''
+    width: ''
+  shows:
+    - date: '1814-07-08'
+      doorsOpen: '18:00'
+      location: London
+      performanceBegins: '19:00'
+      stageManager: ''
+      theaterCompany: ''
+      venue: 'Theatre Royal, Hay-market'
+      featuredAttractionsForShow:
+        - ''
+      notes:
+        - ''
+      occasions:
+        - occasionAsStated: ''
+          occasionType: ''
+          beneficiary:
+            - ''
+          occasioner:
+            - ''
+      performances:
+        - orderOfPerformance: '1'
+          title: 'A Cure for the Heart-Ache'
+          timePerformedInSeason: ''
+          playbillGenreClaim: Comedy
+          ourGenreAttribution:
+            - Comedy
+          contributors:
+            - contributorName: ''
+              contributorType: ''
+          featuredAttractions:
+            - attraction: ''
+              isInterpolation: false
+          performers:
+            - performerName: Mr. Jones
+              role: Young Rapid
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Mathews
+              role: Old Rapid
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Barnard
+              role: Charles Stanley
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Eyre
+              role: Sir Hubert Stanley
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Martin
+              role: Vortex
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Minton
+              role: Hartly
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Shepherd
+              role: Landlord
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Rayner
+              role: Frank Oatland
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Grove
+              role: Farmer Oatland
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Dornton
+              role: Bronze
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Moore
+              role: Hair-Dresser
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Menage
+              role: Waiter
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Yarnold
+              role: John
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Widdicomb
+              role: James
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Eyre
+              role: Ellen Vortex
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Gibbs
+              role: Miss Vortex
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Hughes
+              role: Jesse Oatland
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+        - orderOfPerformance: '2'
+          title: 'Travellers Benighted; Or, The Forest of Rosenwald'
+          timePerformedInSeason: '3'
+          playbillGenreClaim: Melo-Drame
+          ourGenreAttribution:
+            - Melodrama
+          contributors:
+            - contributorName: 'Haydyn'
+              contributorType: 'Composer, Overture and Musick selected from'
+            - contributorName: 'Mozart'
+              contributorType: 'Composer, Overture and Musick selected from'
+          featuredAttractions:
+            - attraction: ''
+              isInterpolation: false
+          performers:
+            - performerName: Mr. Barnard
+              role: Raymond
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Tokely
+              role: Theodore
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Martin
+              role: Baptiste
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Minton
+              role: Conrad
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Menage
+              role: Claude
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Dornton
+              role: Jaques
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Grove
+              role: Marco
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Gomery
+              role: Robert
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Hughes
+              role: Agnes
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Grove
+              role: Beatrice
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Daly
+              role: Ursula
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Kendall
+              role: Bleeding-Nun
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Lacy
+              role: Annette
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Master R. Stokes
+              role: Child
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Gibbs
+              role: Marguerette
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+      ticketing:
+        boxPrice: '60'
+        currency: UK
+        galleryPrice: '24'
+        pitPrice: '36'
+        secondBoxPrice: ''
+        secondGalleryPrice: '12'
+        secondPitPrice: ''
+        secondUpperGalleryPrice: ''
+        ticketingNotes: ''
+        toBeHad: 'Places for the Boxes to be taken of Mr. Massingham, at the Theatre'
+        upperGalleryPrice: ''

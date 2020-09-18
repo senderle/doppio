@@ -1,0 +1,358 @@
+ephemeralRecord:
+  archiveHoldingDocument: British Library
+  callNumber: lsidyv41bb4d8d_1805-1830_Haymarket_0151
+  containingCollection: British Library Playbills
+  dataCataloger: Cassidy Holahan
+  documentType: Playbill
+  pageNumber: ''
+  periodicalTitle: ''
+  persistentUrl: ''
+  announcements:
+    - 'The Last Week of the Company’s performing this Season'
+    - 'By Particular Desire'
+  dimensions:
+    length: ''
+    width: ''
+  documentPrinter:
+    location: 'York St. Westminster'
+    name: 'T. Woodfall'
+  printedArea:
+    length: ''
+    width: ''
+  shows:
+    - date: '1819-09-10'
+      doorsOpen: '18:00'
+      location: London
+      performanceBegins: '19:00'
+      stageManager: 'Mr. Terry'
+      theaterCompany: ''
+      venue: 'Theatre Royal, Hay-market'
+      featuredAttractionsForShow:
+        - ''
+      notes:
+        - ''
+      occasions:
+        - occasionAsStated: ''
+          occasionType: ''
+          beneficiary:
+            - ''
+          occasioner:
+            - ''
+      performances:
+        - orderOfPerformance: '1'
+          title: 'The Stranger'
+          timePerformedInSeason: '1'
+          playbillGenreClaim: Play
+          ourGenreAttribution:
+            - Play
+          contributors:
+            - contributorName: ''
+              contributorType: ''
+          featuredAttractions:
+            - attraction: 'Not acted here these Ten Years'
+              isInterpolation: false
+          performers:
+            - performerName: Mr. Warde
+              role: The Stranger
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Barnard
+              role: Count Wintersen
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Bengough
+              role: Baron Steinfort
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Watkinson
+              role: Mr. Solomon
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Russell
+              role: Peter
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Minton
+              role: Francis
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Martin
+              role: Tobias
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: true
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss G. Carr
+              role: 'Stranger’s Child'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Smith
+              role: 'Stranger’s Child'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss E. Fairbrother
+              role: 'Count’s Child'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss W. West
+              role: Mrs. Haller
+              roleNotes: 'Of the Theatre-Royal, Drury-Lane'
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Coveney
+              role: Countess Wintersen
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss E. Blanchard
+              role: Charlotte
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Liston
+              role: Annette
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Kendall
+              role: Maid
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. T. Hill
+              role: Savoyard
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+        - orderOfPerformance: '2'
+          title: 'Ladies at Home; Or, Gentlemen We can do without You!!!'
+          timePerformedInSeason: ''
+          playbillGenreClaim: Female Interlude in One Act
+          ourGenreAttribution:
+            - Interlude
+          contributors:
+            - contributorName: ''
+              contributorType: ''
+          featuredAttractions:
+            - attraction: 'Last time this season'
+              isInterpolation: false
+          performers:
+            - performerName: Mrs. Edwin
+              role: ''
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss E. Blanchard
+              role: ''
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Davenport
+              role: ''
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Beaumont
+              role: ''
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Connor
+              role: ''
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Kendall
+              role: ''
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. T. Hill
+              role: ''
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Liston
+              role: ''
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+        - orderOfPerformance: '3'
+          title: 'The Travellers Benighted'
+          timePerformedInSeason: ''
+          playbillGenreClaim: Melo Drama
+          ourGenreAttribution:
+            - Melodrama
+          contributors:
+            - contributorName: ''
+              contributorType: ''
+          featuredAttractions:
+            - attraction: ''
+              isInterpolation: false
+          performers:
+            - performerName: Mr. Barnard
+              role: Raymond
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Russell
+              role: Theodore
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Terry
+              role: Robert
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Martin
+              role: Baptiste
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Menage
+              role: Claude
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Coveney
+              role: Jaques
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. G. Smith
+              role: Marco
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Minton
+              role: Conrad
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Scott
+              role: Agnes
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Davenport
+              role: Beatrice
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Kendall
+              role: Ursula
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Conveney
+              role: Bleeding Nun
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Watkinson
+              role: Annette
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Gibbs
+              role: Margueritte
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+      ticketing:
+        boxPrice: '60'
+        currency: UK
+        galleryPrice: '24'
+        pitPrice: '36'
+        secondBoxPrice: ''
+        secondGalleryPrice: '12'
+        secondPitPrice: ''
+        secondUpperGalleryPrice: ''
+        ticketingNotes: 'N.B. - Private Boxes may be had, nightly, by application at the Box-Office. No Money to be return’d.'
+        toBeHad: 'Places for the Boxes to be taken of Mr. Massingham, at the Theatre'
+        upperGalleryPrice: ''

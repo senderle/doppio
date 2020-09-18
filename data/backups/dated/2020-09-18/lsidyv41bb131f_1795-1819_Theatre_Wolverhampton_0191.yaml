@@ -1,0 +1,310 @@
+ephemeralRecord:
+  archiveHoldingDocument: British Library
+  callNumber: lsidyv41bb131f_1795-1819_Theatre_Wolverhampton_0191
+  containingCollection: British Library Playbills
+  dataCataloger: Cassidy Holahan
+  documentType: Playbill
+  pageNumber: ''
+  periodicalTitle: ''
+  persistentUrl: ''
+  announcements:
+    - >-
+      Mrs. Nunns Having rented the above Theatre of MR. Crisp, begs Leave most
+      respectfully to inform the Ladies and Gentlemen of Wolverhampton and its
+      Vicinity, that it will OPEN, for the Season, on WEDNESDAY Evening next,
+      under the Management of Mr. Moreland (late of the Theatre-Royal,
+      Birmingham)
+    - >-
+      With Entire New Scenery, painted by a celebrated Artist, a Superb
+      Wardrobe, from the Theatres-Royal, London; Extensive Machinery: and a
+      Company of acknowledged Talent and Respectability. Ever Novelty will be
+      brought forward, and the utmost Attention will be paid, to obtain the
+      Public Patronage.   
+  dimensions:
+    length: ''
+    width: ''
+  documentPrinter:
+    location: Wolverhampton
+    name: J. Smart
+  printedArea:
+    length: ''
+    width: ''
+  shows:
+    - date: '1813-01-20'
+      doorsOpen: ''
+      location: Wolverhampton
+      performanceBegins: ''
+      stageManager: ''
+      theaterCompany: ''
+      venue: 'Theatre, Wolverhampton'
+      featuredAttractionsForShow:
+        - ''
+      notes:
+        - 'No Admittance behind the Scenes. '
+        - >-
+          Fires have been kept in the Box Lobby, Pit, and on the Stage, for
+          several Days past.
+      occasions:
+        - occasionAsStated: ''
+          occasionType: ''
+          beneficiary:
+            - ''
+          occasioner:
+            - ''
+      performances:
+        - orderOfPerformance: '1'
+          title: 'The Travellers Benighted; Or, The Forest of Rosenwold'
+          timePerformedInSeason: '1'
+          playbillGenreClaim: Grand Melo Drama
+          ourGenreAttribution:
+            - Melodrama
+          contributors:
+            - contributorName: 'G. Colman, Esq.'
+              contributorType: Author
+            - contributorName: Shield
+              contributorType: Music
+            - contributorName: Mr. Whaley
+              contributorType: 'Author, Two New Comic Songs'
+          featuredAttractions:
+            - attraction: >-
+                As performed at the Theatre-Royal, Haymarket, last Season, with
+                unbounded Applause
+              isInterpolation: false
+            - attraction: 'In the Course of the Evening, Two New Comic Songs, by Mr. Whaley'
+              isInterpolation: false
+          performers:
+            - performerName: Mr. Stevens
+              role: Don Felix
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Wilson
+              role: Raymond
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Moreland
+              role: Baptiste
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Wallis
+              role: Robert
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Whaley
+              role: Theodore
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Stanton
+              role: Agnes
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Whaley
+              role: Margarette
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Rowland
+              role: Beatrice
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Carr
+              role: Jaques
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Brown
+              role: Claude
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Lackington
+              role: Conrad
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Rowland
+              role: Marco
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Rowland
+              role: Attendant
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Wilson
+              role: The Bleeding Nun
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+        - orderOfPerformance: '2'
+          title: Bombastes Furioso
+          timePerformedInSeason: ''
+          playbillGenreClaim: 'Melo, Serio, Comico Burlesque'
+          ourGenreAttribution:
+            - Burlesque
+          contributors:
+            - contributorName: ''
+              contributorType: ''
+          featuredAttractions:
+            - attraction: ''
+              isInterpolation: false
+          performers:
+            - performerName: Mr. Wallis
+              role: >-
+                Artaxominous (King of Utopia, an amorous Monarch, addicted to
+                Punch, Short-cut, and other Men's Wives).
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Browne
+              role: 'Fusbos (Prime Minister, a Water Cruel Patriot)'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Whaley
+              role: >-
+                General Bombastes (Commander in Chief of the Troops of Utopia,
+                equalled in bravery by none except Jack the Giant Killer)
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Rowland
+              role: '1st Courtier (a Tailor, and Member of the Board of Broad Cloth)'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Carr
+              role: >-
+                2d Courtier (Purveyor of his Majesty's Prog, and Son of a
+                celebrated Alderman)
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Rowland
+              role: >-
+                Distafinin (An Inhabitant of Broad St. Giles's, Costermonger,
+                beloved by King Artaxominous and General Bombastes)
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+        - orderOfPerformance: '3'
+          title: Love Laughs at Locksmiths
+          timePerformedInSeason: ''
+          playbillGenreClaim: Musical Farce
+          ourGenreAttribution:
+            - Farce
+          contributors:
+            - contributorName: ''
+              contributorType: ''
+          featuredAttractions:
+            - attraction: ''
+              isInterpolation: false
+          performers:
+            - performerName: Mr. Wilson
+              role: Captain Beldair
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Browne
+              role: Vigil
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Rowland
+              role: Totterton
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Carr
+              role: Grenadier
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Moreland
+              role: Solomon Lobb
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Whaley
+              role: Risk
+              roleNotes: 'With the Songs of "The Farm Yard," and "Miss Bailey''s Ghost,"'
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Whaley
+              role: Lydia
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+      ticketing:
+        boxPrice: '42'
+        currency: UK
+        galleryPrice: '12'
+        pitPrice: '24'
+        secondBoxPrice: '24'
+        secondGalleryPrice: '6'
+        secondPitPrice: '12'
+        secondUpperGalleryPrice: ''
+        ticketingNotes: ''
+        toBeHad: Mr. Smart
+        upperGalleryPrice: ''

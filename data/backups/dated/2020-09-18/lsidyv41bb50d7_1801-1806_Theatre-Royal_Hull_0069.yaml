@@ -1,0 +1,352 @@
+ephemeralRecord:
+  archiveHoldingDocument: British Library
+  callNumber: lsidyv41bb50d7_1801-1806_Theatre-Royal_Hull_0069
+  containingCollection: British Library Playbills
+  dataCataloger: Cassidy Holahan
+  documentType: Playbill
+  pageNumber: ''
+  periodicalTitle: ''
+  persistentUrl: ''
+  announcements:
+    - ''
+  dimensions:
+    length: ''
+    width: ''
+  documentPrinter:
+    location: 'Lowgate'
+    name: W. Rawson
+  printedArea:
+    length: ''
+    width: ''
+  shows:
+    - date: '1804-12-11'
+      doorsOpen: ''
+      location: Hull
+      performanceBegins: ''
+      stageManager: ''
+      theaterCompany: ''
+      venue: 'Theatre-Royal, Hull'
+      featuredAttractionsForShow:
+        - ''
+      notes:
+        - ''
+      occasions:
+        - occasionAsStated: 'Mrs. Wilkinson's Benefit'
+          occasionType: Benefit Performance
+          beneficiary:
+            - Mr. Wilkinson
+          occasioner:
+            - ''
+      performances:
+        - orderOfPerformance: '1'
+          title: 'The Duenna; Or, The Double Elopement'
+          timePerformedInSeason: ''
+          playbillGenreClaim: Comic Opera
+          ourGenreAttribution:
+            - Comic Opera
+          contributors:
+            - contributorName: ''
+              contributorType: ''
+          featuredAttractions:
+            - attraction: ''
+              isInterpolation: false
+          performers:
+            - performerName: Mr. Bennett
+              role: Don Jerome
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Carleton
+              role: Don Ferdinand
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Woodham
+              role: Don Antonio and vocal parts
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Williams
+              role: Don Carlos and vocal parts
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Knight
+              role: Isaac Mendoza
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Carr
+              role: Lopez
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Williams
+              role: Father Paul
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Hope
+              role: Augustine
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Melvin
+              role: Starved Friar
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Mills
+              role: Donna Louisa
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Leng
+              role: Duenna
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Wilkinson
+              role: Donna Clara
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. French
+              role: Inis
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+        - orderOfPerformance: '2'
+          title: 'The Soldier tir’d of War’s Alarms.'
+          timePerformedInSeason: ''
+          playbillGenreClaim: Song
+          ourGenreAttribution:
+            - Interlude
+          contributors:
+            - contributorName: ''
+              contributorType: ''
+          featuredAttractions:
+            - attraction: 'Accompanied on the Trumpet, by Mr. Woodham'
+              isInterpolation: false
+          performers:
+            - performerName: Mr. Wilkinson
+              role: Singer
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Woodham
+              role: Trumpet player
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+        - orderOfPerformance: '3'
+          title: 'Raymond & Agnes; Or, The Bleeding Nun'
+          timePerformedInSeason: '1'
+          playbillGenreClaim: Pantomime
+          ourGenreAttribution:
+            - Pantomime
+          contributors:
+            - contributorName: ''
+              contributorType: ''
+          featuredAttractions:
+            - attraction: With the Original Music. - The Scenery newly Painted
+              isInterpolation: false
+            - attraction: 'As Performed at the Theatre-Royal, Haymarket'
+              isInterpolation: false
+          performers:
+            - performerName: Mr. Melvin
+              role: Raymond
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Knight
+              role: Theodore
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Wood
+              role: Don Felix and vocal parts
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Carr
+              role: Count Lindenberg
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Hope
+              role: Claude
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Bennett
+              role: 'Baptist and Vocal part'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Williams
+              role: Robert
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Carleton
+              role: Jaques
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Jarman
+              role: Child
+              roleNotes: 'Her first Appearance on any Stage'
+              newPerformerNotes:
+                newPerformer: true
+                newPerformerOrigin: ''
+                newRole: true
+            - performerName: Miss Mills
+              role: Agnes
+              roleNotes: 'With a Song'
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Jarman
+              role: Maugarette
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Cummins
+              role: Countess Lindenberg
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Knight
+              role: Annette
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Leng
+              role: Abbess
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Smith
+              role: Spectre of the Bleeding Nun
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Williams
+              role: Nun
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Carr
+              role: Nun and vocal parts
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Elliott
+              role: Nun and vocal parts
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. French
+              role: Nun
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Cummins
+              role: Nun
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Cummins
+              role: Nun
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Ditcher
+              role: Vocal part
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+      ticketing:
+        boxPrice: ''
+        currency: ''
+        galleryPrice: ''
+        pitPrice: ''
+        secondBoxPrice: ''
+        secondGalleryPrice: ''
+        secondPitPrice: ''
+        secondUpperGalleryPrice: ''
+        ticketingNotes: ''
+        toBeHad: 'Tickets to be had as usual, and of Mrs. Wilkinson, at Miss Darling’s, Blanket-Row; and of W. Rawson, the Printer hereof, in Lowgate.'
+        upperGalleryPrice: ''

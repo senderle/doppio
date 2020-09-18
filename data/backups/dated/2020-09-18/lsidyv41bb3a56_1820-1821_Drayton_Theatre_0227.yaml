@@ -1,0 +1,277 @@
+ephemeralRecord:
+  archiveHoldingDocument: British Library
+  callNumber: lsidyv41bb3a56_1820-1821_Drayton_Theatre_0227
+  containingCollection: British Library Playbills
+  dataCataloger: Cassidy Holahan
+  documentType: Playbill
+  pageNumber: ''
+  periodicalTitle: ''
+  persistentUrl: ''
+  announcements:
+    - The Last Night But One of Performing
+    - 'The Manager of the Theatre respectfully informs his Friends, that his Benefit Night and the Last Time of Performing in Drayton, will be on Monday, June 5th, when will be brought out for the First Time in any Theatre, a Melo-Dramatic Play, in Three Acts, called "The Double Sacrifice; Or, The Fate of Greenacre & his Daughter Maria," Written by a Gentleman in the Neighbourhood, AFter which the Romantic New Melo-Drama, recieved with such distinguished Applause on it's first representation, called, "The Spirit of the Rhine; Or, The Mystic Grotto."'
+    - 'This Theatre to be Let or Sold. The Purchaser will have a Vote for the County. Immediate Possession may be had. CHAS. STANTON.'
+  dimensions:
+    length: ''
+    width: ''
+  documentPrinter:
+    location: Drayton
+    name: J. Procter
+  printedArea:
+    length: ''
+    width: ''
+  shows:
+    - date: '1837-06-02'
+      doorsOpen: ''
+      location: Drayton
+      performanceBegins: '19:30'
+      stageManager: ''
+      theaterCompany: ''
+      venue: Theatre Drayton
+      featuredAttractionsForShow:
+        - ''
+      notes:
+        - >-
+          [Description of Raymond and Agnes]: Programme of the Piece. Act 1. Don Raymond and Theodore depart for Madrid - Agnes taken from the Convent of St. Clair - Meeting of Raymond and Agnes - Baptiste on the look out for victims - Raymond & Theodore lured to the ROBBERS' COTTAGE --- Raymond saved by Marguerette - Raymond Discovers the Bloody Pillow --- Baptiste stabbed by Marguerette - Raymond and Agnes escape from the Robber's Cave. Act 2. - Raymond and Theodore dismissed from the Castle - Agnes promises to meet Raymond disguised as the Bleeding Nun - Robbers in search of the Murderer of their Father - At time appointed Raymond goes to meet Agnes - THE REAL BLEEDING NUN APPEARS --- Raymond mistakes her for Agnes - Thedoore meets Agnes - takes her for the Bleeding Nun - Re-appearance of the bleeding Nun - Raymond still following - He attempts to embrace her, she vanishes, exclaiming, "PROTECT THE CHILD OF THE MURDERED AGNES." Agnes dragged to the Robbers' Cave - The Robbers throw dice for Agnes - Robert attempts to stab Agnes - Raymond, Theodore, and Marguerette, rush in - Robert is stabbed by Raymond - He rises and aims at Raymond - Marguerette seizes a Pistol and shoots him - Theodore overcomes Claude - Jaques is shot with another Pistol by Marguerette - Raymond and Agnes embrace - THE BLEEDING NUN APPEARS AND BLESSES THEM -- GRAND TABLEAU -- Curtain Falls.'
+      occasions:
+        - occasionAsStated: 'For the Benefit of Mr. Walton, Who most respectfully takes leave to announce to the Nobility, Gentry, and Public in general of Drayton, and its Vicinity, that his Benefit will take place on Friday Evening, when he hopes for a portion of that Patronage and Support from a liberal and enlightened Public, it has been his most anxious wish to merit.'
+          occasionType: Benefit Performance
+          beneficiary:
+            - Mr. Walton
+          occasioner:
+            - ''
+      performances:
+        - orderOfPerformance: '1'
+          title: 'King Richard the Third: Or, The Battle of Bosworth Field'
+          timePerformedInSeason: ''
+          playbillGenreClaim: Historical Play, Tragedy
+          ourGenreAttribution:
+            - Play
+            - Tragedy
+          contributors:
+            - contributorName: ''
+              contributorType: ''
+          featuredAttractions:
+            - attraction: 'This Tragedy, as an acting piece, is the most popular of all Shakespeare's performances. The incidents succeed each other with such astonishing rapidity, the bustle and business which so much delight an English Audience, are enjoyed in full perfection'
+              isInterpolation: false
+            - attraction: 'End of the Play, Comic Singing by Mr. Phillips.'
+              isInterpolation: false
+            - attraction: 'A Dance by the Misses Wood.'
+              isInterpolation: false
+          performers:
+            - performerName: Mr. Walton
+              role: 'Richard, Duke of Gloucester'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. F. Stanton
+              role: The Earl of Richmond
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Chester
+              role: The Duke of Buckingham
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Hope
+              role: 'King Henry the 6th'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss E. Stanton
+              role: The Prince of Wales
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss A. Wood
+              role: The Duke of York
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Phillips
+              role: Lord Stanley
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Hawley
+              role: Lieutenant of the Tower
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: 'Mr. Stanton, Jun.'
+              role: Catesby
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Masterman
+              role: Ratcliffe
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Eccles
+              role: Tyrrel
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Stanton
+              role: The Queen
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Rowlands
+              role: The Duchess of York
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss H. Stanton
+              role: Lady Anne
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+        - orderOfPerformance: '2'
+          title: >-
+            Raymond and Agnes; The Traveller's Benighted, Or, The Bleeding Nun
+            of Lindenberg
+          timePerformedInSeason: '1'
+          playbillGenreClaim: Melo-drama
+          ourGenreAttribution:
+            - Melodrama
+          contributors:
+            - contributorName: ''
+              contributorType: ''
+          featuredAttractions:
+            - attraction: 'Never acted here'
+              isInterpolation: false
+          performers:
+            - performerName: Mr. Walter
+              role: Don Raymond
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Phillips
+              role: Theadore
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Hope
+              role: Marco
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Masterman
+              role: Claude
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Chester
+              role: Baptiste
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: 'Mr. Stanton, Jun.'
+              role: Robert
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. F. Stanton
+              role: Jaques
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Eccles
+              role: Conrad
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Stanton
+              role: Marguerette
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Rowlands
+              role: Ursula
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss E. Stanton
+              role: Agnes
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Wood
+              role: Portress
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss H. Stanton
+              role: The Bleeding Nun
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+      ticketing:
+        boxPrice: '36'
+        currency: ''
+        galleryPrice: '12'
+        pitPrice: '24'
+        secondBoxPrice: ''
+        secondGalleryPrice: ''
+        secondPitPrice: ''
+        secondUpperGalleryPrice: ''
+        ticketingNotes: 'Second price at Nine.'
+        toBeHad: 'Mr. Walton, Mr. Furnival, Mr. Procter'
+        upperGalleryPrice: ''

@@ -1,0 +1,254 @@
+ephemeralRecord:
+  archiveHoldingDocument: British Library
+  callNumber: lsidyv41bb3a56_1820-1821_Drayton_Theatre_0233
+  containingCollection: British Library Playbills
+  dataCataloger: Cassidy Holahan
+  documentType: Playbill
+  pageNumber: ''
+  periodicalTitle: ''
+  persistentUrl: ''
+  announcements:
+    - By Authority & under Royal Patronage
+  dimensions:
+    length: ''
+    width: ''
+  documentPrinter:
+    location: Drayton
+    name: Bennion
+  printedArea:
+    length: ''
+    width: ''
+  shows:
+    - date: '1839-04-27'
+      doorsOpen: '19:00'
+      location: Drayton
+      performanceBegins: '19:30'
+      stageManager: ''
+      theaterCompany: ''
+      venue: 'Theatre, Drayton'
+      featuredAttractionsForShow:
+        - ''
+      notes:
+        - >-
+          [Description of Raymond and Agnes]: This unrivalled, popular and most
+          interesting Play commences thus: - Raymond sets forth and sees Agnes,
+          who is leaving the convent in which she has been educated, and
+          instantly becomes enamoured with her, but is prevented from expressing
+          his admiration by the vigilance of her Duenna. Claude, a Postillion,
+          who is connected with a band of Robbers that infest a forest through
+          which they pass, breaks the carriage in which Raymond travels as if by
+          accident, and betrays him to the Banditti, under the pretence of
+          finding shelter for the night - Raymond encounters a variety of
+          adventures, and finally escapes with Agnes and her Duenna, who have
+          also been conducted by a treacherous guide to this abode of horror,
+          and reaches the castle of Lindenburgh unmolested. Agnes, by unforseen
+          events, falls a second time into the hands of the Banditti, but is
+          happily rescued by Raymond's timely interference; and the piece
+          concludes with their offering of thankfullness and gratitude to that
+          Providence who never fails punishing vice, and rewarding virtue.
+      occasions:
+        - occasionAsStated: ''
+          occasionType: ''
+          beneficiary:
+            - ''
+          occasioner:
+            - ''
+      performances:
+        - orderOfPerformance: '1'
+          title: 'Raymond and Agnes: Or, the Travellers Benighted'
+          timePerformedInSeason: ''
+          playbillGenreClaim: Romantic Drama
+          ourGenreAttribution:
+            - Melodrama
+          contributors:
+            - contributorName: ''
+              contributorType: ''
+          featuredAttractions:
+            - attraction: >-
+                End of the Play, a Favourite Song by Miss Ridyard. A Comic Song,
+                by Mr. Brooks
+              isInterpolation: false
+          performers:
+            - performerName: Mr. Andrews
+              role: 'Don Felix, Raymond''s Father'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Ponisi
+              role: Robert
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Coates
+              role: 'Raymond, Son to Don Felix'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Duncanson
+              role: 'Theodore, Page to Don Felix'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Ridyard
+              role: Babtista
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Birch
+              role: Conrad
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. J. Thornhill
+              role: Jaques
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Brooks
+              role: Claude
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Ridyard
+              role: Lady Agnes
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Ponisi
+              role: Bleeding Nun
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Henry
+              role: Beatrice
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Ridyard
+              role: 'Marguerrette, Wife to Baptista'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+        - orderOfPerformance: '2'
+          title: 'The Floating Beacon; Or, The Norwegian Wreckers'
+          timePerformedInSeason: ''
+          playbillGenreClaim: Drama
+          ourGenreAttribution:
+            - Play
+          contributors:
+            - contributorName: ''
+              contributorType: ''
+          featuredAttractions:
+            - attraction: ''
+              isInterpolation: false
+          performers:
+            - performerName: Mrs. Ridyard
+              role: 'Marriette, the Woman of the Beacon'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Ponisi
+              role: 'Christine, Weignstadt''s Daughter'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Coates
+              role: 'Angerstoff, Captain of the Light'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. J. Thornhill
+              role: 'Ormoloff, his companion'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Duncanson
+              role: 'Maurice, his companion'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Ridyard
+              role: >-
+                Jack Junk, a British Sailor of the Eagle Sloop of War, with a
+                Sea Song
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Ponisi
+              role: 'Frederick, a supposed orphan'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Andrews
+              role: 'Weignstadt, an old fisherman'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Brooks
+              role: Sailor
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Birgh
+              role: Sailor
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+      ticketing:
+        boxPrice: '30'
+        currency: UK
+        galleryPrice: '6'
+        pitPrice: '18'
+        secondBoxPrice: ''
+        secondGalleryPrice: ''
+        secondPitPrice: ''
+        secondUpperGalleryPrice: ''
+        ticketingNotes: >-
+          N.B. - The Manager will feel obliged to Shopkeepers and others, if
+          they will allow his Bills to be exhibited in their windows
+        toBeHad: Mr. Ridyard and Mr. Bennion
+        upperGalleryPrice: ''

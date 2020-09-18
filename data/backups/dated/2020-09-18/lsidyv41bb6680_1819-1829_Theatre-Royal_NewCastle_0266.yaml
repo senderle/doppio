@@ -1,0 +1,308 @@
+ephemeralRecord:
+  archiveHoldingDocument: British Library
+  callNumber: lsidyv41bb6680_1819-1829_Theatre-Royal_NewCastle_0266
+  containingCollection: British Library Playbills
+  dataCataloger: Cassidy Holahan
+  documentType: Playbill
+  pageNumber: ''
+  periodicalTitle: ''
+  persistentUrl: ''
+  announcements:
+    - ''
+  dimensions:
+    length: ''
+    width: ''
+  documentPrinter:
+    location: Newcastle
+    name: W. A. Mitchell
+  printedArea:
+    length: ''
+    width: ''
+  shows:
+    - date: '1826-04-19'
+      doorsOpen: ''
+      location: Newcastle
+      performanceBegins: ''
+      stageManager: ''
+      theaterCompany: ''
+      venue: 'Theatre Royal, Newcastle'
+      featuredAttractionsForShow:
+        - ''
+      notes:
+        - >-
+          [Sketch of The Travellers Benighted]: Sketch of the Story. Raymond
+          having completed his studies, is entreated by his Father to enter on
+          his Travels. He sets out, accompanied by Theodore, his faithful
+          Domestic. On entering the Confines of the Forest of Rosenwald, Night
+          drawing on, he loses his Way, and, by the Treachery of his Guide
+          (Claude), he is led to the Cottage of a Woodman (Baptista,) the
+          Captain of a Banditti, who assumes that Disguise more securely to
+          commit his Depredations on the unwary Traveller. Robert and Jacques
+          (Sons to Baptista) return from their Plunder in the Forest, and enter
+          armed. Raymond is conducted to repose in a Chamber. Baptista and Sons
+          lay a Plot to murder him. Marguerette, in Order to put Raymond on his
+          Guard, contrives to place a Pillow stained with Blood on his Bed!-
+          Robert enters the Chamber, and attempts the Murder, but is prevented
+          by Marguerette's Caution.- Agnes and her Governante now enter the
+          Cottage, being benighted in their Journey to the Castle of Lindenberg.
+          Raymond, enamoured of Agnes, resolves on saving her: and Marguerette,
+          giving him to understand the Wine which is offered is an Opiate, he
+          pretends to drink, and affects to sleep.-- The Murderers, thinking
+          their Victims secure, leave them to Baptista, who is preparing to
+          assassinate Agnes, when he meets his Death by the very Dagger he had
+          raised against the Bosom of sleeping Innocence. Marguerette now points
+          out the Secret Door, by which they escape. Raymond conducts Agnes to
+          the Castle of Lindenberg. Agnes relates the STORY OF THE BLEEDING NUN,
+          And tell shim 'tis reported the Spectre haunts the Castle every fifth
+          Year. Raymond declares his Passion for Agnes, and is dismissed the
+          Castle. Agnes is told that the Intention of the Countess, in sending
+          for her to the Castle, is to seclude her forever from the World.
+          Terrified at the Idea, she determines to rely on the Honour or
+          Raymond's Affection. She drops a Letter from the Turret, in which she
+          tells Raymond, 'When the Castle Bell tolls One, Expect me as the
+          Bleeding Nun.' Raymond, enraptured at the Idea of seeing Agnes, keeps
+          his Appointment. The Bell tolls One. The Castle Gates fly open, and
+          the Apparition of the Bleeding Nun is pursued by Raymond. Agnes, as
+          the Nun, now appears, and looks in vain for Raymond. She is met by
+          Theodore, takes his Protection. They are surprised by the Banditti.
+          Agnes confined in a cavern by Robert, Jacques, and Claude. Agnes
+          rescued, and the Piece concludes with the Union of Raymond and Agnes.
+      occasions:
+        - occasionAsStated: ''
+          occasionType: ''
+          beneficiary:
+            - ''
+          occasioner:
+            - ''
+      performances:
+        - orderOfPerformance: '1'
+          title: 'The Soldier’s Daughter'
+          timePerformedInSeason: ''
+          playbillGenreClaim: Comedy
+          ourGenreAttribution:
+            - Comedy
+          contributors:
+            - contributorName: ''
+              contributorType: ''
+          featuredAttractions:
+            - attraction: "'The Pilgrim of Love,' by Mr. Cullen"
+              isInterpolation: false
+            - attraction: "A Comic Dance, by Mr J.H. Frimbley"
+              isInterpolation: false
+            - attraction: "A comic Song, by Mr. Dodd"
+              isInterpolation: false
+          performers:
+            - performerName: Mr. Butler
+              role: Govenor Heartall
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Hambleton
+              role: Old Malfort
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Julian
+              role: Young Malfort
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Barrett
+              role: Ferrett
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Darcus
+              role: Captain Woodley
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Dodd
+              role: Timothy Quaint
+              roleNotes: 'Singing a comic song, by Mr. Dodd'
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Cullen
+              role: 'Simon'
+              roleNotes: 'Singing "The Pilgrim of Love"'
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Bevan
+              role: Waiter
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Darcus
+              role: Widow Cheerly
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Waldron
+              role: Mrs. Malfort
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Dodd
+              role: Susan
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Danby
+              role: Mirs Fidget
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss M. Nicholson
+              role: Julia
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. J. H. Frimbley
+              role: Performing a comic dance
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+        - orderOfPerformance: '2'
+          title: 'Raymond & Agnes; Or, The Bleeding Nun of Lindenberg'
+          timePerformedInSeason: ''
+          playbillGenreClaim: Melo-Drama
+          ourGenreAttribution:
+            - Melodrama
+          contributors:
+            - contributorName: ''
+              contributorType: ''
+          featuredAttractions:
+            - attraction: ''
+              isInterpolation: false
+          performers:
+            - performerName: Mr. Julian
+              role: Don Raymond
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Hambleton
+              role: Don Felix
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Harman
+              role: Conrad
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Dodd
+              role: Theodore
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. J. H. Frimbley
+              role: Robert
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Darcus
+              role: Jacques
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Barrett
+              role: Claude (his treacherous Guide)
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Darcus
+              role: Marguerette (Wife to Baptista)
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Cullen
+              role: Marco
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Waldron
+              role: Agnes de Lindenberg
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Danby
+              role: Cunegonda
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Dodd
+              role: Portress
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Nicholson
+              role: Spectre of the Bleeding Nun
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+      ticketing:
+        boxPrice: ''
+        currency: ''
+        galleryPrice: ''
+        pitPrice: ''
+        secondBoxPrice: ''
+        secondGalleryPrice: ''
+        secondPitPrice: ''
+        secondUpperGalleryPrice: ''
+        ticketingNotes: ''
+        toBeHad: 'Mr. Downing, Grocer, and Mr. Newton, Close; Mr. Young, Watchmaker, Bigg-market; Mr Boag, Printer, Dean-Street; Mr Sykes, Bookseller, Mr Gibson, Blue Posts, and of Mr. Cullen, Pilgrim-street'
+        upperGalleryPrice: ''

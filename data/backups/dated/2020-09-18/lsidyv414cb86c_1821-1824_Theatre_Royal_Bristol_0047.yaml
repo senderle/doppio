@@ -1,0 +1,280 @@
+ephemeralRecord:
+  archiveHoldingDocument: British Library
+  callNumber: lsidyv414cb86c_1821-1824_Theatre_Royal_Bristol_0047
+  containingCollection: British Library Playbill
+  dataCataloger: Cassidy Holahan
+  documentType: Playbill
+  pageNumber: ''
+  periodicalTitle: ''
+  persistentUrl: ''
+  announcements:
+    - Last Night but Two of Miss Clarke's Engagement
+  dimensions:
+    length: ''
+    width: ''
+  documentPrinter:
+    location: ''
+    name: ''
+  printedArea:
+    length: ''
+    width: ''
+  shows:
+    - date: '1822-01-01'
+      doorsOpen: '18:00'
+      location: ''
+      performanceBegins: '19:00'
+      stageManager: ''
+      theaterCompany: ''
+      venue: 'Theatre Royal, Bristol'
+      featuredAttractionsForShow:
+        - ''
+      notes:
+        - '[Description of Travellers Benighted]: Among the most interesting incident with which this Piece abounds, is the arrival of the Travellers at the Cottage of Baptiste, who, in league with a desperate Band, headed by his Sons, makes several attempts to accomplish the MURDER OR RAYMOND, who is, however, informed of his danger by Margueritte, by means of a blood stained Pillow, with which she furnishes his bed, and is by her prevented from swallowing a sleeping poison mixed in his drink, by Baptiste, whom he overcomes at the moment he is about to perpetrate the murder of Agnes; and assisted by Margueritte, ACCOMPLISHES HIS DEATH.- Raymond and Margueritte escape the Banditti, and arrive safe at the Castle of Lindenberg. At length, Raymond, amongst a train of adventures in his pursuit of Agnes encounters THE SPECTRE NUN, whom he discovers to be the Mother of Agnes, to whose Spirit he swears from the moment to protect her Offspring. He afterwards fulfils his oath by rescuing her from the Cave of the Robbers, whom having succeeded in overcoming, the SHADE of the MURDERED AGNES being appeased, blesses the Union of her Child with her deliverer; which terminates the Drama,- forming a striking and interesting conclusion.'
+      occasions:
+        - occasionAsStated: ''
+          occasionType: ''
+          beneficiary:
+            - ''
+          occasioner:
+            - ''
+      performances:
+        - orderOfPerformance: '1'
+          title: 'George Barnwell; Or, The London Merchant'
+          timePerformedInSeason: ''
+          playbillGenreClaim: Historical Tragedy
+          ourGenreAttribution:
+            - Tragedy
+          contributors:
+            - contributorName: ''
+              contributorType: ''
+          featuredAttractions:
+            - attraction: ''
+              isInterpolation: false
+          performers:
+            - performerName: Mr. Balls
+              role: George Barnwell
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Carles
+              role: Thoroughgood
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Andrews
+              role: Trueman
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Ford White
+              role: Blunt
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Bristow
+              role: Uncle
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Ross
+              role: James
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Atkins
+              role: Maria
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Mara
+              role: Lucy
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. M'Cready
+              role: Millwood
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+        - orderOfPerformance: '2'
+          title: >-
+            The Infant Prodigy, Miss Clarke! Only Seven Years of Age!!! Will go
+            through her unrivalled Evolutions upon The Tight Rope: And Master
+            O'Hara will exhibit his extraordinary performance with The Moving
+            Ladder.
+          timePerformedInSeason: ''
+          playbillGenreClaim: ''
+          ourGenreAttribution:
+            - Interlude
+          contributors:
+            - contributorName: ''
+              contributorType: ''
+          featuredAttractions:
+            - attraction: Last Night but Two of Miss Clarke's Engagement
+              isInterpolation: false
+          performers:
+            - performerName: Miss Clarke
+              role: Tight Rope
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Master O'Hara
+              role: Performance with the moving ladder
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+        - orderOfPerformance: '3'
+          title: 'The Travellers Benighted; Or, The Spectre Nun'
+          timePerformedInSeason: ''
+          playbillGenreClaim: Melo-Drame
+          ourGenreAttribution:
+            - Melodrama
+          contributors:
+            - contributorName: ''
+              contributorType: ''
+          featuredAttractions:
+            - attraction: ''
+              isInterpolation: false
+          performers:
+            - performerName: Mr. Johnson
+              role: Raymond
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Ross
+              role: Theodore
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Phillips
+              role: Conrad
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Bristow
+              role: Marco
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Reed
+              role: Jacques
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Jones
+              role: Baptiste
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. King
+              role: Claude
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Balls
+              role: Robert
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Atkins
+              role: Agnes
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Mara
+              role: Cungeonda
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Parr
+              role: Ursula
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Lewis
+              role: Abbess
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Lewis
+              role: Child
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Johnson
+              role: Spectre of the Nun
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. M'Cready
+              role: Margueritte
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+      ticketing:
+        boxPrice: ''
+        currency: ''
+        galleryPrice: ''
+        pitPrice: ''
+        secondBoxPrice: ''
+        secondGalleryPrice: ''
+        secondPitPrice: ''
+        secondUpperGalleryPrice: ''
+        ticketingNotes: ''
+        toBeHad: >-
+          Tickets and places for the Boxes may be had of Mr. Cozens, at the
+          Theatre, from 11 till 3 each day, and Tickets for the Pit and Gallery,
+          at Majors' Printing-Office, St. John's Steps.
+        upperGalleryPrice: ''

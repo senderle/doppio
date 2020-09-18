@@ -1,0 +1,260 @@
+ephemeralRecord:
+  archiveHoldingDocument: British Library
+  callNumber: lsidyv41bb6bc8_1825_Theatre-Royal_Edinburgh_and_Theatre-Royal_Perth_0076
+  containingCollection: British Library Playbills
+  dataCataloger: Cassidy Holahan
+  documentType: Playbill
+  pageNumber: ''
+  periodicalTitle: ''
+  persistentUrl: ''
+  announcements:
+    - 'The Public is respectfully informed, that Mr. Liston, Being Engaged for Twelve Nights Only, Will make his First Appearance here this Season.'
+  dimensions:
+    length: ''
+    width: ''
+  documentPrinter:
+    location: ''
+    name: ''
+  printedArea:
+    length: ''
+    width: ''
+  shows:
+    - date: '1825-03-28'
+      doorsOpen: '18:00'
+      location: Edinburgh
+      performanceBegins: ''
+      stageManager: '19:00'
+      theaterCompany: ''
+      venue: 'Theatre-Royal, Edinburgh'
+      featuredAttractionsForShow:
+        - First Night of Sweethearts and Wives
+      notes:
+        - ''
+      occasions:
+        - occasionAsStated: ''
+          occasionType: ''
+          beneficiary:
+            - ''
+          occasioner:
+            - ''
+      performances:
+        - orderOfPerformance: '1'
+          title: 'Sweethearts & Wives'
+          timePerformedInSeason: ''
+          playbillGenreClaim: Comedy
+          ourGenreAttribution:
+            - Comedy
+          contributors:
+            - contributorName: 'James Kenney, Esq.'
+              contributorType: 'Author'
+            - contributorName: 'Nathan'
+              contributorType: 'Composer, music'
+            - contributorName: 'Whittaker'
+              contributorType: 'Composer, music'
+            - contributorName: 'Pacey'
+              contributorType: 'Composer, music'
+          featuredAttractions:
+            - attraction: 'Written by James Kenney, Esq., Author of Raising the Wind, Elia Rosenberg, &c. and produced at the Theatre-Royal in the Hay-Market, with unprecedented Success.'
+              isInterpolation: false
+          performers:
+            - performerName: Mr. Mackay
+              role: Admiral Franklin
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Jones
+              role: Charles Franklin
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Thorne
+              role: Sandford
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Mason
+              role: Curtis
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Ebsworth
+              role: Thomas
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Liston
+              role: Billy Lack-a-day
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Dyer
+              role: Susan
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Nicol
+              role: Mrs. Bell
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. H. Siddons
+              role: Eugenia
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+        - orderOfPerformance: '2'
+          title: 'The Banditti of Rosenwald, Or, The Spectre of the Bleeding Nun!'
+          timePerformedInSeason: '2'
+          playbillGenreClaim: Melo-Drama in Two Acts
+          ourGenreAttribution:
+            - Melodrama
+          contributors:
+            - contributorName: ''
+              contributorType: ''
+          featuredAttractions:
+            - attraction: >-
+                Founded on the celebrated Grand Serious Ballet of Action,
+                entitled, Raymond and Agnes, or the Bleeding Nun. And performed
+                at the Theatre-Royal, Hay-Market, with distinguished Success.
+              isInterpolation: false
+            - attraction: >-
+                With Appropriate Music, Scenery, Machinery, Dresses, and
+                Decorations.
+              isInterpolation: false
+          performers:
+            - performerName: Mr. Pritchard
+              role: Don Raymond
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Rae
+              role: 'Theodore, his Confidential Attendant'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Lee
+              role: The Badon of Lindenburgh
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Power
+              role: 'Marco, an Inkeeper'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Miller
+              role: 'Conrade, a Porter to Baron Lindenburgh'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Aikin
+              role: Servant to the Baron de Lindenburgh
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Anderson
+              role: Servant to the Baron de Lindenburgh
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Mackay
+              role: 'The Banditti of Rosenwald - Baptista, the Chief of the Banditti,
+                disguised as a Woodcutter'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Murray
+              role: Robert
+              roleNotes: 'Baptista’s son'
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: 'Mr. M’Gregor'
+              role: Jaquez
+              roleNotes: 'Baptista’s son'
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Harrold
+              role: 'Claud, one of the Banditti, disguised as a Postilion'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Dyer
+              role: 'Agnes, the Orphan of Lindenburgh'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Nicol
+              role: 'Beatrice, her Nurse'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Renaud
+              role: 'Margueritte, Wife of Baptista'
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Eyre
+              role: The Spectre of the Bleeding Nun
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+      ticketing:
+        boxPrice: '60'
+        currency: 'UK'
+        galleryPrice: '24'
+        pitPrice: '36'
+        secondBoxPrice: '36'
+        secondGalleryPrice: '12'
+        secondPitPrice: '24'
+        secondUpperGalleryPrice: '6'
+        ticketingNotes: 'The Second Price this Evening will be received at the End of the Third Act of the Play, which Act generally terminates at half-past Eight o’Clock'
+        toBeHad: 'Tickets and Places for the Boxes to be had at Mr. Garbutt, at the Box Office, from Eleven until Three o’Clock'
+        upperGalleryPrice: '12'

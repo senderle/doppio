@@ -1,0 +1,293 @@
+ephemeralRecord:
+  archiveHoldingDocument: British Library
+  callNumber: lsidyv41bb1027_1834-1846_Theatre-Royal,_Plymouth_0113
+  containingCollection: British Library Playbills
+  dataCataloger: Cassidy Holahan
+  documentType: Playbill
+  pageNumber: ''
+  periodicalTitle: ''
+  persistentUrl: ''
+  announcements:
+    - For the Benefit of the Doorkeepers and The Servants of the Theatre
+  dimensions:
+    length: ''
+    width: ''
+  documentPrinter:
+    location: '30 Whimple Street, Plymouth'
+    name: 'Edward Nettleton '
+  printedArea:
+    length: ''
+    width: ''
+  shows:
+    - date: '1836-04-12'
+      doorsOpen: '18:00'
+      location: 'Plymouth'
+      performanceBegins: '19:00'
+      stageManager: ''
+      theaterCompany: ''
+      venue: 'Theatre-Royal, Plymouth'
+      featuredAttractionsForShow:
+        - ''
+      notes:
+        - >-
+          [Description of Raymond and Agnes]: Principal Scenery and Incidents.
+          The inside of the Hovel - Marguerite and her Child discovered - The
+          Bed-room prepared for Raymond - Marguerite wishing to preserve the
+          life of Raymond and the Assassins, conveys A PILLOW STAINED WITH BLOOD
+          !! upon his Bed, thereby to inform him of his danger - She conceals
+          herself. Raymond retires to rest, but is prevented by finding the
+          BLOODY PILLOW! Robert enters; attempting to MURDER HIM, Is prevented
+          by Marguerite, and Raymond, at her request retires. The lower part of
+          the Hovel - Robert informs his Father and Brother of the ineffectual
+          attempt on the life of Raymond, who is brought in by Marguerite - A
+          knocking in heard without - Agnes is led in by Claude - supper is
+          prepared, opiates are mixed with wines, Agnes drinks, and falls into a
+          slumber - Baptista supposing Raymond at rest, prepares to murder him,
+          Raymond seizes him and Baptista falls by the hands of Marguerite. The
+          outside of the Castle - Raymond's departure - A Letter from Agnes
+          informs him that "When the Castle Bell tolls One, he is to expect her
+          like the Bleeding Nun." - Outside of the Castle as before - Raymond
+          enters - THE CLOCK STRIKES ONE! - THE GATES FLY OPEN - the Apparition
+          of THE NUN COMES FROM THE CASTLE. A dreary Wood - Raymond following
+          the Spectre, still supposing it to be Agnes, attempts to embrace it,
+          when suddenly vanishing, A CLOUD RISES FROM THE EARTH! bearing the
+          following inscription: - "PROTECT THE CHILD OF THE MURDERED AGNES."
+          Theodore and Marguerite meet Raymond - inform him of Agnes being
+          seized by the Robbers, they hasten to her rescue. The three Robbers
+          cast lots for the possession of Agnes - she becomes the prize of
+          Robert; he attempts to seize her, she resisting, he aims a Dagger at
+          her breast; at this instant, Raymond, Theodore, and Marguerite rush
+          in, Robert falls by the Dagger of Raymond - Jaques by the sword of
+          Theodore - Claude by a Pistol from the hands of Marguerite! - The
+          piece concludes with the happy UNION OF RAYMOND AND AGNES !!
+      occasions:
+        - occasionAsStated: For the Benefit of the Doorkeepers and The Servants of the Theatre
+          occasionType: Benefit Performance
+          beneficiary:
+            - The Doorkeepers
+            - The Servants of the Theatre
+          occasioner:
+            - ''
+      performances:
+        - orderOfPerformance: '1'
+          title: The Poor Gentleman
+          timePerformedInSeason: ''
+          playbillGenreClaim: Comedy
+          ourGenreAttribution:
+            - Comedy
+          contributors:
+            - contributorName: ''
+              contributorType: ''
+          featuredAttractions:
+            - attraction: ''
+              isInterpolation: false
+          performers:
+            - performerName: Mr. Wilton
+              role: Sir Robert Bramble
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Adderley
+              role: Frederick Bramble
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Horsman
+              role: Liet. Worthington
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Vivash
+              role: Dr. Ollapod
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Butler
+              role: Sir Charles Copland
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Bedford
+              role: Humphrey Dobbins
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Woolgar
+              role: Corporal Foss
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. James
+              role: Farmer Harrowby
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Fuller
+              role: Stephen Harrowby
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Ellis
+              role: Emily Worthington
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Collier
+              role: Miss Lucretia Mac Tab
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Bedord
+              role: Dame Harrowby
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Horsman
+              role: Mary
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+        - orderOfPerformance: '2'
+          title: 'Raymond & Agnes, Or, the Bleeding Nun !!!'
+          timePerformedInSeason: ''
+          playbillGenreClaim: Grand Melodrama
+          ourGenreAttribution:
+            - Melodrama
+          contributors:
+            - contributorName: ''
+              contributorType: ''
+          featuredAttractions:
+            - attraction: ''
+              isInterpolation: false
+          performers:
+            - performerName: Mr. Bedford
+              role: Don Felix
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Adderley
+              role: Don Raymond
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Fuller
+              role: Theodore
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Vivash
+              role: Baptiste
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Horsman
+              role: Robert
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Butler
+              role: Claude
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Woolgar
+              role: Conrad
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mr. Wilton
+              role: Marco
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Ellis
+              role: Agnes
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Collier
+              role: Ursula
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Bedford
+              role: Portress
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Mrs. Horsman
+              role: Marguerite
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+            - performerName: Miss Noel
+              role: The Bleeding Nun
+              roleNotes: ''
+              newPerformerNotes:
+                newPerformer: false
+                newPerformerOrigin: ''
+                newRole: false
+      ticketing:
+        boxPrice: '72'
+        currency: ''
+        galleryPrice: '12'
+        pitPrice: '24'
+        secondBoxPrice: '24'
+        secondGalleryPrice: ''
+        secondPitPrice: '12'
+        secondUpperGalleryPrice: ''
+        ticketingNotes: >-
+          Boxes, Second circle, 36 pence, Second price, 18 pence. Third Circle,
+          24 pence. Second price, 12 pence.
+        toBeHad: 'Mr. Nettleton, Bookseller, Whimple Street.'
+        upperGalleryPrice: ''
