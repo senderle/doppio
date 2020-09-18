@@ -600,8 +600,12 @@ document.addEventListener('DOMContentLoaded', function main () {
         resetForm();
 
         reader.addEventListener('load', function(evt) {
-            // obj = JSON.parse(evt.target.result);
-            obj = jsyaml.safeLoad(evt.target.result);
+	    var obj = null;
+            if (file.name.endsWith('.json')) {
+                obj = JSON.parse(evt.target.result);
+            } else {
+                obj = jsyaml.safeLoad(evt.target.result);
+            }
 
             walkObj(obj, walkObjHelper());
             var elements = document.querySelectorAll('.main-form-input');
