@@ -1,0 +1,280 @@
+{
+  "ephemeralRecord": {
+    "archiveHoldingDocument": "British Library",
+    "callNumber": "lsidyv41bb5658",
+    "containingCollection": "",
+    "dataCataloger": "Louie",
+    "dimensions": "",
+    "documentType": "Other Compendia",
+    "pageNumber": "89",
+    "periodicalTitle": "",
+    "persistentUrl": "",
+    "printedArea": "",
+    "advertisements": [
+      ""
+    ],
+    "announcements": [
+      "Ladies and Gentlemen may have a private Performance on reasonable terms, at their own Residences, on application to T. Garbut, at the above Place of Performance; and if the Performance is not approved of, no money will be required.",
+      "T Garbut is sorry to find, that the Inhabitants of the Place have been of late imposed on my mere pretenders to the powers of Ventriloquism; begs leave to hope that his right to assume this appellation of a Ventriloquist, will be acknowledged by those Ladies and Gentlemen that may honor him with their company, to be the greatest curiosity ever witnessed: indeed, if his performance is not approved of the money will be returned at the door; or any party of Ladies and Gentlemen may go in, and pay as they come out. "
+    ],
+    "documentPrinter": {
+      "location": "Nottingham",
+      "name": "Sutton and Son"
+    },
+    "shows": [
+      {
+        "date": "1819-02-09",
+        "doorsOpen": "19:00",
+        "location": "Nottingham",
+        "performanceBegins": "19:30",
+        "stageManager": "",
+        "theaterCompany": "",
+        "venue": "The Durham Ox, Pelham Street, Nottingham",
+        "featuredAttractionsForShow": [
+          "Ventriloquism; or, Internal Elocution",
+          "Part I.",
+          "Part II. Force of Hercules, with Ground and Lofty Tumbling, by Master Garbut, the first Performer in this Kingdom",
+          "Part III. Thaumatactics; or, The Wonderful Conjurer!"
+        ],
+        "notes": [
+          "Descriptions for each part's attractions are available on the playbill. "
+        ],
+        "occasions": [
+          {
+            "occasionAsStated": "",
+            "occasionType": "",
+            "beneficiary": [
+              ""
+            ],
+            "occasioner": [
+              ""
+            ]
+          }
+        ],
+        "performances": [
+          {
+            "genreClaim": "",
+            "kindOfPerformance": "Main Piece",
+            "orderOfPerformance": "1",
+            "title": "Ventriloquism; or, Internal Elocution",
+            "contributors": [
+              {
+                "contributorName": "",
+                "contributorType": ""
+              }
+            ],
+            "featuredAttractions": [
+              {
+                "attraction": "",
+                "isInterpolation": false
+              }
+            ],
+            "performers": [
+              {
+                "performerName": "Mr. Garbut",
+                "role": "Ventriloquist",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              }
+            ]
+          },
+          {
+            "genreClaim": "",
+            "kindOfPerformance": "",
+            "orderOfPerformance": "",
+            "title": "",
+            "contributors": [
+              {
+                "contributorName": "",
+                "contributorType": ""
+              }
+            ],
+            "featuredAttractions": [
+              {
+                "attraction": "",
+                "isInterpolation": false
+              }
+            ],
+            "performers": [
+              {
+                "performerName": "",
+                "role": "",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              }
+            ]
+          }
+        ],
+        "ticketing": {
+          "boxPrice": "",
+          "currency": "",
+          "galleryPrice": "",
+          "pitPrice": "",
+          "secondBoxPrice": "",
+          "secondGalleryPrice": "",
+          "secondPitPrice": "",
+          "secondUpperGalleryPrice": "",
+          "ticketingNotes": "",
+          "toBeHad": "Front Seats, 1s -- Children, half price.",
+          "upperGalleryPrice": ""
+        }
+      },
+      {
+        "date": "1819-02-10",
+        "doorsOpen": "19:00",
+        "location": "Nottingham",
+        "performanceBegins": "19:30",
+        "stageManager": "",
+        "theaterCompany": "",
+        "venue": "The Durham Ox, Pelham Street, Nottingham",
+        "featuredAttractionsForShow": [
+          "Part I",
+          "Part II. Force of Hercules, with Ground and Lofty Tumbling.",
+          "Part III. Thaumatactics; or, The Wonderful Conjurer!"
+        ],
+        "notes": [
+          "Descriptions for each part can be found on the playbill."
+        ],
+        "occasions": [
+          {
+            "occasionAsStated": "",
+            "occasionType": "",
+            "beneficiary": [
+              ""
+            ],
+            "occasioner": [
+              ""
+            ]
+          }
+        ],
+        "performances": [
+          {
+            "genreClaim": "",
+            "kindOfPerformance": "Main Piece",
+            "orderOfPerformance": "1",
+            "title": "Ventriloquism; or, Internal Elocution",
+            "contributors": [
+              {
+                "contributorName": "",
+                "contributorType": ""
+              }
+            ],
+            "featuredAttractions": [
+              {
+                "attraction": "",
+                "isInterpolation": false
+              }
+            ],
+            "performers": [
+              {
+                "performerName": "Mr. Garbut",
+                "role": "Ventriloquist",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              }
+            ]
+          }
+        ],
+        "ticketing": {
+          "boxPrice": "",
+          "currency": "",
+          "galleryPrice": "",
+          "pitPrice": "",
+          "secondBoxPrice": "",
+          "secondGalleryPrice": "",
+          "secondPitPrice": "",
+          "secondUpperGalleryPrice": "",
+          "ticketingNotes": "Front seats, 1s -- Children, half price.",
+          "toBeHad": "",
+          "upperGalleryPrice": ""
+        }
+      },
+      {
+        "date": "1819-02-11",
+        "doorsOpen": "19:00",
+        "location": "Nottingham",
+        "performanceBegins": "19:30",
+        "stageManager": "",
+        "theaterCompany": "",
+        "venue": "The Durham Ox, Pelham Street, Nottingham",
+        "featuredAttractionsForShow": [
+          "Part I.",
+          "Part II. Force of Hercules, with Ground and Lofty Tumbling.",
+          "Part III. Thaumatactics; or, The Wonderful Conjurer!"
+        ],
+        "notes": [
+          "Descriptions for each part can be found on the playbill."
+        ],
+        "occasions": [
+          {
+            "occasionAsStated": "",
+            "occasionType": "",
+            "beneficiary": [
+              ""
+            ],
+            "occasioner": [
+              ""
+            ]
+          }
+        ],
+        "performances": [
+          {
+            "genreClaim": "",
+            "kindOfPerformance": "Main Piece",
+            "orderOfPerformance": "1",
+            "title": "Ventriloquism; or, Internal Elocution",
+            "contributors": [
+              {
+                "contributorName": "",
+                "contributorType": ""
+              }
+            ],
+            "featuredAttractions": [
+              {
+                "attraction": "",
+                "isInterpolation": false
+              }
+            ],
+            "performers": [
+              {
+                "performerName": "Mr. Garbut",
+                "role": "Ventriloquist",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              }
+            ]
+          }
+        ],
+        "ticketing": {
+          "boxPrice": "",
+          "currency": "",
+          "galleryPrice": "",
+          "pitPrice": "",
+          "secondBoxPrice": "",
+          "secondGalleryPrice": "",
+          "secondPitPrice": "",
+          "secondUpperGalleryPrice": "",
+          "ticketingNotes": "Front seats, 1s -- Children, half price.",
+          "toBeHad": "",
+          "upperGalleryPrice": ""
+        }
+      }
+    ]
+  }
+}

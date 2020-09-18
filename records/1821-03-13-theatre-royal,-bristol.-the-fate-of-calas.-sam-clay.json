@@ -1,0 +1,575 @@
+{
+  "ephemeralRecord": {
+    "archiveHoldingDocument": "British Library",
+    "callNumber": "lsidyv414d7cb2",
+    "containingCollection": "",
+    "dataCataloger": "SamClay",
+    "dimensions": "",
+    "documentType": "Playbill",
+    "pageNumber": "239",
+    "periodicalTitle": "",
+    "persistentUrl": "",
+    "printedArea": "",
+    "advertisements": [
+      "By desire of the Free and Accepted Masons of Bristol, on Wednesday Evening will be presented the Musical and Historical Drama called Henri Quatre; Or, Paris in the Olden Time. To which will be added the favourite Farce called The Sleeping Draught.",
+      "The new Drama called Therese; Or, the Orphan of Geneva was received throughout on Monday Evening with the deepest interest and applause never exceeded in this Theatre it will be repeated on Friday next."
+    ],
+    "announcements": [
+      ""
+    ],
+    "documentPrinter": {
+      "location": "",
+      "name": ""
+    },
+    "shows": [
+      {
+        "date": "1821-03-13",
+        "doorsOpen": "",
+        "location": "Bristol",
+        "performanceBegins": "",
+        "stageManager": "",
+        "theaterCompany": "",
+        "venue": "Theatre-Royal, Bristol.",
+        "featuredAttractionsForShow": [
+          ""
+        ],
+        "notes": [
+          ""
+        ],
+        "occasions": [
+          {
+            "occasionAsStated": "",
+            "occasionType": "",
+            "beneficiary": [
+              ""
+            ],
+            "occasioner": [
+              ""
+            ]
+          }
+        ],
+        "performances": [
+          {
+            "genreClaim": "Drama",
+            "kindOfPerformance": "Main Piece",
+            "orderOfPerformance": "1",
+            "title": "The Fate of Calas.",
+            "contributors": [
+              {
+                "contributorName": "Mr. Carroll",
+                "contributorType": "Scene Painter"
+              },
+              {
+                "contributorName": "Mr. Atkins",
+                "contributorType": "Scene Painter"
+              },
+              {
+                "contributorName": "Mr. Lewis",
+                "contributorType": "Costumer"
+              },
+              {
+                "contributorName": "Mrs. Lewis",
+                "contributorType": "Costumer"
+              }
+            ],
+            "featuredAttractions": [
+              {
+                "attraction": "Must be laid aside after this Evening in consequence of the Novelties in preparation.",
+                "isInterpolation": false
+              },
+              {
+                "attraction": "As performed in London with the greatest applause.",
+                "isInterpolation": false
+              },
+              {
+                "attraction": "New Music, Scenery, and Decorations.",
+                "isInterpolation": false
+              },
+              {
+                "attraction": "Act 1, the picturesque House, Garden, and Pavilion of Calas with a distant View of the Ramparts and City of Toulouse; Act 2, Interior of the Vestibule or Garden Front of Calas' House; Act 3, Grand Hall in the Hotel de Ville of Toulouse with Entrances of the Council Chamber and Chamber of Justice.",
+                "isInterpolation": false
+              },
+              {
+                "attraction": "Dancing by Miss Parr.",
+                "isInterpolation": true
+              }
+            ],
+            "performers": [
+              {
+                "performerName": "Mr. Carles",
+                "role": "Calas",
+                "roleNotes": "a respectable Merchant of Toulouse",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Lascelles",
+                "role": "Marc Antoine Calas",
+                "roleNotes": "his Son",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Johnson",
+                "role": "Edward",
+                "roleNotes": "betrothed to the Daughter of Calas",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Jones",
+                "role": "Ambroise",
+                "roleNotes": "Enemy of the House of Calas",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Telbin",
+                "role": "The Capitoul",
+                "roleNotes": "or First Magistrate of Toulouse",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Lane",
+                "role": "Jacob",
+                "roleNotes": "an Old Domestic of Calas",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. J. Reeve",
+                "role": "Lawrence",
+                "roleNotes": "Attendant on Edward and Suitor to Jeannette",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Ross",
+                "role": "Gilbert",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Lewis",
+                "role": "Assistant Jeduge",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Atkins",
+                "role": "Assistant Judge",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Dumbulton",
+                "role": "Counsellor, Gentlemen, and Page of the Chamber of Justice",
+                "roleNotes": "Unnamed Extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Kinnard",
+                "role": "Counsellor, Gentlemen, and Page of the Chamber of Justice",
+                "roleNotes": "Unnamed Extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Reed",
+                "role": "Counsellor, Gentlemen, and Page of the Chamber of Justice",
+                "roleNotes": "Unnamed Extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Cottrell",
+                "role": "Counsellor, Gentlemen, and Page of the Chamber of Justice",
+                "roleNotes": "Unnamed Extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. H. Lewis",
+                "role": "Counsellor, Gentlemen, and Page of the Chamber of Justice",
+                "roleNotes": "Unnamed Extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Aylett",
+                "role": "Jeannette",
+                "roleNotes": "Daughter of Jacob and Attendant on Pauline",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Atkins",
+                "role": "Pauline",
+                "roleNotes": "Daughter of M. & Madame Calas",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Desmond",
+                "role": "Madame Calas",
+                "roleNotes": "a Native of England",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              }
+            ]
+          },
+          {
+            "genreClaim": "Comic Opera",
+            "kindOfPerformance": "After Piece",
+            "orderOfPerformance": "2",
+            "title": "Robin Hood; Or, Sherwood Forest.",
+            "contributors": [
+              {
+                "contributorName": "Leonard M'Mally, Esq.",
+                "contributorType": "Playwright"
+              },
+              {
+                "contributorName": "Shield",
+                "contributorType": "Composer"
+              },
+              {
+                "contributorName": "",
+                "contributorType": ""
+              }
+            ],
+            "featuredAttractions": [
+              {
+                "attraction": "The following popular Airs, Duets, &c. in the course of the Opera: Glee and Chorus, \"In Sherwood's Grove;\" Song, \"I Mend Pottles and Canns\" by Mr. J. Reeve; Air, \"Ye Powers Who Make Virtue Your Care,\" Mr. Bing; Duct, \"The Stage Through The Forest When Rous'd By the Horn\" by Mr. Bing and Mr. Dumbulton; Air, \"When the Men a Courting Came\" by Miss Aylett; Air, \"I Travers'd Judah's Barren Land\" by Mrs. Lane; Air, \"The Trump of Fame Has Breath'd Your Name\" by Mrs. Jones; Air, \"Her Hair is Like the Golden Clue\" by Mr. Bing; Glee, \"By Dark Grove, Shade, or Winding Dell\" by Messrs. Bing, Dumbulton, Mrs. Jones, and Miss M'Ghie; Song, \"When Gen'rous Wine Expands the Soul\" by Mr. Dumbulton; Air, \"As Burns the Charger\" by Mr. Dumbulton; Glee, \"Hark, the Leafy Woods Resounding\" by Messrs. Bing, Dumbulton, Mrs. Jones, and Miss M'Ghie; Rondo, \"And Has She Then Fail'd in Her Truth\" by Mr. Bing; Air, \"When Ruddy Aurora Awakens the Day\" by Mrs. Jones; Song, \"My Name is Little Harry, Oh\" by Miss Aylett; Duet, \"Then Let Me Hold Thee to My Heart\" by Mr. Bing and Mrs. Lane; Finale, \"Strains of Liberty We'll Sing\" by all the Characters.",
+                "isInterpolation": true
+              }
+            ],
+            "performers": [
+              {
+                "performerName": "Mr. Dumbulton",
+                "role": "Robin Hood",
+                "roleNotes": "Captain of the Outlaw Archers",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Lane",
+                "role": "Little John",
+                "roleNotes": "his Friend and Bow bearer",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Lascelles",
+                "role": "Scarlet",
+                "roleNotes": "a principal Outlaw",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Lewis",
+                "role": "Bowman",
+                "roleNotes": "another Outlaw",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Ross",
+                "role": "Outlaw and Archer",
+                "roleNotes": "Unnamed Extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Kinnard",
+                "role": "Outlaw and Archer",
+                "roleNotes": "Unnamed Extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Atkins",
+                "role": "Outlaw and Archer",
+                "roleNotes": "Unnamed Extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Reed",
+                "role": "Outlaw and Archer",
+                "roleNotes": "Unnamed Extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Woolmer",
+                "role": "Outlaw and Archer",
+                "roleNotes": "Unnamed Extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Jenkins",
+                "role": "Outlaw and Archer",
+                "roleNotes": "Unnamed Extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Dighton",
+                "role": "Outlaw and Archer",
+                "roleNotes": "Unnamed Extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Cottrel",
+                "role": "Outlaw and Archer",
+                "roleNotes": "Unnamed Extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. H. Lewis",
+                "role": "Outlaw and Archer",
+                "roleNotes": "Unnamed Extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. J. Reeve",
+                "role": "Ruttekin, an itinerant Tinker",
+                "roleNotes": "Men Visitors to the Forest",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Carles",
+                "role": "Baron Fitzherbert, disguised as Friar Tuck",
+                "roleNotes": "Men Visitors to the Forest",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Bing",
+                "role": "Edwin, the Hermit of the Dale",
+                "roleNotes": "Men Visitors to the Forest",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss M'Ghie",
+                "role": "Stella, a Shepherdess",
+                "roleNotes": "Women Resident in the Forest",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Johnson",
+                "role": "Lass",
+                "roleNotes": "Unnamed Extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Lewis",
+                "role": "Lass",
+                "roleNotes": "Unnamed Extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Atkins",
+                "role": "Lass",
+                "roleNotes": "Unnamed Extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Telbin",
+                "role": "Lass",
+                "roleNotes": "Unnamed Extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Parr",
+                "role": "Lass",
+                "roleNotes": "Unnamed Extras",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Jones",
+                "role": "Clorinda, Huntress of Titbury",
+                "roleNotes": "Women Not Resident in the Forest",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Aylett",
+                "role": "Annette, the Tiny Foot Page",
+                "roleNotes": "Women Not Resident in the Forest",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Lane",
+                "role": "Angelina, disguised as a Pilgrim",
+                "roleNotes": "Women Not Resident in the Forest",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              }
+            ]
+          }
+        ],
+        "ticketing": {
+          "boxPrice": "",
+          "currency": "",
+          "galleryPrice": "",
+          "pitPrice": "",
+          "secondBoxPrice": "",
+          "secondGalleryPrice": "",
+          "secondPitPrice": "",
+          "secondUpperGalleryPrice": "",
+          "ticketingNotes": "",
+          "toBeHad": "Mr. Cozens",
+          "upperGalleryPrice": ""
+        }
+      }
+    ]
+  }
+}

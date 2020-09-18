@@ -62,11 +62,13 @@ def getSourceFromId(idList):
 
         # Parse the region, hardcoded for now
         try: 
-            med = obj['medievalChronicles']
-            med = med['chronicles']
-            geo = med['geography']
-            geo = geo[0]
-            region = geo['region']
+            med = obj['ephemeralRecord']
+            med = med['shows']
+            med = med[0]
+            geo = med['location']
+            # geo = geo[0]
+            # region = geo['region']
+            region = geo
 
              # Geocode into lat & lng from datasciencetoolkit API
             response = requests.get('http://www.datasciencetoolkit.org/maps/api/geocode/json?sensor=false&address=' + region)
@@ -88,7 +90,7 @@ def getSourceFromId(idList):
             continue
     
     # Convert from lat and lng to mercador coordinates
-    for i in range(len(lats)):
+    for i in range(len(lats)): 
         east, north = LongLat_to_EN(lngs[i], lats[i])
         x_coords.append(east)
         y_coords.append(north)

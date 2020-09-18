@@ -1,0 +1,344 @@
+{
+  "ephemeralRecord": {
+    "archiveHoldingDocument": "Lewis-Walpole Library",
+    "callNumber": "767 P69B P74 765B",
+    "containingCollection": "Yale University Library",
+    "dataCataloger": "Michael Gamer",
+    "dimensions": "30 x 22 cm",
+    "documentType": "Playbill",
+    "pageNumber": "",
+    "periodicalTitle": "",
+    "persistentUrl": "http://hdl.handle.net/10079/bibid/7023867",
+    "printedArea": "",
+    "advertisements": [
+      ""
+    ],
+    "announcements": [
+      "By Their Majesty's Servants",
+      "NB. 'Tis hop'd no Gentleman will take it amiss that he cannot possibly be admitted behind the SCENES.",
+      "Vivant Rex et Regina"
+    ],
+    "documentPrinter": {
+      "location": "Plymouth, on the Parade",
+      "name": "R. Weatherley"
+    },
+    "shows": [
+      {
+        "date": "1765-06-07",
+        "doorsOpen": "",
+        "location": "Plymouth",
+        "performanceBegins": "19:00",
+        "stageManager": "",
+        "theaterCompany": "Their Majesty's Servants",
+        "venue": "Frankfort-Gate",
+        "featuredAttractionsForShow": [
+          ""
+        ],
+        "notes": [
+          "NB. 'Tis hop'd no Gentleman will take it amiss that he cannot possibly be admitted behind the SCENES."
+        ],
+        "occasions": [
+          {
+            "occasionAsStated": "",
+            "occasionType": "",
+            "beneficiary": [
+              ""
+            ],
+            "occasioner": [
+              ""
+            ]
+          }
+        ],
+        "performances": [
+          {
+            "genreClaim": "",
+            "kindOfPerformance": "",
+            "orderOfPerformance": "1",
+            "title": "The Beggars Opera",
+            "contributors": [
+              {
+                "contributorName": "",
+                "contributorType": ""
+              }
+            ],
+            "featuredAttractions": [
+              {
+                "attraction": "In Act 3, A HORNPIPE by Miss ADCOCK",
+                "isInterpolation": true
+              },
+              {
+                "attraction": "End of the Piece a Country Dance by the Characters of the Opera",
+                "isInterpolation": true
+              }
+            ],
+            "performers": [
+              {
+                "performerName": "Mr Moody",
+                "role": "Capt. Mackheath",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr Hartry",
+                "role": "Peachum",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr Adcock",
+                "role": "Locket",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr Clough",
+                "role": "Filch",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr Weller",
+                "role": "Matt 'oth Mint",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Davis",
+                "role": "Polly",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Bainbridge",
+                "role": "Lucy",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs Bradshaw",
+                "role": "Mrs Peachum",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs Adcock",
+                "role": "Mrs. Diana Trapes",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "",
+                "role": "",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "",
+                "role": "",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "",
+                "role": "",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "",
+                "role": "",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              }
+            ]
+          },
+          {
+            "genreClaim": "Farce",
+            "kindOfPerformance": "",
+            "orderOfPerformance": "2",
+            "title": "The Double Disappointment",
+            "contributors": [
+              {
+                "contributorName": "",
+                "contributorType": ""
+              }
+            ],
+            "featuredAttractions": [
+              {
+                "attraction": "",
+                "isInterpolation": false
+              }
+            ],
+            "performers": [
+              {
+                "performerName": "Mr Moody",
+                "role": "Phelim O'Blunder",
+                "roleNotes": "with the SONGS in Character",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr Hartry",
+                "role": "Marquis de Fanfaron",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr Ellard",
+                "role": "Loveless",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr Adcock",
+                "role": "Jeremy",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Bainbridge",
+                "role": "Isabel",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "",
+                "role": "",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "",
+                "role": "",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "",
+                "role": "",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "",
+                "role": "",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "",
+                "role": "",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              }
+            ]
+          }
+        ],
+        "ticketing": {
+          "boxPrice": "36",
+          "currency": "UK",
+          "galleryPrice": "12",
+          "pitPrice": "24",
+          "secondBoxPrice": "",
+          "secondGalleryPrice": "",
+          "secondPitPrice": "",
+          "secondUpperGalleryPrice": "",
+          "ticketingNotes": "TICKETS to be had at the Prince George; the Plymouth Tavern; the Sloop on Smart's Key; the Oxford Inn, at Dock; the Coffee House; the Sutlers in Marlborough Square, at the Barracks; and at the Theatre, where Places for the Boxes may be taken, from Ten o'Clock till One each Day, a Book being Open'd for that Purpose",
+          "toBeHad": "TICKETS to be had at the Prince George; the Plymouth Tavern; the Sloop on Smart's Key; the Oxford Inn, at Dock; the Coffee House; the Sutlers in Marlborough Square, at the Barracks; and at the Theatre",
+          "upperGalleryPrice": ""
+        }
+      }
+    ]
+  }
+}
