@@ -1,0 +1,442 @@
+{
+  "ephemeralRecord": {
+    "archiveHoldingDocument": "British Library",
+    "callNumber": "lsidyv3fdd1e3",
+    "containingCollection": "",
+    "dataCataloger": "Kirara",
+    "dimensions": "",
+    "documentType": "Playbill",
+    "pageNumber": "46",
+    "periodicalTitle": "",
+    "persistentUrl": "",
+    "printedArea": "",
+    "advertisements": [
+      "On Monday, King Richard the Third, Richard, Mr. Kean. With the Farce of the Mayor of Garratt.",
+      "On Tuesday, will be performed, for the first time, a Comick Drama, in Two Acts, (taken from the French) to be called Jean De Paris. After which, the Musical Entertainment of the Children in the Wood, and (7th time) the New Comedy, ion 3 Acts, called Policy; or, Thus Runs the World Away.",
+      "The Publick are respectfully informed, that Mr. Braham is engaged, and will make his first Appearance this Season, On Wednesday, in the Operatick Drama or The Devil's Bridge.",
+      "On Firday, an Opera, in which Mr. Branham will perform",
+      "On Saturday, will be revived, with all possible Appropriate Splendour, and performed for the First time at this Theatre, Shakespeare's Tragedy of Macbeth, [...]"
+    ],
+    "announcements": [
+      "The numerous Applicants at the Box-Office are respectfully informed, that the Tragedy of  King Richard the Third will be repeated every Monday till further Notice."
+    ],
+    "documentPrinter": {
+      "location": "Marquis Court, London.",
+      "name": "C. Lowndes"
+    },
+    "shows": [
+      {
+        "date": "1814-10-29",
+        "doorsOpen": "17:30",
+        "location": "Drury Lane",
+        "performanceBegins": "18:30",
+        "stageManager": "",
+        "theaterCompany": "His Majesties' Servants",
+        "venue": "Theatre Royale",
+        "featuredAttractionsForShow": [
+          ""
+        ],
+        "notes": [
+          ""
+        ],
+        "occasions": [
+          {
+            "occasionAsStated": "",
+            "occasionType": "",
+            "beneficiary": [
+              ""
+            ],
+            "occasioner": [
+              ""
+            ]
+          }
+        ],
+        "performances": [
+          {
+            "genreClaim": "",
+            "kindOfPerformance": "Main Piece",
+            "orderOfPerformance": "1",
+            "title": "Merchant of Venice",
+            "contributors": [
+              {
+                "contributorName": "",
+                "contributorType": ""
+              }
+            ],
+            "featuredAttractions": [
+              {
+                "attraction": "",
+                "isInterpolation": false
+              }
+            ],
+            "performers": [
+              {
+                "performerName": "Mr. R. Phillips",
+                "role": "Duke of Venice",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Powell",
+                "role": "Antonio",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Rae",
+                "role": "Bassanio",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. I. Wallack",
+                "role": "Salanio",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Crooke",
+                "role": "Salarino",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Wrench",
+                "role": "Grationo",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Pyne",
+                "role": "Lorenzo",
+                "roleNotes": "Lorenzo, (with Songs)",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Kean",
+                "role": "Shylock",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Lovegrove",
+                "role": "Launcelot",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Maddocks",
+                "role": "Tubal",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Buxton",
+                "role": "Balthazar",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Wewitzer",
+                "role": "Gobbo",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Bartley",
+                "role": "Portia",
+                "roleNotes": "Mrs Glover performed Portia on account of Mrs. Bartley indisposition.",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Harlowe",
+                "role": "Nerissa",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Bland",
+                "role": "Jessica",
+                "roleNotes": "Jessica, (with songs)",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "",
+                "role": "",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              }
+            ]
+          },
+          {
+            "genreClaim": "Melo-drame",
+            "kindOfPerformance": "After Piece",
+            "orderOfPerformance": "2",
+            "title": "Ella Rosenberg",
+            "contributors": [
+              {
+                "contributorName": "",
+                "contributorType": ""
+              }
+            ],
+            "featuredAttractions": [
+              {
+                "attraction": "",
+                "isInterpolation": false
+              }
+            ],
+            "performers": [
+              {
+                "performerName": "Mr. Pope",
+                "role": "The Elector",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Rae",
+                "role": "Rosenberg",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. De Camp",
+                "role": "Colonel Montlort",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Bannister",
+                "role": "Storm",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Penley",
+                "role": "Flutterman",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Ray",
+                "role": "Officer",
+                "roleNotes": "Officers",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Miller",
+                "role": "Officer",
+                "roleNotes": "Officers",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Maddocks",
+                "role": "Officer",
+                "roleNotes": "Officers",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Fisher",
+                "role": "Stephen",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Chatterly",
+                "role": "Conrad",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Cooke",
+                "role": "Peasant",
+                "roleNotes": "Peasants",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. J. Smith",
+                "role": "Peasant",
+                "roleNotes": "Peasants",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Marshall",
+                "role": "Peasant",
+                "roleNotes": "Peasants",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Edwin",
+                "role": "Ella Rosenberg",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Cooke",
+                "role": "Christine",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Sparks",
+                "role": "Mrs. Flutterman",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "",
+                "role": "",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              }
+            ]
+          }
+        ],
+        "ticketing": {
+          "boxPrice": "84",
+          "currency": "UK",
+          "galleryPrice": "24",
+          "pitPrice": "42",
+          "secondBoxPrice": "42",
+          "secondGalleryPrice": "12",
+          "secondPitPrice": "24",
+          "secondUpperGalleryPrice": "12",
+          "ticketingNotes": "",
+          "toBeHad": "Boxes and Places to be taken of Mr. Spring, Box-Office, Little Russell Street, from Ten till Four, and of whom may be had a Private Box (Nightly.)",
+          "upperGalleryPrice": ""
+        }
+      }
+    ]
+  }
+}

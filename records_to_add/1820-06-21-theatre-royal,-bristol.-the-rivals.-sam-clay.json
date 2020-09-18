@@ -1,0 +1,367 @@
+{
+  "ephemeralRecord": {
+    "archiveHoldingDocument": "British Library",
+    "callNumber": "lsidyv414d7cb2",
+    "containingCollection": "",
+    "dataCataloger": "SamClay",
+    "dimensions": "",
+    "documentType": "Playbill",
+    "pageNumber": "198",
+    "periodicalTitle": "",
+    "persistentUrl": "",
+    "printedArea": "",
+    "advertisements": [
+      "For the Benefit of Mr. and Mrs. Chatterly. On Thursday Evening will be presented Sheridan's Comedy called The School for Scandal, the parts of Sir Peter Teazle and Lady Teazle by Mr. and Mrs. Chatterly. To which will be added a favourite Interlude taken from the Farve of Nelty Abbey called Yard Arm and Rad Arm, the part of M'Scrape with a variety of Songs by Mr. Webb. To conclude with a grand Historical Melo-Drmatic Spectacle called Valentine and Orson; Or, the Wild Man of the Woods, the parts of Hugo and the Princess Eglantine by Mr. and Mrs. Chatterly being their last appearance here this Season."
+    ],
+    "announcements": [
+      ""
+    ],
+    "documentPrinter": {
+      "location": "",
+      "name": ""
+    },
+    "shows": [
+      {
+        "date": "1820-06-21",
+        "doorsOpen": "18:00",
+        "location": "Bristol",
+        "performanceBegins": "19:00",
+        "stageManager": "",
+        "theaterCompany": "",
+        "venue": "Theatre-Royal, Bristol.",
+        "featuredAttractionsForShow": [
+          "Second representation of the Grand Coronation Procession.",
+          "The last Night Mr. & Mrs. Chatterly's and the last but Three of Mr. Webb's Engagement."
+        ],
+        "notes": [
+          ""
+        ],
+        "occasions": [
+          {
+            "occasionAsStated": "",
+            "occasionType": "",
+            "beneficiary": [
+              ""
+            ],
+            "occasioner": [
+              ""
+            ]
+          }
+        ],
+        "performances": [
+          {
+            "genreClaim": "Comedy",
+            "kindOfPerformance": "Main Piece",
+            "orderOfPerformance": "1",
+            "title": "The Rivals.",
+            "contributors": [
+              {
+                "contributorName": "Sheridan",
+                "contributorType": "Playwright"
+              }
+            ],
+            "featuredAttractions": [
+              {
+                "attraction": "End of the Play will be Exhibited (second time) a View of Westminster Abbey and the House of Lords, where will be introduced a series of Moving Figures, in appropriate Costume to convey an idea of The Grand Coronation Procession, obtained from the Herald's Office and the most authentic source, arranged with the greatest attention so as to give an accurate general idea of the customary forms of that Magnificent and Splendid Ceremony with the manner of the King's Champion, performing the Ceremony of the challenge. This Exhibition is a facsimile of that now attracting such crowded Houses Nightly at Sadler's Wells and formed at a very considerable expence by the same Artists and Machinists, expressly for this Theatre. The Procession represents in full Costume, Yeoman of the Guards, Trumpets, Drums, State Trumpets, Sword and Mace Bearers, Lord Mayor and Sherriffs, Baronesses, Heralds, Judges, Bishops, Earls, Dukes, Duchesses, Lord High Chancellor, Usher of Black Rod, Sword of State, Herald on Horseback, King's Champion on Horseback Marquisses, Royal Dukes, King, Canopy, &c.",
+                "isInterpolation": true
+              },
+              {
+                "attraction": "Appropriate Glees by Mr. Newton, Cogan, Cooke, Lewis, &c.",
+                "isInterpolation": true
+              },
+              {
+                "attraction": "Mr. Webb will introduce the favourite Songs of \"Irish Hearts are the Hearts for the Ladies,\" \"The Hero of Balinacrazy,\" and \"The Boys of Kilkenny.\"",
+                "isInterpolation": true
+              }
+            ],
+            "performers": [
+              {
+                "performerName": "Mr. Chatterly",
+                "role": "Sir Anthony Absolute",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Chatterly",
+                "role": "Lydia Languish",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Webb",
+                "role": "Sir Lucius O'Trigger",
+                "roleNotes": "In which he will introduce the favourite Songs of \"Irish Hearts are the Hearts for the Ladies,\" \"The Hero of Balinacrazy,\" and \"The Boys of Kilkenny.\"",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Raymond",
+                "role": "Bob Acres",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Lascelles",
+                "role": "Fag",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Stuart",
+                "role": "Captain Absolute",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "MR. Garthwaite",
+                "role": "David",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Gladstanes",
+                "role": "Falkland",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Acland",
+                "role": "Coachman",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Stuart",
+                "role": "Mrs. Malaprop",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Johnson",
+                "role": "Lucy",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Cooke",
+                "role": "Julia Melville",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              }
+            ]
+          },
+          {
+            "genreClaim": "Melo Dramatic Entertainment",
+            "kindOfPerformance": "After Piece",
+            "orderOfPerformance": "2",
+            "title": "Meg Murnoch, the Mountain Hag; Or, the Fatal Glen of Lorin.",
+            "contributors": [
+              {
+                "contributorName": "Mr. Barrymore",
+                "contributorType": "Playwright"
+              }
+            ],
+            "featuredAttractions": [
+              {
+                "attraction": "New and appropriate Scenery, Characteristic Dresses, Incidents, and Decorations.",
+                "isInterpolation": false
+              }
+            ],
+            "performers": [
+              {
+                "performerName": "Mr. Bond ",
+                "role": "Walter, Lord of Finlagan",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Stuart",
+                "role": "Fitzarran",
+                "roleNotes": "his Son",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Telbin",
+                "role": "Lord Dunbard",
+                "roleNotes": "Guardian to the Young Lord Malcolm and Lady Bertha",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. B. Johnson",
+                "role": "Murdyn",
+                "roleNotes": "a Treacherous Domestic",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Lascelles",
+                "role": "Vich Ivor",
+                "roleNotes": "Leader of Banditti",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Raymond",
+                "role": "Evan Dhu",
+                "roleNotes": "Leader of Banditti",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Master Newton",
+                "role": "Lord Malcolm",
+                "roleNotes": "a Child about Six Years of Age",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Gladstanes",
+                "role": "Duncan",
+                "roleNotes": "an aged Cottager",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Newton",
+                "role": "Andrew",
+                "roleNotes": "his Son",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Garthwaite",
+                "role": "Donald",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Moreton",
+                "role": "Lady Bertha",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss M. Cooke",
+                "role": "Maddline",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Desmond",
+                "role": "Meg Murnoch",
+                "roleNotes": "the Mountain Hag",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              }
+            ]
+          }
+        ],
+        "ticketing": {
+          "boxPrice": "",
+          "currency": "",
+          "galleryPrice": "",
+          "pitPrice": "",
+          "secondBoxPrice": "",
+          "secondGalleryPrice": "",
+          "secondPitPrice": "",
+          "secondUpperGalleryPrice": "",
+          "ticketingNotes": "",
+          "toBeHad": "Mr. Cozens",
+          "upperGalleryPrice": ""
+        }
+      }
+    ]
+  }
+}

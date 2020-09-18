@@ -1,0 +1,359 @@
+{
+  "ephemeralRecord": {
+    "archiveHoldingDocument": "British Library",
+    "callNumber": "lsidyv414d7cb2",
+    "containingCollection": "",
+    "dataCataloger": "SamClay",
+    "dimensions": "",
+    "documentType": "Playbill",
+    "pageNumber": "295",
+    "periodicalTitle": "",
+    "persistentUrl": "",
+    "printedArea": "",
+    "advertisements": [
+      "Ramo Samee will perform on Tuesday, Wednesday, and Thursday Evenings.",
+      "The New Farce called Wanted--A Title, written by a Gentleman of this City on its first representation (Friday Evening) met with a reception highly honourable to the author; general approbation with rapturously expressed throughout and it was announced for repetition on Tuesday next, with genuine and tumultuous applause.",
+      "On Wednesday Evening the Melo-Dramatic Entertainment of The Egyptian Tomb, this Piece increases nightly in the estimation of the Public.",
+      "Under the patronage of the Vestry and Inhabitants of S. Nicholas Parish. On Friday Evening, June 8th, will be presented a favourite play, farce, and entertainments, as will be expressed in future advertisement."
+    ],
+    "announcements": [
+      "No Orders can be admitted."
+    ],
+    "documentPrinter": {
+      "location": "",
+      "name": ""
+    },
+    "shows": [
+      {
+        "date": "1821-06-04",
+        "doorsOpen": "18:00",
+        "location": "Bristol",
+        "performanceBegins": "19:00",
+        "stageManager": "",
+        "theaterCompany": "",
+        "venue": "Theatre-Royal, Bristol.",
+        "featuredAttractionsForShow": [
+          "The Ladies and Gentlemen of Bristol, Clifton, and their Vicinities are respectfully informed that the Truly Astonishing Ramo Samee, Chief othe Indian Jugglers, is Engaged here for four Nights. His graceful performance, dexterity, and activity have drawn ater him the most fashionable and overflowing houses in London as well as the efforts of every Manager there to obtain his aid. The ease and elegance of this performance charms equal with the astonishment it produces while the precision and certainty to which it reduced at once stamps it the most unrivalled performance of the day."
+        ],
+        "notes": [
+          ""
+        ],
+        "occasions": [
+          {
+            "occasionAsStated": "",
+            "occasionType": "",
+            "beneficiary": [
+              ""
+            ],
+            "occasioner": [
+              ""
+            ]
+          }
+        ],
+        "performances": [
+          {
+            "genreClaim": "Comedy",
+            "kindOfPerformance": "Main Piece",
+            "orderOfPerformance": "1",
+            "title": "Where To Find a Friend.",
+            "contributors": [
+              {
+                "contributorName": "",
+                "contributorType": ""
+              }
+            ],
+            "featuredAttractions": [
+              {
+                "attraction": "After which, Ramo Samee will go through the whole of his Extraordinary Feats of Strength & Agility!! Consisting of Various  deceptions with cups & balls changing sand to different Colours. After which a Series of Evolutions with Four Hollow Brass Balls, size of Oranges. His power over them is almost miraculous, he causes them to describe every possible Circle, Horizontally, Perpendicularly, Obliquely, Transversely, round his Legs, under his arms, and about his Head in large and small circumferences with wonderous rapidity, keeping the whole in motion at the same time. This being th grand result of effort, activity, guickness of the eve, and rapidity of action. No one who has not witnessed can form an idea of his excellence. Several feats of balancing. Spinning a top on a point as fine as a needle and balancing the same on his Chin, And in this situation makes it Bow to the Audience while revolving on the above Point and afterward as at the Word of Command, restores it to the same Equilibrium and Steadiness as when first spun. The Wonderful feat with large knives! Somewhat similar to that of the Balls. Swallowing a stone the size of an egg!! And disposing of the same at pleasure. Also his Manly Activity in throwing a large ball, the size of an IS-Pound Shot to different partso f his Frame with the greatest ease. He places it between his Feet & by giving a sudden spring throws it over his Shoulder from whence it alights on the bend of his Arm and from thence to several parts of his Body, but finally with a masterly jerk throws the Ball round his Head without the assistance of his Hands! after several other Achievements he will conclude with the extraordinary feat of Swallowing a Sword Two Feet Long!!!",
+                "isInterpolation": true
+              }
+            ],
+            "performers": [
+              {
+                "performerName": "Mr. Johnson",
+                "role": "Sir Harry Mordant",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Lane",
+                "role": "General Torrington",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. J. Reeve",
+                "role": "Jack Bustle",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Carles",
+                "role": "Mr. Heartly",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Ross",
+                "role": "Tim",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. M'Cready",
+                "role": "Barny O'Mullshinough",
+                "roleNotes": "the Other",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "MIss Atkins",
+                "role": "Maria",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Mara",
+                "role": "Mrs. Bustle",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Johnson",
+                "role": "Susan",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Desmond",
+                "role": "Lady Anne Mordaunt",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              }
+            ]
+          },
+          {
+            "genreClaim": "right spirited and merry Melo-Drame",
+            "kindOfPerformance": "After Piece",
+            "orderOfPerformance": "2",
+            "title": "Tereza Tomkins; Or, the Fruits of Geneva.",
+            "contributors": [
+              {
+                "contributorName": "",
+                "contributorType": ""
+              }
+            ],
+            "featuredAttractions": [
+              {
+                "attraction": "Which has been received with increased laughter and applause on each representation.",
+                "isInterpolation": false
+              },
+              {
+                "attraction": "With new and appropriate Scenery, Dresses, and Decorations.",
+                "isInterpolation": false
+              },
+              {
+                "attraction": "This Piece is interspersed with a Grand Selection of Music, Ancient, and Modern, in the course of which will be introduced New Versions of several Favourite Songs, Duets, Trios, Catches, &c.",
+                "isInterpolation": true
+              }
+            ],
+            "performers": [
+              {
+                "performerName": "Mr. J. Reeve",
+                "role": "Causewin",
+                "roleNotes": "alias Carwin",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": true
+                }
+              },
+              {
+                "performerName": "Mr. Dumbulton",
+                "role": "FOuntain",
+                "roleNotes": "alias Fontain",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Bing",
+                "role": "Charley",
+                "roleNotes": "alias Charles",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Lascelles",
+                "role": "Thickhead",
+                "roleNotes": "alias Picard",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Berriman",
+                "role": "Lovewine",
+                "roleNotes": "alias Lavigne",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Woolmer",
+                "role": "Johnson",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Ross",
+                "role": "Hatteric",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Atkins",
+                "role": "Nabman",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Reed",
+                "role": "Nickem",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Lewis",
+                "role": "Muggins",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Jones",
+                "role": "Molly",
+                "roleNotes": "alias Tereza Tomkins",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Lane",
+                "role": "Mrs. Juniper",
+                "roleNotes": "alias Widow",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Mara",
+                "role": "Biddy",
+                "roleNotes": "alias Bridget",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Miss Parr",
+                "role": "Nanny",
+                "roleNotes": "alias Nannettee",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              }
+            ]
+          }
+        ],
+        "ticketing": {
+          "boxPrice": "",
+          "currency": "",
+          "galleryPrice": "",
+          "pitPrice": "",
+          "secondBoxPrice": "",
+          "secondGalleryPrice": "",
+          "secondPitPrice": "",
+          "secondUpperGalleryPrice": "",
+          "ticketingNotes": "",
+          "toBeHad": "Mr. Cozens",
+          "upperGalleryPrice": ""
+        }
+      }
+    ]
+  }
+}

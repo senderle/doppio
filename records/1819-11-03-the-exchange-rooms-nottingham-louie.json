@@ -1,0 +1,99 @@
+{
+  "ephemeralRecord": {
+    "archiveHoldingDocument": "British Library",
+    "callNumber": "lsidyv41bb5658",
+    "containingCollection": "",
+    "dataCataloger": "Louie",
+    "dimensions": "",
+    "documentType": "Playbill",
+    "pageNumber": "98",
+    "periodicalTitle": "",
+    "persistentUrl": "",
+    "printedArea": "",
+    "advertisements": [
+      ""
+    ],
+    "announcements": [
+      "On Wednesday Evening, November 3rd, 1819, and every evening (except Sunday) during their stay: Also on Mondays and Saturdays at Twelve o'clock at Noon"
+    ],
+    "documentPrinter": {
+      "location": "Cheapside",
+      "name": "Wheelhouse and Co."
+    },
+    "shows": [
+      {
+        "date": "1819-11-03",
+        "doorsOpen": "",
+        "location": "Nottingham",
+        "performanceBegins": "19:00",
+        "stageManager": "",
+        "theaterCompany": "",
+        "venue": "The Exchange Rooms Nottingham",
+        "featuredAttractionsForShow": [
+          "The Much-Admired Chinese Performers from the Court of Pekin.",
+          "Feats of Magical Deceptions and Dexterity, which are altogether Novel, and Unknown to the People of Europe."
+        ],
+        "notes": [
+          "An extensive description of each of the 13 parts of the show, including juggling, magic, and acrobatics, is available on the playbill itself. "
+        ],
+        "occasions": [
+          {
+            "occasionAsStated": "",
+            "occasionType": "",
+            "beneficiary": [
+              ""
+            ],
+            "occasioner": [
+              ""
+            ]
+          }
+        ],
+        "performances": [
+          {
+            "genreClaim": "",
+            "kindOfPerformance": "",
+            "orderOfPerformance": "",
+            "title": "",
+            "contributors": [
+              {
+                "contributorName": "",
+                "contributorType": ""
+              }
+            ],
+            "featuredAttractions": [
+              {
+                "attraction": "",
+                "isInterpolation": false
+              }
+            ],
+            "performers": [
+              {
+                "performerName": "",
+                "role": "",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              }
+            ]
+          }
+        ],
+        "ticketing": {
+          "boxPrice": "",
+          "currency": "",
+          "galleryPrice": "",
+          "pitPrice": "",
+          "secondBoxPrice": "",
+          "secondGalleryPrice": "",
+          "secondPitPrice": "",
+          "secondUpperGalleryPrice": "",
+          "ticketingNotes": "Admittance, Front Seats 2s. 6d. -- Back do. 1s. -- Children, One Shilling to the Front Seats.",
+          "toBeHad": "at the Rooms, & of Messrs. Wheelhouse & Co, Printers, Cheapside",
+          "upperGalleryPrice": ""
+        }
+      }
+    ]
+  }
+}

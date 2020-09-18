@@ -1,1028 +1,527 @@
-main_schema = {  
-    "medievalChronicles":{  
-        "type":"dict",
-        "schema":{  
-            "chronicles":{  
-                "order":1,
-                "type":"dict",
-                "schema":{  
-                    "geography":{  
-                        "order":1,
-                        "type":"list",
-                        "schema":{  
-                            "type":"dict",
-                            "schema":{  
-                                "region":{  
-                                    "order":1,
-                                    "type":"string"
-                                },
-                                "city":{  
-                                    "order":2,
-                                    "type":"string"
-                                },
-                                "freeText":{  
-                                    "order":3,
-                                    "type":"string",
-                                    "formType":"textarea"
-                                }
-                            }
-                        }
+#PYTHON SCHEMA
+main_schema = {
+    'ephemeralRecord' : {
+        'type': 'dict',
+        'schema': {
+            'archiveHoldingDocument': {
+                'type': 'string',
+                'maxlength': 700,
+                'documentation': ("The name of the library or archive that holds "
+                                  "the document.")
+            },
+            'callNumber': {
+                'type': 'string',
+                'unique': True,
+
+                'maxlength': 700,
+                'documentation': ("The call number of the document as specified by "
+                                  "the holding institution.")
+            },
+            'containingCollection': {
+                'type': 'string',
+                'maxlength': 700,
+                'documentation': "The name of the collection the document resides in."
+            },
+            'dataCataloger': {
+                'type': 'string',
+                'maxlength': 700,
+                'documentation': ("Your unique identifier as a cataloger. May be your "
+                                  "name, your initials, or some other unique word or "
+                                  "phrase of your choice.")
+            },
+            'dimensions': {
+                'type': 'dict',
+                'schema': {
+                    'length': {
+                        'type': 'number',
+                        'documentation': "The length of the document in centimeters."
                     },
-                    "language":{  
-                        "order":2,
-                        "type":"dict",
-                        "schema":{  
-                            "learned":{  
-                                "type":"string",
-                                "formType":"select",
-                                "allowed":[  
-                                    "Latin",
-                                    "Greek",
-                                    "Church Slavonic",
-                                    "Hebrew",
-                                    "Arabic"
-                                ]
-                            },
-                            "vernacular":{  
-                                "type":"string",
-                                "formType":"select",
-                                "allowed":[  
-                                    "English",
-                                    "German",
-                                    "Czech",
-                                    "Polish",
-                                    "Croatian",
-                                    "Dutch",
-                                    "Italian",
-                                    "Spanish"
-                                ]
-                            }
-                        }
-                    },
-                    "period":{  
-                        "order":3,
-                        "type":"dict",
-                        "schema":{  
-                            "period":{  
-                                "type":"string",
-                                "required":True,
-                                "formType":"select",
-                                "allowed":[  
-                                    "pre-900",
-                                    "900-950",
-                                    "950-1000",
-                                    "1000-1050",
-                                    "1050-1100",
-                                    "1100-1150",
-                                    "1150-1200",
-                                    "1200-1250",
-                                    "1250-1300",
-                                    "1300-1350",
-                                    "1350-1400",
-                                    "1400-1450",
-                                    "1450-1500",
-                                    "post-1500"
-                                ]
-                            }
-                        }
-                    },
-                    "sourcesMentionedByAuthor":{  
-                        "order":4,
-                        "type":"dict",
-                        "schema":{  
-                            "worksOfClassicalAntiquity":{  
-                                "type":"dict",
-                                "order":1,
-                                "schema":{  
-                                    "mentioned":{  
-                                        "type":"boolean",
-                                        "formType":"checkbox"
-                                    },
-                                    "notes":{  
-                                        "type":"string",
-                                        "formType":"textarea"
-                                    }
-                                }
-                            },
-                            "previousChronicles":{  
-                                "type":"dict",
-                                "order":2,
-                                "schema":{  
-                                    "mentioned":{  
-                                        "type":"boolean",
-                                        "formType":"checkbox"
-                                    },
-                                    "notes":{  
-                                        "type":"string",
-                                        "formType":"textarea"
-                                    }
-                                }
-                            },
-                            "documentsAndCharters":{  
-                                "type":"dict",
-                                "order":3,
-                                "schema":{  
-                                    "mentioned":{  
-                                        "type":"boolean",
-                                        "formType":"checkbox"
-                                    },
-                                    "notes":{  
-                                        "type":"string",
-                                        "formType":"textarea"
-                                    }
-                                }
-                            },
-                            "witnesses":{  
-                                "type":"dict",
-                                "order":4,
-                                "schema":{  
-                                    "mentioned":{  
-                                        "type":"boolean",
-                                        "formType":"checkbox"
-                                    },
-                                    "notes":{  
-                                        "type":"string",
-                                        "formType":"textarea"
-                                    }
-                                }
-                            },
-                            "secondhandOralAccounts":{  
-                                "type":"dict",
-                                "order":5,
-                                "schema":{  
-                                    "mentioned":{  
-                                        "type":"boolean",
-                                        "formType":"checkbox"
-                                    },
-                                    "notes":{  
-                                        "type":"string",
-                                        "formType":"textarea"
-                                    }
-                                }
-                            }
-                        }
+                    'width': {
+                        'type': 'number',
+                        'documentation': "The width of the document in centimeters."
                     }
                 }
             },
-            "content":{  
-                "order":2,
-                "type":"dict",
-                "schema":{  
-                    "theChronicleIncludesBiblicalHistory":{  
-                        "order":1,
-                        "type":"boolean",
-                        "formType":"checkbox"
+            'documentType': {
+                'type': 'string',
+                'formType': 'select',
+                'allowed': ['', 'Playbill', 'London Stage',
+                            'Yorkshire Stage', 'Other Compendia',
+                            'Periodical Advertisement', 'Periodical Review'],
+                'maxlength': 700,
+                'documentation': ("The document type. One of Playbill / London Stage "
+                                  "/ Yorkshire Stage / Other Compendia / Periodical "
+                                  "Advertisement / Periodical Review")
+            },
+            'pageNumber': {
+                'type': 'string', # account for Roman numerals?
+                'documentation': ("If the record is contained in another paginated "
+                                  "document, the starting page of the record in that "
+                                  "document.")
+            },
+            'periodicalTitle': {
+                'type': 'string',
+                'maxlength': 700,
+                'documentation': ("The name of the containing periodical (e.g. for "
+                                  "advertisements). We may develop a controlled "
+                                  "vocabulary for this.")
+            },
+            'persistentUrl': {
+                'type': 'string',
+                'maxlength': 700,
+                'documentation': ("A persistent URL where identifying information "
+                                  "about the document may be found.")
+            },
+            'printedArea': {
+                'type': 'dict',
+                'schema': {
+                    'length': {
+                        'type': 'number',
+                        'documentation': "The length of the printed area in centimeters."
                     },
-                    "theChronicleIncludesClassicalMyths":{  
-                        "order":2,
-                        "type":"boolean",
-                        "formType":"checkbox"
-                    },
-                    "theChronicleIncludesLocalOralTraditionNarratives":{  
-                        "order":3,
-                        "type":"boolean",
-                        "formType":"checkbox"
-                    },
-                    "theChronicleIncludesMythsOfOrigin":{  
-                        "order":4,
-                        "type":"boolean",
-                        "formType":"checkbox"
-                    },
-                    "theChronicleIncludesEtymologies":{  
-                        "order":5,
-                        "type":"boolean",
-                        "formType":"checkbox",
-                        "documentation":"If the legendary section features origin stories, do the origin stories feature etymologies?"
-                    },
-                    "namesOfIndividuals":{  
-                        "order":6,
-                        "type":"list",
-                        "schema":{  
-                            "type":"dict",
-                            "schema":{  
-                                "name":{  
-                                    "type":"string"
-                                },
-                                "source":{  
-                                    "type":"string",
-                                    "formType":"select",
-                                    "allowed":[  
-                                        "Biblical",
-                                        "Classical",
-                                        "Historically Known",
-                                        "Local Folk",
-                                        "Foreign Folk"
-                                    ]
-                                }
-                            }
-                        }
-                    },
-                    "namesOfGroups":{  
-                        "order":7,
-                        "type":"list",
-                        "schema":{  
-                            "type":"dict",
-                            "schema":{  
-                                "name":{  
-                                    "type":"string"
-                                },
-                                "source":{  
-                                    "type":"string",
-                                    "formType":"select",
-                                    "allowed":[  
-                                        "Biblical",
-                                        "Classical",
-                                        "Historically Known",
-                                        "Legendary"
-                                    ]
-                                }
-                            }
-                        }
-                    },
-                    "events":{  
-                        "order":8,
-                        "type":"dict",
-                        "schema":{  
-                            "flood":{  
-                                "type":"dict",
-                                "order":1,
-                                "schema":{  
-                                    "mentioned":{  
-                                        "type":"boolean",
-                                        "formType":"checkbox"
-                                    },
-                                    "notes":{  
-                                        "type":"string",
-                                        "formType":"textarea"
-                                    }
-                                }
-                            },
-                            "wandering":{  
-                                "type":"dict",
-                                "order":2,
-                                "schema":{  
-                                    "mentioned":{  
-                                        "type":"boolean",
-                                        "formType":"checkbox"
-                                    },
-                                    "notes":{  
-                                        "type":"string",
-                                        "formType":"textarea"
-                                    }
-                                }
-                            },
-                            "followingAnAnimal":{  
-                                "type":"dict",
-                                "order":3,
-                                "schema":{  
-                                    "mentioned":{  
-                                        "type":"boolean",
-                                        "formType":"checkbox"
-                                    },
-                                    "notes":{  
-                                        "type":"string",
-                                        "formType":"textarea"
-                                    }
-                                }
-                            },
-                            "escapingFromPreviousLocation":{  
-                                "type":"dict",
-                                "order":4,
-                                "schema":{  
-                                    "mentioned":{  
-                                        "type":"boolean",
-                                        "formType":"checkbox"
-                                    },
-                                    "notes":{  
-                                        "type":"string",
-                                        "formType":"textarea"
-                                    }
-                                }
-                            },
-                            "comingToDestinedLand":{  
-                                "type":"dict",
-                                "order":5,
-                                "schema":{  
-                                    "mentioned":{  
-                                        "type":"boolean",
-                                        "formType":"checkbox"
-                                    },
-                                    "notes":{  
-                                        "type":"string",
-                                        "formType":"textarea"
-                                    }
-                                }
-                            },
-                            "speechActOfNaming":{  
-                                "type":"dict",
-                                "order":6,
-                                "schema":{  
-                                    "mentioned":{  
-                                        "type":"boolean",
-                                        "formType":"checkbox"
-                                    },
-                                    "notes":{  
-                                        "type":"string",
-                                        "formType":"textarea"
-                                    }
-                                }
-                            },
-                            "other":{  
-                                "type":"dict",
-                                "order":7,
-                                "schema":{  
-                                    "mentioned":{  
-                                        "type":"boolean",
-                                        "formType":"checkbox"
-                                    },
-                                    "notes":{  
-                                        "type":"string",
-                                        "formType":"textarea"
-                                    }
-                                }
-                            }
-                        }
-                    },
-                    "places":{  
-                        "order":9,
-                        "type":"list",
-                        "schema":{  
-                            "type":"string",
-                            "formType":"textarea"
-                        }
-                    },
-                    "genealogies":{  
-                        "order":10,
-                        "type":"dict",
-                        "schema":{  
-                            "fromTheTowerOfBabel":{  
-                                "order":1,
-                                "type":"dict",
-                                "schema":{  
-                                    "mentioned":{  
-                                        "type":"boolean",
-                                        "formType":"checkbox"
-                                    },
-                                    "notes":{  
-                                        "type":"string",
-                                        "formType":"textarea"
-                                    }
-                                }
-                            },
-                            "genealogyFromNoah'sSons":{  
-                                "order":2,
-                                "type":"dict",
-                                "schema":{  
-                                    "mentioned":{  
-                                        "type":"boolean",
-                                        "formType":"checkbox"
-                                    },
-                                    "notes":{  
-                                        "type":"string",
-                                        "formType":"textarea"
-                                    }
-                                }
-                            },
-                            "genealogyFromAnotherBiblicalCharacter":{  
-                                "order":3,
-                                "type":"dict",
-                                "schema":{  
-                                    "mentioned":{  
-                                        "type":"boolean",
-                                        "formType":"checkbox"
-                                    },
-                                    "notes":{  
-                                        "type":"string",
-                                        "formType":"textarea"
-                                    }
-                                }
-                            },
-                            "fromTheTrojans":{  
-                                "order":4,
-                                "type":"dict",
-                                "schema":{  
-                                    "mentioned":{  
-                                        "type":"boolean",
-                                        "formType":"checkbox"
-                                    },
-                                    "notes":{  
-                                        "type":"string",
-                                        "formType":"textarea"
-                                    }
-                                }
-                            },
-                            "fromTheGreeks":{  
-                                "order":5,
-                                "type":"dict",
-                                "schema":{  
-                                    "mentioned":{  
-                                        "type":"boolean",
-                                        "formType":"checkbox"
-                                    },
-                                    "notes":{  
-                                        "type":"string",
-                                        "formType":"textarea"
-                                    }
-                                }
-                            },
-                            "fromTheRomans":{  
-                                "order":6,
-                                "type":"dict",
-                                "schema":{  
-                                    "mentioned":{  
-                                        "type":"boolean",
-                                        "formType":"checkbox"
-                                    },
-                                    "notes":{  
-                                        "type":"string",
-                                        "formType":"textarea"
-                                    }
-                                }
-                            },
-                            "fromOther":{  
-                                "order":6,
-                                "type":"dict",
-                                "schema":{  
-                                    "mentioned":{  
-                                        "type":"boolean",
-                                        "formType":"checkbox"
-                                    },
-                                    "notes":{  
-                                        "type":"string",
-                                        "formType":"textarea"
-                                    }
-                                }
-                            }
-                        }
-                    },
-                    "attitudeOfAuthorTowardsOralTradition":{  
-                        "order":11,
-                        "type":"dict",
-                        "schema":{  
-                            "authorTalksAboutProblemOfMyths":{  
-                                "order":1,
-                                "type":"dict",
-                                "schema":{  
-                                    "yes":{  
-                                        "order":1,
-                                        "documentation":"Does the author talk about the problem of including folk stories and myths?",
-                                        "type":"boolean",
-                                        "formType":"checkbox"
-                                    },
-                                    "notes":{  
-                                        "order":2,
-                                        "type":"string",
-                                        "formType":"textarea"
-                                    }
-                                }
-                            },
-                            "authorJustifiesTheInclusionOfMyths":{  
-                                "order":2,
-                                "type":"dict",
-                                "schema":{  
-                                    "yes":{  
-                                        "order":1,
-                                        "documentation":"Is the inclusion of folk stories justified by the author?",
-                                        "type":"boolean",
-                                        "formType":"checkbox"
-                                    },
-                                    "notes":{  
-                                        "order":2,
-                                        "type":"string",
-                                        "formType":"textarea"
-                                    }
-                                }
-                            },
-                            "authorMentionsSources":{  
-                                "order":3,
-                                "type":"dict",
-                                "schema":{  
-                                    "fromTheStoriesOfElders":{  
-                                        "order":1,
-                                        "type":"boolean",
-                                        "formType":"checkbox"
-                                    },
-                                    "fromMinstrelsOrTroubadours":{  
-                                        "order":2,
-                                        "type":"boolean",
-                                        "formType":"checkbox"
-                                    },
-                                    "fromOtherChronicles":{  
-                                        "order":3,
-                                        "type":"boolean",
-                                        "formType":"checkbox"
-                                    },
-                                    "fromWrittenSources":{  
-                                        "order":4,
-                                        "type":"boolean",
-                                        "formType":"checkbox"
-                                    },
-                                    "fromSpecificPeople":{  
-                                        "order":5,
-                                        "type":"boolean",
-                                        "formType":"checkbox"
-                                    },
-                                    "fromOther":{  
-                                        "order":6,
-                                        "type":"boolean",
-                                        "formType":"checkbox"
-                                    },
-                                    "notes":{  
-                                        "order":7,
-                                        "type":"string",
-                                        "formType":"textarea"
-                                    }
-                                }
-                            }
-                        }
+                    'width': {
+                        'type': 'number',
+                        'documentation': "The width of the printed area in centimeters."
                     }
                 }
             },
-            "etymologies":{  
-                "order":3,
-                "type":"list",
-                "schema":{  
-                    "type":"dict",
-                    "schema":{  
-                        "etymologyText":{  
-                            "order":1,
-                            "type":"string",
-                            "documentation":"Enter the etymology in the text box.",
-                            "formType":"textarea"
-                        },
-                        "sectionOfTheChronicle":{  
-                            "order":2,
-                            "type":"string",
-                            "documentation":"In what section does this etymology occur?",
-                            "allowed":[  
-                                "preface/dedication",
-                                "biblical section",
-                                "folk history section",
-                                "distant documented past",
-                                "recent documented past",
-                                "very recent/present",
-                                "other"
-                            ],
-                            "formType":"select"
-                        },
-                        "etymonType":{  
-                            "order":3,
-                            "type":"string",
-                            "documentation":"What kind of etymology is it?",
-                            "allowed":[  
-                                "person name",
-                                "ruler name",
-                                "ethnonym",
-                                "country name",
-                                "city name",
-                                "river name",
-                                "place name (mountain, forest region, etc.)",
-                                "quality or description (action verb, adjective)",
-                                "social custom"
-                            ],
-                            "formType":"select"
-                        },
-                        "derivationAccordingToIsidore":{  
-                            "order":4,
-                            "type":"string",
-                            "documentation":"Derivation according to Isidore",
-                            "allowed":[  
-                                "ex origo",
-                                "ex causa",
-                                "ex contrario"
-                            ],
-                            "formType":"select"
-                        },
-                        "etymologyIsNotOriginal":{  
-                            "order":6,
-                            "type":"dict",
-                            "schema":{  
-                                "etymologyIsTakenFromAnotherSource":{  
-                                    "order":1,
-                                    "documentation":"Is the etymology taken from another source?",
-                                    "type":"boolean",
-                                    "formType":"checkbox"
-                                },
-                                "description":{  
-                                    "order":2,
-                                    "documentation":"If the etymology is taken from another source, what is the source?",
-                                    "type":"string",
-                                    "formType":"textarea"
-                                }
-                            }
-                        },
-                        "narrativeEtymologies":{  
-                            "order":7,
-                            "type":"dict",
-                            "schema":{  
-                                "etymologyHasRelatedStory":{  
-                                    "order":1,
-                                    "documentation":"Does the etymology have a related story or narrative?",
-                                    "type":"boolean",
-                                    "formType":"checkbox"
-                                },
-                                "description":{  
-                                    "order":2,
-                                    "documentation":"If the etymology has a related story/narrative, summarize the plot.",
-                                    "type":"string",
-                                    "formType":"textarea"
-                                }
-                            }
-                        },
-                        "etymologyAndSpeechAct":{  
-                            "order":8,
-                            "type":"dict",
-                            "schema":{  
-                                "etymologyInvolvesSpeechAct":{  
-                                    "order":1,
-                                    "documentation":"Does the etymology involve a speech act.",
-                                    "type":"boolean",
-                                    "formType":"checkbox"
-                                },
-                                "description":{  
-                                    "order":2,
-                                    "documentation":"If the etymology involves a speech act, detail it.",
-                                    "type":"string",
-                                    "formType":"textarea"
-                                }
-                            }
-                        },
-                        "sourceLanguage":{  
-                            "order":5,
-                            "type":"list",
-                            "schema":{  
-                                "type":"dict",
-                                "schema":{  
-                                    "sourceLanguage":{  
-                                        "type":"string",
-                                        "documentation":"Etymology's source language",
-                                        "allowed":[  
-                                            "Latin",
-                                            "Greek",
-                                            "Hebrew",
-                                            "Vernacular"
-                                        ],
-                                        "formType":"select",
-                                        "order":1
-                                    },
-                                    "vernacularLanguage":{  
-                                        "type":"string",
-                                        "documentation":"If the source language is vernacular, which type is it?",
-                                        "order":2
-                                    }
-                                }
-                            }
-                        }
+            'announcements': {
+                'type': 'list',
+                'schema': {
+                    'type': 'string',
+                    'formType': 'textarea',
+                    'maxlength': 2000,
+                    'documentation': ("The text of each announcement, as given by "
+                                      "the document, to be entered at the discretion "
+                                      "of the cataloger.")
+                }
+            },
+            'documentPrinter': {
+                'type': 'dict',
+                'schema': {
+                    'location': {
+                        'type': 'string',
+                        'maxlength': 700,
+                        'documentation': "The name of the printer."
+                    },
+                    'name': {
+                        'type': 'string',
+                        'maxlength': 700,
+                        'documentation': "The city where the document was printed."
                     }
                 }
             },
-            "authorsAndGoals":{  
-                "order":4,
-                "type":"dict",
-                "schema":{  
-                    "personalInfoAboutAuthor":{  
-                        "order":1,
-                        "type":"dict",
-                        "schema":{  
-                            "authorIsAnonymous":{  
-                                "order":0,
-                                "type":"boolean",
-                                "formType":"checkbox"
-                            },
-                            "authorName":{  
-                                "type":"string",
-                                "documentation":"If the author's name is known, what is it?",
-                                "order":1
-                            },
-                            "authorNickname":{  
-                                "type":"string",
-                                "documentation":"If the author's name is not known, what is their nickname (if they have one)?",
-                                "order":2
-                            },
-                            "authorOccupation":{  
-                                "type":"string",
-                                "documentation":"If the author's occupation is known, what is it?",
-                                "order":3
-                            },
-                            "authorEducation":{  
-                                "type":"string",
-                                "documentation":"If the author's education is known, select one:",
-                                "allowed":[  
-                                    "Church/chapter school",
-                                    "Monestary",
-                                    "University",
-                                    "Private",
-                                    "Other"
-                                ],
-                                "formType":"select",
-                                "order":4
-                            },
-                            "authorComposedOtherWorks":{  
-                                "type":"string",
-                                "documentation":"Has the author composed other works?",
-                                "allowed":[  
-                                    "yes",
-                                    "no",
-                                    "unknown"
-                                ],
-                                "formType":"select",
-                                "order":5
-                            },
-                            "otherWorks":{  
-                                "type":"string",
-                                "documentation":"If the author has composed other works, what are they?",
-                                "formType":"textarea",
-                                "order":6
-                            },
-                            "additionalNotes":{  
-                                "type":"string",
-                                "documentation":"If the author says anything else about his biography, what is it?",
-                                "formType":"textarea",
-                                "order":7
+
+            ################################ shows!
+
+            'shows': {
+                'type': 'list',
+                'schema': {
+                    'type': 'dict',
+                    'schema': {
+                        'date': {
+                            'type': 'datetime',
+                            'formType': 'date',
+                            'nullable': True,
+                            'documentation': ("The exact date of the performance. "
+                                             "For ranges of dates, create a separate Show "
+                                             "Record for each date.")
+                        },
+                        'doorsOpen': {
+                            'type': 'string', # or datetime?
+                            'maxlength': 700,
+                            'documentation': ("The time when doors open, if listed, using "
+                                             "a 24-hour clock.")
+                        },
+                        'location': {
+                            'type': 'string',
+                            'maxlength': 700,
+                            'documentation': ("The geographical location of the performance, "
+                                             "exactly as given by the document.")
+                        },
+                        'performanceBegins': {
+                            'type': 'string',
+                            'maxlength': 700,
+                            'documentation': ("The time when the performance begins, "
+                                             "using a 24-hour clock.")
+                        },
+                        'theaterCompany': {
+                            'type': 'string',
+                            'maxlength': 700,
+                            'documentation': ("The name of the theater company, exactly "
+                                             "as given by the document.")
+                        },
+                        'stageManager': {
+                            'type': 'string',
+                            'maxlength': 700,
+                            'documentation': ("The name of the stage manager, if present "
+                                             "in the document, exactly as given.")
+                        },
+                        'venue': {
+                            'type': 'string',
+                            'maxlength': 700,
+                            'documentation': ("The venue of the performance, exactly as "
+                                             "given by the document.")
+                        },
+                        'featuredAttractionsForShow': {
+                            'type': 'list',
+                            'schema': {
+                                'type': 'string',
+                                'maxlength': 2000,
+                                'documentation': ("Any featured attractions described in the "
+                                                 "document, exactly as given.")
                             }
-                        }
-                    },
-                    "causaAndModusScribendi":{  
-                        "order":2,
-                        "type":"dict",
-                        "schema":{  
-                            "authorTalksAboutTaskOfHistorian":{  
-                                "order":1,
-                                "type":"dict",
-                                "schema":{  
-                                    "yes":{  
-                                        "order":1,
-                                        "type":"boolean",
-                                        "formType":"checkbox"
+                        },
+                        'notes': {
+                            'type': 'list',
+                            'schema': {
+                                'type': 'string',
+                                'formType': 'textarea',
+                                'maxlength': 2000,
+                                'documentation': ("Notes describing compelling or otherwise "
+                                                 "important details from the document that "
+                                                 "will not be captured by any other field.")
+                            }
+                        },
+                        'occasions': {
+                            'type': 'list',
+                            'schema': {
+                                'type': 'dict',
+                                'schema': {
+                                    'occasionAsStated': {
+                                        'type': 'string',
+                                        'maxlength': 700,
+                                        'documentation': ("The occasion for an occasional "
+                                                         "performance, exactly as given "
+                                                         "by the document.")
                                     },
-                                    "description":{  
-                                        "order":2,
-                                        "documentation":"If the author says anything about his understanding of a historian's task, what does he say?",
-                                        "type":"string",
-                                        "formType":"textarea"
+                                    'occasionType': {
+                                        'type': 'string',
+                                        'formType': 'select',
+                                        'allowed': ["", "Command Performance",
+                                                    "Benefit Performance",
+                                                    "Charitable Benefit Performance",
+                                                    "Occasional Performance"],
+                                        'maxlength': 700,
+                                        'documentation': ("The type of occasional performance. "
+                                                         "One of Command performance / "
+                                                         "Benefit Performance / Charitable "
+                                                         "Benefit Performance / Occasional "
+                                                         "Performance.")
+                                    },
+                                    'beneficiary': {
+                                        'type': 'list',
+                                        'schema': {
+                                            'type': 'string',
+                                            'maxlength': 700,
+                                            'documentation': ("One or more people, ideally "
+                                                             "denoted by URIs from a "
+                                                             "controlled vocabulary.")
+                                            #'dependencies': {
+                                            #    'occasionType': {
+                                            #        ['Benefit Performance', 'Charitable Benefit \
+                                            #        Performance']
+                                            #    }
+                                            #}
+                                        }
+                                    },
+                                    'occasioner': {
+                                        'type': 'list',
+                                        'schema': {
+                                            'type': 'string',
+                                            'maxlength': 700,
+                                            'documentation': ("One or more people, ideally "
+                                                              "denoted by URIs from a "
+                                                              "controlled vocabulary.")
+                                            #'dependencies': {
+                                            #    'occasionType': {
+                                            #        ['Command Performance',
+                                            #          'Occasional Performance']
+                                            #    }
+                                            #}
+                                        }
                                     }
                                 }
-                            },
-                            "authorTalksAboutTruth":{  
-                                "order":2,
-                                "type":"dict",
-                                "schema":{  
-                                    "yes":{  
-                                        "order":1,
-                                        "type":"boolean",
-                                        "formType":"checkbox"
+                            }
+                        },
+                        'performances': {
+                            'type': 'list',
+                            'schema': {
+                                'type': 'dict',
+                                'schema': {
+                                    'orderOfPerformance': {
+                                        'order': 1,
+                                        'type': 'integer',
+                                        'nullable': True,
+                                        'documentation': ("An integer describing the position "
+                                                          "of this performance within the "
+                                                          "larger show. Starts at 1. "
+                                                          "Interpolations should be numbered in "
+                                                          "order, and are assumed to occur "
+                                                          "within the last full piece listed.")
                                     },
-                                    "description":{  
-                                        "order":2,
-                                        "documentation":"If the author talks about truth being important for a historian, what does he say?",
-                                        "type":"string",
-                                        "formType":"textarea"
+                                    'title': {
+                                        'order': 2,
+                                        'type': 'string',
+                                        'maxlength': 700,
+                                        'documentation': ("The title of the work being "
+                                                          "performed, exactly as given by the "
+                                                          "document.")
+                                    },
+                                    'timePerformedInSeason': {
+                                        'order': 3,
+                                        'type': 'integer',
+                                        'nullable': True,
+                                        'documentation': ("The number of times this play has "
+                                                          "been performed in the current season. "
+                                                          "E.g. when a playbill announces \"for "
+                                                          "the third time this season\" enter 3. ")
+                                    },
+                                    'playbillGenreClaim': {
+                                        'order': 4,
+                                        'type': 'string',
+                                        'maxlength': 700,
+                                        'documentation': ("The genre claim, exactly as given "
+                                                          "by the document.")
+                                    },
+                                    'ourGenreAttribution': {
+                                        'order': 5,
+                                        'type': 'list',
+                                        'schema': {
+                                            'type': 'string',
+                                            'formType': 'select',
+                                            'allowed': [
+                                                '',
+                                                'Address',
+                                                'Ballet',
+                                                'Burlesque',
+                                                'Burletta',
+                                                'Comedy',
+                                                'Comic Opera',
+                                                'Drama',
+                                                'Farce',
+                                                'Interlude',
+                                                'Melodrama',
+                                                'Opera',
+                                                'Pantomime',
+                                                'Play',
+                                                'Tragedy ',
+                                            ],
+                                            'maxlength': 700,
+                                            'documentation': ("The genre tag assigned to this play. Whereas "
+                                                              "\"Genre Claim\" records the playbill's claim "
+                                                              "about a given play's genre, this category reflects "
+                                                              "the cataloger's judgment, and provides a controlled "
+                                                              "genre vocabulary.")
+                                        },
+                                    },
+                                    'contributors': {
+                                        'order': 6,
+                                        'type': 'list',
+                                        'schema': {
+                                            'type': 'dict',
+                                            'schema': {
+                                                'contributorName': {
+                                                    'type': 'string',
+                                                    'maxlength': 700,
+                                                    'documentation': ("The name of the "
+                                                                     "contributor.")
+                                                },
+                                                'contributorType': {
+                                                    'type': 'string',
+                                                    'maxlength': 700,
+                                                    'documentation': ("The type of "
+                                                                      "contributor e.g. Scene "
+                                                                      "Painter, Director, "
+                                                                      "etc.")
+                                                    #'allowed': ["Playwright", "Composer",
+                                                    #            "Scene Painter",
+                                                    #            "Dance Master",
+                                                    #            "Set Designer"]
+                                                }
+                                            }
+                                        }
+                                    },
+                                    'featuredAttractions': {
+                                        'order': 7,
+                                        'type': 'list',
+                                        'schema': {
+                                            'type': 'dict',
+                                            'schema': {
+                                                'attraction': {
+                                                    'type': 'string',
+                                                    'maxlength': 2000,
+                                                    'documentation': ("Any featured "
+                                                                      "attractions described "
+                                                                      "in the document, "
+                                                                      "exactly as given.")
+                                                },
+                                                'isInterpolation': {
+                                                    'type': 'boolean',
+                                                    'required': True,
+                                                    'formType': 'checkbox',
+                                                    'documentation': ("An indicator set to "
+                                                                      "true if the document "
+                                                                      "identifies this as an "
+                                                                      "interpolation within "
+                                                                      "the larger performance.")
+                                                }
+                                            }
+                                        }
+                                    },
+                                    'performers': {
+                                        'order': 8,
+                                        'type': 'list',
+                                        'schema': {
+                                            'type': 'dict',
+                                            'schema': {
+                                                'performerName': {
+                                                    'type': 'string',
+                                                    'maxlength': 700,
+                                                    'documentation': ("The name of the "
+                                                                      "performer.")
+                                                },
+                                                'roleNotes': {
+                                                    'type': 'string',
+                                                    'maxlength': 700,
+                                                    'documentation': ("Notes on the role or "
+                                                                      "performer, exactly as "
+                                                                      "given by the document.")
+                                                },
+                                                'role': {
+                                                    'type': 'string',
+                                                    'maxlength': 700,
+                                                    'documentation': ("The name of the "
+                                                                      "performer's role.")
+                                                },
+                                                'newPerformerNotes': {
+                                                    'type': 'dict',
+                                                    'schema': {
+                                                        'newPerformer': {
+                                                            'type': 'boolean',
+                                                            'formType': 'checkbox',
+                                                            'documentation': ("An indicator "
+                                                                              "set to true if "
+                                                                              "the document "
+                                                                              "identifies this "
+                                                                              "as the "
+                                                                              "performer's "
+                                                                              "first "
+                                                                              "appearance at "
+                                                                              "this venue.")
+                                                        },
+                                                        'newPerformerOrigin': {
+                                                            'type': 'string',
+                                                            'maxlength': 700,
+                                                            'documentation': ("The performer's "
+                                                                              "previous venue, "
+                                                                              "if given by the "
+                                                                              "document, and if "
+                                                                              "the document "
+                                                                              "identifies this "
+                                                                              "as the "
+                                                                              "performer's "
+                                                                              "first "
+                                                                              "appearance at "
+                                                                              "this venue.")
+                                                        },
+                                                        'newRole': {
+                                                            'type': 'boolean',
+                                                            'formType': 'checkbox',
+                                                            'documentation': ("An indicator "
+                                                                              "set to true if "
+                                                                              "the document "
+                                                                              "identifies this "
+                                                                              "as the "
+                                                                              "performer's "
+                                                                              "first "
+                                                                              "appearance in "
+                                                                              "this role.")
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
                                     }
                                 }
-                            },
-                            "authorTalksAboutReasonForWriting":{  
-                                "order":3,
-                                "type":"dict",
-                                "schema":{  
-                                    "yes":{  
-                                        "order":1,
-                                        "type":"boolean",
-                                        "formType":"checkbox"
-                                    },
-                                    "description":{  
-                                        "documentation":"If the author gives a reason for writing his work, what does he say?",
-                                        "order":2,
-                                        "type":"string",
-                                        "formType":"textarea"
-                                    }
+                            }
+                        },
+                        'ticketing': {
+                            'type': 'dict',
+                            'schema': {
+                                'currency': {
+                                    'type': 'string',
+                                    'maxlength': 700,
+                                    'documentation': ("The national currency in use. Currently "
+                                                      "one of UK / US.")
+                                },
+                                'boxPrice': {
+                                    'type': 'number', # could also be float or integer
+                                    'nullable': True,
+                                    'documentation': ("The cost of a box seat, as measured "
+                                                      "using the smallest possible unit of "
+                                                      "currency.")
+                                },
+                                'secondBoxPrice': {
+                                    'type': 'number',
+                                    'nullable': True,
+                                    'documentation': ("The cost of a second box seat, as "
+                                                      "measured using the smallest possible "
+                                                      "unit of currency.")
+                                },
+                                'pitPrice': {
+                                    'type': 'number',
+                                    'nullable': True,
+                                    'documentation': ("The cost of a pit seat, as measured "
+                                                      "using the smallest possible unit "
+                                                      "of currency.")
+                                },
+                                'secondPitPrice': {
+                                    'type': 'number',
+                                    'nullable': True,
+                                    'documentation': ("The cost of a second pit seat, as "
+                                                      "measured using the smallest possible "
+                                                      "unit of currency.")
+                                },
+                                'galleryPrice': {
+                                    'type': 'number',
+                                    'nullable': True,
+                                    'documentation': ("The cost of a second pit seat, as "
+                                                      "measured using the smallest possible "
+                                                      "unit of currency.")
+                                },
+                                'secondGalleryPrice': {
+                                    'type': 'number',
+                                    'nullable': True,
+                                    'documentation': ("The cost of a second gallery seat, as "
+                                                      "measured using the smallest possible "
+                                                      "unit of currency.")
+                                },
+                                'upperGalleryPrice': {
+                                    'type': 'number',
+                                    'nullable': True,
+                                    'documentation': ("The cost of a upper gallery seat, as "
+                                                      "measured using the smallest possible "
+                                                      "unit of currency.")
+                                },
+                                'secondUpperGalleryPrice': {
+                                    'type': 'number',
+                                    'nullable': True,
+                                    'documentation': ("The cost of a second upper gallery seat, "
+                                                      "as measured using the smallest possible "
+                                                      "unit of currency.")
+                                },
+                                'toBeHad': {
+                                    'type': 'string',
+                                    'maxlength': 700,
+                                    'documentation': ("The name of the ticketing agent or "
+                                                      "agents.")
+                                },
+                                'ticketingNotes': {
+                                    'type': 'string',
+                                    'maxlength': 700,
+                                    'documentation': ("Additional notes about ticketing.")
                                 }
-                            },
-                            "authorTalksAboutIntendedAudience":{  
-                                "order":4,
-                                "type":"dict",
-                                "schema":{  
-                                    "yes":{  
-                                        "order":1,
-                                        "type":"boolean",
-                                        "formType":"checkbox"
-                                    },
-                                    "description":{  
-                                        "order":2,
-                                        "documentation":"If the author mentions the intended audience, what does he say?",
-                                        "type":"string",
-                                        "formType":"textarea"
-                                    }
-                                }
-                            },
-                            "authorTalksAboutReliabilityOfSources":{  
-                                "order":5,
-                                "type":"dict",
-                                "schema":{  
-                                    "yes":{  
-                                        "order":1,
-                                        "type":"boolean",
-                                        "formType":"checkbox"
-                                    },
-                                    "description":{  
-                                        "order":2,
-                                        "documentation":"If the author shows awareness of the reliability of sources, what does he say?",
-                                        "type":"string",
-                                        "formType":"textarea"
-                                    }
-                                }
-                            },
-                            "authorTalksAboutImportanceOfLanguage":{  
-                                "order":6,
-                                "type":"dict",
-                                "schema":{  
-                                    "yes":{  
-                                        "order":1,
-                                        "documentation":"Is the inclusion of folk stories justified by the author?",
-                                        "type":"boolean",
-                                        "formType":"checkbox"
-                                    },
-                                    "description":{  
-                                        "order":2,
-                                        "documentation":"If the author acknowledges the importance of language and/or grammar, what does he say?",
-                                        "type":"string",
-                                        "formType":"textarea"
-                                    }
-                                }
-                            },
-                            "authorTalksAboutGrammarians":{  
-                                "order":7,
-                                "type":"dict",
-                                "schema":{  
-                                    "yes":{  
-                                        "order":1,
-                                        "type":"boolean",
-                                        "formType":"checkbox"
-                                    },
-                                    "description":{  
-                                        "order":2,
-                                        "documentation":"If the author refers to grammarians or other scholars, who does he refer to?",
-                                        "type":"string",
-                                        "formType":"textarea"
-                                    }
-                                }
-                            },
-                            "authorTalksAboutHisOwnWriting":{  
-                                "order":8,
-                                "type":"dict",
-                                "schema":{  
-                                    "yes":{  
-                                        "order":1,
-                                        "type":"boolean",
-                                        "formType":"checkbox"
-                                    },
-                                    "description":{  
-                                        "order":2,
-                                        "documentation":"If the author comments about his own language, style, or research skills, what does he say?",
-                                        "type":"string",
-                                        "formType":"textarea"
-                                    }
-                                }
-                            },
-                            "authorUsesVerbsThatSignifyResearch":{  
-                                "order":9,
-                                "type":"dict",
-                                "schema":{  
-                                    "yes":{  
-                                        "order":1,
-                                        "type":"boolean",
-                                        "formType":"checkbox"
-                                    },
-                                    "description":{  
-                                        "order":2,
-                                        "documentation":"If the author uses any 'intellectual verbs' that signify research ('learn, study'), what does he say?",
-                                        "type":"string",
-                                        "formType":"textarea"
-                                    }
-                                }
-                            },
-                            "authorTalksAboutSimplicityAsPositive":{  
-                                "order":10,
-                                "type":"dict",
-                                "schema":{  
-                                    "yes":{  
-                                        "order":1,
-                                        "type":"boolean",
-                                        "formType":"checkbox"
-                                    },
-                                    "description":{  
-                                        "order":2,
-                                        "documentation":"If the author mentions simplicity of style as a positive feature, what does he say?",
-                                        "type":"string",
-                                        "formType":"textarea"
-                                    }
-                                }
-                            },
-                            "authorTalksAboutClarityAsPositive":{  
-                                "order":11,
-                                "type":"dict",
-                                "schema":{  
-                                    "yes":{  
-                                        "order":1,
-                                        "type":"boolean",
-                                        "formType":"checkbox"
-                                    },
-                                    "description":{  
-                                        "order":2,
-                                        "documentation":"If the author mentions clarity of style as a positive feature, what does he say?",
-                                        "type":"string",
-                                        "formType":"textarea"
-                                    }
-                                }
-                            },
-                            "authorTalksAboutBrevityAsPositive":{  
-                                "order":12,
-                                "type":"dict",
-                                "schema":{  
-                                    "yes":{  
-                                        "order":1,
-                                        "type":"boolean",
-                                        "formType":"checkbox"
-                                    },
-                                    "description":{  
-                                        "order":2,
-                                        "documentation":"If the author mentions brevity as a positive feature, what does he say?",
-                                        "type":"string",
-                                        "formType":"textarea"
-                                    }
-                                }
-                            },
-                            "authorComparesHisWorkToOthers":{  
-                                "order":13,
-                                "type":"dict",
-                                "schema":{  
-                                    "yes":{  
-                                        "order":1,
-                                        "type":"boolean",
-                                        "formType":"checkbox"
-                                    },
-                                    "description":{  
-                                        "order":2,
-                                        "documentation":"If the author compares his work/style to others, who?",
-                                        "type":"string",
-                                        "formType":"textarea"
-                                    }
-                                }
-                            },
-                            "authorTalksAboutCriticismFromOthers":{  
-                                "order":14,
-                                "type":"dict",
-                                "schema":{  
-                                    "yes":{  
-                                        "order":1,
-                                        "type":"boolean",
-                                        "formType":"checkbox"
-                                    },
-                                    "description":{  
-                                        "order":2,
-                                        "documentation":"If the author says anything about other historians or those who might judge him, what does he say?",
-                                        "type":"string",
-                                        "formType":"textarea"
-                                    }
-                                }
-                            },
-                            "authorTalksAboutBeingRidiculed":{  
-                                "order":15,
-                                "type":"dict",
-                                "schema":{  
-                                    "yes":{  
-                                        "order":1,
-                                        "type":"boolean",
-                                        "formType":"checkbox"
-                                    },
-                                    "description":{  
-                                        "order":2,
-                                        "documentation":"If the author mentions a possibility of being ridiculed or laughed at, what does he say?",
-                                        "type":"string",
-                                        "formType":"textarea"
-                                    }
-                                }
-                            },
-                            "authorAppealsToAddresseeToAcceptHisWork":{  
-                                "order":16,
-                                "type":"dict",
-                                "schema":{  
-                                    "yes":{  
-                                        "order":1,
-                                        "type":"boolean",
-                                        "formType":"checkbox"
-                                    },
-                                    "description":{  
-                                        "order":2,
-                                        "documentation":"If the author appeals to his addressee or reader to accept his work, what does he say?",
-                                        "type":"string",
-                                        "formType":"textarea"
-                                    }
-                                }
-                            },
-                            "additionalCommentsAboutCausaAndModusScribendi":{  
-                                "order":16,
-                                "type":"string",
-                                "formType":"textarea"
                             }
                         }
                     }

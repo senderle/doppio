@@ -1,0 +1,311 @@
+{
+  "ephemeralRecord": {
+    "archiveHoldingDocument": "British Library",
+    "callNumber": "lsidyv41bb5658",
+    "containingCollection": "",
+    "dataCataloger": "Louie",
+    "dimensions": "",
+    "documentType": "Playbill",
+    "pageNumber": "63",
+    "periodicalTitle": "",
+    "persistentUrl": "",
+    "printedArea": "",
+    "advertisements": [
+      ""
+    ],
+    "announcements": [
+      ""
+    ],
+    "documentPrinter": {
+      "location": "St. Peter's Gate, Nottingham",
+      "name": "E. Hodson"
+    },
+    "shows": [
+      {
+        "date": "1815-10-18",
+        "doorsOpen": "18:00",
+        "location": "Nottingham",
+        "performanceBegins": "19:00",
+        "stageManager": "",
+        "theaterCompany": "",
+        "venue": "Riding School, Near the castle, Nottingham",
+        "featuredAttractionsForShow": [
+          "Horsemanship by the whole Troop",
+          "Equilibriums on the Slack Wire, by the Child of Promise",
+          "The much admired Indian War Dance & Combat, which was performed at Astley's upwards of 100 nights.",
+          "A Grand Gingling Match, a contest between twelve men, blindfold, for a silver watch. In case the Clown should not be caught in 10 minutes, he is entitled to the watch.",
+          "Tight rope dancing, by Mr. Thomas. Who will jump over whips, hats, handkerchief, two carters, over a body of fire, and will dance with a boy at each foot, and conclude with his wonderful back summerset.",
+          "The much admired Pony Races.",
+          "Mr. Thomas, the celebrated Flying Horseman, will go through his wonderful Act of Horsemanship, in which he stands classed the First in the Kingdom.",
+          "Running and Battute Vaulting."
+        ],
+        "notes": [
+          ""
+        ],
+        "occasions": [
+          {
+            "occasionAsStated": "For the benefit of Mr. Thomas",
+            "occasionType": "Benefit Performance",
+            "beneficiary": [
+              "Mr. Thomas"
+            ],
+            "occasioner": [
+              ""
+            ]
+          }
+        ],
+        "performances": [
+          {
+            "genreClaim": "",
+            "kindOfPerformance": "",
+            "orderOfPerformance": "",
+            "title": "",
+            "contributors": [
+              {
+                "contributorName": "",
+                "contributorType": ""
+              }
+            ],
+            "featuredAttractions": [
+              {
+                "attraction": "",
+                "isInterpolation": false
+              }
+            ],
+            "performers": [
+              {
+                "performerName": "",
+                "role": "",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              }
+            ]
+          }
+        ],
+        "ticketing": {
+          "boxPrice": "36",
+          "currency": "UK",
+          "galleryPrice": "12",
+          "pitPrice": "24",
+          "secondBoxPrice": "",
+          "secondGalleryPrice": "",
+          "secondPitPrice": "",
+          "secondUpperGalleryPrice": "",
+          "ticketingNotes": "Children under 12 years of age, half price",
+          "toBeHad": "Tickets to be had of Mr. THomas, at the Riding School, and at the Malt Cross, St. James Street.",
+          "upperGalleryPrice": ""
+        }
+      },
+      {
+        "date": "1815-10-18",
+        "doorsOpen": "18:00",
+        "location": "Nottingham",
+        "performanceBegins": "19:00",
+        "stageManager": "",
+        "theaterCompany": "",
+        "venue": "Riding School, near the castle, Nottingham",
+        "featuredAttractionsForShow": [
+          ""
+        ],
+        "notes": [
+          ""
+        ],
+        "occasions": [
+          {
+            "occasionAsStated": "For the benefit of Mr. Thomas",
+            "occasionType": "Benefit Performance",
+            "beneficiary": [
+              "Mr. Thomas"
+            ],
+            "occasioner": [
+              ""
+            ]
+          }
+        ],
+        "performances": [
+          {
+            "genreClaim": "Pantomimical Equestrian Spectacle",
+            "kindOfPerformance": "Main Piece",
+            "orderOfPerformance": "1",
+            "title": "Walliric the Lion, or, Blood Will Have Blood",
+            "contributors": [
+              {
+                "contributorName": "Mr. Auld",
+                "contributorType": "Producer"
+              }
+            ],
+            "featuredAttractions": [
+              {
+                "attraction": "In which all the horses will appear",
+                "isInterpolation": false
+              },
+              {
+                "attraction": "A Grand Procession by Real Horses",
+                "isInterpolation": false
+              }
+            ],
+            "performers": [
+              {
+                "performerName": "Mr. Auld",
+                "role": "Walliric, (the Lion)",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. C. Adams",
+                "role": "Mauleon, (his Attendant)",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. R. Adams",
+                "role": "Henry of Almaigne",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Smith",
+                "role": "Robann",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Roberts",
+                "role": "Uberto",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Moon",
+                "role": "Vassalano",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Whitehouse",
+                "role": "Warino",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Lloyd",
+                "role": "Stiletto",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Moon",
+                "role": "The Fair Rosalie, (betrothed to Henry of Almaigne)",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. C. Adams",
+                "role": "Urilda",
+                "roleNotes": "(Betrayed by a promise of marriage, by Walliric)",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Master H. Adams",
+                "role": "Carloman, (Ulrida and Walliric's Child)",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              }
+            ]
+          },
+          {
+            "genreClaim": "Scene",
+            "kindOfPerformance": "After Piece",
+            "orderOfPerformance": "2",
+            "title": "Timour the Tartar",
+            "contributors": [
+              {
+                "contributorName": "Mr. Auld",
+                "contributorType": "Producer"
+              }
+            ],
+            "featuredAttractions": [
+              {
+                "attraction": "In which will be representation of a complete field of battle, horse and foot engaged, --- the horses leap at waterfalls, --- scale ramparts, --- a breach made in the castle, the horses leap through the breach; and still more wonderful, their dying scene, in which the agonies of expiring animals are so wonderfully depicted.",
+                "isInterpolation": false
+              }
+            ],
+            "performers": [
+              {
+                "performerName": "",
+                "role": "",
+                "roleNotes": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              }
+            ]
+          }
+        ],
+        "ticketing": {
+          "boxPrice": "36",
+          "currency": "UK",
+          "galleryPrice": "12",
+          "pitPrice": "24",
+          "secondBoxPrice": "",
+          "secondGalleryPrice": "",
+          "secondPitPrice": "",
+          "secondUpperGalleryPrice": "",
+          "ticketingNotes": "Children under 12 years of age, half price",
+          "toBeHad": "Tickets to be had of Mr. Thomas, at the riding school, and at the Malt Cross, St. James Streem",
+          "upperGalleryPrice": ""
+        }
+      }
+    ]
+  }
+}

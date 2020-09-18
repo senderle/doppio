@@ -1,0 +1,376 @@
+{
+  "ephemeralRecord": {
+    "archiveHoldingDocument": "British Library",
+    "callNumber": "lsidyv41bb21dc",
+    "containingCollection": "",
+    "dataCataloger": "Louie",
+    "dimensions": "",
+    "documentType": "Playbill",
+    "periodicalTitle": "",
+    "persistentUrl": "",
+    "printedArea": "",
+    "advertisements": [
+      ""
+    ],
+    "announcements": [
+      "In consequence of the very limited Season in Ross, not extending more than six weeks, the following new pieces are in active preparation, and will be splendidly produced. The Enchanted Castle; or Sleeping Beauty. with Scenery, Machinery and Decorations, Peter Wilkins; or the flying Indians. Bottle Imp. Devil's Elixir. Pilot, &c. &c. ",
+      "Days of performing next Week, Monday, Wednesday, and Friday,"
+    ],
+    "documentPrinter": {
+      "location": "Ross",
+      "name": "W. Farror, Printer,"
+    },
+    "shows": [
+      {
+        "date": "1829-06-26",
+        "doorsOpen": "18:00",
+        "location": "Ross",
+        "performanceBegins": "19:00",
+        "theaterCompany": "",
+        "venue": "Theatre Ross",
+        "featuredAttractionsForShow": [
+          ""
+        ],
+        "notes": [
+          ""
+        ],
+        "occasions": [
+          {
+            "occasionAsStated": "BY DESIRE, And under the Immediate Patronage of Colonel CRAWFORD, OF GOODRICH.",
+            "occasionType": "Command Performance",
+            "beneficiary": [
+              ""
+            ],
+            "occasioner": [
+              "Colonel CRAWFORD, OF GOODRICH"
+            ]
+          }
+        ],
+        "performances": [
+          {
+            "genreClaim": "",
+            "kindOfPerformance": "Main Piece",
+            "orderOfPerformance": "1",
+            "title": "RIVALS; Or, a trip to Bath",
+            "contributors": [
+              {
+                "contributorName": "Sheridan",
+                "contributorType": "Playwright"
+              },
+              {
+                "contributorName": "Mr. Dyer",
+                "contributorType": "Stage Manager"
+              }
+            ],
+            "featuredAttractions": [
+              ""
+            ],
+            "performers": [
+              {
+                "performerName": "Mr. Dyer",
+                "performerNotes": "",
+                "role": "Captain Absolute",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Grainger",
+                "performerNotes": "",
+                "role": "Sir Anthony Absolute",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Hazelton",
+                "performerNotes": "",
+                "role": "Faulkland",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Lockwood",
+                "performerNotes": "",
+                "role": "Sir Lucious O'Tregger",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Spray",
+                "performerNotes": "",
+                "role": "David",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Burdett",
+                "performerNotes": "",
+                "role": "Fag",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Mildenhall",
+                "performerNotes": "",
+                "role": "Acres",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Greig",
+                "performerNotes": "",
+                "role": "Lydia Languish",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Lockwood",
+                "performerNotes": "",
+                "role": "Julia",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Walton",
+                "performerNotes": "",
+                "role": "Mrs. Malaprop",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Dyer",
+                "performerNotes": "",
+                "role": "Lucy",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              }
+            ]
+          },
+          {
+            "genreClaim": "",
+            "kindOfPerformance": "Interlude",
+            "orderOfPerformance": "2",
+            "title": "Buy a Broom",
+            "contributors": [
+              {
+                "contributorName": "Mr. Dyer",
+                "contributorType": "Stage Manager"
+              }
+            ],
+            "featuredAttractions": [
+              ""
+            ],
+            "performers": [
+              {
+                "performerName": "Mrs. Dyer",
+                "performerNotes": "",
+                "role": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              }
+            ]
+          },
+          {
+            "genreClaim": "Song",
+            "kindOfPerformance": "Interlude",
+            "orderOfPerformance": "3",
+            "title": "The King God bless him",
+            "contributors": [
+              {
+                "contributorName": "Mr. Dyer",
+                "contributorType": "Stage Manager"
+              }
+            ],
+            "featuredAttractions": [
+              ""
+            ],
+            "performers": [
+              {
+                "performerName": "Mr. Lockwood",
+                "performerNotes": "",
+                "role": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              }
+            ]
+          },
+          {
+            "genreClaim": "Song",
+            "kindOfPerformance": "Interlude",
+            "orderOfPerformance": "4",
+            "title": "",
+            "contributors": [
+              {
+                "contributorName": "Mr. Dyer",
+                "contributorType": "Stage Manager"
+              }
+            ],
+            "featuredAttractions": [
+              ""
+            ],
+            "performers": [
+              {
+                "performerName": "Mr. Mildenhall",
+                "performerNotes": "",
+                "role": "",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              }
+            ]
+          },
+          {
+            "genreClaim": "Farce",
+            "kindOfPerformance": "After Piece",
+            "orderOfPerformance": "5",
+            "title": "Ways and Means; OR, A TRIP TO DOVER.",
+            "contributors": [
+              {
+                "contributorName": "Colman",
+                "contributorType": "Playwright"
+              },
+              {
+                "contributorName": "Mr. Dyer",
+                "contributorType": "Stage Manager"
+              }
+            ],
+            "featuredAttractions": [
+              ""
+            ],
+            "performers": [
+              {
+                "performerName": "Mr. Dyer",
+                "performerNotes": "",
+                "role": "Random",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Hazelton",
+                "performerNotes": "",
+                "role": "Scruple",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Mildenhall",
+                "performerNotes": "",
+                "role": "Tiptoe",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Burdett",
+                "performerNotes": "",
+                "role": "Paul Peery",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mr. Grainger",
+                "performerNotes": "",
+                "role": "Sir David Dander",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Dyer",
+                "performerNotes": "",
+                "role": "Kitty",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Lockwood",
+                "performerNotes": "",
+                "role": "Harriet",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              },
+              {
+                "performerName": "Mrs. Walton",
+                "performerNotes": "",
+                "role": "Lady Dander",
+                "newPerformerNotes": {
+                  "newPerformer": false,
+                  "newPerformerOrigin": "",
+                  "newRole": false
+                }
+              }
+            ]
+          }
+        ],
+        "ticketing": {
+          "boxPrice": "36",
+          "costsOrFees": "",
+          "currency": "UK",
+          "galleryPrice": "12",
+          "toBeHad": "Tickets and Places for the Boxes, may be had of Mr. Farror, and of Mr. Mildenhall, at Mrs. Jones' New Street.",
+          "totalReceipts": "",
+          "upperGalleryPrice": ""
+        }
+      }
+    ]
+  }
+}
