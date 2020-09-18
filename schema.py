@@ -249,6 +249,34 @@ main_schema = {
                             'schema': {
                                 'type': 'dict',
                                 'schema': {
+                                    'orderOfPerformance': {
+                                        'order': 1,
+                                        'type': 'integer',
+                                        'nullable': True,
+                                        'documentation': ("An integer describing the position "
+                                                          "of this performance within the "
+                                                          "larger show. Starts at 1. "
+                                                          "Interpolations should be numbered in "
+                                                          "order, and are assumed to occur "
+                                                          "within the last full piece listed.")
+                                    },
+                                    'title': {
+                                        'order': 2,
+                                        'type': 'string',
+                                        'maxlength': 700,
+                                        'documentation': ("The title of the work being "
+                                                          "performed, exactly as given by the "
+                                                          "document.")
+                                    },
+                                    'timePerformedInSeason': {
+                                        'order': 3,
+                                        'type': 'integer',
+                                        'nullable': True,
+                                        'documentation': ("The number of times this play has "
+                                                          "been performed in the current season. "
+                                                          "E.g. when a playbill announces \"for "
+                                                          "the third time this season\" enter 3. ")
+                                    },
                                     'playbillGenreClaim': {
                                         'order': 4,
                                         'type': 'string',
@@ -286,25 +314,6 @@ main_schema = {
                                                               "the cataloger's judgment, and provides a controlled "
                                                               "genre vocabulary.")
                                         },
-                                    },
-                                    'orderOfPerformance': {
-                                        'order': 2,
-                                        'type': 'integer',
-                                        'nullable': True,
-                                        'documentation': ("An integer describing the position "
-                                                          "of this performance within the "
-                                                          "larger show. Starts at 1. "
-                                                          "Interpolations should be numbered in "
-                                                          "order, and are assumed to occur "
-                                                          "within the last full piece listed.")
-                                    },
-                                    'title': {
-                                        'order': 3,
-                                        'type': 'string',
-                                        'maxlength': 700,
-                                        'documentation': ("The title of the work being "
-                                                          "performed, exactly as given by the "
-                                                          "document.")
                                     },
                                     'contributors': {
                                         'order': 6,
