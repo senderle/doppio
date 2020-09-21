@@ -1,4 +1,14 @@
-import click, json, os, shutil, pymongo, getpass, bcrypt
+import click
+import json
+import os
+import shutil
+import pymongo
+import getpass
+import bcrypt
+import yaml
+
+from pathlib import Path
+
 from settings import EVE_MAIN_COLLECTION, STATIC_URL_PATH
 from bson import json_util, ObjectId
 
@@ -70,10 +80,12 @@ def init_cli(app):
             #filename = '%s/item%d.json' % (dir,i)
 
             # Use object id as filename
-            filename = dir + '/' + str(doc['_id']) + '.json'
+            # filename = dir + '/' + str(doc['_id']) + '.json'
+            filename = dir + '/' + str(doc['_id']) + '.yaml'
 
             with open(filename, 'w') as outfile:
-                outfile.write(json_util.dumps(doc))
+                # outfile.write(json_util.dumps(doc))
+                outfile.write(yaml.dump(doc))
 
             i += 1
 
@@ -96,10 +108,12 @@ def init_cli(app):
         for file in os.listdir(dir):
             filename = dir + '/' + os.fsdecode(file)
 
-            if filename.endswith(".json"):
+            ext = Path(filename).suffix
+            if ext in ('.json', '.yaml', '.yml'):
+                item_load = json_util.loads if ext == '.json' else yaml.load
                 with open(filename, 'r') as f:
                     try:
-                        item_json = json_util.loads(f.read())
+                        item_json = item_load(f.read())
                         collection.insert_one(item_json)
                         i += 1
                     except pymongo.errors.DuplicateKeyError:

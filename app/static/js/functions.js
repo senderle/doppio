@@ -261,6 +261,8 @@ function pruning(json) {
 }
 
 function jsonToFilename(json) {
+    // Old naming pattern:
+
     // var venue = json.ephemeralRecord.shows[0].venue;
     // var date = json.ephemeralRecord.shows[0].date;
     // var title = json.ephemeralRecord.shows[0].performances[0].title;
@@ -276,15 +278,21 @@ function jsonToFilename(json) {
 
     // var filename = toId(tojoin.join(' '));
     // filename = filename === '' ? 'empty-record.json' : filename + '.json'; 
-    var today = new Date();
-    var dd = String(today.getDate()).padStart(2, '0');
-    var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
-    var yyyy = today.getFullYear();
-    var hh = String(today.getHours()).padStart(2, '0');
-    var MM = String(today.getMinutes()).padStart(2, '0');
-    var ss = String(today.getSeconds()).padStart(2, '0');
 
-    filename = yyyy + '-' + mm + '-' + dd + '-' + hh + '-' + MM + '-' + ss;
+    // Date naming pattern:
+
+    // var today = new Date();
+    // var dd = String(today.getDate()).padStart(2, '0');
+    // var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+    // var yyyy = today.getFullYear();
+    // var hh = String(today.getHours()).padStart(2, '0');
+    // var MM = String(today.getMinutes()).padStart(2, '0');
+    // var ss = String(today.getSeconds()).padStart(2, '0');
+
+    // filename = yyyy + '-' + mm + '-' + dd + '-' + hh + '-' + MM + '-' + ss;
+
+    // Simple call number naming pattern:
+    filename = json.ephemeralRecord.callNumber;
     return filename;
 }
 

@@ -109,27 +109,8 @@ h4 {
     top: 7%;
 }
 
-#load-file-window {
-    position: absolute;
-    bottom: 6%;
-}
-
 #playbill-form {
     max-width: 65%;
-}
-
-#reset-form-button {
-    position: absolute;
-    bottom: 54%;
-}
-
-#reset-after-post {
-    display: none;
-}
-
-#save-file-window {
-    position: absolute;
-    bottom: 24%;
 }
 
 #status-message-window {
@@ -137,9 +118,28 @@ h4 {
     bottom: 60%;
 }
 
+#reset-form-button {
+    position: absolute;
+    bottom: 54%;
+}
+
+#save-file-window {
+    position: absolute;
+    bottom: 36%;
+}
+
 #upload-file-window {
     position: absolute;
-    bottom: 42%;
+    bottom: 24%;
+}
+
+#load-file-window {
+    position: absolute;
+    bottom: 6%;
+}
+
+#reset-after-post {
+    display: none;
 }
 
 /*search page styles*/

@@ -105,7 +105,7 @@ document.addEventListener('DOMContentLoaded', function main () {
 	} else if (schema.formType === "date") {
 	    inputEl = document.createElement('input');
 	    inputEl.setAttribute('type', 'date');
-	    inputEl.setAttribute('value', '1800-01-01');
+	    inputEl.setAttribute('value', '1799-12-31');
         } else {
             // Everything else can be rendered with the same approach.
             inputEl = document.createElement('input');

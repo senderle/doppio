@@ -305,7 +305,7 @@ main_schema = {
                                                 'Opera',
                                                 'Pantomime',
                                                 'Play',
-                                                'Tragedy ',
+                                                'Tragedy',
                                             ],
                                             'maxlength': 700,
                                             'documentation': ("The genre tag assigned to this play. Whereas "
