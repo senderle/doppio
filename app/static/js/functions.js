@@ -123,7 +123,7 @@ function post_loc_as_geocode(place, token) {
     fetch(url, {method:'GET', header: headers, mode:'cors'})
     .then(response => {
         return response.json()})
-    .then(json => {var coor = [json[0].lat, json[0].lon]; 
+    .then(json => {var coor = [json[0].lat, json[0].lon];
         return coor; })
     .then(coords => {var newGeocode = {'placename': place,
                               'coordinates': {
@@ -280,7 +280,7 @@ function jsonToFilename(json) {
     // }
 
     // var filename = toId(tojoin.join(' '));
-    // filename = filename === '' ? 'empty-record.json' : filename + '.json'; 
+    // filename = filename === '' ? 'empty-record.json' : filename + '.json';
 
     // Date naming pattern:
 

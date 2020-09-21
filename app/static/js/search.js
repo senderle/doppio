@@ -553,7 +553,7 @@ document.addEventListener('DOMContentLoaded', function main() {
             value = elements[i].type === 'checkbox' ? elements[i].checked :
                 elements[i].value;
             if (elements[i] != null && value != '') {
-                
+
                 path = idToApiPath(elements[i].id);
 
                 if (value === 'Yes') {
@@ -601,7 +601,7 @@ document.addEventListener('DOMContentLoaded', function main() {
     function sleep(ms) {
         return new Promise(resolve => setTimeout(resolve, ms));
     }
-        
+
     async function printAll(paths) {
         var path;
         for (var i = 0; i < paths.length; i++) {
@@ -615,7 +615,7 @@ document.addEventListener('DOMContentLoaded', function main() {
             await sleep(1000);
         }
         console.log(results);
-       
+
     }
 
     resetForm();

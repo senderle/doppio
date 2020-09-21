@@ -532,7 +532,7 @@ document.addEventListener('DOMContentLoaded', function main () {
     });
 
     // callback function for walkObj
-    function walkObjHelper () {
+    function walkObjHelper() {
         return function (val, keyPath) {
             keyPath = keyPath.slice();    // Mutating data, so make a copy.
             for (var i = 0; i < keyPath.length; i++) {
