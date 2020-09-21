@@ -75,25 +75,28 @@ function post_new_document(userid, token, resource_name, data) {
     headers.append('Content-Type', 'application/json');
     var auth = 'Bear ' + token;
     headers.append('Authorization', auth);
-    fetch(url, {method:'POST',
-        headers:headers,
-        body: data
-    })
-    .then(response => {
-        if(response.status == 200 || response.status == 201) {
-            statusAlert.innerHTML = ("Successfully saved data.").fontcolor("#33cc33"); //green
-            rst.click();
-        }
-        else {
-            statusAlert.innerHTML = ("Error: " + response.statusText).fontcolor("#ff0000");
-            if (confirm("An authorization error occurred. Save current record to file and then login to proceed.")) {
+    fetch(url, { method: 'POST', headers: headers, body: data })
+        .then(response => {
+            if (response.status == 200 || response.status == 201) {
+                statusAlert.innerHTML = '<span style="color:green">Record saved</span>';
+                rst.click();
+            } else if (response.status == 403) {
+                statusAlert.innerHTML = '<span style="color:red">Authentication Error</span>';
+                confirm("An authorization error occurred. Save current record to file and then login to proceed.");
+            } else {
+                statusAlert.innerHTML = '<span style="color:red">HTTP Error: ' + response.status + '</span>';
+                response.text().then(text => {
+                    let msg = "An unexpeted error occurred.";
+                    if (text.length > 0) {
+                        msg += " The server provided the following details: ";
+                        msg += text;
+                    }
+                    confirm(msg);
+                });
             }
-            else {
-            }
-        }
-    })
-    .catch(error => console.error('There has been a problem with your fetch operation: ', error.message));
-    
+        })
+        .catch(error => console.error('There has been a problem with your fetch operation: ', error.message));
+
 }
 
 function patch_existing_document(userid, token, resource_name, document_id, data) {

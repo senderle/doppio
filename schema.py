@@ -11,8 +11,7 @@ main_schema = {
             },
             'callNumber': {
                 'type': 'string',
-                'unique': True,
-
+                'required': True,
                 'maxlength': 700,
                 'documentation': ("The call number of the document as specified by "
                                   "the holding institution.")
@@ -90,7 +89,7 @@ main_schema = {
                 'schema': {
                     'type': 'string',
                     'formType': 'textarea',
-                    'maxlength': 2000,
+                    'maxlength': 3000,
                     'documentation': ("The text of each announcement, as given by "
                                       "the document, to be entered at the discretion "
                                       "of the cataloger.")
@@ -167,7 +166,7 @@ main_schema = {
                             'type': 'list',
                             'schema': {
                                 'type': 'string',
-                                'maxlength': 2000,
+                                'maxlength': 3000,
                                 'documentation': ("Any featured attractions described in the "
                                                  "document, exactly as given.")
                             }
@@ -177,7 +176,7 @@ main_schema = {
                             'schema': {
                                 'type': 'string',
                                 'formType': 'textarea',
-                                'maxlength': 2000,
+                                'maxlength': 3000,
                                 'documentation': ("Notes describing compelling or otherwise "
                                                  "important details from the document that "
                                                  "will not be captured by any other field.")
@@ -350,7 +349,7 @@ main_schema = {
                                             'schema': {
                                                 'attraction': {
                                                     'type': 'string',
-                                                    'maxlength': 2000,
+                                                    'maxlength': 3000,
                                                     'documentation': ("Any featured "
                                                                       "attractions described "
                                                                       "in the document, "

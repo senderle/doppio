@@ -568,7 +568,10 @@ document.addEventListener('DOMContentLoaded', function main() {
         }
 
         // Http request
-        var path = '/ephemeralRecord?where={' + paths.join(',') + '}';
+        var path = '/ephemeralRecord?';
+        var pathWhere = 'where={' + paths.join(',') + '}';
+        var pathProject = '&projection={"_":true}'
+        path = path + pathWhere + pathProject;
         console.log(path);
         var hxr = new XMLHttpRequest();
         hxr.open('GET', path, false);

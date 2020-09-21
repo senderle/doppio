@@ -468,27 +468,30 @@ document.addEventListener('DOMContentLoaded', function main () {
         var out = {};
         for (var i = 0; i < elements.length; i++) {
             var value = elements[i].type === 'checkbox' ? elements[i].checked :
-                                                            elements[i].value;
+                                                          elements[i].value;
             if(value !== "") {
                 assignKey(out, elements[i].id, value);
             }
         }
-        //var out = getFormContent();
+
         var jsonOut = JSON.stringify(out);
         var userid = localStorage.getItem("userid");
         var skey = localStorage.getItem("key");
 
-        // hash = hmac_hash(jsonOut.toString(), skey);
         var token = localStorage.token;
-        var patchid = document.getElementById('playbill-id').value;
+
+        // This is supposed to allow us to specify the mongo ID for an
+        // updated playbill. Unfortunately the UI doesn't make that at all
+        // clear right now, so it's disabled until we can come up with
+        // a good appraoch to that problem.
+        // var patchid = document.getElementById('playbill-id').value;
+        var patchid = '';
 
         var loadFileChooser = document.getElementById('local-load');
         if (patchid === '') {
             post_new_document(userid, token, 'ephemeralRecord', jsonOut.toString());
             loadFileChooser.value='';
-
-        }
-        else {
+        } else {
             patch_existing_document(userid, hash, 'ephemeralRecord', patchid, jsonOut.toString());
             loadFileChooser.value= '';
         }
@@ -600,11 +603,20 @@ document.addEventListener('DOMContentLoaded', function main () {
         resetForm();
 
         reader.addEventListener('load', function(evt) {
-	    var obj = null;
+  	        var obj = null;
+            let parseObj = null;
+
             if (file.name.endsWith('.json')) {
-                obj = JSON.parse(evt.target.result);
+                parseObj = JSON.parse;
             } else {
-                obj = jsyaml.safeLoad(evt.target.result);
+                parseObj = jsyaml.safeLoad;
+            }
+
+            try {
+                obj = parseObj(evt.target.result);
+            } catch (error) {
+                alert('Couldn\'t open local file. Error details:\n\n' + error);
+                throw error;
             }
 
             walkObj(obj, walkObjHelper());
