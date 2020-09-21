@@ -1,0 +1,386 @@
+_created: 2020-09-20 15:55:16+00:00
+_etag: fa6e411238128037bc311bc6a79f5f7b23e7d8b4
+_id: !!python/object/new:bson.objectid.ObjectId
+  state: !!binary |
+    X2d7ZRb1TR6srW6m
+_updated: 2020-09-20 15:55:16+00:00
+ephemeralRecord:
+  announcements:
+  - JOCKO, The Brazilian Monkey, will be repeated every Evening.
+  - On Wednesday will be produced a NEW COMEDY, in five acts, called LOVE'S VICTORY;
+    or, a SCHOOL for PRIDE.
+  archiveHoldingDocument: British Library
+  callNumber: lsidyv3fa2aa66_single_1817-1825_Covent_Garden_Playbills_Selected_merged_0062
+  dataCataloger: MG
+  documentPrinter:
+    location: Strand, London
+    name: W. Reynolds
+  documentType: Playbill
+  shows:
+  - date: 1825-11-09 00:00:00+00:00
+    location: London
+    performances:
+    - featuredAttractions:
+      - isInterpolation: false
+      orderOfPerformance: 1
+      ourGenreAttribution:
+      - Opera
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Mr. Egerton
+        role: Sir Frederick Vernon
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Mr. Power
+        role: Rashleigh Osbaldistone
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Mr. Duruset
+        role: Francis Osbaldistone
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Mr. Blanchard
+        role: Owen
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Mr. Connor
+        role: Capt. Thornton
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Mr. Warde
+        role: Rob Roy Macgregor Campbell
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Mr. J. Isaacs
+        role: Major Galbraith
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Mr. Rayner
+        role: Dougal
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Mr. Mears
+        role: Macstuart
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Mr. Henry
+        role: Allan
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Mr. W. Farren
+        role: Baillie Nicol Jarvie
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Mr. Claremont
+        role: Saunders Wylie
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Mr. Barnes
+        role: Andrew
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Miss Patton
+        role: Diana Vernon
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Miss J. Scott
+        role: Martha
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Mrs. Wilson
+        role: Mattie
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Mrs Hudson
+        role: Jane Macalpine
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Miss Appleton
+        role: Hostess
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Mrs. Faucit
+        role: Helen Macgregor
+      playbillGenreClaim: Opera
+      title: Rob Roy Macgregor
+    - contributors:
+      - contributorName: Bishop
+        contributorType: Composer
+      - contributorName: Piccini
+        contributorType: Composer
+      - contributorName: Mr. Watson
+        contributorType: Composer
+      - contributorName: Mess. Grieve
+        contributorType: Scenery
+      - contributorName: Mr. Palmer
+        contributorType: Costume
+      - contributorName: Miss Egan
+        contributorType: Costume
+      - contributorName: Mr. E. Saul
+        contributorType: Machinery
+      - contributorName: Mess. Bradwell
+        contributorType: Machinery
+      featuredAttractions:
+      - attraction: Monsieur Mazurier, will make his 8th appearance in England
+        isInterpolation: false
+      - attraction: In Act I. An entirely NEW BALLET, Composed by Signor VENAFRA,
+          who, assisted by Mrs. VEDY, will dance a celebrated BOLERO.
+        isInterpolation: false
+      orderOfPerformance: 2
+      ourGenreAttribution:
+      - Melodrama
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Mr. Connor
+        role: Fernandez de Ribera (a Portuguese Settler)
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Mr. Meadows
+        role: Pedro (Bailiff of his Rice Grounds)
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Mr. Keeley
+        role: Dominique (Pedro's Son)
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Miss Greener
+        role: Juan (Fernandez' Son, a child of years)
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Mr. Evans
+        role: Brazilian Planter
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Mr. Henry
+        role: Sailor
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: C. Parsloe
+        role: Sailor
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Monsieur Mazurier
+        role: Jocko (a Brazilian Monkey)
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Mr Ashton
+        role: Brazilian Planter
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Mr. Guichard
+        role: Brazilian Planter
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Mr. Ley
+        role: Brazilian Planter
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Mr. Miller
+        role: Brazilian Planter
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Mr. May
+        role: Brazilian Planter
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Mr. Robinson
+        role: Brazilian Planter
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Mr. Shegog
+        role: Brazilian Planter
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Mr. I. Tett
+        role: Brazilian Planter
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Mr. S. Tett
+        role: Brazilian Planter
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Mr. C. Tett
+        role: Brazilian Planter
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Mr. Tinney
+        role: Brazilian Planter
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Mrs. Bedford
+        role: Dancer
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Miss Kendal
+        role: Dancer
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Miss Griffiths
+        role: Dancer
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Miss Hebbard
+        role: Dancer
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Miss Romer
+        role: Dancer
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Miss Thomasin
+        role: Dancer
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Madame Bates
+        role: Dancer
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Madame Baseki
+        role: Dancer
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Madame Marsane
+        role: Dancer
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Madame Shotter
+        role: Dancer
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Madame Thorpe
+        role: Dancer
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Madame Vials
+        role: Dancer
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Mr. Austin
+        role: Dancer
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Mr. Collett
+        role: Dancer
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Mr. A. Cooper
+        role: Dancer
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Mr. Grant
+        role: Dancer
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Mr. Heath
+        role: Dancer
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Mr. O'Bryan
+        role: Dancer
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Mr. Sutton
+        role: Dancer
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Miss Gardner
+        role: Donna Inez (wife of Fernandez)
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Miss J. Scott
+        role: Cara (a Mulatto Girl, beloved by Dominique)
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Madame Appleton
+        role: Brazilian Girls, Negroes, &c.
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Madame Brown
+        role: Brazilian Girls, Negroes, &c.
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Madame Gifford
+        role: Brazilian Girls, Negroes, &c.
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Madame Grimaldi
+        role: Brazilian Girls, Negroes, &c.
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Madame Smith
+        role: Brazilian Girls, Negroes, &c.
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Madame Wilson
+        role: Brazilian Girls, Negroes, &c.
+      playbillGenreClaim: Melo-Drama
+      timePerformedInSeason: 2
+      title: Jocko, the Brazilian Monkey
+    venue: Covent Garden
