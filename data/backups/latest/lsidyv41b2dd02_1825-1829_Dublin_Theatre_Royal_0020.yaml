@@ -1,0 +1,415 @@
+_id: !!python/object/new:bson.objectid.ObjectId
+  state: !!binary |
+    X2kHW0uOBx4YX1X4
+ephemeralRecord:
+  announcements:
+  - 'First Night of a New Popular Comic Piece! '
+  - The Public is respectfully informed, that the Theatre WILL RE-OPEN on Monday next,
+    April 7th, 1828
+  archiveHoldingDocument: British Library
+  callNumber: lsidyv41b2dd02_1825-1829_Dublin_Theatre_Royal_0020
+  containingCollection: British Library Playbills
+  dataCataloger: Cassidy Holahan
+  dimensions:
+    length: ''
+    width: ''
+  documentPrinter:
+    location: 29, Backelors'-walk, Dublin
+    name: J. Carrick and Son
+  documentType: Playbill
+  pageNumber: ''
+  periodicalTitle: ''
+  persistentUrl: ''
+  printedArea:
+    length: ''
+    width: ''
+  shows:
+  - date: '1828-04-07'
+    doorsOpen: ''
+    featuredAttractionsForShow:
+    - ''
+    location: Dublin
+    notes:
+    - ''
+    occasions:
+    - beneficiary:
+      - ''
+      occasionAsStated: ''
+      occasionType: ''
+      occasioner:
+      - ''
+    performanceBegins: ''
+    performances:
+    - contributors:
+      - contributorName: ''
+        contributorType: ''
+      featuredAttractions:
+      - attraction: In Act 3, An Epithalamium will be Sung by Mesdames Hamilton, H.
+          Corri, Crawford, Norman, Johnson, Mahon, Sullivan, De Barr, A. Crawford.-
+          Messrs. M''Keon, Brough, Smollett, O''Rourke, Gray, Turner, Sutcliffe, Glover,
+          Montague
+        isInterpolation: false
+      orderOfPerformance: '1'
+      ourGenreAttribution:
+      - Play
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Bennett
+        role: Damon
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Mathews
+        role: Dionysius, Tyrant of Syracuse
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Hamerton
+        role: Philistius
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Balls
+        role: Pythius
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Cunningham
+        role: Nicias, Father to Pythias
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Barry
+        role: Damocles
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Cooke
+        role: Procles
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Rae
+        role: Lucullus, Damon's Freedman
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Turner
+        role: Officer
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Sutclifee
+        role: Officer
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Lacy
+        role: Calanthe
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Kenneth
+        role: Hermion, Damon's Wife
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Master Norman
+        role: Child
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Mathews
+        role: Arria
+        roleNotes: ''
+      playbillGenreClaim: Historical Play
+      timePerformedInSeason: ''
+      title: 'Damon and Pythias: Or, The Force of Friendship'
+    - contributors:
+      - contributorName: ''
+        contributorType: ''
+      featuredAttractions:
+      - attraction: As performed with distinguished success at the Theatres Royal,
+          Covent Garden and Haymarket
+        isInterpolation: false
+      orderOfPerformance: '2'
+      ourGenreAttribution:
+      - ''
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Mathews
+        role: Frederick the Great
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Calcraft
+        role: Baron Von Lindorf
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Balls
+        role: Ernest Lindorf
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Rae
+        role: Captain Blumenfield
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Johnson
+        role: Ranbrogel
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Barry
+        role: Serjeant Milligan
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Latham
+        role: Joseph
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Ross
+        role: Fritz
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Vaughan
+        role: Madame De Lisberg
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Kenneth
+        role: Victorine
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: ''
+        role: ''
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: ''
+        role: ''
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: ''
+        role: ''
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: ''
+        role: ''
+        roleNotes: ''
+      playbillGenreClaim: New Piece, in two Acts
+      timePerformedInSeason: '1'
+      title: Returned Killed!
+    - contributors:
+      - contributorName: ''
+        contributorType: ''
+      featuredAttractions:
+      - attraction: Founded on the Celebrated Pantomime of the same name
+        isInterpolation: false
+      orderOfPerformance: '3'
+      ourGenreAttribution:
+      - Melodrama
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Rae
+        role: Don Raymond
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Cunningham
+        role: Baron de Lindenberg
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Latham
+        role: Theodore
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Smollett
+        role: Marco
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. O''Rourke
+        role: Conrad
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Master R. Norman
+        role: Child
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Sutcliffe
+        role: Attendant
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Grey
+        role: Attendant
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Calcraft
+        role: Robert
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Brough
+        role: Baptiste
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Cooke
+        role: Jaques
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Barry
+        role: Claude
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Norman
+        role: Agnes
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Sullivan
+        role: Spectre of the Bleeding Nun
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss De Barr
+        role: Ursula
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: true
+        performerName: Mrs. Burgess
+        role: Beatrice
+        roleNotes: Her first Appearance these Two years
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: true
+        performerName: Mrs. Edwin
+        role: Margarette
+        roleNotes: First time
+      playbillGenreClaim: Melo-drama
+      timePerformedInSeason: '1'
+      title: Raymond and Agnes, Or the Spectre of the Bleeding Nun
+    stageManager: ''
+    theaterCompany: ''
+    ticketing:
+      boxPrice: ''
+      currency: ''
+      galleryPrice: ''
+      pitPrice: ''
+      secondBoxPrice: ''
+      secondGalleryPrice: ''
+      secondPitPrice: ''
+      secondUpperGalleryPrice: ''
+      ticketingNotes: ''
+      toBeHad: ''
+      upperGalleryPrice: ''
+    venue: Theatre Royal, Dublin

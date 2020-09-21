@@ -1,0 +1,337 @@
+_id: !!python/object/new:bson.objectid.ObjectId
+  state: !!binary |
+    X2j/DJzLHXjhfdz1
+ephemeralRecord:
+  announcements:
+  - ''
+  archiveHoldingDocument: British Library
+  callNumber: lsidyv41b2b448_double_1832-1839_Dublin_Theatre_Royal_merged_0012-11
+  containingCollection: British Library Playbills
+  dataCataloger: Cassidy Holahan
+  dimensions:
+    length: ''
+    width: ''
+  documentPrinter:
+    location: ''
+    name: ''
+  documentType: Playbill
+  pageNumber: ''
+  periodicalTitle: ''
+  persistentUrl: ''
+  printedArea:
+    length: ''
+    width: ''
+  shows:
+  - date: '1832-11-05'
+    doorsOpen: '18:30'
+    featuredAttractionsForShow:
+    - ''
+    location: Dublin
+    notes:
+    - ''
+    occasions:
+    - beneficiary:
+      - ''
+      occasionAsStated: ''
+      occasionType: ''
+      occasioner:
+      - ''
+    performanceBegins: '19:15'
+    performances:
+    - contributors:
+      - contributorName: Rev. Edward Groves
+        contributorType: Author
+      featuredAttractions:
+      - attraction: ''
+        isInterpolation: false
+      orderOfPerformance: '1'
+      ourGenreAttribution:
+      - Tragedy
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Calcraft
+        role: Walter Lynch, Warden and Mayor Galway
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. H. Cooke
+        role: Roderick Lynch, his Son
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Currer
+        role: Dominie, a Monk
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. King
+        role: Connor, A Servant to Roderick Lynch
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Shuter
+        role: D'Arcy, and Advocate
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Barry
+        role: Mr. William
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Stodhart
+        role: De Joyes
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Henry
+        role: Morris
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Lambert
+        role: De Font
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Duff
+        role: Dermot, a Peasant
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Coleman
+        role: McPnain
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Haigh
+        role: 1st Citizen
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Shean
+        role: 2nd Citizen
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Williams
+        role: 3rd Citizen
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Huddart
+        role: Anastasia, bethrothed to Roderick Lynch
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Chalmers
+        role: Evelyn, Wife of Connor
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Lambert
+        role: Mabel
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Wells
+        role: Norah
+        roleNotes: ''
+      playbillGenreClaim: Tragedy
+      timePerformedInSeason: ''
+      title: The Warden of Galway
+    - contributors:
+      - contributorName: Mr. Phillips
+        contributorType: Scenery
+      featuredAttractions:
+      - attraction: Scene 1 - A View of Abbotsford, (The residence of the lately deceased
+          Poet,) To which celebrated place will be introduced, A Pilgrimage of the
+          Principal Dramatic Characters His Genius has Created, By the whole of the
+          Company, In imitation of the honors paid to Shakespeare in the celebrated
+          Jubilee.
+        isInterpolation: false
+      - attraction: Scene 2 - The Poet''s Study at Abbotsford Concluding with A Grand
+          Scenic Apotheosis of The Minstrel of the North Immortality crowns the Bust
+          of the deceased Poet in the Temple of Fame. Mr. Calcraft, as the Last Minstrel,
+          will recite appropriate Lines from the Poem of the Lay of the Last Minstrel
+        isInterpolation: false
+      - attraction: The new Scenery painted expressly for this occasion by Mr. Philipps
+        isInterpolation: false
+      orderOfPerformance: '2'
+      ourGenreAttribution:
+      - Interlude
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Calcraft
+        role: Last Minstrel
+        roleNotes: ''
+      playbillGenreClaim: Pageant
+      timePerformedInSeason: '6'
+      title: A Pageant in Commemoration of Scotland''s Immortal Bard
+    - contributors:
+      - contributorName: ''
+        contributorType: ''
+      featuredAttractions:
+      - attraction: ''
+        isInterpolation: false
+      orderOfPerformance: '3'
+      ourGenreAttribution:
+      - Melodrama
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. King
+        role: Don Raymond
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. J. Penson
+        role: Theodore
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Duff
+        role: Marco
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. H. Cooke
+        role: Robert
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Haigh
+        role: Jacques
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Brough
+        role: Baptiste
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Currer
+        role: Claude
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Lambert
+        role: Conrad
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Chalmers
+        role: Agnes
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Barry
+        role: Beatrice
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Wells
+        role: Ursula
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Lambert
+        role: Annette
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Sullivan
+        role: Spectre of the Bleeding Nun
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Huddart
+        role: Marguarette
+        roleNotes: ''
+      playbillGenreClaim: Melodrama
+      timePerformedInSeason: ''
+      title: 'The Travellers Benighted: Or, The Bleeding Nun'
+    stageManager: ''
+    theaterCompany: ''
+    ticketing:
+      boxPrice: '60'
+      currency: UK
+      galleryPrice: '24'
+      pitPrice: '36'
+      secondBoxPrice: '36'
+      secondGalleryPrice: '12'
+      secondPitPrice: '24'
+      secondUpperGalleryPrice: ''
+      ticketingNotes: Second Price at a Quarter-past Nine
+      toBeHad: The Box Office is open from 11 to 4, where Tickets and Places may be
+        had of Mr. Sharkey, as usual.
+      upperGalleryPrice: '12'
+    venue: Theatre Royal, Dublin

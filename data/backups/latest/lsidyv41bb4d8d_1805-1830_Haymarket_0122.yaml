@@ -1,0 +1,340 @@
+_id: !!python/object/new:bson.objectid.ObjectId
+  state: !!binary |
+    X2kAVHGnhvwYCIss
+ephemeralRecord:
+  announcements:
+  - ''
+  archiveHoldingDocument: British Library
+  callNumber: lsidyv41bb4d8d_1805-1830_Haymarket_0122
+  containingCollection: British Library Playbills
+  dataCataloger: Cassidy Holahan
+  dimensions:
+    length: ''
+    width: ''
+  documentPrinter:
+    location: No. 26. York St. Westminster
+    name: T. Woodfall
+  documentType: Playbill
+  pageNumber: ''
+  periodicalTitle: ''
+  persistentUrl: ''
+  printedArea:
+    length: ''
+    width: ''
+  shows:
+  - date: '1819-08-04'
+    doorsOpen: '18:00'
+    featuredAttractionsForShow:
+    - ''
+    location: London
+    notes:
+    - ''
+    occasions:
+    - beneficiary:
+      - ''
+      occasionAsStated: ''
+      occasionType: ''
+      occasioner:
+      - ''
+    performanceBegins: '19:00'
+    performances:
+    - contributors:
+      - contributorName: ''
+        contributorType: ''
+      featuredAttractions:
+      - attraction: ''
+        isInterpolation: false
+      orderOfPerformance: '1'
+      ourGenreAttribution:
+      - Melodrama
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Barnard
+        role: Raymond
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Russell
+        role: Theodore
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Terry
+        role: Robert
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Martin
+        role: Baptiste
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Menage
+        role: Claude
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Covenfy
+        role: Jaques
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. G. Smith
+        role: Marco
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Minton
+        role: Conrad
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Scott
+        role: Agnes
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Davenport
+        role: Beatrice
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Kendall
+        role: Ursula
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Conveney
+        role: Bleeding Nun
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Watkinson
+        role: Annette
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Gibbs
+        role: Margueritte
+        roleNotes: ''
+      playbillGenreClaim: Melo Drama
+      timePerformedInSeason: ''
+      title: The Travellers Benighted
+    - contributors:
+      - contributorName: ''
+        contributorType: ''
+      featuredAttractions:
+      - attraction: ''
+        isInterpolation: false
+      orderOfPerformance: '2'
+      ourGenreAttribution:
+      - Comedy
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Rengough
+        role: Lord Rowcroft
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Barnard
+        role: Sir George Squander
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Jones
+        role: Crackley
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Rees, Jun.
+        role: Major Dumpling
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: true
+        performerName: Mr. Connor
+        role: Captain Bibber
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Terry
+        role: Mr. Green
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: true
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Russell
+        role: Fungus
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Watkinson
+        role: Closefist
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Martin
+        role: Pinfold
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Minton
+        role: Festoon
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Wiber
+        role: Lawyer
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Appleby
+        role: Servant
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Connor
+        role: Lady Dquander
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss E. Blanchard
+        role: Bertha
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Gibbs
+        role: Tucket
+        roleNotes: ''
+      playbillGenreClaim: Comedy
+      timePerformedInSeason: ''
+      title: The Green Man
+    - contributors:
+      - contributorName: ''
+        contributorType: ''
+      featuredAttractions:
+      - attraction: ''
+        isInterpolation: false
+      orderOfPerformance: '3'
+      ourGenreAttribution:
+      - Burlesque
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. J. Russell
+        role: Artaxominous
+        roleNotes: King of Utopia
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Duruset
+        role: Fusbos
+        roleNotes: Minister of State
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Liston
+        role: General Bombastes
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Ebsworth
+        role: Courtier
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: true
+        performerName: Mr. Minton
+        role: Courtier
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: true
+        performerName: Mrs. Liston
+        role: Distaffina
+        roleNotes: ''
+      playbillGenreClaim: Burlesque Entertainment
+      timePerformedInSeason: ''
+      title: Bombastes Furioso
+    stageManager: Mr. Terry
+    theaterCompany: ''
+    ticketing:
+      boxPrice: '60'
+      currency: UK
+      galleryPrice: '24'
+      pitPrice: '36'
+      secondBoxPrice: ''
+      secondGalleryPrice: '12'
+      secondPitPrice: ''
+      secondUpperGalleryPrice: ''
+      ticketingNotes: "N.B. - Private Boxes may be had, nightly, by application at\
+        \ the Box-Office. No Money to be return\u2019d."
+      toBeHad: Places for the Boxes to be taken of Mr. Massingham, at the Theatre
+      upperGalleryPrice: ''
+    venue: Theatre Royal, Hay-market

@@ -1,0 +1,329 @@
+_id: !!python/object/new:bson.objectid.ObjectId
+  state: !!binary |
+    X2kCAts8HOvJaT+k
+ephemeralRecord:
+  announcements:
+  - Box-Keeper''s Benefit. Mr. Sharkey Takes leave respectfully to acquaint the Nobility,
+    Gentry, his Friends and the Public, that his Benefit, will take place Thursday,
+    April 28th, 1831.
+  archiveHoldingDocument: British Library
+  callNumber: lsidyv41b2af05_1830-1832_Dublin_Theatre_Royal_0205
+  containingCollection: British Library Playbills
+  dataCataloger: Cassidy Holahan
+  dimensions:
+    length: ''
+    width: ''
+  documentPrinter:
+    location: St. Andrew-St.
+    name: W. Underwood
+  documentType: Playbill
+  pageNumber: ''
+  periodicalTitle: ''
+  persistentUrl: ''
+  printedArea:
+    length: ''
+    width: ''
+  shows:
+  - date: '1831-04-28'
+    doorsOpen: ''
+    featuredAttractionsForShow:
+    - ''
+    location: Dublin
+    notes:
+    - ''
+    occasions:
+    - beneficiary:
+      - Mr. Sharkey
+      occasionAsStated: Box-Keeper''s Benefit. Mr. Sharkey Takes leave respectfully
+        to acquaint the Nobility, Gentry, his Friends and the Public, that his Benefit,
+        will take place Thursday, April 28th, 1831.
+      occasionType: Benefit Performance
+      occasioner:
+      - ''
+    performanceBegins: ''
+    performances:
+    - contributors:
+      - contributorName: ''
+        contributorType: ''
+      featuredAttractions:
+      - attraction: n the course of the Opera, the following Songs will be Sung; By
+          Miss Betts, 'Cupid leave me' - 'Come roam with me,' - 'We parted,' and 'THE
+          MINSTREL BOY.'
+        isInterpolation: false
+      - attraction: '[Following Songs will be sung] by Mr. Melorse, ''Hope''''s fond
+          dream,'' - ''Tho'' Time has from your Lordship''''s face,'' ''They mourn
+          me dead in my Father''''s Halls,'' and ''Spirit of my Sainted Sire.'''
+        isInterpolation: false
+      orderOfPerformance: '1'
+      ourGenreAttribution:
+      - Comic Opera
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Melrose
+        role: Lord William
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Gattie
+        role: Baron of Oakland
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Johnston
+        role: Edward
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Brough
+        role: Charles
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Bland
+        role: Martin
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Hamilton
+        role: Lady Elinor
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Pearce
+        role: Maud
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Barry
+        role: Count de Courci
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Attwood
+        role: Robert
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Wells
+        role: Lewis
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Duff
+        role: Hugo
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Melton
+        role: Cicely
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Betts
+        role: Adela
+        roleNotes: ''
+      playbillGenreClaim: Comic Opera
+      timePerformedInSeason: ''
+      title: The Haunted Tower
+    - contributors:
+      - contributorName: ''
+        contributorType: ''
+      featuredAttractions:
+      - attraction: ''
+        isInterpolation: false
+      orderOfPerformance: '2'
+      ourGenreAttribution:
+      - Interlude
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Brown
+        role: Colonel Freelove
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Shuter
+        role: James
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Barry
+        role: Lord Rivers
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Sutcliffe
+        role: Groom
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss F. H. Kelly
+        role: Lady Elizabeth Freelove
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Pearce
+        role: Mrs. Davies
+        roleNotes: ''
+      playbillGenreClaim: Interlude
+      timePerformedInSeason: ''
+      title: A Day after the Wedding; Or, A Lesson for the Ladies
+    - contributors:
+      - contributorName: ''
+        contributorType: ''
+      featuredAttractions:
+      - attraction: ''
+        isInterpolation: false
+      orderOfPerformance: '3'
+      ourGenreAttribution:
+      - Melodrama
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. King
+        role: Don Raymond
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Shuter
+        role: Theodore
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Bland
+        role: Marco
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. H. Cooke
+        role: Robert
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Wells
+        role: Jacques
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Brough
+        role: Baptiste
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Barry
+        role: Claud
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Chalmers
+        role: Agnes
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Pearce
+        role: Beatrice
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Coveney
+        role: Ursula
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Bland
+        role: Annette
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Sullivan
+        role: Spectre of the Bleeding Nun
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. W. West
+        role: Marguerite
+        roleNotes: ''
+      playbillGenreClaim: Melo-drama
+      timePerformedInSeason: ''
+      title: The Travellers Benighted, Or The Bleeding Nun
+    stageManager: ''
+    theaterCompany: Theatre Royal, Dublin
+    ticketing:
+      boxPrice: ''
+      currency: ''
+      galleryPrice: ''
+      pitPrice: ''
+      secondBoxPrice: ''
+      secondGalleryPrice: ''
+      secondPitPrice: ''
+      secondUpperGalleryPrice: ''
+      ticketingNotes: ''
+      toBeHad: Tickets and Places to be had of Mr. Shakey, at the Box-Office, or at
+        No. 30. Kildare-street
+      upperGalleryPrice: ''
+    venue: ''

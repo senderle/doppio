@@ -1,0 +1,362 @@
+_id: !!python/object/new:bson.objectid.ObjectId
+  state: !!binary |
+    X2kAVHGnhvwYCIsn
+ephemeralRecord:
+  announcements:
+  - ''
+  archiveHoldingDocument: British Library
+  callNumber: lsidyv41bb56f1_1807-1814_Theatre-Royal_Hull_0215
+  containingCollection: British Library Playbills
+  dataCataloger: Cassidy Holahan
+  dimensions:
+    length: ''
+    width: ''
+  documentPrinter:
+    location: Lowgate
+    name: William Rawson
+  documentType: Playbill
+  pageNumber: ''
+  periodicalTitle: ''
+  persistentUrl: ''
+  printedArea:
+    length: ''
+    width: ''
+  shows:
+  - date: '1813-12-07'
+    doorsOpen: ''
+    featuredAttractionsForShow:
+    - Under the Patronage of Mrs. Cheney
+    location: Hull
+    notes:
+    - ''
+    occasions:
+    - beneficiary:
+      - Miss S. Decamp
+      occasionAsStated: Benefit of Miss S. Decamp
+      occasionType: Benefit Performance
+      occasioner:
+      - ''
+    performanceBegins: ''
+    performances:
+    - contributors:
+      - contributorName: ''
+        contributorType: ''
+      featuredAttractions:
+      - attraction: ''
+        isInterpolation: false
+      orderOfPerformance: '1'
+      ourGenreAttribution:
+      - Melodrama
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. F. Brown
+        role: Julian (the Peasant Boy)
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. R. Hall
+        role: Baron Montaldi
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Leonard
+        role: Hyppolito
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Wood
+        role: Stephano
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Chippendale
+        role: Ambrose
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Dormer
+        role: Vincent
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Hope
+        role: Giovani
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Willis
+        role: Lupatro
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Hall
+        role: Fabian
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Harley
+        role: Ludovico
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Eborall
+        role: The Duchess
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. E. Cummins
+        role: Olympia
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss S. Decamp
+        role: Rosalie
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. R. Hall
+        role: Marinetta
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. French
+        role: Old Woman
+        roleNotes: ''
+      playbillGenreClaim: Melo-Dramatic Opera
+      timePerformedInSeason: '1'
+      title: The Peasant Boy
+    - contributors:
+      - contributorName: Mr. Willis
+        contributorType: Designed and painted by
+      featuredAttractions:
+      - attraction: A Medallion of the Marquis of Wellington; Victory crowning, Fame
+          proclaiming, and History recording the Hero of Vimiera, Talavera, Busaco,
+          Badajoz, Almeida, Cuidad Rodrigo, St. Sebastian's, and Pyrenees.
+        isInterpolation: false
+      orderOfPerformance: '2'
+      ourGenreAttribution:
+      - ''
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: ''
+        role: ''
+        roleNotes: ''
+      playbillGenreClaim: ''
+      timePerformedInSeason: ''
+      title: A Grand Transparency
+    - contributors:
+      - contributorName: Mr. Leonard
+        contributorType: Composer
+      featuredAttractions:
+      - attraction: ''
+        isInterpolation: false
+      orderOfPerformance: '3'
+      ourGenreAttribution:
+      - Interlude
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Leonard
+        role: Singer
+        roleNotes: ''
+      playbillGenreClaim: A song
+      timePerformedInSeason: ''
+      title: The Battle of Vittoria
+    - contributors:
+      - contributorName: ''
+        contributorType: ''
+      featuredAttractions:
+      - attraction: ''
+        isInterpolation: false
+      orderOfPerformance: '4'
+      ourGenreAttribution:
+      - Interlude
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Harley
+        role: Singer
+        roleNotes: ''
+      playbillGenreClaim: Comic Song
+      timePerformedInSeason: ''
+      title: '"Mr. Gubbins, Miss Shivey, and Billy Burnsides" and "Bound ''Prentice
+        to a Waterman"'
+    - contributors:
+      - contributorName: ''
+        contributorType: ''
+      featuredAttractions:
+      - attraction: ''
+        isInterpolation: false
+      orderOfPerformance: '5'
+      ourGenreAttribution:
+      - Pantomime
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. F. Brown
+        role: Raymond
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Willis
+        role: Theodore
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Wood
+        role: Don Felix
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Dormer
+        role: Count Lindenberg
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Hope
+        role: Claude
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Kelly
+        role: Baptist
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Hall
+        role: Robert
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. R. Hall
+        role: Jaques
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Whitworth
+        role: Landlord
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Eborall
+        role: Countess of Lindenberg
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Wood
+        role: Annette
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss E. Wood
+        role: Child
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Wood
+        role: Abbess
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Chippendale
+        role: Spectre of the Bleeding Nun
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Leonard
+        role: Agnes
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss S. Decamp
+        role: Marguerite
+        roleNotes: ''
+      playbillGenreClaim: Pantomime
+      timePerformedInSeason: ''
+      title: Raymond and Agnes, Or, The Bleeding Nun
+    stageManager: ''
+    theaterCompany: ''
+    ticketing:
+      boxPrice: ''
+      currency: ''
+      galleryPrice: ''
+      pitPrice: ''
+      secondBoxPrice: ''
+      secondGalleryPrice: ''
+      secondPitPrice: ''
+      secondUpperGalleryPrice: ''
+      ticketingNotes: Tickets and Places of Mr. Firth; of Mr. Wood, at Miss Glover's,
+        No. 13, Finkle-street, and of William Raveson, the Printer hereof, Lowgate
+      toBeHad: ''
+      upperGalleryPrice: ''
+    venue: Theatre-Royal, Hull

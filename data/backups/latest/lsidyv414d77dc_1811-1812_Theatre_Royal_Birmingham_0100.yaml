@@ -1,0 +1,292 @@
+_id: !!python/object/new:bson.objectid.ObjectId
+  state: !!binary |
+    X2kCBds8HOvJaT+6
+ephemeralRecord:
+  announcements:
+  - Fifth Night of Mr. & Miss Holman''s Engagement
+  archiveHoldingDocument: British Library
+  callNumber: lsidyv414d77dc_1811-1812_Theatre_Royal_Birmingham_0100
+  containingCollection: British Library Playbills
+  dataCataloger: Cassidy Holahan
+  dimensions:
+    length: ''
+    width: ''
+  documentPrinter:
+    location: ''
+    name: ''
+  documentType: Playbill
+  pageNumber: ''
+  periodicalTitle: ''
+  persistentUrl: ''
+  printedArea:
+    length: ''
+    width: ''
+  shows:
+  - date: '1811-12-03'
+    doorsOpen: ''
+    featuredAttractionsForShow:
+    - ''
+    location: ''
+    notes:
+    - ''
+    occasions:
+    - beneficiary:
+      - ''
+      occasionAsStated: ''
+      occasionType: ''
+      occasioner:
+      - ''
+    performanceBegins: ''
+    performances:
+    - contributors:
+      - contributorName: Shakespeare
+        contributorType: Author
+      featuredAttractions:
+      - attraction: With all the original MUSIC, CHORUSSES, &c.
+        isInterpolation: false
+      orderOfPerformance: '1'
+      ourGenreAttribution:
+      - Tragedy
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Holman
+        role: Macbeth
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Munroe
+        role: Macduff
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Remington
+        role: Banquo
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Prior
+        role: Malcolm
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Stanley
+        role: Roffe
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Gold
+        role: Duncan
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Master Benwell
+        role: Fleance
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Holman
+        role: Lady Macbeth
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Benwell
+        role: Hecate
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Turpin
+        role: Singing Witch
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Taylor
+        role: Singing Witch
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Smith
+        role: Singing Witch
+        roleNotes: ''
+      playbillGenreClaim: Tragedy
+      timePerformedInSeason: ''
+      title: Macbeth, King of Scotland
+    - contributors:
+      - contributorName: ''
+        contributorType: ''
+      featuredAttractions:
+      - attraction: With new and appropriate Scenery, Dresses, Decorations, &c.
+        isInterpolation: false
+      - attraction: As performed at the Theatre Royal, Haymarket, with unprecedented
+          Success and Approbation.
+        isInterpolation: false
+      - attraction: 'The principal Scenery and Incidents are as follows: The Cavern
+          of the Banditti. The Escape of the Travellers. The Bleeding Spectre. The
+          Defeat of the Robbers.'
+        isInterpolation: false
+      orderOfPerformance: '2'
+      ourGenreAttribution:
+      - Melodrama
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Benwell
+        role: Don Raymond
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Gold
+        role: Don Felix
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Gregory
+        role: Baron Lindenberg
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Turpin
+        role: Theodore
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Taalor
+        role: Conrad
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Taylor
+        role: Ursula
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Mara
+        role: Beatrice
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Smith
+        role: Annette
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Stewart
+        role: Agnes
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Clifford
+        role: The Appararition of the Bleeding Nun
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Remington
+        role: Baptista (a Woodcutter, Captain of the Gang)
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Monroe
+        role: 'Robert '
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Stanley
+        role: Jaquez
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Fenton
+        role: Claude (a Postillion)
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Sandon
+        role: Marco
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Master Benwell
+        role: Child
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Turpin
+        role: Marguerette
+        roleNotes: ''
+      playbillGenreClaim: Melo-Drame
+      timePerformedInSeason: ''
+      title: The Travellers Benighted in the Forest of Rosenwold; Or, The Bleeding
+        Nun!!
+    stageManager: ''
+    theaterCompany: ''
+    ticketing:
+      boxPrice: ''
+      currency: ''
+      galleryPrice: ''
+      pitPrice: ''
+      secondBoxPrice: ''
+      secondGalleryPrice: ''
+      secondPitPrice: ''
+      secondUpperGalleryPrice: ''
+      ticketingNotes: ''
+      toBeHad: ''
+      upperGalleryPrice: ''
+    venue: ''

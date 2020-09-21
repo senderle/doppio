@@ -1,0 +1,355 @@
+_id: !!python/object/new:bson.objectid.ObjectId
+  state: !!binary |
+    X2kHNRtuiLfcZF1L
+ephemeralRecord:
+  announcements:
+  - Last Night but Three of the Company''s performing this Season
+  archiveHoldingDocument: British Library
+  callNumber: lsidyv4045b355_1809-1815_Theatre_Royal_Haymarket_0219
+  containingCollection: British Library Playbills
+  dataCataloger: Cassidy Holahan
+  dimensions:
+    length: ''
+    width: ''
+  documentPrinter:
+    location: Villiers Street, Strand, London
+    name: T. Woodfall
+  documentType: Playbill
+  pageNumber: ''
+  periodicalTitle: ''
+  persistentUrl: ''
+  printedArea:
+    length: ''
+    width: ''
+  shows:
+  - date: '1811-10-11'
+    doorsOpen: ''
+    featuredAttractionsForShow:
+    - ''
+    location: London
+    notes:
+    - ''
+    occasions:
+    - beneficiary:
+      - ''
+      occasionAsStated: ''
+      occasionType: ''
+      occasioner:
+      - ''
+    performanceBegins: ''
+    performances:
+    - contributors:
+      - contributorName: ''
+        contributorType: ''
+      featuredAttractions:
+      - attraction: 2nd time
+        isInterpolation: false
+      orderOfPerformance: '1'
+      ourGenreAttribution:
+      - Farce
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Munden
+        role: Captain Meadows
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Grove
+        role: Old Wrongward
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Cooper
+        role: Young Wrongward
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. R. Jones
+        role: Canteen
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Lewis
+        role: Sternhold
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Finn
+        role: John
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Noble
+        role: Groom
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Minton
+        role: William
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Smith
+        role: Sophia
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Watson
+        role: Betsy Blossom
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Leserve
+        role: Maid
+        roleNotes: ''
+      playbillGenreClaim: Farce
+      timePerformedInSeason: '2'
+      title: The Deaf Lover
+    - contributors:
+      - contributorName: ''
+        contributorType: ''
+      featuredAttractions:
+      - attraction: 15th time
+        isInterpolation: false
+      orderOfPerformance: '2'
+      ourGenreAttribution:
+      - Farce
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Ellinston
+        role: ''
+        roleNotes: null
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Jones
+        role: ''
+        roleNotes: null
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Russell
+        role: ''
+        roleNotes: null
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Grove
+        role: ''
+        roleNotes: null
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Cooper
+        role: ''
+        roleNotes: null
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Noble
+        role: ''
+        roleNotes: null
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Finn
+        role: ''
+        roleNotes: null
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Munden
+        role: ''
+        roleNotes: null
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss De Camp
+        role: ''
+        roleNotes: null
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Watson
+        role: ''
+        roleNotes: null
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Minton
+        role: ''
+        roleNotes: null
+      playbillGenreClaim: Farce
+      timePerformedInSeason: '15'
+      title: Darkness Visible
+    - contributors:
+      - contributorName: ''
+        contributorType: ''
+      featuredAttractions:
+      - attraction: With New Scenery, Dresses, and Decorations
+        isInterpolation: false
+      - attraction: 10th time
+        isInterpolation: false
+      orderOfPerformance: '3'
+      ourGenreAttribution:
+      - Melodrama
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Cooper
+        role: Don Felix
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Smith
+        role: Baron of Lindenberg
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. R. Jones
+        role: Raymond
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Russell
+        role: Theodore
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Martin
+        role: Baptiste
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Noble
+        role: Claude
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Finn
+        role: Jaques
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Grove
+        role: Marco
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Elliston
+        role: Robert
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Bellchambers
+        role: Agnes
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Grove
+        role: Beatrice
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Minton
+        role: Ursuia
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Kendall
+        role: Bleeding Nun
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Watson
+        role: Annette
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Gibbs
+        role: Marguerette
+        roleNotes: ''
+      playbillGenreClaim: Melo Drame
+      timePerformedInSeason: '10'
+      title: Travellers Benighted; Or, The Forest of Rosenwald
+    stageManager: ''
+    theaterCompany: ''
+    ticketing:
+      boxPrice: '72'
+      currency: UK
+      galleryPrice: '24'
+      pitPrice: '36'
+      secondBoxPrice: '36'
+      secondGalleryPrice: '12'
+      secondPitPrice: '18'
+      secondUpperGalleryPrice: '6'
+      ticketingNotes: ''
+      toBeHad: ''
+      upperGalleryPrice: '12'
+    venue: Theatre-Royal, Haymarket

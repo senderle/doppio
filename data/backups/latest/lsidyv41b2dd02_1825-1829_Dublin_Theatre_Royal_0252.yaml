@@ -1,0 +1,398 @@
+_id: !!python/object/new:bson.objectid.ObjectId
+  state: !!binary |
+    X2kERKELhkJDfPVV
+ephemeralRecord:
+  announcements:
+  - Mr. Brough Begs leave respectfully to announce to his friends and the Public,
+    that his Benefit is fixed for Tuesday, June 2, 1829.
+  archiveHoldingDocument: British Library
+  callNumber: lsidyv41b2dd02_1825-1829_Dublin_Theatre_Royal_0252
+  containingCollection: British Library Playbills
+  dataCataloger: Cassidy Holahan
+  dimensions:
+    length: ''
+    width: ''
+  documentPrinter:
+    location: "29, Bachelors\u2019 walk, Dublin"
+    name: J. Carrick & Son
+  documentType: Playbill
+  pageNumber: ''
+  periodicalTitle: ''
+  persistentUrl: ''
+  printedArea:
+    length: ''
+    width: ''
+  shows:
+  - date: '1829-06-02'
+    doorsOpen: ''
+    featuredAttractionsForShow:
+    - ''
+    location: Dublin
+    notes:
+    - ''
+    occasions:
+    - beneficiary:
+      - Mr. Brough
+      occasionAsStated: Mr. Brough Begs leave respectfully to announce to his friends
+        and the Public, that his Benefit is fixed for Tuesday, June 2, 1829
+      occasionType: Benefit Performance
+      occasioner:
+      - ''
+    performanceBegins: ''
+    performances:
+    - contributors:
+      - contributorName: ''
+        contributorType: ''
+      featuredAttractions:
+      - attraction: "[With the songs]: \"Steady thro\u2019 the Boundless Deep,\" \"\
+          Undaunted in Peril,\" \"On the banks of Allan Water,\" \"Rest, Warrior,\
+          \ Rest,\" and \"O Leeze me on my Soldier Love.\""
+        isInterpolation: false
+      - attraction: In Act Second, Dreadful Sea Storm, and Rising of the Tide. --ouo--
+          "Lincolnshire Poacher," by Mr. Brough
+        isInterpolation: false
+      orderOfPerformance: '1'
+      ourGenreAttribution:
+      - Comic Opera
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. W. Johnstone
+        role: Lord Glenallan
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Hamerton
+        role: Sir Arthur Wardour
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Shuter
+        role: Jonathan Oldbuck
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Brough
+        role: Lovel
+        roleNotes: In which he will sing "Steady through the boundless deep," and
+          "Undaunted in peril."
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Rae
+        role: Hector McIntyre
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Barry
+        role: Ensign Leslie
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. McGill
+        role: Lieutenant Traffill
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Johnson
+        role: Caxon
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Williams
+        role: Edie Ochiltree
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Cunningham
+        role: Sanders Mucklebacket
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: "Mr. O\u2019Ryan"
+        role: Stephen
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Turner
+        role: Andrew
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. O''Rourke
+        role: Rattle
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Sutcliffe
+        role: Sweepclean
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Hamilton
+        role: Isabella Wardour
+        roleNotes: In which she will sing "On the banks of Allan Water," "Rest, Warrior,
+          Rest," and "O Leeze me on my Soldier Love."
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Crawford
+        role: Miss McIntyre
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Burgess
+        role: Miss Griselda Oldbuck
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Chippendale
+        role: Maggie Mucklebacket
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Brough
+        role: Jenny Bitherout
+        roleNotes: '"Lincolnshire Poacher", by Mr. Brough'
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Huddart
+        role: Elspeth
+        roleNotes: ''
+      playbillGenreClaim: Comic Opera
+      timePerformedInSeason: ''
+      title: The Antiquary
+    - contributors:
+      - contributorName: ''
+        contributorType: ''
+      featuredAttractions:
+      - attraction: '[Miss Hamilton] will sing "The Dashing white Sergeant"'
+        isInterpolation: false
+      orderOfPerformance: '2'
+      ourGenreAttribution:
+      - Interlude
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Johnson
+        role: Simon
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Chippendale
+        role: Quake
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. McGill
+        role: Bolding
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Barry
+        role: Charles
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Ross
+        role: Smart
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Balls
+        role: Lucretia
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Brough
+        role: Sophia
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Hamilton
+        role: Rose
+        roleNotes: In which she will sing "The Dashing white Sergeant"
+      playbillGenreClaim: Interlude
+      timePerformedInSeason: ''
+      title: Rendezvous
+    - contributors:
+      - contributorName: ''
+        contributorType: ''
+      featuredAttractions:
+      - attraction: ''
+        isInterpolation: false
+      orderOfPerformance: '3'
+      ourGenreAttribution:
+      - Melodrama
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Rae
+        role: Don Raymond
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Cunningham
+        role: Baron de Lindenberg
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Latham
+        role: Theodore
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Grey
+        role: Marco
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. O''Rourke
+        role: Conrad
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Master R. Norman
+        role: Child
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Turner
+        role: Attendant
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Sutcliffe
+        role: Attendant
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Calcraft
+        role: Robert
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Brough
+        role: Baptiste
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Brough
+        role: Agnes
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Sullivan
+        role: Spectre of the Bleeding Nun
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Burgess
+        role: Beatrice
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Huddart
+        role: Margarette
+        roleNotes: ''
+      playbillGenreClaim: Melo-drama
+      timePerformedInSeason: ''
+      title: The Travellers Benighted
+    stageManager: ''
+    theaterCompany: ''
+    ticketing:
+      boxPrice: ''
+      currency: ''
+      galleryPrice: ''
+      pitPrice: ''
+      secondBoxPrice: ''
+      secondGalleryPrice: ''
+      secondPitPrice: ''
+      secondUpperGalleryPrice: ''
+      ticketingNotes: ''
+      toBeHad: Tickets to be had of Mr. Brough, 14. Fownes-street, and of Mr. Sharkey,
+        at the Theatre
+      upperGalleryPrice: ''
+    venue: Theatre Royal, Dublin

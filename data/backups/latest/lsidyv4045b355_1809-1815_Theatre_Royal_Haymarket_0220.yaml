@@ -1,0 +1,395 @@
+_id: !!python/object/new:bson.objectid.ObjectId
+  state: !!binary |
+    X2kHEvg7QQzs2AwK
+ephemeralRecord:
+  announcements:
+  - Last Night but Two of the Company''s performing this Season
+  archiveHoldingDocument: British Library
+  callNumber: lsidyv4045b355_1809-1815_Theatre_Royal_Haymarket_0220
+  containingCollection: British Library Playbills
+  dataCataloger: Cassidy Holahan
+  dimensions:
+    length: ''
+    width: ''
+  documentPrinter:
+    location: Villiers Street, Strand, London
+    name: T. Woodfall
+  documentType: Playbill
+  pageNumber: ''
+  periodicalTitle: ''
+  persistentUrl: ''
+  printedArea:
+    length: ''
+    width: ''
+  shows:
+  - date: '1811-10-12'
+    doorsOpen: ''
+    featuredAttractionsForShow:
+    - ''
+    location: London
+    notes:
+    - ''
+    occasions:
+    - beneficiary:
+      - ''
+      occasionAsStated: ''
+      occasionType: ''
+      occasioner:
+      - ''
+    performanceBegins: ''
+    performances:
+    - contributors:
+      - contributorName: ''
+        contributorType: ''
+      featuredAttractions:
+      - attraction: With New Scenery, Dresses, and Decorations
+        isInterpolation: false
+      - attraction: 12th time
+        isInterpolation: false
+      orderOfPerformance: '1'
+      ourGenreAttribution:
+      - Melodrama
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Cooper
+        role: Don Felix
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Smith
+        role: Baron of Lindenberg
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. R. Jones
+        role: Raymond
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Russell
+        role: Theodore
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Martin
+        role: Baptiste
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Noble
+        role: Claude
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Finn
+        role: Jaques
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Grove
+        role: Marco
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Elliston
+        role: Robert
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Bellchambers
+        role: Agnes
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Grove
+        role: Beatrice
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Minton
+        role: Ursuia
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Kendall
+        role: Bleeding Nun
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Watson
+        role: Annette
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Gibbs
+        role: Marguerette
+        roleNotes: ''
+      playbillGenreClaim: Melo Drame
+      timePerformedInSeason: '12'
+      title: Travellers Benighted; Or, The Forest of Rosenwald
+    - contributors:
+      - contributorName: ''
+        contributorType: ''
+      featuredAttractions:
+      - attraction: 16th time
+        isInterpolation: false
+      orderOfPerformance: '2'
+      ourGenreAttribution:
+      - Farce
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Ellinston
+        role: ''
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Jones
+        role: ''
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Russell
+        role: ''
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Grove
+        role: ''
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Cooper
+        role: ''
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Noble
+        role: ''
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Finn
+        role: ''
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Munden
+        role: ''
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss De Camp
+        role: ''
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Watson
+        role: ''
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Minton
+        role: ''
+        roleNotes: ''
+      playbillGenreClaim: Farce
+      timePerformedInSeason: '16'
+      title: Darkness Visible
+    - contributors:
+      - contributorName: Mr. Reeve
+        contributorType: Composer, The Trio and Chorus (in a stunning Whisper)
+      featuredAttractions:
+      - attraction: For the 37th time
+        isInterpolation: false
+      orderOfPerformance: '3'
+      ourGenreAttribution:
+      - Drama
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Elliston
+        role: Bartholomew Bathos
+        roleNotes: An English Dramatist on the German Model; and Students in the Veterinary
+          College
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Eyre
+        role: Maneger of the Hay-Market Theatre
+        roleNotes: A very "Poor Gentlemen"
+      - newPerformerNotes:
+          newPerformer: true
+          newPerformerOrigin: ''
+          newRole: true
+        performerName: Mr. Noble
+        role: Duke of Saxe Weimar
+        roleNotes: A Sanguinary Tyrant with red hair, and an amorous complexion
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Russell
+        role: Rogero
+        roleNotes: Prisoner in the Abbey of Quedlinburgh; in love with Matilda Pottingen
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Munden
+        role: Casimere
+        roleNotes: "A Polish Emigrant, in Dembrowski\u2019s Legion, married to Cecilia,\
+          \ and having several Children by Matilda"
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Cooper
+        role: Beefington
+        roleNotes: English Nobleman, exiled by the tyranny of King John, previously
+          to the signature of Magna Charts
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Grove
+        role: Puddingfield
+        roleNotes: English Nobleman, exiled by the tyranny of King John, previously
+          to the signature of Magna Charts
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Martin
+        role: Doctor Pottingen
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Glover
+        role: Matilda Pottingen
+        roleNotes: "In love with Rogero, and Mother to Casimere\u2019s Children"
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Gibbs
+        role: Cecilia Muckenfield
+        roleNotes: A Passenger in the Dilly, and a Wife to Casimere
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Grove
+        role: "Dame Shuttenbr\xFCch"
+        roleNotes: Widow and Landlady of the Inn at Weimar
+      - newPerformerNotes:
+          newPerformer: true
+          newPerformerOrigin: ''
+          newRole: true
+        performerName: A New Performer
+        role: Dumbies. Neddycrantz
+        roleNotes: Jack Ass to the Wheel of the Well in the Abbey of Quedlinburgh
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Leserve
+        role: Female Captive
+        roleNotes: A Corpulent Virgin
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Munden
+        role: Chorus
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Payne
+        role: Chorus
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Grove
+        role: Chorus
+        roleNotes: ''
+      playbillGenreClaim: A Grand Dress''d Rehearsal, of a Tragico-Comico-Anglo-Germanico-Hippo-One-Dramatico
+        Romance
+      timePerformedInSeason: '37'
+      title: Quadrupeds of Quedlinburgh
+    stageManager: ''
+    theaterCompany: ''
+    ticketing:
+      boxPrice: ''
+      currency: ''
+      galleryPrice: ''
+      pitPrice: ''
+      secondBoxPrice: ''
+      secondGalleryPrice: ''
+      secondPitPrice: ''
+      secondUpperGalleryPrice: ''
+      ticketingNotes: ''
+      toBeHad: ''
+      upperGalleryPrice: ''
+    venue: Theatre-Royal, Haymarket

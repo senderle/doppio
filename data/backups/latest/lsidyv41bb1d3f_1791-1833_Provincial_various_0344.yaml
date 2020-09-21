@@ -1,0 +1,323 @@
+_id: !!python/object/new:bson.objectid.ObjectId
+  state: !!binary |
+    X2kIWDCp9/Y96JuF
+ephemeralRecord:
+  announcements:
+  - ''
+  archiveHoldingDocument: British Library
+  callNumber: lsidyv41bb1d3f_1791-1833_Provincial_various_0344
+  containingCollection: British Library Playbills
+  dataCataloger: Cassidy Holahan
+  dimensions:
+    length: ''
+    width: ''
+  documentPrinter:
+    location: Shewsbury
+    name: Bell
+  documentType: Playbill
+  pageNumber: ''
+  periodicalTitle: ''
+  persistentUrl: ''
+  printedArea:
+    length: ''
+    width: ''
+  shows:
+  - date: '1834-10-13'
+    doorsOpen: '18:30'
+    featuredAttractionsForShow:
+    - ''
+    location: Shewsbury
+    notes:
+    - '[Description of The Bleeding Nun]: This unrivalled, popular and most interesting
+      Play, commences with Don Felix wishing his Son to Travil; fearing his health
+      will be imparised by his too constant study. Raymond sets forth and sees Agnes,
+      who his leaving the Convent, in which she has been educated, and instantly becomes
+      enamoured with her, but is prevented from expressing his admiration by the vigilance
+      of her Duenna.  Claude, a Postillion, who is connected with a band of Robbers,
+      that infest a Forest thro'' which they pass, breaks the carriage in which Raymond
+      Travels, as if by accident, and betrays him to the Banditti under pretence of
+      finding shelter for the night. Raymond encounters a variety of adventures, and
+      finally escapes with Agnes and her Duenna, who have also been conducted by a
+      treacherous guide to his ABODE OF HORROR, and reaches the Castle of Lindenberg
+      unmolested; the Baron receives him with kindness as the protector of Agnes,
+      but being informed that he is paying his addresses to her, he instantly dismisses
+      him from the Castle, Agnes is determined to follow his fortunes, and inform
+      him of her intention of personating a bleeding Nun, (which is reported nocturnally
+      to preambulate the Castle Walls, exactly at one o''Clock,) by dropping from
+      a window with this Scroll. "When the Castle Bell tolls one, Expect me like the
+      Bleeding Nun." Delighted with this information, he punctually attends and as
+      the Clock strikes one, the Spectre of a Nun with a Lamp in one hand and a Dagger
+      in the other, it appears Raymond supposeing it to be Agnes, follows and attempts
+      to embrace it on which it vanishes and in its room appears a transparency with
+      this inscription. "Protect the Child of the Murdered Agnes." Agnes not meeting
+      with Raymond sets out in search of him and falls a second time into the hands
+      of the Banditti, but is happily rescued by Raymond''s timely interference; and
+      this interesting Piece concludes with their offering of thankfulness and Gratitude
+      to that Providence which never fails to pubish vice and reward virtue.'
+    occasions:
+    - beneficiary:
+      - ''
+      occasionAsStated: ''
+      occasionType: ''
+      occasioner:
+      - ''
+    performanceBegins: '19:00'
+    performances:
+    - contributors:
+      - contributorName: ''
+        contributorType: ''
+      featuredAttractions:
+      - attraction: '"My Native Highland Home," by Mr. Dempster'
+        isInterpolation: false
+      - attraction: '"Pretty Mocking Bird," by Miss Thompson'
+        isInterpolation: false
+      - attraction: '"The Rose of Allandale," Mr. Dempster'
+        isInterpolation: false
+      - attraction: '"Sons of Freedom," by Miss Thompson'
+        isInterpolation: false
+      - attraction: "\"Oh! Don\u2019t You Remember,\" By Mr. Dempster"
+        isInterpolation: false
+      - attraction: '"Buy My Roses Red," By Miss Dobbs'
+        isInterpolation: false
+      - attraction: '"A Death of Nelson," By Mr. Dempster'
+        isInterpolation: false
+      - attraction: A Comic Song, by Mr. Dobbs
+        isInterpolation: false
+      orderOfPerformance: '1'
+      ourGenreAttribution:
+      - Play
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Clinton
+        role: Gambia, the Slave
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Powell
+        role: Captain Clifton
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Loveday
+        role: Governor of Surinam
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Bennett
+        role: Matthew Sharpset
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Dobbs
+        role: Sam Sharpset
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Griffiths
+        role: Colonel Lindenberg
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Dempster
+        role: Captain Malcolm
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Reynolds
+        role: Fogrum, a Cockney
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Laney
+        role: Somerdyke
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Phillips
+        role: Selim
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Griffiths
+        role: Child
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Thompson
+        role: Zelinda
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Dobbs
+        role: Stella Clifton
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Griffiths
+        role: Mrs. Lindenberg
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Thompson
+        role: Miss Von Frump
+        roleNotes: ''
+      playbillGenreClaim: Musical Play
+      timePerformedInSeason: ''
+      title: The Slave
+    - contributors:
+      - contributorName: ''
+        contributorType: ''
+      featuredAttractions:
+      - attraction: ''
+        isInterpolation: false
+      orderOfPerformance: '2'
+      ourGenreAttribution:
+      - Melodrama
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Griffiths
+        role: Raymond
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Loveday
+        role: Theodore
+        roleNotes: His page
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Reynolds
+        role: Don Felix
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Smith
+        role: Marco
+        roleNotes: An Inkeeper
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Phillips
+        role: Conrad
+        roleNotes: Page to Agnes
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Bennett
+        role: Robert
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Dobbs
+        role: Claude
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Powell
+        role: Jacques
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Clinton
+        role: Baptiste
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Loveday
+        role: Margaretta
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Thompson
+        role: Agnes
+        roleNotes: Daughter of Baron Lindenberg
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Griffiths
+        role: The Bleeding Nun
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Dobbs
+        role: Portress to the Convent
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Thompson
+        role: Beatrice
+        roleNotes: Duenna to Agnes
+      playbillGenreClaim: Romantic Melo-Drama
+      timePerformedInSeason: ''
+      title: The Bleeding Nun; Or, The Travellers Benighted
+    stageManager: Mr. Seymour
+    theaterCompany: ''
+    ticketing:
+      boxPrice: '42'
+      currency: ''
+      galleryPrice: '12'
+      pitPrice: '24'
+      secondBoxPrice: ''
+      secondGalleryPrice: ''
+      secondPitPrice: ''
+      secondUpperGalleryPrice: ''
+      ticketingNotes: Second Price, at half-past Eight o'Clock
+      toBeHad: Mr. Brown''s
+      upperGalleryPrice: ''
+    venue: Theatre, Bridge-Place, Shewsbury

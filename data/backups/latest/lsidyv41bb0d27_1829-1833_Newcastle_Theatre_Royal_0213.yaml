@@ -1,9 +1,9 @@
-_created: 2020-09-21 12:24:45+00:00
-_etag: 7c93be197e2ea5ac71edf29e7105c8bf1cd07dfa
+_created: 2020-09-21 16:09:45+00:00
+_etag: b5bf06e401096b049c47699b3412d834dc5462c3
 _id: !!python/object/new:bson.objectid.ObjectId
   state: !!binary |
-    X2ibjREv3i9dBC1V
-_updated: 2020-09-21 12:24:45+00:00
+    X2jQSoncKAwb5ral
+_updated: 2020-09-21 16:09:45+00:00
 ephemeralRecord:
   announcements:
   - RE-ENGAGEMENT OF Signor Mortini, The unrivalled and justly celebrated POSTURE
@@ -19,7 +19,7 @@ ephemeralRecord:
   dataCataloger: MG
   documentType: Playbill
   shows:
-  - date: 1799-12-31 00:00:00+00:00
+  - date: 1830-07-19 00:00:00+00:00
     featuredAttractionsForShow:
     - RE-ENGAGEMENT OF Signor Mortini, The unrivalled and justly celebrated POSTURE
       MASTER, CONTORTIONIST, and MAN-MONKEY, from the Theatres-Royal Drury-Lane, Dublin,

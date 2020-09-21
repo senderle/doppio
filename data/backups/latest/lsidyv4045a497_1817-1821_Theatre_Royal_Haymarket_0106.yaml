@@ -1,0 +1,278 @@
+_id: !!python/object/new:bson.objectid.ObjectId
+  state: !!binary |
+    X2kDYTNS7FkP77Qe
+ephemeralRecord:
+  announcements:
+  - The celebrity which THE ACTOR OF ALL-WORK has now obtained is so great, that to
+    inform the Publick of it's uncommon success, and the nightly overflows it produces,
+    is redundant. It will be repeated every Evening till further notice, subsequently
+    to the highly popular New Comedy entitled TEASING MADE EASY.
+  archiveHoldingDocument: British Library
+  callNumber: lsidyv4045a497_1817-1821_Theatre_Royal_Haymarket_0106
+  containingCollection: British Library Playbill
+  dataCataloger: Cassidy Holahan
+  dimensions:
+    length: ''
+    width: ''
+  documentPrinter:
+    location: London
+    name: T. Woodfall
+  documentType: Playbill
+  pageNumber: ''
+  periodicalTitle: ''
+  persistentUrl: ''
+  printedArea:
+    length: ''
+    width: ''
+  shows:
+  - date: '1817-09-05'
+    doorsOpen: '18:00'
+    featuredAttractionsForShow:
+    - ''
+    location: London
+    notes:
+    - ''
+    occasions:
+    - beneficiary:
+      - ''
+      occasionAsStated: ''
+      occasionType: ''
+      occasioner:
+      - ''
+    performanceBegins: '19:00'
+    performances:
+    - contributors:
+      - contributorName: Mr. Bishop
+        contributorType: Composer, two new songs
+      featuredAttractions:
+      - attraction: 'Two New Songs, incidental to the Comedy, are composed by Mr.
+          Bishop: - One to be sung by Miss Matthews, and the other by Miss Carew'
+        isInterpolation: false
+      orderOfPerformance: '1'
+      ourGenreAttribution:
+      - Comedy
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Terry
+        role: ''
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Jones
+        role: ''
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Mathews
+        role: ''
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Tokely
+        role: ''
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Wakinson
+        role: ''
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Butler
+        role: ''
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Davenport
+        role: ''
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Connor
+        role: ''
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Carew
+        role: ''
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Matthews
+        role: ''
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Gibbs
+        role: Harriet
+        roleNotes: ''
+      playbillGenreClaim: Comedy
+      timePerformedInSeason: '29'
+      title: 'Teasing Made Easy '
+    - contributors:
+      - contributorName: ''
+        contributorType: ''
+      featuredAttractions:
+      - attraction: ''
+        isInterpolation: false
+      orderOfPerformance: '2'
+      ourGenreAttribution:
+      - Interlude
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Connor
+        role: Velinspeck (Manager of a Country Theatre)
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Mathews
+        role: Multiple, (a Strolling Actor)
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Carr
+        role: Alexander, (a little Boy, Multiple's Man Servant)
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Mathews
+        role: 'Assumed Characters: Matthew Stuffy (a Prompter), French Tragedian,
+          Robin Scrawky (an Apprentice), Andrew Mac Sillergrip (a Scotch Pawnbroker),
+          Mrs. Mac Sillergrip (Wife to the Pawnbroker), Fat Coachman'
+        roleNotes: ''
+      playbillGenreClaim: Dramatick Piece
+      timePerformedInSeason: '19'
+      title: The Actor of All-Work; Or, The First and Second Floor
+    - contributors:
+      - contributorName: Haydyn
+        contributorType: Overture and Musick selected from
+      - contributorName: Mozart
+        contributorType: Overture and Musick selected from
+      featuredAttractions:
+      - attraction: ''
+        isInterpolation: false
+      orderOfPerformance: '3'
+      ourGenreAttribution:
+      - Melodrama
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Barnard
+        role: Raymond
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Russell
+        role: Theodore
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Tokely
+        role: Baptiste
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Connor
+        role: Robert
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss De Camp
+        role: Agnes
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Davenport
+        role: Beatrice
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Kendall
+        role: Ursula
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Coveney
+        role: Bleeding Nun
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Watkinson
+        role: Annette
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Gibbs
+        role: Marguerette
+        roleNotes: ''
+      playbillGenreClaim: Melo Drama
+      timePerformedInSeason: '11'
+      title: The Travellers Benighted; Or, The Forest of Rosenwald
+    stageManager: ''
+    theaterCompany: ''
+    ticketing:
+      boxPrice: '60'
+      currency: UK
+      galleryPrice: '24'
+      pitPrice: '36'
+      secondBoxPrice: ''
+      secondGalleryPrice: '12'
+      secondPitPrice: ''
+      secondUpperGalleryPrice: ''
+      ticketingNotes: N. B. A private Box may be had, nightly, by application at the
+        Box-Office. No orders can be admitted.
+      toBeHad: Mr.  Massingham
+      upperGalleryPrice: ''
+    venue: Theatre-Royal, Hay-Market

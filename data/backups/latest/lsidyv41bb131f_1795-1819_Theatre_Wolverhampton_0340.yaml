@@ -1,0 +1,377 @@
+_id: !!python/object/new:bson.objectid.ObjectId
+  state: !!binary |
+    X2kDYTNS7FkP77QZ
+ephemeralRecord:
+  announcements:
+  - The Celebrated Romantic Melo Drama of the Travellers Benighted, FOR THIS NIGHT
+    ONLY. For the Benefit of Mr. and Mrs. Gallott.
+  archiveHoldingDocument: British Library
+  callNumber: lsidyv41bb131f_1795-1819_Theatre_Wolverhampton_0340
+  containingCollection: British Library Playbills
+  dataCataloger: Cassidy Holahan
+  dimensions:
+    length: ''
+    width: ''
+  documentPrinter:
+    location: Wolverhampton
+    name: J. Smart
+  documentType: Playbill
+  pageNumber: ''
+  periodicalTitle: ''
+  persistentUrl: ''
+  printedArea:
+    length: ''
+    width: ''
+  shows:
+  - date: '1816-05-29'
+    doorsOpen: ''
+    featuredAttractionsForShow:
+    - ''
+    location: Wolverhampton
+    notes:
+    - '[Full description of Travellers Benighted given:] Short Sketch of the Story:
+      Raymond having completed  his studies, is entreated by his father to begin his
+      travels; sets out accompanied by Theodore his faithful domestic. On enterering
+      the confines of the Forest of Rosenwold, night draws on, he loses his way, and
+      by the treachery of his guide, Calude, he is led to the cottage of a wooman,
+      Baptista, the captain of a banditti, who assumes the disguise of a woodman the
+      more securely to commit his depredations on the unway traveller. Robert and
+      Jaques, sons of Baptista, return from their plunder in the forest, and enter
+      armed. Raymond is conducted to repose himself in a chamber. Baptista and sons
+      lay a plot to murder him. Marguerette, in order to put Raymond on his guard,
+      contrives to place a Pillow stained with Blood on his bed. Robert enters the
+      chamber and attempts the murder, but is prevented by Raymond''s caution. Agnes
+      and her governate now enter the cottage, being benighted in their journey to
+      the Castle of Lindenburgh. Raymond enamoured of Agnes, resolves on saving her;
+      and Marguerette, giving him to understand the wine is an opiate, he pretends
+      to drink, and affects to sleep. The murderers thiking their victims secure,
+      leave them to Baptista, who is preparing to assasinate Agnes when he meets his
+      death by the very dagger he had raised against sleeping innocence. Marguerette
+      now points out the secret passage by which they escape. --Raymond conducts Agnes
+      to the Castle of Lindenbergh, and is recieved by the Baron and Countess (the
+      only surviving relations of Agnes) with much attention. Agnes relates the Story
+      of the Bleeding Nun, And tells him it is reported the Spectre haunts the Castle
+      every fifth years. Raymond declares his passion for agnes and is dismissed the
+      Castle.-- Agnes is told that the intention of the Countess in sending for her
+      to the Castle is to seduce her for ever from the world. Terrified of the idea,
+      she determines to rely on the honour of Raymond''s affections, -- she drops
+      a letter from the turret, in which she tells Raymond -- "When the Castle Bell
+      tolls One, Expect me as the Bleeding Nun!" Raymond, entraptured at the idea
+      of seeing Agnes, keeps his appointment - the Bell tolls One - the Castle gates
+      open - and THE APPARITION OF THE BLEEDING NUN APPEARS, Is pursued by Raymond
+      - Agnes, as the Nun, now appears, and looks in vain for Raymond - she is met
+      by Theodore, and takes his protection - they are suprised by the banditti. -
+      Agnes confined in a cavern by Robert, Jaques, and Claude - She is rescued, and
+      the Piece concludes with THE UNION OF RAYMOND AND AGNES.'
+    occasions:
+    - beneficiary:
+      - ''
+      occasionAsStated: ''
+      occasionType: ''
+      occasioner:
+      - ''
+    performanceBegins: ''
+    performances:
+    - contributors:
+      - contributorName: Dimond
+        contributorType: Author
+      featuredAttractions:
+      - attraction: ''
+        isInterpolation: false
+      orderOfPerformance: '1'
+      ourGenreAttribution:
+      - Play
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Gallott
+        role: Baron Longivelle
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Collier
+        role: Bertrand
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Butler
+        role: Sanguine
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Gallott
+        role: Gereldine
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Chamber
+        role: Monica
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Sheridan
+        role: Lenoire
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Chambers
+        role: Gaspard
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. C. Crisp
+        role: Florian
+        roleNotes: The Foundling
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Selwin
+        role: Rosabella
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. C. Crisp
+        role: Eugena
+        roleNotes: The Unknown Female
+      playbillGenreClaim: Play
+      timePerformedInSeason: ''
+      title: The Foundling of the Forest
+    - contributors:
+      - contributorName: ''
+        contributorType: ''
+      featuredAttractions:
+      - attraction: ''
+        isInterpolation: false
+      orderOfPerformance: '2'
+      ourGenreAttribution:
+      - Interlude
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Gilbert
+        role: Dancer
+        roleNotes: ''
+      playbillGenreClaim: Dancing
+      timePerformedInSeason: ''
+      title: Dancing, by Mrs. Gallott
+    - contributors:
+      - contributorName: ''
+        contributorType: ''
+      featuredAttractions:
+      - attraction: ''
+        isInterpolation: false
+      orderOfPerformance: '3'
+      ourGenreAttribution:
+      - Interlude
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Gallot
+        role: Singer
+        roleNotes: ''
+      playbillGenreClaim: ''
+      timePerformedInSeason: ''
+      title: '"The Death of Nelson," by Mr. Gallott'
+    - contributors:
+      - contributorName: ''
+        contributorType: ''
+      featuredAttractions:
+      - attraction: In ther Interlude, a song called "The Auctioneer, Dancing-Master,
+          and Quack Doctor, turned Crier, to adverise his own Talents" by Mr. De Camp
+        isInterpolation: false
+      - attraction: A comic song by Mr. Butler
+        isInterpolation: false
+      orderOfPerformance: '4'
+      ourGenreAttribution:
+      - Interlude
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. De Camp
+        role: Bowkitt, the Dancing Master
+        roleNotes: Singing a song called 'The Auctioneer, Dancing-Master, and Quack
+          Doctor, turned Crier, to adverise his own Talents'
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Butler
+        role: Old Cranky
+        roleNotes: Singer of a comic song
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Shutter
+        role: Mum
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Gallott
+        role: Cecilia
+        roleNotes: ''
+      playbillGenreClaim: Interlude
+      timePerformedInSeason: ''
+      title: Hops and Steps
+    - contributors:
+      - contributorName: ''
+        contributorType: ''
+      featuredAttractions:
+      - attraction: ''
+        isInterpolation: false
+      orderOfPerformance: '5'
+      ourGenreAttribution:
+      - Melodrama
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Collier
+        role: Raymond
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Shuter
+        role: Theodore
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Creswell
+        role: Don Felix
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Bing
+        role: Marco
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Gallot
+        role: Robert
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Sheridan
+        role: Jacques
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Chambers
+        role: Claude
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Butler
+        role: Baptista
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Marrett
+        role: Conrad
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Master Gallott
+        role: Child
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. C. Crisp
+        role: The Bleeding Nun
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Gallott
+        role: Marguerette
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Selwin
+        role: Agnes
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Chambers
+        role: Beatrice
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Spray
+        role: Portress
+        roleNotes: ''
+      playbillGenreClaim: Romantic Melo Drama
+      timePerformedInSeason: ''
+      title: The Travellers Benighted; Or, The Castle of Lindenburg
+    stageManager: ''
+    theaterCompany: ''
+    ticketing:
+      boxPrice: ''
+      currency: ''
+      galleryPrice: ''
+      pitPrice: ''
+      secondBoxPrice: ''
+      secondGalleryPrice: ''
+      secondPitPrice: ''
+      secondUpperGalleryPrice: ''
+      ticketingNotes: "Tickets to be had and Places for the Boxes taken at Mr. Smart\u2019\
+        s, Printer: Tickets also to be had of Mr. and Mrs. Gallott, at Mrs. Pratt\u2019\
+        s, St. John-Street."
+      toBeHad: ''
+      upperGalleryPrice: ''
+    venue: Wolverhampton Theatre

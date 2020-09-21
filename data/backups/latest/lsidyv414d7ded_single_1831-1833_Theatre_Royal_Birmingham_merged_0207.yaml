@@ -1,0 +1,378 @@
+_id: !!python/object/new:bson.objectid.ObjectId
+  state: !!binary |
+    X2kBdRLbUkKNMUae
+ephemeralRecord:
+  announcements:
+  - ''
+  archiveHoldingDocument: British Library
+  callNumber: lsidyv414d7ded_single_1831-1833_Theatre_Royal_Birmingham_merged_0207
+  containingCollection: British Library Playbills
+  dataCataloger: Cassidy Holahan
+  dimensions:
+    length: ''
+    width: ''
+  documentPrinter:
+    location: 39, Snow-Hill, Birmingham
+    name: Scott and Tomkinson
+  documentType: Playbill
+  pageNumber: ''
+  periodicalTitle: ''
+  persistentUrl: ''
+  printedArea:
+    length: ''
+    width: ''
+  shows:
+  - date: '1832-10-12'
+    doorsOpen: '18:30'
+    featuredAttractionsForShow:
+    - ''
+    location: Birmingham
+    notes:
+    - '[Programme for The Bleeding Nun:] Programme- Raymond, being anxious to improve
+      his mind by travel, sets forth on his journey, attended by his servant Theodore.
+      On his way through Madrid, he accidentally meets the fair Agnes, by whose charms
+      his heart is taken captive; but is obliged to leave her without declaring his
+      passion. In passing through the forest, he is basely betrayed into THE HAUNTS
+      OF BANDITTI, Though the treachery of Claude, one of the Band, who has assumed
+      the disguise of a postillion. On their entrance to the murderous abode of Baptiste.
+      He is beheld by Marguerite, an unfortunate female, who has been compelled to
+      become his wife, and, with her child has for three years been confined and made
+      witness of the Hellish Crimes committed by Baptiste and his sanguinary Gang
+      - she resolves to risk her own life to save him - when Robert and Jacques, sons
+      to Baptiste, suddenly enter, and attempts to STAB RAYMOND, But are prevented
+      by Marguerite, who shews him to a Chamber, where by means of a PILLOW STAINED
+      WITH BLOOD, he is made acquainted with his danger. Robert now makes various
+      attempts on his life, but by the diligence of Marguerite, is prevented. He now
+      quits the chamber and returns to the Supper Room - when his Horror and Despair
+      are doubly augmented by the appearance of Agnes, who has been betrayed into
+      this DEN OF MURDER, They are saved by the heroic behaviour of Marguerite, by
+      whose hand the VILLIAN BAPTISTE FALLS, and they effect their escape. Agnes in
+      the Second Act, is induced to quit the Castle of Lindenberg, disguised as the
+      SPECTRE NUN which haunts the domains. Raymond prepares to meet her, and with
+      joy flies to the appointed spot, where he is horrorized by the appearance of
+      the SPECTRE OF THE BLEEDING NUN, Which charges him to protect the child of the
+      murdered Agnes, which he swears to observe and the Spectre vanishes from his
+      sight. He now goes in search of Agnes, who has again fallen into the hands of
+      Robert and his Associates, and is on the point of falling a victim to their
+      brutality, when Raymond saves her. Two of the Robbers fall by the hand of Raymond.
+      Robert attacks and disarms him - but is SHOT by Marguerite, and this much interesting
+      piece concludes A BLESSING ON THE HEAD OF RAYMOND AND AGNES.'
+    occasions:
+    - beneficiary:
+      - Mr. Baker
+      occasionAsStated: For the Benefit of Mr. Baker
+      occasionType: Benefit Performance
+      occasioner:
+      - ''
+    performanceBegins: '19:00'
+    performances:
+    - contributors:
+      - contributorName: ''
+        contributorType: ''
+      featuredAttractions:
+      - attraction: Written by the Author of "The Rent Day," "Black-Eyed Susan," &c.,
+          and produced with great success in the London Theatres
+        isInterpolation: false
+      orderOfPerformance: '1'
+      ourGenreAttribution:
+      - Comedy
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Howard
+        role: Mountney
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. G. Horncastle
+        role: Lord Tares
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Bellamy
+        role: John Crystal
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Frazer
+        role: Pinchbeck
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. H. Vining
+        role: Echo
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Durand
+        role: Magnet
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Hart
+        role: Smith
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Gardiner
+        role: Will Owley
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Baker
+        role: Rags
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Hartley
+        role: Brown
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. E. Benwell
+        role: Twitch
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. J. Benwell
+        role: Touch
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Eyre
+        role: Mrs. Mountney
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Clarke
+        role: Mrs. Pinchbeck
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Seymour
+        role: Clara
+        roleNotes: ''
+      playbillGenreClaim: Comedy
+      timePerformedInSeason: '1'
+      title: The Golden Calf
+    - contributors:
+      - contributorName: C. Cummins, Esq.
+        contributorType: Music composer
+      featuredAttractions:
+      - attraction: In the course of the Evening, Mr. Baker will sing in Character
+          A MUSICAL EXTRAVAGANZA, Composed expressly for him by C. Cummins, Esq.
+        isInterpolation: false
+      orderOfPerformance: '2'
+      ourGenreAttribution:
+      - Interlude
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Baker
+        role: Jack Humphries
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Howard
+        role: Bumps
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Gardiner
+        role: Knibs
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Durand
+        role: Edgar de Coucy
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. H. Vining
+        role: Thornton
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Seymour
+        role: Miss Knibs
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Clarkson
+        role: Mrs. Humphries
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Clarke
+        role: Patty Larkin
+        roleNotes: ''
+      playbillGenreClaim: Interlude
+      timePerformedInSeason: ''
+      title: Turning the Tables
+    - contributors:
+      - contributorName: ''
+        contributorType: ''
+      featuredAttractions:
+      - attraction: ''
+        isInterpolation: false
+      orderOfPerformance: '3'
+      ourGenreAttribution:
+      - Melodrama
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Howard
+        role: Don Raymond
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Gardiner
+        role: Don Felix
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Baker
+        role: Theodore
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Durand
+        role: Robert
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Frazer
+        role: Baptiste
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Hartley
+        role: Claude
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. H. Vining
+        role: Jacques
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Benwell
+        role: Marco
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Crisp
+        role: Conrad
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Baker
+        role: Marguerite
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Crisp
+        role: Agnes
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Taylor
+        role: Cunegonda
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Clarkson
+        role: Bleeding Nun
+        roleNotes: ''
+      playbillGenreClaim: Popular Romance
+      timePerformedInSeason: ''
+      title: The Bleeding Nun; Or, The Forest of Lindenberg
+    stageManager: ''
+    theaterCompany: ''
+    ticketing:
+      boxPrice: '48'
+      currency: UK
+      galleryPrice: '12'
+      pitPrice: '30'
+      secondBoxPrice: ''
+      secondGalleryPrice: ''
+      secondPitPrice: ''
+      secondUpperGalleryPrice: ''
+      ticketingNotes: ''
+      toBeHad: Mr. Baker, 31, Newhall-street; at Scott and Tomkinsons, Printers; and
+        of Mr. C. Mellon at the Box Office; where Places may be taken from Eleven
+        till three
+      upperGalleryPrice: '36'
+    venue: Theatre Royal, Birmingham

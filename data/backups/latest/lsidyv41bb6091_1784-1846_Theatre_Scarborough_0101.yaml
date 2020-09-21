@@ -1,0 +1,386 @@
+_id: !!python/object/new:bson.objectid.ObjectId
+  state: !!binary |
+    X2kHXEuOBx4YX1X7
+ephemeralRecord:
+  announcements:
+  - ''
+  archiveHoldingDocument: British Library
+  callNumber: lsidyv41bb6091_1784-1846_Theatre_Scarborough_0101
+  containingCollection: British Library Playbills
+  dataCataloger: Cassidy Holahan
+  dimensions:
+    length: ''
+    width: ''
+  documentPrinter:
+    location: Scarborough
+    name: Whiting
+  documentType: Playbill
+  pageNumber: ''
+  periodicalTitle: ''
+  persistentUrl: ''
+  printedArea:
+    length: ''
+    width: ''
+  shows:
+  - date: '1815-07-27'
+    doorsOpen: '18:00'
+    featuredAttractionsForShow:
+    - ''
+    location: Scarborough
+    notes:
+    - '[Description of Forest Bondy]: This piece is founded on the following fact,
+      as related by the celebrated French Author, St. FOIX. "Aubri de Mondidier, travelling
+      alone through the Forest Bondy, was murdered, and buryed under a tree. His dog
+      would not quit his master''''s grave for several days, till at length, compelled
+      by hunger, he went to the house of an intimate Friend of the unfortunate AUBRI,
+      at Paris, and by his melancholy howling, seemed desirious of expressing the
+      loss they had both sustained. He repeated his cries, ran to the door, then looked
+      back to see whether any body followed him, returned ot his master''''s friend,
+      pulled him by the sleve, and with dumb eloquence intreated him to go with him.
+      The singularity of all the actions of the faithful animal, his coming there
+      without his mater, whose constant companion he had always had been; the sudden
+      disappearance of AUBRI, and perhaps that divine dispensation of events, which
+      will not permit the guilty to remain long undetected,- all (and several) these
+      circumstances induced the company to follow the dog, who conducted them to the
+      fatal tree, where he renewed his howl, scrathcing the earth with his feet, to
+      signify that this was the spot where they ought to search. Accordingly on digging,
+      the body of the unfortunate AUBRI was discovered." The following New Scenery
+      painted for the occasion by Messrs. Cowell and Brown. INSIDE OF A GOTHIC HALL.
+      Open Court of the Inn, with a View of Distant Country. Gallery of the Inn, Terrace,
+      and DISTANT MOUNTAINS. [Description of Travellers Benighted]: Travellers Benighted.
+      New Scenery Painted by Messrs. Cowell and Brown. Kitchen of Baptista''''s Cottage.
+      Bed Room in Cottage. Outside of Lindenberg Castle. Transparent Cloud, which
+      rises as the Spectre Descends, Bearing the following inscription- "Protect the
+      Child of the Murdered Anges." Cavern Scene, Which opens and discovers the Spectre
+      Nun ascending amidst Clouds. Full length Portrait of the BLEEDING-NUN, and Bust
+      of Raymond.'
+    occasions:
+    - beneficiary:
+      - ''
+      occasionAsStated: ''
+      occasionType: ''
+      occasioner:
+      - ''
+    performanceBegins: '19:00'
+    performances:
+    - contributors:
+      - contributorName: Mr. Brown
+        contributorType: Scenery
+      - contributorName: Mr. Cowell
+        contributorType: Scenery
+      featuredAttractions:
+      - attraction: Incidental to the piece, DANCING, By Miss Bland, Mr. White, and
+          Miss E. Rochfort, her first appearance on this Stage.
+        isInterpolation: false
+      orderOfPerformance: '1'
+      ourGenreAttribution:
+      - Melodrama
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Andrews
+        role: Seneschal
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Waylett
+        role: Col. Gontram
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Stanley
+        role: Capt. Aubri
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Yarnold
+        role: Lieut. Landry
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Alexander
+        role: Lieut. Macaire
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. White
+        role: First Officer
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Bland
+        role: Second Officer
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Cowell
+        role: Baise (Ostler of the Inn)
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Hunter
+        role: Louis
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. J. Bland
+        role: William
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Stanley
+        role: Florio (an orphan)
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Taylor
+        role: Dame Gertrude
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Hill
+        role: Lucille
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Bland
+        role: Annette
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Andrews
+        role: Louise
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: true
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss E. Rochfort
+        role: Dancer
+        roleNotes: Her first appearance on this Stage
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Bland
+        role: Dancer
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. White
+        role: Dancer
+        roleNotes: ''
+      playbillGenreClaim: Melo Drame
+      timePerformedInSeason: ''
+      title: The Forest of Bondy; Or, The Dog of Montargis
+    - contributors:
+      - contributorName: ''
+        contributorType: ''
+      featuredAttractions:
+      - attraction: ''
+        isInterpolation: false
+      orderOfPerformance: '2'
+      ourGenreAttribution:
+      - Interlude
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Cowell
+        role: Singer
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Yarnold
+        role: Singer
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Alexander
+        role: Singer
+        roleNotes: ''
+      playbillGenreClaim: ''
+      timePerformedInSeason: ''
+      title: A Comic Song by Mr. Cowell. Favourite Song, Mr. Yarnold. A Comic Song
+        by Mr. Alexander
+    - contributors:
+      - contributorName: Mr. Brown
+        contributorType: Scenery
+      - contributorName: Mr. Cowell
+        contributorType: Scenery
+      featuredAttractions:
+      - attraction: ''
+        isInterpolation: false
+      - attraction: ''
+        isInterpolation: false
+      orderOfPerformance: '3'
+      ourGenreAttribution:
+      - Melodrama
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Holmes
+        role: Don Felix
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Stanley
+        role: Don Raymond
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Cowell
+        role: Theodore
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. J. Bland
+        role: Conrad
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Andrews
+        role: Baptista
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Waylett
+        role: Robert
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Yarnold
+        role: Jaques
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Brown
+        role: Claude
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. White
+        role: Marco
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Bland
+        role: Master of the Hotel
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Andrews
+        role: Countess Lindenberg
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Du Taillis
+        role: Agnes
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Taylor
+        role: Cunegonda
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Bland
+        role: Ursula
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Stanley
+        role: Marguerette
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Cowell
+        role: The Spectre Nun
+        roleNotes: ''
+      playbillGenreClaim: Melo Drame
+      timePerformedInSeason: ''
+      title: The Travellers Benighted; Or, the Spectre Nun!
+    stageManager: ''
+    theaterCompany: ''
+    ticketing:
+      boxPrice: '48'
+      currency: UK
+      galleryPrice: '12'
+      pitPrice: '24'
+      secondBoxPrice: '30'
+      secondGalleryPrice: '6'
+      secondPitPrice: '12'
+      secondUpperGalleryPrice: ''
+      ticketingNotes: ''
+      toBeHad: Mr. Whiting''s Circulating Library
+      upperGalleryPrice: ''
+    venue: Theatre, Scarborough

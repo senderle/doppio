@@ -1,0 +1,447 @@
+_id: !!python/object/new:bson.objectid.ObjectId
+  state: !!binary |
+    X2kCTFwrd/2Dihh/
+ephemeralRecord:
+  announcements:
+  - First Night This Season of Shakespeare''s Tragedy of Macbeth, King of Scotland;
+    And Last of the Melo-Drama of Robinson Crusoe, or the Bold Buccaneers.
+  archiveHoldingDocument: British Library
+  callNumber: lsidyv41b2b1d4_1843-1847_Edinburgh_Illegitimate_Theatre_0026
+  containingCollection: British Library Playbills
+  dataCataloger: Cassidy Holahan
+  dimensions:
+    length: ''
+    width: ''
+  documentPrinter:
+    location: Edinburgh
+    name: James Brydone
+  documentType: Playbill
+  pageNumber: ''
+  periodicalTitle: ''
+  persistentUrl: ''
+  printedArea:
+    length: ''
+    width: ''
+  shows:
+  - date: '1846-07-13'
+    doorsOpen: '19:00'
+    featuredAttractionsForShow:
+    - ''
+    location: Edinburgh
+    notes:
+    - ''
+    occasions:
+    - beneficiary:
+      - ''
+      occasionAsStated: ''
+      occasionType: ''
+      occasioner:
+      - ''
+    performanceBegins: '19:30'
+    performances:
+    - contributors:
+      - contributorName: ''
+        contributorType: ''
+      featuredAttractions:
+      - attraction: A National Pas De Deux by Monsieur Sidini & Miss E. Taylor
+        isInterpolation: false
+      - attraction: In the course of the Evening the Orchestra will perform The Waltz
+          "Elfin," Labitsky; Gallop "Daguerotyp," Labitsky; Gallop, "Homage to Prince
+          Albert," Labitsky; and the Waltz "Brandhofen," Labitsky
+        isInterpolation: false
+      orderOfPerformance: '1'
+      ourGenreAttribution:
+      - Tragedy
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Josephs
+        role: Duncan, King of Scotland
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Wyndham
+        role: Malcolm
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Macfarlane
+        role: Donaldbain
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Bedford
+        role: Banquo
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Eburne
+        role: Rosse
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Edmund Glover
+        role: Macbeth
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Melrose
+        role: Seyton
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Reynolds
+        role: Lennox
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Master Joosephs
+        role: Fleance
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. William Howard
+        role: Macduff
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Honey
+        role: Hecate
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Hicks
+        role: First Murderer
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Marks
+        role: Second Murderer
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Smith
+        role: Siward
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Dalton
+        role: Officer
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Plenderleith
+        role: Officer
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Rivers
+        role: Officer
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Stacey
+        role: Officer
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Ray
+        role: First Speaking Witch
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Lloyd
+        role: Second Speaking Witch
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Third Speaking Witch
+        role: Miss Nicol
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Cleaver
+        role: Lady Macbeth
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Ebsworth
+        role: Gentlewoman
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Monsieur Sidini
+        role: Singer
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss E. Taylor
+        role: Singer
+        roleNotes: ''
+      playbillGenreClaim: Tragedy
+      timePerformedInSeason: '1'
+      title: Macbeth, King of Scotland
+    - contributors:
+      - contributorName: ''
+        contributorType: ''
+      featuredAttractions:
+      - attraction: New and Appropriate Music, Scenery, Dresses, Properties, and other
+          Decorations
+        isInterpolation: false
+      orderOfPerformance: '2'
+      ourGenreAttribution:
+      - Melodrama
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Bedford
+        role: Robinson Crusoe
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. W. H. Evain
+        role: His Man Friday
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Cleaver
+        role: Wife to Crusoe
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Eburne
+        role: Diego, Captain of the Endeavour, and Son of Robinson Crusoe
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Reynolds
+        role: Jack Windlass
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Wyndham
+        role: Harry Bluff
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Hicks
+        role: Tom Swivel
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Melrose
+        role: Ben Block
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Josephs
+        role: Gunnel
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Richardson
+        role: Bucaneer
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Mitchell
+        role: Bucaneer
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Grant
+        role: Bucaneer
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Robertson
+        role: Bucaneer
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Macdonald
+        role: Bucaneer
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Kinghorn
+        role: Bucaneer
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Graser
+        role: Bucaneer
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Reid
+        role: Bucaneer
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Dalton
+        role: Haulyard
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Plenderleith
+        role: Cable
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Lloyd
+        role: Zechariah Nipcheese, Steward and Supercargo
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Monsieur Sidini
+        role: Iglou, Chief of the Friendly Indians
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Honey
+        role: Pariboo, Chief of the Cannibals
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Marks
+        role: Indian
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Rivers
+        role: Indian
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Stacey
+        role: Indian
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. E. Smith
+        role: Indian
+        roleNotes: ''
+      playbillGenreClaim: Melo-Dramatic Spectacle
+      timePerformedInSeason: ''
+      title: Robinson Crusoe, Or the Bold Bucaneers
+    stageManager: ''
+    theaterCompany: ''
+    ticketing:
+      boxPrice: '36'
+      currency: UK
+      galleryPrice: '6'
+      pitPrice: '24'
+      secondBoxPrice: '24'
+      secondGalleryPrice: ''
+      secondPitPrice: '12'
+      secondUpperGalleryPrice: ''
+      ticketingNotes: Children, under 12 years of age, admitted to the Pit and Boxes
+        at the Second Price the whole Evening. The Box-Plans will be exhibited at
+        the Box-Office of the Theatre-Royal, from Eleven till Four o''clock, Where
+        Tickets and Places for the Boxes may be taken of the Box Book-Keeper.
+      toBeHad: ''
+      upperGalleryPrice: ''
+    venue: Edinburgh Adelphi Theatre

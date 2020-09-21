@@ -1,0 +1,306 @@
+_id: !!python/object/new:bson.objectid.ObjectId
+  state: !!binary |
+    X2kHFfg7QQzs2Awj
+ephemeralRecord:
+  announcements:
+  - ''
+  archiveHoldingDocument: British Library
+  callNumber: lsidyv4332c54a_1828-1833_Theatre_Royal_Newcastle_Sunderland_Provincial_various_0023
+  containingCollection: British Library Playbills
+  dataCataloger: Cassidy Holahan
+  dimensions:
+    length: ''
+    width: ''
+  documentPrinter:
+    location: Newcastle
+    name: W. A. Mitchell
+  documentType: Playbill
+  pageNumber: ''
+  periodicalTitle: ''
+  persistentUrl: ''
+  printedArea:
+    length: ''
+    width: ''
+  shows:
+  - date: '1828-12-26'
+    doorsOpen: ''
+    featuredAttractionsForShow:
+    - ''
+    location: Newcastle
+    notes:
+    - '[Description of George Barnwell]: This affecting Tragedy, (the moral tendency
+      of which has been so useful to the rising generation), may be depending upon
+      as founded on fact. The unfortunate Hero of the Piece was executed for the murder
+      of his virtuous and venerable Uncle, is the reign of Queen Elizabeth; to which
+      he was instigated by an artful and abandoned woman. Step by step she led the
+      unwary youth to the last cruel deed, which terminated a miserable existence
+      by the most ignominous death. A story is recorded (and the fact can be proved
+      by many living witnesses,) that a young gentleman of the city of London, having
+      embezzled part of his master''''s property, was providentially at a representation
+      of George Barnwell, at Drury-Lane Theatre, at whose fate he was so struck, that
+      it caused his immediate reformation. The gentleman, benefitted by this excellent
+      Tragedy, was not ashamed to acknowledge his obligation to the Play of the Performers;
+      for, at the next Benefit, the principal Performers receives One Hundred Pounds
+      sterling, with a card to the following effect:- Dear Sir, "One who is indebted
+      to your admirable Representation of George Barnwell for more than Life, for
+      his redeemed honour and eredit, begs your acceptance of the enclosed, which
+      you will receive yearly, so long as you are in the line of your profession.
+      Happy am I to acknowledge, that the stage has prevented me from Ruin and Disgrace;
+      - George Barnwell stopped me in my wild career, and saved me from an ignominious
+      death. I am your grateful Friend and Servant, A CONVERT! '
+    occasions:
+    - beneficiary:
+      - ''
+      occasionAsStated: ''
+      occasionType: ''
+      occasioner:
+      - ''
+    performanceBegins: ''
+    performances:
+    - contributors:
+      - contributorName: J. Feron, Esq.
+        contributorType: Composer of A Medley Dance
+      featuredAttractions:
+      - attraction: End of the Play A Medley Dance by Mrs. C. Hill, Composed expressly
+          for her by J. Feron, Esq.
+        isInterpolation: false
+      orderOfPerformance: '1'
+      ourGenreAttribution:
+      - Tragedy
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Welch
+        role: Thoroughgood
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Banks
+        role: Uncle
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Marston
+        role: George Barnwell
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. King
+        role: Trueman
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. C. Hill
+        role: Blunt
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Talbot
+        role: Bailiff
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Hobbs
+        role: Bailiff
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Glover
+        role: Millwood
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss A. Nicholson
+        role: Maria
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Banks
+        role: Lucy
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. C. Hill
+        role: Dancer
+        roleNotes: ''
+      playbillGenreClaim: Tragedy
+      timePerformedInSeason: ''
+      title: George Barnwell
+    - contributors:
+      - contributorName: ''
+        contributorType: ''
+      featuredAttractions:
+      - attraction: Favourite Song of "The Dashing White Serjeant"
+        isInterpolation: false
+      - attraction: The Duet of "When a Little Farm We Keep"
+        isInterpolation: false
+      orderOfPerformance: '2'
+      ourGenreAttribution:
+      - Interlude
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Marston
+        role: Captain Rambleton
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. C. Hill
+        role: Varnish
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. W. Keene
+        role: Tom
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Glover
+        role: Ellen
+        roleNotes: In which character she will introduce the favourite Song of "The
+          Dashing White Serjeant" and the duet of "When a Little Farm We Keep"
+      playbillGenreClaim: Interlude
+      timePerformedInSeason: ''
+      title: Intrigue
+    - contributors:
+      - contributorName: ''
+        contributorType: ''
+      featuredAttractions:
+      - attraction: ''
+        isInterpolation: false
+      orderOfPerformance: '3'
+      ourGenreAttribution:
+      - Melodrama
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Banks
+        role: Don Felix
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. C. Hill
+        role: Don Raymond
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Hobbs
+        role: Marco
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Talbot
+        role: Conrade
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. H. Kemble
+        role: Baptiste
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. King
+        role: Robert
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Marston
+        role: Jaques
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Welch
+        role: Claude
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. C. Hill
+        role: Agnes
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Gifford
+        role: Beatrice
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Banks
+        role: Margaretta
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss A. Nicholson
+        role: Bleeding Nun
+        roleNotes: ''
+      playbillGenreClaim: Melo-Drama
+      timePerformedInSeason: ''
+      title: The Travellers Benighted; Or, The Bleeding Nun
+    stageManager: ''
+    theaterCompany: ''
+    ticketing:
+      boxPrice: ''
+      currency: ''
+      galleryPrice: ''
+      pitPrice: ''
+      secondBoxPrice: ''
+      secondGalleryPrice: ''
+      secondPitPrice: ''
+      secondUpperGalleryPrice: ''
+      ticketingNotes: ''
+      toBeHad: ''
+      upperGalleryPrice: ''
+    venue: Theatre-Royal, Newcastle

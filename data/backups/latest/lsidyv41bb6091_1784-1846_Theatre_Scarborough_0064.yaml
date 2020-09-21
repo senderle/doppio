@@ -1,0 +1,380 @@
+_id: !!python/object/new:bson.objectid.ObjectId
+  state: !!binary |
+    X2j/DZzLHXjhfdz6
+ephemeralRecord:
+  announcements:
+  - ''
+  archiveHoldingDocument: British Library
+  callNumber: lsidyv41bb6091_1784-1846_Theatre_Scarborough_0064
+  containingCollection: British Library Playbills
+  dataCataloger: Cassidy Holahan
+  dimensions:
+    length: ''
+    width: ''
+  documentPrinter:
+    location: ''
+    name: ''
+  documentType: Playbill
+  pageNumber: ''
+  periodicalTitle: ''
+  persistentUrl: ''
+  printedArea:
+    length: ''
+    width: ''
+  shows:
+  - date: '1815-07-27'
+    doorsOpen: ''
+    featuredAttractionsForShow:
+    - Revival of Shakespear''s Measure for Measure, and last night of Travellers Benighted
+    location: Scarborough
+    notes:
+    - '[Measure for Measure]: Altered and revised by J. Kemble, Esq.
+
+      [On the back of the playbill, a description of Travellers Benighted]: Description.
+      Among the interesting incidents with which this Piece abounds, is the arrival
+      of the Travellers at the Cottage of Baptista, who, in league with a desperate
+      band headed by his sons, makes several attempts to accomplish the Murder of
+      Raymond, who is however, informed of his danger by Marguerette, by means of
+      a blood-stained pillow, with which she furnished his bed, and is by her prevented
+      from swallowing a sleeping potion mixed in his drink by Baptista, whom he overcomes
+      at the moment he is about to perpetrate the murder of Agnes, and assisted by
+      Marguerette, Accomplishes his Death. By means of a concealed pannel, leading
+      to a lone path through the forest, they, accompanied by Marguerette, escape
+      the Banditti, and arrive safe at the Castle of Lindenberg. At length Raymond,
+      amongst a train of adventures in his pursuit of Agnes, encounters The Spectre
+      Nun, whom he discovers to be the Mother of Agnes, and to whose spirit he swears
+      from that moment to protect her offspring. He afterwards fulfills his oath by
+      rescuing her from the cave of the Robbers, whom having succeeded in overcoming,
+      THE SHADE OF THE MURDERED AGNES, being appeased, ascends amidst the clouds,
+      blessing the Union of her Child with her Deliver; which terminates the Drama;
+      forming a striking and interesting conclusion. New Scenery. Kitchen of Baptista''''s
+      Cottage. Bed Room in Cottage. Outside of Lindenberg Castle. TRANSPARENT CLOUD,
+      which rises as the Spectre Descends, Bearing the Following Inscription - "Protect
+      the CHILD of the Murdered Agnes." CAVERN SCENE, Which opens and discovers the
+      Spectre Nun ascending amidst Clouds, Painted by Mr. Cowell and Mr. Brown. Full
+      length Portrait of the BLEEDING-NUN, and Bust of Raymond, Executed by Mr. Jefferson
+      of Sunderland.'
+    occasions:
+    - beneficiary:
+      - ''
+      occasionAsStated: ''
+      occasionType: ''
+      occasioner:
+      - ''
+    performanceBegins: ''
+    performances:
+    - contributors:
+      - contributorName: J. Kemble, Esq.
+        contributorType: Altered and revised by
+      - contributorName: Shakespeare
+        contributorType: Author
+      featuredAttractions:
+      - attraction: Revival of Shakespear''s Measure for Measure
+        isInterpolation: false
+      orderOfPerformance: '1'
+      ourGenreAttribution:
+      - Play
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Faulkner
+        role: Vincentio
+        roleNotes: Duke of Vienna
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Alexander
+        role: Angelo
+        roleNotes: Deputy in the Duke''s absence
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Reymes
+        role: Escalus
+        roleNotes: An ancient Lord, joined with Angelo in the Deputation
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Stanley
+        role: Claudio
+        roleNotes: A young Gentleman condemned by Angelo
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Waylett
+        role: Lucio
+        roleNotes: A Fantastic
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Yarnold
+        role: Provost
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Andrews
+        role: Elbow
+        roleNotes: A simple Constable
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Hardcastle
+        role: Froth
+        roleNotes: A foolish Gentleman
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. White
+        role: Peter
+        roleNotes: A Friar
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Cowell
+        role: Pompey
+        roleNotes: A Tapster
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Bland
+        role: Abhorson
+        roleNotes: An Executioner
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Brown
+        role: Barnardine
+        roleNotes: A dissolute Prisoner
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Faulkner
+        role: Issabella
+        roleNotes: Sister to Claudio
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. White
+        role: Francisca
+        roleNotes: A Votarist of St. Clare
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Andrews
+        role: Marianna
+        roleNotes: Betrothed to Angelo
+      playbillGenreClaim: Play
+      timePerformedInSeason: '1'
+      title: Measure for Measure
+    - contributors:
+      - contributorName: ''
+        contributorType: ''
+      featuredAttractions:
+      - attraction: ''
+        isInterpolation: false
+      orderOfPerformance: '2'
+      ourGenreAttribution:
+      - Interlude
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Hill
+        role: Singer
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: ''
+        role: ''
+        roleNotes: ''
+      playbillGenreClaim: Song
+      timePerformedInSeason: '1'
+      title: A Favourite Song by Mrs. Hill
+    - contributors:
+      - contributorName: ''
+        contributorType: ''
+      featuredAttractions:
+      - attraction: ''
+        isInterpolation: false
+      orderOfPerformance: '3'
+      ourGenreAttribution:
+      - Interlude
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Cowell
+        role: Singer
+        roleNotes: ''
+      playbillGenreClaim: Song
+      timePerformedInSeason: ''
+      title: A Comic Song by Mr. Cowell
+    - contributors:
+      - contributorName: Mr. Cowell
+        contributorType: Scenery painter
+      - contributorName: Mr. Brown
+        contributorType: Scenery painter
+      - contributorName: Mr. Jefferson
+        contributorType: Painter of Full length Portrait of the BLEEDING-NUN, and
+          Bust of Raymond
+      featuredAttractions:
+      - attraction: A new and highly interesting Melo Drame, founded on the Pantomime
+          of Raymond and Agnes
+        isInterpolation: false
+      - attraction: As performed at the Theatre-Royal Haymarket with unbounded Applause
+        isInterpolation: false
+      orderOfPerformance: '4'
+      ourGenreAttribution:
+      - Melodrama
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Reymes
+        role: Don Felix
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Stanley
+        role: Don Raymond
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Cowell
+        role: Theodore
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. J. Bland
+        role: Conrad
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Andrews
+        role: Baptista
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Waylett
+        role: Robert
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Yarnold
+        role: Jaques
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Brown
+        role: Claude
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. White
+        role: Marco
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Bland
+        role: Master of the Hotel
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Andrews
+        role: Countess of Lindenberg
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Du Taillis
+        role: Agnes
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Taylor
+        role: Cunegonda
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Bland
+        role: Ursula
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Faulkner
+        role: Marguerette
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Cowell
+        role: The Spectre Nun
+        roleNotes: ''
+      playbillGenreClaim: Melo Drame
+      timePerformedInSeason: ''
+      title: Travellers Benighted; Or, the Spectre Nun!
+    stageManager: ''
+    theaterCompany: ''
+    ticketing:
+      boxPrice: '48'
+      currency: UK
+      galleryPrice: '12'
+      pitPrice: '24'
+      secondBoxPrice: '30'
+      secondGalleryPrice: '6'
+      secondPitPrice: '12'
+      secondUpperGalleryPrice: ''
+      ticketingNotes: ''
+      toBeHad: Mr. Whiting''s Circulating Library
+      upperGalleryPrice: ''
+    venue: Theatre, Scarborough

@@ -1,0 +1,263 @@
+_id: !!python/object/new:bson.objectid.ObjectId
+  state: !!binary |
+    X2kBdRLbUkKNMUaf
+ephemeralRecord:
+  announcements:
+  - ''
+  archiveHoldingDocument: British Library
+  callNumber: lsidyv41bb21dc_single_1805-1843_Provincial_Theatres_merged_0183
+  containingCollection: British Library Playbills
+  dataCataloger: Cassidy Holahan
+  dimensions:
+    length: ''
+    width: ''
+  documentPrinter:
+    location: Rugeley
+    name: Walters
+  documentType: Playbill
+  pageNumber: ''
+  periodicalTitle: ''
+  persistentUrl: ''
+  printedArea:
+    length: ''
+    width: ''
+  shows:
+  - date: '1841-07-22'
+    doorsOpen: ''
+    featuredAttractionsForShow:
+    - ''
+    location: Rugeley
+    notes:
+    - ''
+    occasions:
+    - beneficiary:
+      - Mrs. Bruce
+      occasionAsStated: For the Benefit of Mrs. Bruce, And under the Patronage of
+        the Loyal and Independent Lodge of Gardeners.
+      occasionType: Benefit Performance
+      occasioner:
+      - ''
+    performanceBegins: ''
+    performances:
+    - contributors:
+      - contributorName: ''
+        contributorType: ''
+      featuredAttractions:
+      - attraction: In which the whole strength of the Company will perform
+        isInterpolation: false
+      - attraction: Comic Singing by Mr. Medlicott
+        isInterpolation: false
+      - attraction: Singing and Dancing by the Infant Prodigy
+        isInterpolation: false
+      orderOfPerformance: '1'
+      ourGenreAttribution:
+      - Drama
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Medlicott
+        role: Singer
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Infant Prodigy
+        role: Singer and dancer
+        roleNotes: ''
+      playbillGenreClaim: Drama
+      timePerformedInSeason: ''
+      title: The Deserted Daughter, Or the Broken Hearted Father
+    - contributors:
+      - contributorName: ''
+        contributorType: ''
+      featuredAttractions:
+      - attraction: Singing by Mrs. Bruce
+        isInterpolation: false
+      orderOfPerformance: '2'
+      ourGenreAttribution:
+      - Interlude
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Bruce
+        role: Singer
+        roleNotes: ''
+      playbillGenreClaim: Interlude
+      timePerformedInSeason: ''
+      title: King and Court, Or, Bombastes Furioso
+    - contributors:
+      - contributorName: ''
+        contributorType: ''
+      featuredAttractions:
+      - attraction: ''
+        isInterpolation: false
+      orderOfPerformance: '3'
+      ourGenreAttribution:
+      - Farce
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Bullen
+        role: Sir Mark Chase
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Fredericks
+        role: Mr. Selborne
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Bullen
+        role: Maria Darlington
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Bruce
+        role: The Hon. Alfred Highflier
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Medlicott
+        role: Fixture
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Bullen
+        role: Mrs. Selborne
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Bruce
+        role: Mrs. Fixture
+        roleNotes: ''
+      playbillGenreClaim: Farce
+      timePerformedInSeason: ''
+      title: A Rowland for an Oliver
+    stageManager: ''
+    theaterCompany: ''
+    ticketing:
+      boxPrice: '18'
+      currency: ''
+      galleryPrice: ''
+      pitPrice: '12'
+      secondBoxPrice: ''
+      secondGalleryPrice: ''
+      secondPitPrice: ''
+      secondUpperGalleryPrice: ''
+      ticketingNotes: No half price.
+      toBeHad: ''
+      upperGalleryPrice: ''
+    venue: Theatre, Rugeley
+  - date: '1841-07-23'
+    doorsOpen: '19:00'
+    featuredAttractionsForShow:
+    - ''
+    location: Rugeley
+    notes:
+    - ''
+    occasions:
+    - beneficiary:
+      - ''
+      occasionAsStated: ''
+      occasionType: ''
+      occasioner:
+      - ''
+    performanceBegins: '19:45'
+    performances:
+    - contributors:
+      - contributorName: ''
+        contributorType: ''
+      featuredAttractions:
+      - attraction: In act 2nd The dreadful appearance of the Ghost surrounded in
+          blue flames.
+        isInterpolation: false
+      - attraction: Singing and dancing
+        isInterpolation: false
+      orderOfPerformance: '1'
+      ourGenreAttribution:
+      - Melodrama
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: ''
+        role: ''
+        roleNotes: ''
+      playbillGenreClaim: ''
+      timePerformedInSeason: ''
+      title: Raymond and Agnes, Or The Bleeding Nun
+    - contributors:
+      - contributorName: ''
+        contributorType: ''
+      featuredAttractions:
+      - attraction: Singing by Mr. Medlicott
+        isInterpolation: false
+      orderOfPerformance: '2'
+      ourGenreAttribution:
+      - ''
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Medlicott
+        role: Singer
+        roleNotes: ''
+      playbillGenreClaim: Piece
+      timePerformedInSeason: ''
+      title: The Ploughman Turned Lord
+    - contributors:
+      - contributorName: ''
+        contributorType: ''
+      featuredAttractions:
+      - attraction: ''
+        isInterpolation: false
+      orderOfPerformance: '3'
+      ourGenreAttribution:
+      - Farce
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: ''
+        role: ''
+        roleNotes: ''
+      playbillGenreClaim: Farce
+      timePerformedInSeason: ''
+      title: Seeing's Believing, or The Guardian Outwitted
+    stageManager: ''
+    theaterCompany: ''
+    ticketing:
+      boxPrice: '18'
+      currency: ''
+      galleryPrice: ''
+      pitPrice: '12'
+      secondBoxPrice: ''
+      secondGalleryPrice: ''
+      secondPitPrice: ''
+      secondUpperGalleryPrice: ''
+      ticketingNotes: No half price.
+      toBeHad: ''
+      upperGalleryPrice: ''
+    venue: Theatre, Rugeley

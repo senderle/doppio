@@ -1,0 +1,325 @@
+_id: !!python/object/new:bson.objectid.ObjectId
+  state: !!binary |
+    X2kHFfg7QQzs2Awk
+ephemeralRecord:
+  announcements:
+  - Never performed here
+  archiveHoldingDocument: British Library
+  callNumber: lsidyv41bb131f_1795-1819_Theatre_Wolverhampton_0162
+  containingCollection: British Library Playbills
+  dataCataloger: Cassidy Holahan
+  dimensions:
+    length: ''
+    width: ''
+  documentPrinter:
+    location: Wolverhampton Chronicle Office
+    name: Gower & Smart
+  documentType: Playbill
+  pageNumber: ''
+  periodicalTitle: ''
+  persistentUrl: ''
+  printedArea:
+    length: ''
+    width: ''
+  shows:
+  - date: '1811-06-12'
+    doorsOpen: ''
+    featuredAttractionsForShow:
+    - ''
+    location: Wolverhampton
+    notes:
+    - '[Full description of Raymond and Agnes given:] A Description of the principal
+      Scenes in the Pantomime. Scene, A Gothic Library in the Castle of Don Felix,--Raymond
+      discovered at his studies, is interrupted by the entrance of Don Felix, (his
+      father) who informs him it is his wish he should go upon his travels; Theodore,
+      his favorite domestic, intreats to accompany him. The carriage with Raymond
+      and Theodore breaks down; Claude points to the hovel, informs they may stop
+      there and shelter for the night.-- Scene, the Inside of the Hovel.-- Maugerette
+      and her Child discovered. Raymond and Theodore are introduced by Baptist-- Theodore
+      is shewn to his room by Maugerette-- Robert and Jaques (sons to Baptist) enter
+      armed, making a servile obedience to Raymond, who is conducted to his Chamber
+      by Robert.-- Scene, the Bed room prepared for Raymond.-- Maugerette wishing
+      to preserve the life of Raymond from the assassins, conveys a Pillow stained
+      with blood upon his bed, thereby to inform him of his danger-- she conceals
+      herself-- Raymond retires to rest, but is prevented by finding the bloody Pillow,
+      and struck with horror, falls into a swoon-- Robert enters-- Attempts to murder
+      him-- Is prevented by Maugerette-- and Raymond, at her request, retires.-- Scene
+      the Lower Apartment of the Hovel.-- Robert informs his father and brother of
+      the ineffectual attempt on the life of Raymond who is brought in by Maugerette--
+      A knocking is heard without-- Agnes (who has been also benighted in the forest)
+      is led in by Claud, attended by Servants-- Supper is prepared-- Opiates are
+      mixed with the wine-- Agnes drinks, and falls into a slumber-- Maugerette begs
+      Raymond not to drink, but to put on the semblance of sleep-- Baptist sends Robert
+      and Jaques to secure the servants, who have retired; and supposing Raymond at
+      rest, prepares to murder him-- Raymond seizes him, and Baptist falls by the
+      hand of Maugerette-- who points our a secret avenue; through which she, taking
+      her child, Raymond and Agnes escape, followed by Theodore.-- Scene, The castle.
+      Raymond about to depart, a paper is lowered by Agnes, containing a drawing of
+      the Nun, with the following scroll: - ''When the Castle Bell tolls One! Expect
+      me like the Bleeding Nun!'' --Scene, the outside of the Castle. Raymond enters
+      - The Clock Strikes ONE! THE APPARITION OF THE NUN comes from the Castle! Raymond
+      supposing it to be Agnes follows in ecstacy. Theodore approaching is met by
+      Agnes, in the habit of the Nun, agitated by the apparent neglect of Raymond.--
+      Scene, A Wood. Raymond following the Spectre, still supposing it Agnes, attempts
+      to embrace it; when suddenly vanishing this inscription is seen:-- ''Protect
+      the Child of the Murdered Agnes!'' --Scene, The Mountain. Robert, Jaques, and
+      Claude, the robbers, discovered in the grave of Baptista. Theodore and Agnes
+      enter; Agnes is seized and borne into a Cavern. --Scene, a Wood. Theodore and
+      Margette meet Raymond, and inform him of Agnes being seiezed by the robbers;
+      they hasten to her rescue. The Piece concludes with the Happy Union of Raymond
+      and Agnes.'
+    occasions:
+    - beneficiary:
+      - ''
+      occasionAsStated: ''
+      occasionType: ''
+      occasioner:
+      - ''
+    performanceBegins: ''
+    performances:
+    - contributors:
+      - contributorName: Edmund John Eyre, Esq.
+        contributorType: Author
+      featuredAttractions:
+      - attraction: Written by Edmund John Eyre, Esq, and now performing at the Theatre
+          Royal, Haymarket. This lively and pleasant Comedy abounds with many laughable
+          Incidents, and has been favoured with the greatest Applause.
+        isInterpolation: false
+      orderOfPerformance: '1'
+      ourGenreAttribution:
+      - Comedy
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Rayner
+        role: Crastinus
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Wallis
+        role: Mr. Connaught
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. White
+        role: Mr. Pimenta
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Ley
+        role: Henry Mortimer
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Watkinson
+        role: Duplex
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. G. Crisp
+        role: John Woulds
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Spencer
+        role: Captain Fraser
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Walsh
+        role: Mr. Juvenile
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Hyde
+        role: Ready
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Wrighton
+        role: Postman
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Chambers
+        role: Constable
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Remington
+        role: Mr. Juvenile
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Diddear
+        role: Servant
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Campbell
+        role: Lady Pimenta
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Diddear
+        role: Emily Danvers
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Watkinson
+        role: Miss Duplex
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Remington
+        role: Jenny
+        roleNotes: ''
+      playbillGenreClaim: Comedy
+      timePerformedInSeason: ''
+      title: High Life in the City
+    - contributors:
+      - contributorName: ''
+        contributorType: ''
+      featuredAttractions:
+      - attraction: ''
+        isInterpolation: false
+      orderOfPerformance: '2'
+      ourGenreAttribution:
+      - Pantomime
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. G. Crisp
+        role: Raymond
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Spencer
+        role: The Father
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Rayner
+        role: Theodore
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. White
+        role: Baptista
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Wallis
+        role: Robert
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Watkinson
+        role: Jacques
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Wrighton
+        role: Claude
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Chambers
+        role: Landlord
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Campbell
+        role: Agnes
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Diddear
+        role: The Bleeding Nun
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Watkinson
+        role: Margrette, Wife of Baptista
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Watkinson
+        role: The Child
+        roleNotes: ''
+      playbillGenreClaim: Pantomime
+      timePerformedInSeason: ''
+      title: Raymond and Agnes, Or The Bleeding Nun
+    stageManager: ''
+    theaterCompany: ''
+    ticketing:
+      boxPrice: ''
+      currency: ''
+      galleryPrice: ''
+      pitPrice: ''
+      secondBoxPrice: ''
+      secondGalleryPrice: ''
+      secondPitPrice: ''
+      secondUpperGalleryPrice: ''
+      ticketingNotes: ''
+      toBeHad: ''
+      upperGalleryPrice: ''
+    venue: Wolverhampton Theatre

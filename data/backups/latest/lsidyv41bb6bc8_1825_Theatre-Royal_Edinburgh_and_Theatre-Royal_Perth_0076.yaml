@@ -1,0 +1,266 @@
+_id: !!python/object/new:bson.objectid.ObjectId
+  state: !!binary |
+    X2kCB9s8HOvJaT/N
+ephemeralRecord:
+  announcements:
+  - The Public is respectfully informed, that Mr. Liston, Being Engaged for Twelve
+    Nights Only, Will make his First Appearance here this Season.
+  archiveHoldingDocument: British Library
+  callNumber: lsidyv41bb6bc8_1825_Theatre-Royal_Edinburgh_and_Theatre-Royal_Perth_0076
+  containingCollection: British Library Playbills
+  dataCataloger: Cassidy Holahan
+  dimensions:
+    length: ''
+    width: ''
+  documentPrinter:
+    location: ''
+    name: ''
+  documentType: Playbill
+  pageNumber: ''
+  periodicalTitle: ''
+  persistentUrl: ''
+  printedArea:
+    length: ''
+    width: ''
+  shows:
+  - date: '1825-03-28'
+    doorsOpen: '18:00'
+    featuredAttractionsForShow:
+    - First Night of Sweethearts and Wives
+    location: Edinburgh
+    notes:
+    - ''
+    occasions:
+    - beneficiary:
+      - ''
+      occasionAsStated: ''
+      occasionType: ''
+      occasioner:
+      - ''
+    performanceBegins: ''
+    performances:
+    - contributors:
+      - contributorName: James Kenney, Esq.
+        contributorType: Author
+      - contributorName: Nathan
+        contributorType: Composer, music
+      - contributorName: Whittaker
+        contributorType: Composer, music
+      - contributorName: Pacey
+        contributorType: Composer, music
+      featuredAttractions:
+      - attraction: Written by James Kenney, Esq., Author of Raising the Wind, Elia
+          Rosenberg, &c. and produced at the Theatre-Royal in the Hay-Market, with
+          unprecedented Success.
+        isInterpolation: false
+      orderOfPerformance: '1'
+      ourGenreAttribution:
+      - Comedy
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Mackay
+        role: Admiral Franklin
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Jones
+        role: Charles Franklin
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Thorne
+        role: Sandford
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Mason
+        role: Curtis
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Ebsworth
+        role: Thomas
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Liston
+        role: Billy Lack-a-day
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Dyer
+        role: Susan
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Nicol
+        role: Mrs. Bell
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. H. Siddons
+        role: Eugenia
+        roleNotes: ''
+      playbillGenreClaim: Comedy
+      timePerformedInSeason: ''
+      title: Sweethearts & Wives
+    - contributors:
+      - contributorName: ''
+        contributorType: ''
+      featuredAttractions:
+      - attraction: Founded on the celebrated Grand Serious Ballet of Action, entitled,
+          Raymond and Agnes, or the Bleeding Nun. And performed at the Theatre-Royal,
+          Hay-Market, with distinguished Success.
+        isInterpolation: false
+      - attraction: With Appropriate Music, Scenery, Machinery, Dresses, and Decorations.
+        isInterpolation: false
+      orderOfPerformance: '2'
+      ourGenreAttribution:
+      - Melodrama
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Pritchard
+        role: Don Raymond
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Rae
+        role: Theodore, his Confidential Attendant
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Lee
+        role: The Badon of Lindenburgh
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Power
+        role: Marco, an Inkeeper
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Miller
+        role: Conrade, a Porter to Baron Lindenburgh
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Aikin
+        role: Servant to the Baron de Lindenburgh
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Anderson
+        role: Servant to the Baron de Lindenburgh
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Mackay
+        role: The Banditti of Rosenwald - Baptista, the Chief of the Banditti, disguised
+          as a Woodcutter
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Murray
+        role: Robert
+        roleNotes: "Baptista\u2019s son"
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: "Mr. M\u2019Gregor"
+        role: Jaquez
+        roleNotes: "Baptista\u2019s son"
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Harrold
+        role: Claud, one of the Banditti, disguised as a Postilion
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Dyer
+        role: Agnes, the Orphan of Lindenburgh
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Nicol
+        role: Beatrice, her Nurse
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Renaud
+        role: Margueritte, Wife of Baptista
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Eyre
+        role: The Spectre of the Bleeding Nun
+        roleNotes: ''
+      playbillGenreClaim: Melo-Drama in Two Acts
+      timePerformedInSeason: '2'
+      title: The Banditti of Rosenwald, Or, The Spectre of the Bleeding Nun!
+    stageManager: '19:00'
+    theaterCompany: ''
+    ticketing:
+      boxPrice: '60'
+      currency: UK
+      galleryPrice: '24'
+      pitPrice: '36'
+      secondBoxPrice: '36'
+      secondGalleryPrice: '12'
+      secondPitPrice: '24'
+      secondUpperGalleryPrice: '6'
+      ticketingNotes: "The Second Price this Evening will be received at the End of\
+        \ the Third Act of the Play, which Act generally terminates at half-past Eight\
+        \ o\u2019Clock"
+      toBeHad: "Tickets and Places for the Boxes to be had at Mr. Garbutt, at the\
+        \ Box Office, from Eleven until Three o\u2019Clock"
+      upperGalleryPrice: '12'
+    venue: Theatre-Royal, Edinburgh

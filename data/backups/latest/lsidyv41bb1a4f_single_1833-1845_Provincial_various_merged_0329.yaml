@@ -1,0 +1,354 @@
+_id: !!python/object/new:bson.objectid.ObjectId
+  state: !!binary |
+    X2kHNBtuiLfcZF1H
+ephemeralRecord:
+  announcements:
+  - Lessee, Mr. Holmes
+  archiveHoldingDocument: British Library
+  callNumber: lsidyv41bb1a4f_single_1833-1845_Provincial_various_merged_0329
+  containingCollection: British Library Playbill
+  dataCataloger: Cassidy Holahan
+  dimensions:
+    length: ''
+    width: ''
+  documentPrinter:
+    location: Newbury
+    name: King
+  documentType: Playbill
+  pageNumber: ''
+  periodicalTitle: ''
+  persistentUrl: ''
+  printedArea:
+    length: ''
+    width: ''
+  shows:
+  - date: '1843-09-04'
+    doorsOpen: '18:30'
+    featuredAttractionsForShow:
+    - ''
+    location: Newbury
+    notes:
+    - Acting Manager, Mr. Channing. Leader of the Orchestra, Mr. Wright.
+    - '[Description of Raymond and Agnes]: Don Raymond departs upon his travels -
+      Arrival at Madrid. Raymond meets Agnes. Love at first sight - Forest of Lindenburg.
+      The Benighted Travellers. Any Port in a storm - Inside of the Robber''''s Cottage
+      - Plunder and Assassination carried on by wholesale, by the firm of Baptiste,
+      Sons, and Co. The Blood-stained Pillow - Raymond preserved by the Robber''''s
+      Wife. The Robber''''s Den - Arrival of Agnes. The Death Struggle, and Destruction
+      of the Black Bandit. Escape of Raymond and Agnes. Gates of Lindenburg Castle
+      - Raymond appoints to meet Agnes disguised as the Bleeding Nun. The Clock strikes
+      one! The Ghost of the murdered Agnes glides forth Enveloped in Flames. Raymond
+      attempts to embrace her when the vision melts into air, leaving the following
+      injunction - "Protect the Child of the Murdered Agnes." Agnes carried off by
+      the Banditti - Raymond pursues them to the Robber''''s Cave. Terrific Combat!!
+      The Bleeding Nun appears surrounded by fire, to bless the Union of Raymond and
+      Agnes.'
+    occasions:
+    - beneficiary:
+      - ''
+      occasionAsStated: ''
+      occasionType: ''
+      occasioner:
+      - ''
+    performanceBegins: '19:00'
+    performances:
+    - contributors:
+      - contributorName: ''
+        contributorType: ''
+      featuredAttractions:
+      - attraction: A Comic Song, - Mr. Hazlewood
+        isInterpolation: false
+      orderOfPerformance: '1'
+      ourGenreAttribution:
+      - Play
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Hazlewood
+        role: Singer
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Channing
+        role: Richard, Duke of Gloster, Lord of Protector of the Realm
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Allen
+        role: Sir Wm. Catesby
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Cooke
+        role: Sir Richard Radcliffe
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Holmes
+        role: Hastings, the Lord Chamberlain
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Beverley
+        role: Shore, disguised as Dumont
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Symondson
+        role: Belmour, his Friend
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Montague
+        role: Earl of Derby
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. C. Jones
+        role: Duke of Buckingham
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. J. Johnson
+        role: Porter
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Walters
+        role: Jane Shore
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Villiers
+        role: Alicia
+        roleNotes: ''
+      playbillGenreClaim: Play
+      timePerformedInSeason: ''
+      title: Jane Shore; Or, the Unhappy Favourite
+    - contributors:
+      - contributorName: ''
+        contributorType: ''
+      featuredAttractions:
+      - attraction: Incidental to the Ballet, A Pas de Deux, by Miss Browne & Mr.
+          Cooke
+        isInterpolation: false
+      - attraction: A Fancy Dance, by Miss Browne
+        isInterpolation: false
+      - attraction: A Pas Grotesque, by Mr. J. Johnson
+        isInterpolation: false
+      - attraction: An Old English Dance, by all the Characters
+        isInterpolation: false
+      - attraction: A Comic Song, by Mr. Montague
+        isInterpolation: false
+      orderOfPerformance: '2'
+      ourGenreAttribution:
+      - Ballet
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Channing
+        role: Skinflint Grindall, the Miller
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. J. Johnson
+        role: Clodpole, his man
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. C. Jones
+        role: Giles
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Cooke
+        role: Edwin, a Peasant
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Spragg
+        role: Sharks, a Lawyer
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Browne
+        role: Rose, the Miller's Daughter
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Allen
+        role: Dame Blossom
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Montague
+        role: Singer
+        roleNotes: ''
+      playbillGenreClaim: Comic Ballet
+      timePerformedInSeason: '1'
+      title: Mad as a March Hare; Or, the Miller's Daughter
+    - contributors:
+      - contributorName: ''
+        contributorType: ''
+      featuredAttractions:
+      - attraction: The remarkable story of the Love of Raymond and Agnes is founded
+          on facts. - Few pieces have been recieved with more pleasure, few are capable
+          of producing more intense Melo-dramatic effect. "Raymond, Raymond, I am
+          thine, And leave thee will I never; Raymond, Raymond, thou art mine, Body
+          and Soul, for ever"
+        isInterpolation: false
+      orderOfPerformance: '3'
+      ourGenreAttribution:
+      - Melodrama
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Symondson
+        role: Don Raymond, a young Nobleman of Madrid
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Hazlewood
+        role: Theodore, his Servant
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Channing
+        role: Baptiste, the Woodcutter & Robber of the Forest
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Beverley
+        role: Robert (his Son)
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. C. Jones
+        role: Jacques (his Son)
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Allen
+        role: Claude, a Postilion in league with the Robbers
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Cooke
+        role: Conrade
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. J. Johnson
+        role: Marco
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Walters
+        role: Agnes
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Villiers
+        role: Marguerite, the Robber's Wife
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Walters
+        role: Cunegonda, the Gonvernante
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Browne
+        role: The Bleeding Nun of Lindenburg
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: ''
+        role: ''
+        roleNotes: ''
+      playbillGenreClaim: Romantic legendary Drama
+      timePerformedInSeason: ''
+      title: Raymond and Agnes, or the Bleeding Nun of Lindenburg
+    stageManager: Mr. Montague
+    theaterCompany: ''
+    ticketing:
+      boxPrice: '30'
+      currency: UK
+      galleryPrice: '6'
+      pitPrice: '12'
+      secondBoxPrice: '18'
+      secondGalleryPrice: ''
+      secondPitPrice: ''
+      secondUpperGalleryPrice: ''
+      ticketingNotes: Upper Boxes, 18 pence. Half-price, 12 pence. No Half-price to
+        Pit and Gallery. Children under Ten years of Age admitted at Half-price (Gallery
+        excepted) from the commencement of the Evening.
+      toBeHad: Mr. King, Mr. Evans, Mr. Holmes
+      upperGalleryPrice: ''
+    venue: Theatre Royal, Newbury and Speenhamland

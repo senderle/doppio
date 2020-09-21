@@ -1,0 +1,352 @@
+_id: !!python/object/new:bson.objectid.ObjectId
+  state: !!binary |
+    X2j/DZzLHXjhfdz7
+ephemeralRecord:
+  announcements:
+  - Mr Nicholson with great regret Informs this Public that MISS PATON Declines her
+    promised visit to Newcastle on account of other engagements.
+  archiveHoldingDocument: British Library
+  callNumber: lsidyv41bb0d27_1829-1833_Newcastle_Theatre_Royal_0123
+  containingCollection: British Library Playbills
+  dataCataloger: Cassidy Holahan
+  dimensions:
+    length: ''
+    width: ''
+  documentPrinter:
+    location: Newgate
+    name: W., E., & H. Mitchell
+  documentType: Playbill
+  pageNumber: ''
+  periodicalTitle: ''
+  persistentUrl: ''
+  printedArea:
+    length: ''
+    width: ''
+  shows:
+  - date: '1829-12-07'
+    doorsOpen: '18:00'
+    featuredAttractionsForShow:
+    - ''
+    location: Newcastle
+    notes:
+    - '[Sketch of The Travellers Benighted]: Sketch of the Story:- Raymond having
+      completed his studies, is entreated by his Father to enter on his Travels. He
+      sets out, accompanied by Theodore, his faithful Domestic. On entering the Confines
+      of the Forest of Rosenwald, Night drawing on, he loses his Way, and, by the
+      Treachery of his Guide (Claude), he is led to the Cottage of a Woodman (Baptista,)
+      the Captain of a Banditti, who assumes that Disguise more securely to commit
+      his Depredations on the unwary Traveller. Robert and Jacques (Sons to Baptista)
+      return from their Plunder in the Forest, and enter armed. Raymond is conducted
+      to repose in a Chamber. Baptista and Sons lay a Plot to murder him. Marguerette,
+      in Order to put Raymond on his Guard, contrives to place a Pillow stained with
+      Blood on his Bed!- Robert enters the Chamber, and attempts the Murder, but is
+      prevented by Marguerette''''s Caution.- Agnes and her Governante now enter the
+      Cottage, being benighted in their Journey to the Castle of Lindenberg. Raymond,
+      enamoured of Agnes, resolves on saving her: and Marguerette, giving him to understand
+      the Wine which is offered is an Opiate, he pretends to drink, and affects to
+      sleep.-- The Murderers, thinking their Victims secure, leave them to Baptista,
+      who is preparing to assassinate Agnes, when he meets his Death by the very Dagger
+      he had raised against the Bosom of sleeping Innocence. Marguerette now points
+      out the Secret Door, by which they escape. Raymond conducts Agnes to the Castle
+      of Lindenberg. Agnes relates the STORY OF THE BLEEDING NUN, And tell shim ''tis
+      reported the Spectre haunts the Castle every fifth Year. Raymond declares his
+      Passion for Agnes, and is dismissed the Castle. Agnes is told that the Intention
+      of the Countess, in sending for her to the Castle, is to seclude her forever
+      from the World. Terrified at the Idea, she determines to rely on the Honour
+      or Raymond''''s Affection. She drops a Letter from the Turret, in which she
+      tells Raymond, ''When the Castle Bell tolls One, Expect me as the Bleeding Nun.''
+      Raymond, enraptured at the Idea of seeing Agnes, keeps his Appointment. The
+      Bell tolls One. The Castle Gates fly open, and the Apparition of the Bleeding
+      Nun is pursued by Raymond. Agnes, as the Nun, now appears, and looks in vain
+      for Raymond. She is met by Theodore, takes his Protection. They are surprised
+      by the Banditti. Agnes confined in a cavern by Robert, Jacques, and Claude.
+      Agnes rescued, and the Piece concludes with the Union of Raymond and Agnes.'''
+    occasions:
+    - beneficiary:
+      - ''
+      occasionAsStated: ''
+      occasionType: ''
+      occasioner:
+      - ''
+    performanceBegins: '19:00'
+    performances:
+    - contributors:
+      - contributorName: ''
+        contributorType: ''
+      featuredAttractions:
+      - attraction: A Comic Song by Mr Dodd
+        isInterpolation: false
+      orderOfPerformance: '1'
+      ourGenreAttribution:
+      - Play
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Barry
+        role: Pizarro
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Simpson
+        role: Alonzo
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Emden
+        role: Davilla
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Egerton
+        role: Las Casas
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. McGill
+        role: Valverde
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Downey
+        role: 'Almagro '
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Brunton
+        role: Sentinel
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Brooks
+        role: Elvira
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Welch
+        role: Ataliba
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. G. Gray
+        role: Rolls
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Roberts
+        role: Orzembo
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Jones
+        role: Orano
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Brooks
+        role: Blind Man
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Dodd
+        role: High Priest
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: true
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs Egerton
+        role: Cora
+        roleNotes: Her first appearance here
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Bretton
+        role: Vocal Part
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Dodd
+        role: Vocal Part
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Embden
+        role: Vocal Part
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Burrell
+        role: Vocal Part
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. E. Burrell
+        role: Vocal Part
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Nicholson
+        role: Vocal Part
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. A. Nicholson
+        role: Vocal Part
+        roleNotes: ''
+      playbillGenreClaim: Play
+      timePerformedInSeason: ''
+      title: Pizarro; Or, The Spaniards in Peru
+    - contributors:
+      - contributorName: ''
+        contributorType: ''
+      featuredAttractions:
+      - attraction: ''
+        isInterpolation: false
+      orderOfPerformance: '2'
+      ourGenreAttribution:
+      - Melodrama
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr Simpson
+        role: Don Raymond
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Dodd
+        role: Theodore
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Emden
+        role: Marco
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Brooks
+        role: Conrad
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Barry
+        role: Baptiste
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Brunton
+        role: Jaques
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Roberts
+        role: Robert
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Welch
+        role: Claude
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Nicholson
+        role: Agnes
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Dodd
+        role: Portress
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs Bretton
+        role: Beatrice
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss A. Nicholson
+        role: Bleeding Nun
+        roleNotes: ''
+      playbillGenreClaim: Melo Drama
+      timePerformedInSeason: ''
+      title: Raymond and Agnes; Or, The Bleeding Nun
+    stageManager: ''
+    theaterCompany: ''
+    ticketing:
+      boxPrice: '48'
+      currency: ''
+      galleryPrice: '12'
+      pitPrice: '24'
+      secondBoxPrice: '24'
+      secondGalleryPrice: ''
+      secondPitPrice: '12'
+      secondUpperGalleryPrice: ''
+      ticketingNotes: Half-Price at half past eight. Boxes Second Circle, 36 pence,
+        Second price, 18 pence. Third Circle, 24 pence, Second Price, 12 pence.
+      toBeHad: Mr. Nettleton
+      upperGalleryPrice: ''
+    venue: 'Theatre-Royal, Newcastle '

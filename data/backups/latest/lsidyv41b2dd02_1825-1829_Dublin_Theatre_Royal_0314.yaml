@@ -1,0 +1,378 @@
+_id: !!python/object/new:bson.objectid.ObjectId
+  state: !!binary |
+    X2j/DZzLHXjhfdz/
+ephemeralRecord:
+  announcements:
+  - "The Public is respectfully informed that in consequence of the great fatigue\
+    \ which Mr. Braham has undergone in an un-interrupted engagement of Twenty Seven\
+    \ successive Nights, and in order to give him one day\u2019s rest, the Opera announced\
+    \ for this Evening has been withdrawn"
+  archiveHoldingDocument: British Library
+  callNumber: lsidyv41b2dd02_1825-1829_Dublin_Theatre_Royal_0314
+  containingCollection: British Library Playbills
+  dataCataloger: Cassidy Holahan
+  dimensions:
+    length: ''
+    width: ''
+  documentPrinter:
+    location: ''
+    name: ''
+  documentType: Playbill
+  pageNumber: ''
+  periodicalTitle: ''
+  persistentUrl: ''
+  printedArea:
+    length: ''
+    width: ''
+  shows:
+  - date: '1829-12-21'
+    doorsOpen: ''
+    featuredAttractionsForShow:
+    - ''
+    location: Dublin
+    notes:
+    - '[At the end of the playbill]: The Public is respectfully informed that in compliance
+      with many applications The New Grand Opera of MASANIELLO, Will be Performed
+      To-Morrow Evening, For Most Positively the Last Time, It must now be definitively
+      withdrawn in consequence of the termination of Mr. Brahams Engagement'
+    occasions:
+    - beneficiary:
+      - ''
+      occasionAsStated: ''
+      occasionType: ''
+      occasioner:
+      - ''
+    performanceBegins: ''
+    performances:
+    - contributors:
+      - contributorName: ''
+        contributorType: ''
+      featuredAttractions:
+      - attraction: In Act II - A Grand Invocation
+        isInterpolation: false
+      - attraction: In Act III - the Glee of "Fly away time," By Miss Hamilton, Miss
+          M. Glover, and Miss Dyer
+        isInterpolation: false
+      orderOfPerformance: '1'
+      ourGenreAttribution:
+      - Tragedy
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. H. Cooke
+        role: Rolla
+        roleNotes: Peruvian
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Cunningham
+        role: Ataliba
+        roleNotes: Peruvian
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Chippendale
+        role: Orozembo
+        roleNotes: Peruvian
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Bishop
+        role: Orano
+        roleNotes: Peruvian
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Shuter
+        role: Blind Mand
+        roleNotes: Peruvian
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Master Ontague
+        role: Boy
+        roleNotes: Peruvian
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Brough
+        role: High Priest
+        roleNotes: Peruvian
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Bland
+        role: Centinel
+        roleNotes: Peruvian
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Thorne
+        role: Priest
+        roleNotes: Peruvian
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Maeder
+        role: Priest
+        roleNotes: Peruvian
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: "Mr. M\u2019Gowran"
+        role: Priest
+        roleNotes: Peruvian
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss M. Glover
+        role: Virgin of the Sun
+        roleNotes: Peruvian
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Hamilton
+        role: Virgin of the Sun
+        roleNotes: Peruvian
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Dyer
+        role: Virgin of the Sun
+        roleNotes: Peruvian
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss E. Chalmers
+        role: Virgin of the Sun
+        roleNotes: Peruvian
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Johnson
+        role: Virgin of the Sun
+        roleNotes: Peruvian
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Mahon
+        role: Virgin of the Sun
+        roleNotes: Peruvian
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Bland
+        role: Virgin of the Sun
+        roleNotes: Peruvian
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Sullivan
+        role: Virgin of the Sun
+        roleNotes: Peruvian
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Kenneth
+        role: Cora
+        roleNotes: Peruivan
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Barry
+        role: Pizarre
+        roleNotes: Spaniard
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. F. Cooke
+        role: Valverde
+        roleNotes: Spaniard
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. H. Williams
+        role: Almagro
+        roleNotes: Spaniard
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. King
+        role: Alonzo
+        roleNotes: Spaniard
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Hamerton
+        role: Las Casas
+        roleNotes: Spaniard
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: "Mr. O\u2019Rourke"
+        role: Davilla
+        roleNotes: Spaniard
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Turner
+        role: Gonzalo
+        roleNotes: Spaniard
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Huddart
+        role: Elvira
+        roleNotes: ''
+      playbillGenreClaim: Tragic Play
+      timePerformedInSeason: ''
+      title: Pizarro; or the Conquest of Peru.
+    - contributors:
+      - contributorName: ''
+        contributorType: ''
+      featuredAttractions:
+      - attraction: ''
+        isInterpolation: false
+      orderOfPerformance: '2'
+      ourGenreAttribution:
+      - Melodrama
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. King
+        role: Don Raymond
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Latham
+        role: Theodore
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Chippendale
+        role: Marco
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. H. Cooke
+        role: Robert
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. F. Cooke
+        role: Jacques
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Barry
+        role: Claude
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Brough
+        role: Baptiste
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss E. Chalmers
+        role: Agnes
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Chippendale
+        role: Beatrice
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Johnson
+        role: Ursula
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Huddart
+        role: Marguerite
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Bland
+        role: Annette
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Sullivan
+        role: Spectre of the Bleeding Nun
+        roleNotes: ''
+      playbillGenreClaim: Melo-drama
+      timePerformedInSeason: ''
+      title: The Travellers Benighted. Or, The Bleeding Nun
+    stageManager: ''
+    theaterCompany: ''
+    ticketing:
+      boxPrice: ''
+      currency: ''
+      galleryPrice: ''
+      pitPrice: ''
+      secondBoxPrice: ''
+      secondGalleryPrice: ''
+      secondPitPrice: ''
+      secondUpperGalleryPrice: ''
+      ticketingNotes: ''
+      toBeHad: Tickets to be had of Mr. Brough, 14. Fownes-street, and of Mr. Sharkey,
+        at the Theatre
+      upperGalleryPrice: ''
+    venue: Theatre Royal, Dublin

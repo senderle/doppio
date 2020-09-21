@@ -1,0 +1,309 @@
+_id: !!python/object/new:bson.objectid.ObjectId
+  state: !!binary |
+    X2j/D5zLHXjhfd0J
+ephemeralRecord:
+  announcements:
+  - Colman''s Excellent Play of The Heir at Law, So Frequently Enquired After, Will
+    Be Acted This Evening, For the Benefit of G. Billings, Gallery Money-Taker.
+  - "J. Bradbury\u2019s Tickets will be received. "
+  archiveHoldingDocument: British Library
+  callNumber: lsidyv41bb4047_1796-1837_Theatre_Nottingham_0242
+  containingCollection: British Library Playbills
+  dataCataloger: Cassidy Holahan
+  dimensions:
+    length: ''
+    width: ''
+  documentPrinter:
+    location: ''
+    name: ''
+  documentType: Playbill
+  pageNumber: ''
+  periodicalTitle: ''
+  persistentUrl: ''
+  printedArea:
+    length: ''
+    width: ''
+  shows:
+  - date: '1831-11-18'
+    doorsOpen: '18:00'
+    featuredAttractionsForShow:
+    - ''
+    location: ''
+    notes:
+    - '[Quote with Heir at Law]: "On my own merits I shall lay no stress," "I am L.L.D.
+      and A. Double S."'
+    - "[Description of Travellers Benighted:] Raymond having completed his studies,\
+      \ is entreated by his Father to enter on his Travels. He sets out, accompanied\
+      \ by Theodore, his faithful Domestic. On entering the Confines of the Forest\
+      \ of Rosenwald, Night drawing on, he loses his Way, and, by the Treachery of\
+      \ his Guide (Claude), he is led to the Cottage of a Woodman (Baptista,) the\
+      \ Captain of a Banditti, who assumes that Disguise more securely to commit his\
+      \ Depredations on the unwary Traveller. Robert and Jacques (Sons to Baptista)\
+      \ return from their Plunder in the Forest, and enter armed. Raymond is conducted\
+      \ to repose in a Chamber. Baptista and Sons lay a Plot to murder him. Marguerette,\
+      \ in Order to put Raymond on his Guard, contrives to place a Pillow stained\
+      \ with Blood on his Bed!- Robert enters the Chamber, and attempts the Murder,\
+      \ but is prevented by Marguerette\u2019s Caution.- Agnes and her Governante\
+      \ now enter the Cottage, being benighted in their Journey to the Castle of Lindenberg.\
+      \ Raymond, enamoured of Agnes, resolves on saving her- and Marguerette, giving\
+      \ him to understand the Wine which is offered is an Opiate, he pretends to drink,\
+      \ and affects to sleep.-- The Murderers, thinking their Victims secure, leave\
+      \ them to Baptista, who is preparing to assassinate Agnes, when he meets his\
+      \ Death by the very Dagger he had raised against the Bosom of sleeping Innocence.\
+      \ Marguerette now points out the Secret Door, by which they escape. Raymond\
+      \ conducts Agnes to the Castle of Lindenberg. Agnes relates the STORY OF THE\
+      \ BLEEDING NUN, And tell shim \u2019tis reported the Spectre haunts the Castle\
+      \ every fifth Year. Raymond declares his Passion for Agnes, and is dismissed\
+      \ the Castle. Agnes is told that the Intention of the Countess, in sending for\
+      \ her to the Castle, is to seclude her forever from the World. Terrified at\
+      \ the Idea, she determines to rely on the Honour or Raymond\u2019s Affection.\
+      \ She drops a Letter from the Turret, in which she tells Raymond, \"When the\
+      \ Castle Bell tolls One, Expect me as the Bleeding Nun.\" Raymond, enraptured\
+      \ at the Idea of seeing Agnes, keeps his Appointment. The Bell tolls One. The\
+      \ Castle Gates fly open, and the Apparition of the Bleeding Nun is pursued by\
+      \ Raymond. Agnes, as the Nun, now appears, and looks in vain for Raymond. She\
+      \ is met by Theodore, takes his Protection. They are surprised by the Banditti.\
+      \ Agnes confined in a cavern by Robert, Jacques, and Claude. Agnes rescued,\
+      \ and the Piece concludes with the Union of Raymond and Agnes"
+    occasions:
+    - beneficiary:
+      - G. Billings
+      occasionAsStated: "Colman\u2019s Excellent Play of The Heir at Law, So Frequently\
+        \ Enquired After, Will Be Acted This Evening, For the Benefit of G. Billings,\
+        \ Gallery Money-Taker."
+      occasionType: Benefit Performance
+      occasioner:
+      - ''
+    performanceBegins: '19:00'
+    performances:
+    - contributors:
+      - contributorName: G. Colman, Esq.
+        contributorType: Author
+      featuredAttractions:
+      - attraction: ''
+        isInterpolation: false
+      orderOfPerformance: '1'
+      ourGenreAttribution:
+      - Comedy
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Simpson
+        role: Lord Duberly (alias Daniel Dowlas)
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Nantz
+        role: Dick Dowlas
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Wingrove
+        role: Henry Morland
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Lacy
+        role: Steadfast
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Walton
+        role: Kenrick
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Langley
+        role: Zekiel Homespun
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Boddie
+        role: Doctor Pangloss (L.L.D. and A. double S.)
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Stanley
+        role: John
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Grindell
+        role: Waiter at the Blue Boar
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Craven
+        role: Lady Duberly
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Davies
+        role: Caroline Dormer
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Simpson
+        role: Cicely Homespun
+        roleNotes: ''
+      playbillGenreClaim: Comedy
+      timePerformedInSeason: ''
+      title: The Heir at Law
+    - contributors:
+      - contributorName: ''
+        contributorType: ''
+      featuredAttractions:
+      - attraction: ''
+        isInterpolation: false
+      orderOfPerformance: '2'
+      ourGenreAttribution:
+      - Melodrama
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Nantz
+        role: Raymond
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Walton
+        role: Don Felix
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Simpson
+        role: Baptista
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Langley
+        role: Robert
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Wingrove
+        role: Claude
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Lacy
+        role: Jaques
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Doddie
+        role: Theodore
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Mather
+        role: Conrad
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Stanley
+        role: Marco
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Read
+        role: Woodman
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Simpson
+        role: Lady Agnes
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Davies
+        role: The Bleeding Nun
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Miss Craven
+        role: Cunegonda
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Manly
+        role: Marguerette
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Walton
+        role: Ursula
+        roleNotes: ''
+      playbillGenreClaim: Dramatic Entertainment
+      timePerformedInSeason: ''
+      title: 'The Travellers Benighted: Or, Raymond and Agnes'
+    stageManager: Mr. Boddie
+    theaterCompany: ''
+    ticketing:
+      boxPrice: '36'
+      currency: UK
+      galleryPrice: '12'
+      pitPrice: '24'
+      secondBoxPrice: '24'
+      secondGalleryPrice: '6'
+      secondPitPrice: '12'
+      secondUpperGalleryPrice: '18'
+      ticketingNotes: ''
+      toBeHad: At the Theatre, each Day from Eleven o''Clock till Two; G. Stretton,
+        Printer hereof
+      upperGalleryPrice: '30'
+    venue: ''

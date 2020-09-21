@@ -1,0 +1,295 @@
+_id: !!python/object/new:bson.objectid.ObjectId
+  state: !!binary |
+    X2kAVHGnhvwYCIsw
+ephemeralRecord:
+  announcements:
+  - ''
+  archiveHoldingDocument: British Library
+  callNumber: lsidyv41bb1eee_1796-1848_Provincial_various_0250
+  containingCollection: British Library Playbills
+  dataCataloger: Cassidy Holahan
+  dimensions:
+    length: ''
+    width: ''
+  documentPrinter:
+    location: Dover
+    name: W. Batcheller
+  documentType: Playbill
+  pageNumber: ''
+  periodicalTitle: ''
+  persistentUrl: ''
+  printedArea:
+    length: ''
+    width: ''
+  shows:
+  - date: '1838-01-22'
+    doorsOpen: ''
+    featuredAttractionsForShow:
+    - ''
+    location: ''
+    notes:
+    - ''
+    occasions:
+    - beneficiary:
+      - Mr. Philips
+      occasionAsStated: For the Benefit of Mr. Philips
+      occasionType: Benefit Performance
+      occasioner:
+      - ''
+    performanceBegins: '19:00'
+    performances:
+    - contributors:
+      - contributorName: ''
+        contributorType: ''
+      featuredAttractions:
+      - attraction: In the course of the Evening, A Song by Mrs. Curling. A Comic
+          Song by Mr. Reid. A Dance by Mr. Chester.
+        isInterpolation: false
+      orderOfPerformance: '1'
+      ourGenreAttribution:
+      - Tragedy
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Curling
+        role: Macbeth
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Courtney
+        role: Macduff
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Lynne
+        role: Banquo
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Chester
+        role: Duncan
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Talford
+        role: Malcolm
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Palmer
+        role: Rosse
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Reid
+        role: Seyton
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Sloman
+        role: Lady Macbeth
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Reid
+        role: Gentlewoman
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Sloman
+        role: Hecate and First Witch
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Curling
+        role: Second Witch
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Palmer
+        role: Thir Witch
+        roleNotes: ''
+      playbillGenreClaim: Tragedy
+      timePerformedInSeason: ''
+      title: Macbeth, King of Scotland
+    - contributors:
+      - contributorName: ''
+        contributorType: ''
+      featuredAttractions:
+      - attraction: ''
+        isInterpolation: false
+      orderOfPerformance: '2'
+      ourGenreAttribution:
+      - Interlude
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Palmer
+        role: Captain Shortcut, R. N.
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Starmer
+        role: Lieutenant Seaworth, R. N.
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Reid
+        role: Boatswain Bobstay
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Sloman
+        role: Mr. Tobias Shortcut (Tobacconist)
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Talford
+        role: Sailor
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Reid
+        role: Margaret, Ward to Tobias Shortcut
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Palmer
+        role: Mrs. Fidget (Landlady of the Dolphin)
+        roleNotes: ''
+      playbillGenreClaim: Piece, in One Act
+      timePerformedInSeason: ''
+      title: Spitfire
+    - contributors:
+      - contributorName: ''
+        contributorType: ''
+      featuredAttractions:
+      - attraction: ''
+        isInterpolation: false
+      orderOfPerformance: '3'
+      ourGenreAttribution:
+      - Melodrama
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Courtney
+        role: Raymond
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Reid
+        role: Theodore (his Servant)
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Lynne
+        role: Baptiste
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Curling
+        role: Robert
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mr. Chester
+        role: Jacques
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Curling
+        role: Agnes
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Reid
+        role: Marguerette
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: Mrs. Palmer
+        role: Beatrice
+        roleNotes: ''
+      - newPerformerNotes:
+          newPerformer: false
+          newPerformerOrigin: ''
+          newRole: false
+        performerName: ___ [Blank]
+        role: The Bleeding Nun
+        roleNotes: ''
+      playbillGenreClaim: Drama
+      timePerformedInSeason: ''
+      title: Raymond and Agnes; Or, The Bleeding Nun
+    stageManager: ''
+    theaterCompany: ''
+    ticketing:
+      boxPrice: '36'
+      currency: UK
+      galleryPrice: '12'
+      pitPrice: '24'
+      secondBoxPrice: '24'
+      secondGalleryPrice: '6'
+      secondPitPrice: '18'
+      secondUpperGalleryPrice: ''
+      ticketingNotes: The Manager trusts the following alteration and arrangements
+        of the Prices of Admission, will give satisfaction:- At Seven o''Clock, Boxes,
+        3s. Pit 2s. Gallery, 1s. At Eight o''Clock, Boxes, 2s, Pit, 1s. 6d. Gallery,
+        6d. At Nine o''Clock, Boxes, 1s. 6d. Pit, 1s. At Ten o''Clock, Boxes, 1s.
+        Pit, 6d.
+      toBeHad: Mr. Philips, at Mrs. Tomlin's, 68, Snargate-Street
+      upperGalleryPrice: ''
+    venue: Theatre, Dover
