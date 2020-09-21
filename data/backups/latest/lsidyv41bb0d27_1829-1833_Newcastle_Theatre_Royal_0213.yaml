@@ -1,0 +1,244 @@
+_created: 2020-09-21 12:24:45+00:00
+_etag: 7c93be197e2ea5ac71edf29e7105c8bf1cd07dfa
+_id: !!python/object/new:bson.objectid.ObjectId
+  state: !!binary |
+    X2ibjREv3i9dBC1V
+_updated: 2020-09-21 12:24:45+00:00
+ephemeralRecord:
+  announcements:
+  - RE-ENGAGEMENT OF Signor Mortini, The unrivalled and justly celebrated POSTURE
+    MASTER, CONTORTIONIST, and MAN-MONKEY, from the Theatres-Royal Drury-Lane, Dublin,
+    Edinburgh, &c. &c.
+  - 'The whole to conclude with the original Melo Drama, (the fame of which excited
+    so extraordinary a sensation in the different Metropolis of the Continent of Europe,
+    during the life of the celebrated Mazurier,) entitled
+
+    JOCKO; OR, THE BRAZILIAN APE.'
+  archiveHoldingDocument: British Library
+  callNumber: lsidyv41bb0d27_1829-1833_Newcastle_Theatre_Royal_0213
+  dataCataloger: MG
+  documentType: Playbill
+  shows:
+  - date: 1799-12-31 00:00:00+00:00
+    featuredAttractionsForShow:
+    - RE-ENGAGEMENT OF Signor Mortini, The unrivalled and justly celebrated POSTURE
+      MASTER, CONTORTIONIST, and MAN-MONKEY, from the Theatres-Royal Drury-Lane, Dublin,
+      Edinburgh, &c. &c.
+    notes:
+    - The Two Friends translated from the French of Les Deux Amis
+    performances:
+    - featuredAttractions:
+      - isInterpolation: false
+      orderOfPerformance: 1
+      ourGenreAttribution:
+      - Comedy
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Mr. G. Gray
+        role: Herbert
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Mr. Roberts
+        role: Ambrose
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Mr. C. Hill
+        role: Valentine
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Miss A. Nicholson
+        role: Elinor
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Miss Nicholson
+        role: Rose
+      playbillGenreClaim: Petite Comedy
+      title: The Two Friends
+    - featuredAttractions:
+      - attraction: 'SIGNOR MORTINI...will introduce his astonishing Feats of CORPUSCULAR
+          FLEXIBILITY. He will particularly display the following astonishing feats,
+          hitherto considered incompatible with the organization of the human frame:
+          - He will place his Leg in a perpendicular line with his Shoulder, bend
+          himself double, place his Feet on two Chairs and extend them till he brings
+          his Legs in an horizontal Position and his Body erect - Dance a Pas Grotesque
+          on his Head, hop with his Leg round his Shoulder - Balance his Body on one
+          Hand - Double himself like a Turtle - Tie his Legs in a Knot and walk on
+          his Hands - And conclude with his Celestial flight and Rapid Ascent TO THE
+          TOP OF THE THEATRE WITH ONE FOOT FOREMOST.'
+        isInterpolation: false
+      orderOfPerformance: 2
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Mr. Wilson
+        role: Pietro
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Mr. Brunton
+        role: Renani
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Mr. Langford
+        role: Florelli
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Mr. Downey
+        role: Perez
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Mr. Welch
+        role: Sanchez
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Miss Nicholson
+        role: Litella
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Miss J. Nicholson
+        role: Ninon
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Miss H. Burrell
+        role: Inis
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Signor Mortini
+        role: Policinel
+      playbillGenreClaim: Buffo Extravaganza
+      title: The Shipwreck of Policinel
+    - featuredAttractions:
+      - isInterpolation: false
+      orderOfPerformance: 3
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Mr. Roberts
+        role: Yusef, a Tailor of Damascus
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Mr. C. Hill
+        role: Jaffer, a Tailor of Damascus
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Mr. Welsh
+        role: The Cadi
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Mr. Langford
+        role: Abuker
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Mr. Downey
+        role: Hassan
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Mr. Wilson
+        role: Bekbek
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Miss Burrell
+        role: Ziedda
+      playbillGenreClaim: Laughable Oriental Sketch
+      title: Two Eyes Between You
+    - featuredAttractions:
+      - attraction: 'Jocko, (the Ape of Brazil,) by SIGNOR MORTINI: In the course
+          of which he will introduce his WONDERFUL CONTORTIONS & FEATS OF SINGERIE.
+          HIS Pas de Grenouille, in Imitation of a Frog. HIS ASTONISHING  CERCLE DU
+          THEATRE. Running with the most amazing rapidity Round the Boxes, Gallery,
+          and Proscenium, SUPPORTED ONLY BY THE CORNICE OR MOULDINGS. His return and
+          singular HORIZONTAL POSITIONS OVER THE PIT AND VARIOUS PARTS OF THE THEATRE.'
+        isInterpolation: false
+      orderOfPerformance: 4
+      ourGenreAttribution:
+      - Melodrama
+      performers:
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Mr. Welsh
+        role: Don Luiga (the Governor)
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Mr. Fenton
+        role: Marco (Overseer of a Plantation)
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Mr. C. Hill
+        role: Fabrioletta (his Son)
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Mr. Wilson
+        role: Jack Ratline
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Mr. Langford
+        role: Sadi
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Mr. Downey
+        role: Potesko
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Mr. Smith
+        role: Bhazawawski
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Master H. Nicholson
+        role: Fernando (the Governor's Son)
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Miss Nicholson
+        role: Mysa (a Female Slave)
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Miss A. Nicholson
+        role: Lauretta
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Miss H. Burrell
+        role: Donna Luega
+      - newPerformerNotes:
+          newPerformer: false
+          newRole: false
+        performerName: Signor Mortini
+        role: Jocko (the Ape of Brazil)
+      playbillGenreClaim: Melo Drama
+      title: Jocko; or, The Brazilian Ape
+    ticketing:
+      boxPrice: 36
+      currency: UK
+      galleryPrice: 12
+      pitPrice: 24
+      ticketingNotes: Half Price at 9 o'clock

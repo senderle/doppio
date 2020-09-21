@@ -1,4 +1,4 @@
-eve == 1.1.3
+eve
 gunicorn
 flask-cors
 bcrypt
