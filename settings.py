@@ -2,27 +2,37 @@ from app.eve_tokenauth.auth.token import TokenAuthentication
 from schema import main_schema
 import os
 
-# MONGO_HOST used for docker
-MONGO_HOST = "mongo"
-
+# Mongo Config
+MONGO_HOST = "mongo"  # Simplified URL for Docker service.
 MONGO_PORT = 27017
 MONGO_DBNAME = "Playbill"
+MONGO_USERNAME = os.environ['EVE_MONGO_USER']
+MONGO_PASSWORD = os.environ['EVE_MONGO_PASSWORD']
+MONGO_AUTHDBNAME = 'admin'
+MONGO_QUERY_BLACKLIST = ['$where']
+
+# Eve config
 RESOURCE_METHODS = ['GET', 'POST']
 ITEM_METHODS = ['GET', 'PATCH', 'PUT', 'DELETE']
 DATE_FORMAT = "%Y-%m-%d"
+
 IF_MATCH = True
 DEBUG = True
 JSONRenderer = True
 XMLRenderer = False
 HATEOAS = False
-MONGO_QUERY_BLACKLIST = ['$where']
+
 PAGINATION_LIMIT = 5
-TOKEN_SECRET = 'secret'
-MONGO_USERNAME = os.environ['EVE_MONGO_USER']
-MONGO_PASSWORD = os.environ['EVE_MONGO_PASSWORD']
-MONGO_AUTHDBNAME = 'admin'
-EVE_MAIN_COLLECTION = 'ephemeralRecord'
+
 STATIC_URL_PATH = os.path.join(os.getcwd(),'static')
+
+# Eve Tokenauth config
+TOKEN_EXPIRATION = None
+TOKEN_SECRET = 'secret'
+
+# Custom database config
+EVE_MAIN_COLLECTION = 'ephemeralRecord'
+FILENAME_FIELD = 'callNumber'
 
 geoschema = {
     'placename': {
