@@ -82,7 +82,7 @@ def init_cli(app):
             # Use object id as filename
             # filename = dir + '/' + str(doc['_id']) + '.json'
             filename_field = app.config['FILENAME_FIELD']
-            filename = dir + '/' + str(doc['filename_field']) + '.yaml'
+            filename = dir + '/' + str(doc['ephemeralRecord'][filename_field]) + '.yaml'
 
             with open(filename, 'w') as outfile:
                 # outfile.write(json_util.dumps(doc))

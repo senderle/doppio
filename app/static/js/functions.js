@@ -291,8 +291,8 @@ function jsonToFilename(json) {
 
     // filename = yyyy + '-' + mm + '-' + dd + '-' + hh + '-' + MM + '-' + ss;
 
-    // Simple call number naming pattern:
-    filename = json.ephemeralRecord.callNumber;
+    // Simple configurable naming pattern:
+    filename = json.ephemeralRecord[EVE_CONFIG.FILENAME_FIELD];
     return filename;
 }
 
