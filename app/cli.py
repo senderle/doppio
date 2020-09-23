@@ -6,6 +6,7 @@ import pymongo
 import getpass
 import bcrypt
 import yaml
+import sys
 
 from pathlib import Path
 
@@ -107,17 +108,32 @@ def init_cli(app):
         i = 0
 
         for file in os.listdir(dir):
-            filename = dir + '/' + os.fsdecode(file)
+            filename = Path(dir) / os.fsdecode(file)
 
-            ext = Path(filename).suffix
+            ext = filename.suffix
             if ext in ('.json', '.yaml', '.yml'):
                 item_load = json_util.loads if ext == '.json' else yaml.load
                 with open(filename, 'r') as f:
                     try:
                         item_json = item_load(f.read())
+                    except (yaml.parser.ParserError, yaml.scanner.ScannerError) as exc:
+                        click.echo("Syntax error in this file:")
+                        click.echo(str(filename))
+                        click.echo(exc)
+                        sys.exit(1)
+                    except Exception as exc:
+                        click.echo("Read %d objects from " % (i,) + dir + " to the database.")
+                        click.echo("Error on this file:")
+                        click.echo(str(filename))
+                        raise exc
+
+                    try:
                         collection.insert_one(item_json)
-                        i += 1
-                    except pymongo.errors.DuplicateKeyError:
+                    except pymongo.errors.DuplicateKeyError as exc:
+                        click.echo("File already loaded; skipping: " + str(filename))
                         continue
+                    click.echo(str(filename) + " loaded successfully")
+                    i += 1
 
         click.echo("Read %d objects from " % (i,) + dir + " to the database.")
+

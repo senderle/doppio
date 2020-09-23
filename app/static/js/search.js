@@ -591,7 +591,7 @@ document.addEventListener('DOMContentLoaded', function main() {
         localStorage.setItem("responseIDs", ids);
 
         // Construct map
-        renderMap();
+        // renderMap();
 
         // Redirect to projection page
         window.location.href = '/projection';

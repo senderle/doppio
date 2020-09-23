@@ -201,7 +201,7 @@ document.addEventListener('DOMContentLoaded', function main() {
                 // Concretely, `n` will always be one greater than the
                 // number of sub-forms rendered so far.
 
-                
+
 
                 // If the sub-form a leaf, we want to terminate recursion.
                 var recursiveRender;
@@ -556,7 +556,7 @@ document.addEventListener('DOMContentLoaded', function main() {
 
         for (var i = 0; i < elements.length; i++) {
             if (elements[i].checked) {
-                
+
                 path = idToApiPath(elements[i].id);
                 urlPath = urlPath + '"' + path + '":1,';
                 count++;
@@ -575,12 +575,12 @@ document.addEventListener('DOMContentLoaded', function main() {
         }
 
         var records = [];
-        
+
         // If no field is selected, show all the fields
         if (count === 0) {
 
             for (let i = 0; i < ids.length; i++) {
-                
+
                 var reqPath = 'ephemeralRecord/' + ids[i];
 
                 var hxr = new XMLHttpRequest();
@@ -600,11 +600,11 @@ document.addEventListener('DOMContentLoaded', function main() {
             // console.log(ids);
 
             var records = [];
-            
+
             for (let i = 0; i < ids.length; i++) {
 
                 var reqPath = 'ephemeralRecord/' + ids[i] + '?projection=' + urlPath ;
-                
+
                 // console.log(reqPath);
 
                 var hxr = new XMLHttpRequest();
@@ -621,9 +621,9 @@ document.addEventListener('DOMContentLoaded', function main() {
         let title = document.createTextNode(txt);
         header.appendChild(title);
         document.getElementById("search-results").appendChild(header);
-        
+
         // Create map with records
-        renderProjectedMap(records);
+        // renderProjectedMap(records);
 
         var recordPre = function(header, content) {
             let p = document.createElement('pre');
@@ -632,7 +632,7 @@ document.addEventListener('DOMContentLoaded', function main() {
             p.appendChild(text);
             return p;
         };
-        
+
         // Loop over and display all found records
         records.forEach( (rec, rec_index) => {
             // rec = JSON.stringify(rec);
@@ -659,8 +659,8 @@ document.addEventListener('DOMContentLoaded', function main() {
 
             let rec_main_text = jsyaml.safeDump(rec_main, {'indent': 4});
             resultOut.appendChild(recordPre('Record', rec_main_text));
-          
-            let div = document.createElement('hr'); 
+
+            let div = document.createElement('hr');
             resultOut.appendChild(div);
         });
     });
