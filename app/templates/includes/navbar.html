@@ -8,14 +8,15 @@
             <div id="login">
                 <li><a class="nav-link login" href="/login">Login</a></li>
             </div>
-            <div id="logout">
+            <div id="logout" style="display: none;">
                 <li><a class="nav-link" href='/home' onclick='logout();'>Log Out</a></li>
             </div>
         </div>
-        <div id="signup" style="position: absolute;right:50px;">
-        <li><a style="font-size: 12px" class="nav-link" href="/signup">Add New User</a></li>
+        <div id="signup" style="position: absolute; right: 50px; display: none;">
+            <li><a style="font-size: 12px" class="nav-link" href="/signup">Add New User</a></li>
         </div>
         <script type="text/javascript">
+            displayLoginOption();
             function logout() {
                 let url = '/tokens';
                 let headers = new Headers();

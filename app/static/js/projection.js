@@ -1,7 +1,5 @@
-
 document.addEventListener('DOMContentLoaded', function main() {
 
-    displayLoginOption();
     //////////////////////////////////////////////////////////////////////////
     //////////////////////////////////////////////////////////////////////////
     // Schema
@@ -123,34 +121,64 @@ document.addEventListener('DOMContentLoaded', function main() {
         // elements it contains.
         var subRoot = document.createElement('div');
 
-        // Render label
-        var labelEl = document.createElement('label');
-        var labelText = document.createTextNode(idToProjectionName(id));
-        labelEl.appendChild(labelText);
-        labelEl.setAttribute('for', id);
-        labelEl = wrapWith('div', labelEl, {
-            'class': 'form-leaf-label'
-        });
-
-        // Render checkbox
-        var inputEl = document.createElement('INPUT');
-        inputEl.setAttribute('type', 'checkbox');
-        inputEl.setAttribute('id', id);
-        inputEl.setAttribute('class', 'main-form-input newly-rendered');
-
-        // This should be removed if tests for projection pass
-        // if (id) {
-        //     subRoot.setAttribute('id', id);
-        // }
-
         for (var attribKey in attribs) {
             subRoot.setAttribute(attribKey, attribs[attribKey]);
         }
 
-        // Create container and append checkbox and label
-        if (id && id !== undefined && id !== '' && !document.getElementById(id)) {
+        // Create container and append checkbox and label if needed
+        if (id && document.getElementById(id)) {
+            // This case corresponds to fields that have already
+            // been given a checkbox by a previous invocation of the
+            // list renderer, so we don't add one here. This happens
+            // only for lists with complex values. (This comes from
+            // invocations of renderDict that were specifically
+            // initiated by a list renderFunc.)
+            // console.log("Checkbox already exists: ", subRoot);
+        } else if (!id) {
+            // This case corresponds to those fields that are purely
+            // visual groupings, having no significance for data labels,
+            // so we don't add a checkbox here either. This comes from
+            // the function that renders a single new list item (called
+            // renderFunc above.)
+            // console.log("Cosmetic grouping: ", subRoot);
+        } else if (id && !document.getElementById(id)) {
+            // In all other cases we need to render a checkbox.
+
+            var labelEl = document.createElement('label');
+            var labelText = document.createTextNode('Display All'); // idToProjectionName(id));
+            labelEl.appendChild(labelText);
+            labelEl.setAttribute('for', id);
+            labelEl = wrapWith('div', labelEl, {
+                'class': 'form-leaf-label'
+            });
+
+            // Render checkbox
+            var inputEl = document.createElement('input');
+            inputEl.setAttribute('type', 'checkbox');
+            inputEl.setAttribute('id', id);
+            inputEl.setAttribute('class', 'main-form-input newly-rendered');
+
             var container = document.createElement('div');
             container.classList.add('form-subroot');
+
+            if (!attribs) {
+                // If there are no attributes, then this is coming from an
+                // invocation of renderDict that was *not* initiated by
+                // a list renderFunc.
+                // console.log("Bare form subroot: ", subRoot);
+
+                // We apply a class to adjust styling in this case, because
+                // otherwise, the alignment of checkboxes is thrown off.
+                container.classList.add('form-subroot-bare');
+            } else {
+                // The only attribute ever applied to a subRoot is the
+                // subform-group class, which is used to collect the records
+                // from all lists. The checkbox created here is the one that
+                // prevents creation of a checkbox in the "Checkbox already
+                // exists" case above.
+                // console.log("List form subroot: ", subRoot);
+            }
+
             container.appendChild(labelEl);
             container.appendChild(inputEl);
             subRoot.appendChild(container);
@@ -181,8 +209,6 @@ document.addEventListener('DOMContentLoaded', function main() {
                 // Concretely, `n` will always be one greater than the
                 // number of sub-forms rendered so far.
 
-
-
                 // If the sub-form a leaf, we want to terminate recursion.
                 var recursiveRender;
                 if (isLeaf(subForm)) {
@@ -211,7 +237,8 @@ document.addEventListener('DOMContentLoaded', function main() {
                     // and updating the value of `n` attached to its closure.
                     var newId = idPrefix;
                     var newHeader = itemName;
-                    recursiveRender(renderSubRoot(root), subForm, newId, newHeader);
+                    let subRoot = renderSubRoot(root);
+                    recursiveRender(subRoot, subForm, newId, newHeader);
                     if (n > 1) {
                         focusRendered();
                     }
@@ -273,6 +300,7 @@ document.addEventListener('DOMContentLoaded', function main() {
 
         // Create a container to hold all the items along with
         // the button.
+
         subRoot = renderSubRoot(root,
             id, {
                 'class': 'subform-group'

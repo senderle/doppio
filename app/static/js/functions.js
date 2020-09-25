@@ -39,7 +39,7 @@ function post_new_document(userid, token, resource_name, data) {
                 rst.click();
             } else if (response.status == 403) {
                 statusAlert.innerHTML = '<span style="color:red">Authentication Error</span>';
-                confirm("An authorization error occurred. Save current record to file and then login to proceed.");
+                alert("An authorization error occurred. Save current record to file and then login to proceed.");
             } else {
                 statusAlert.innerHTML = '<span style="color:red">HTTP Error: ' + response.status + '</span>';
                 response.text().then(text => {
@@ -48,7 +48,7 @@ function post_new_document(userid, token, resource_name, data) {
                         msg += " The server provided the following details: ";
                         msg += text;
                     }
-                    confirm(msg);
+                    alert(msg);
                 });
             }
         })

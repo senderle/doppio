@@ -58,6 +58,10 @@ div.form-subroot {
     font-style: italic;
 }
 
+div.form-subroot.form-subroot-bare {
+    margin: 2px 4px 2px 0px;
+}
+
 div.form-leaf-label {
     margin-left: 2px;
     padding-bottom: 4px;

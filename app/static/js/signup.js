@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', function main() {
 
-  displayLoginOption();
   var signup = document.getElementById("signup-button");
   var elem = document.getElementById("flash-text");
 
@@ -55,7 +54,7 @@ document.addEventListener('DOMContentLoaded', function main() {
       .then(response => response.json())
       .then(json => parseJSON(json, location))
       .catch(error => console.error('There has been a problem with your fetch operation: ', error.message));
-      
+
     }
   });
 });

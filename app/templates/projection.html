@@ -2,9 +2,11 @@
 
   <head>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js'></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/3.13.1/js-yaml.min.js"></script>
+    <script src="{{ url_for('static', filename='js/functions.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/projection.js') }}"></script>
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
-    <title>Search</title>
+    <title>Projection</title>
   </head>
 
   <body class="main">
@@ -18,7 +20,6 @@
           <h4>Projection</h4>
         </div>
         <div id="search-window" class="side-window">
-          <!-- <div class="ui-element"><input type="search" id="search-term" /></div> -->
           <div class="ui-element"><input type="button" id="project-button" value="Project" /></div>
           
         </div>
@@ -30,13 +31,12 @@
       </div>
 
       <div id="nav-pages-window-top" class="side-window nav-pages-window">
-        <!-- --> <div class="nav-pages-wrapper">
+        <div class="nav-pages-wrapper" style="display: none;">
               <input type="button" title="Previous page" id="prev-page-top" class="prev-page" value="&laquo; Previous" />
               <input type="button" title="Next page" id="next-page-top" class="next-page" value="Next &raquo;" />
-        </div> <!-- -->
+        </div>
       </div>
       <div id="search-results"></div>
-      <h3>Choose which fields to display</h3>
       <div id="playbill-form"> </div>
       <div id="nav-pages-window-bottom" class="side-window nav-pages-window">
         <div class="nav-pages-wrapper">
@@ -48,8 +48,5 @@
 
     </div>
   </body>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/3.13.1/js-yaml.min.js"></script>
-  <script src="{{ url_for('static', filename='js/functions.js') }}"></script>
-  <script src="{{ url_for('static', filename='js/projection.js') }}"></script>
 
 </html>
