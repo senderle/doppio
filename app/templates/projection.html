@@ -9,9 +9,8 @@
 
   <body class="main">
     <div id="wrapper">
-      {% include 'includes/navbar.html' %}
-      <h2>Choose which fields of the schema you want to display</h2>
 
+      {% include 'includes/navbar.html' %}
 
       <div id="side-window-container" class="side-window">
         
@@ -30,30 +29,24 @@
         </div>
       </div>
 
-
-
-        <div id="nav-pages-window-top" class="side-window nav-pages-window">
-          <!-- <div class="nav-pages-wrapper">
-                <input type="button" title="Previous page" id="prev-page-top" class="prev-page" value="&laquo; Previous" />
-                <input type="button" title="Next page" id="next-page-top" class="next-page" value="Next &raquo;" />
-            </div> -->
-          <!-- <div id="load-file-window" class="side-window"><h4>Load a record by ID</h4>
-                <div class="ui-element"><input type="search" id="playbill-id" /></div>
-                <div class="ui-element"><input type="button" id="playbill-load" value="Load" /></div>
-            </div> -->
+      <div id="nav-pages-window-top" class="side-window nav-pages-window">
+        <!-- --> <div class="nav-pages-wrapper">
+              <input type="button" title="Previous page" id="prev-page-top" class="prev-page" value="&laquo; Previous" />
+              <input type="button" title="Next page" id="next-page-top" class="next-page" value="Next &raquo;" />
+        </div> <!-- -->
+      </div>
+      <div id="search-results"></div>
+      <h3>Choose which fields to display</h3>
+      <div id="playbill-form"> </div>
+      <div id="nav-pages-window-bottom" class="side-window nav-pages-window">
+        <div class="nav-pages-wrapper">
+          <input type="button" title="Previous page" id="prev-page-bottom" class="prev-page" value="&laquo; Previous" />
+          <input type="button" title="Next page" id="next-page-bottom" class="next-page" value="Next &raquo;" />
         </div>
-        <div id="search-results"></div>
-        <div id="playbill-form"> </div>
-        <div id="nav-pages-window-bottom" class="side-window nav-pages-window">
-          <div class="nav-pages-wrapper">
-            <input type="button" title="Previous page" id="prev-page-bottom" class="prev-page" value="&laquo; Previous" />
-            <input type="button" title="Next page" id="next-page-bottom" class="next-page" value="Next &raquo;" />
-          </div>
-
-        </div>
-        <!--  <div id="search-filter"><h4>Narrow Search by Fields</h4></div>-->
 
       </div>
+
+    </div>
   </body>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/3.13.1/js-yaml.min.js"></script>
   <script src="{{ url_for('static', filename='js/functions.js') }}"></script>
