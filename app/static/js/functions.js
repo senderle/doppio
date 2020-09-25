@@ -15,49 +15,6 @@ function hmac_hash(data, key) {
     return hash;
 }
 
-function get_ephemeral_record() {
-    xhr.open('GET', '/ephemeralRecord', false);
-    xhr.setRequestHeader('Content-Type', 'application/json');
-    xhr.send();
-    return xhr.responseText;
-}
-
-function get_accounts(userid, hash) {
-    xhr.open('GET', '/accounts', true);
-    xhr.setRequestHeader('Authorization', userid + ":" + hash);
-    xhr.setRequestHeader('Content-Type', 'application/json');
-    xhr.send();
-    return xhr.responseText;
-}
-
-function get_accounts_new(username, hash) {
-    xhr.open('GET', '/accounts', true);
-    xhr.setRequestHeader('Authorization', username + ":" + hash);
-    xhr.setRequestHeader('Content-Type', 'application/json');
-    xhr.send();
-    return xhr.responseText;
-}
-
-function query_documents(query_params) {
-    xhr.open('GET', '/ephemeralRecord' + '?' + query_params, false);
-    xhr.setRequestHeader('Content-Type', 'application/json');
-    xhr.send();
-    return xhr.responseText;
-}
-
-function async_query_documents(query_params, callback) {
-    var xhttp = new XMLHttpRequest;
-    xhttp.onreadystatechange = function() {
-        if (this.readyState == 4 && this.status == 200) {
-            callback(this.responseText);
-            console.log(JSON.parse(this.responseText)._meta.page);
-        }
-    };
-    xhttp.open('GET', '/ephemeralRecord' + '?' + query_params, true);
-    xhttp.setRequestHeader('Content-Type', 'application/json');
-    xhttp.send();
-}
-
 function get_document_by_id(document_id) {
     xhr.open('GET', '/ephemeralRecord' + '/' + document_id, false);
     xhr.setRequestHeader('Content-Type', 'application/json');
@@ -244,25 +201,6 @@ function isPrimitive(val) {
            (val === undefined);
 }
 
-function capitalize(string) {
-return string.charAt(0).toUpperCase() + string.slice(1);
-}
-
-function pruning(json) {
-  return json.replace(/{/g, '')
-             .replace(/}/g, '')
-             .replace(/"/g, '')
-             .replace("ephemeralRecord:", '')
-             .replace(/:/g, ': ')
-             .replace(/\[/g, '')
-             .replace(/\]/g, '')
-             .replace(/,/g, ', ')
-             .replace(/[\w]+:/g, function(x){return capitalize(x);})
-             .replace(/\\/g, '"')
-             .replace(/([a-z](?=[A-Z]))/g, insertSpace);  //camelCase split
-
-}
-
 function jsonToFilename(json) {
     // Old naming pattern:
 
@@ -320,52 +258,6 @@ function displayLoginOption() {
 //////////////////////////////////////////////////////////////////////////
 // Extract keys and search paths from the Schema
 //
-
-// get a flat dictionary of keys to search paths
-var getAllSearchPaths = function () {
-    var dict = {};
-    var makeDict = function (obj, path) {
-        for (var k in obj) {
-            if (k === 'type') {
-                continue;
-            }
-            else if (obj.hasOwnProperty(k)) {
-                if (k === 'schema') {
-                    makeDict(obj[k], path);
-                } else if (obj[k].type=='dict' || (obj[k].type=='list' && obj[k].schema.schema)) {
-                    makeDict(obj[k], path + '.' + k);
-                } else {
-                    if (k === 'location') {
-                        descriptivek = path.substr(path.lastIndexOf('.') + 1) + ' ' + k;
-                        dict[descriptivek] = path + '.' + k;
-                    } else {
-                        dict[k] = path + '.' + k;
-                    }
-                }
-            }
-        }
-    };
-    makeDict(playbillRecord.ephemeralRecord,['ephemeralRecord']);
-    return dict;
-};
-
-//get all keys for any subsection of the schema in a list
-var getAllKeys = function (obj) {
-    var list = [];
-    var makeList = function (obj, list) {
-        for (var k in obj) {
-            if (k === 'type') {
-                continue;
-            } else if (k=='schema' || obj[k].type=='dict' || (obj[k].type=='list' && obj[k].schema.schema)) {
-                makeList(obj[k], list);
-            } else {
-                list.push(k);
-            }
-        }
-    };
-    makeList(obj, list);
-    return list;
-};
 
 /* On click function for map tab in header
 *  Reads ids from localStorage and sends them in a POST request

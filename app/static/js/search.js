@@ -109,17 +109,17 @@ document.addEventListener('DOMContentLoaded', function main() {
                 inputEl.add(option);
             }
 
-          } else if (schema.formType === "checkbox") {
-              // <input> checkbox elements of entry form are displayed as dropdown selections.
-              inputEl = document.createElement('select');
-              inputEl.setAttribute('style', 'background-color: #FFF; height: 22px;');
-              let allowed = ['', 'Yes', 'No'];
-              for (var i = 0; i < allowed.length; i++) {
-                  var option = document.createElement('option');
-                  option.text = allowed[i];
-                  inputEl.add(option);
-        }
-      } else {
+        } else if (schema.formType === "checkbox") {
+            // <input> checkbox elements of entry form are displayed as dropdown selections.
+            inputEl = document.createElement('select');
+            inputEl.setAttribute('style', 'background-color: #FFF; height: 22px;');
+            let allowed = ['', 'Yes', 'No'];
+            for (var i = 0; i < allowed.length; i++) {
+                var option = document.createElement('option');
+                option.text = allowed[i];
+                inputEl.add(option);
+             }
+        } else {
             // Everything else can be rendered with the same approach.
             inputEl = document.createElement('input');
             inputEl.setAttribute('size', '40');
@@ -127,26 +127,6 @@ document.addEventListener('DOMContentLoaded', function main() {
         }
         inputEl.setAttribute('id', id);
         inputEl.setAttribute('class', 'main-form-input newly-rendered');
-
-        // // Here we create the event listeners that render help text when
-        // // a field gets focus or is hovered over.
-        // var renderHelpText = function() {
-        //     var help = document.getElementById('help-window-text');
-        //     var helpHeader = document.createElement('h5');
-        //     var title = document.createTextNode(stripNum(label));
-        //     var text = schema.documentation;
-        //     text = document.createTextNode(text ? text : '(no documentation provided)');
-        //
-        //     help.innerHTML = "";
-        //     helpHeader.appendChild(title);
-        //     help.appendChild(helpHeader);
-        //     help.appendChild(text);
-        // };
-        //
-        // labelEl.addEventListener('mouseover', renderHelpText);
-        // inputEl.addEventListener('mouseover', renderHelpText);
-        // inputEl.addEventListener('focus', renderHelpText);
-        // inputEl = wrapWith('div', inputEl, {'class': 'form-leaf-input'});
 
         var container = document.createElement('div');
         container.classList.add('form-leaf');
@@ -366,172 +346,19 @@ document.addEventListener('DOMContentLoaded', function main() {
         while (formRoot.lastChild) {
             formRoot.removeChild(formRoot.lastChild);
         }
-        // renderSearch(formRoot, rootRecord, 'search');
         renderDict(formRoot, rootRecord);
         focusTop();
     }
 
-    //////////////////////////////////////////////////////////////////////////
-    //////////////////////////////////////////////////////////////////////////
-    // Recursive object indexing and traversal
-    //
-
-    function assignKey(obj, keys, val) {
-        keys = idToList(keys);
-
-        if (keys.length < 1) {
-            return;
-        }
-
-        // Convert the first key to an integer if it's an integer.
-        var first = keys[0];
-        first = isNaN(parseInt(first)) ? first : parseInt(first) - 1;
-
-        // If it's the only value, this is a terminal key. End recursion.
-        if (keys.length === 1) {
-            obj[first] = val;
-            return;
-        }
-
-        // If there are more values, we need to make sure they have an
-        // object or array to live in, and to create one if not.
-        if (!obj.hasOwnProperty(first)) {
-            if (isNaN(parseInt(keys[1]))) {
-                obj[first] = {};
-            } else {
-                obj[first] = [];
-            }
-        }
-
-        // Now we can recurse...
-        assignKey(obj[first], keys.slice(1), val);
-    }
-
-    function getKey(obj, keys) {
-        keys = idToList(keys);
-
-        if (keys.length < 1) {
-            return;
-        }
-
-        var first = keys[0];
-        first = isNaN(parseInt(first)) ? first : parseInt(first) - 1;
-
-        if (keys.length === 1) {
-            return obj ? obj[first] : null;
-        } else {
-            return obj ? getKey(obj[first], keys.slice(1)) : null;
-        }
-    }
-
-    function walkObj(obj, callback, condition, keyPath) {
-        var useCondition = (typeof condition === 'function') ? true : false;
-        var keys, i;
-
-        keyPath = keyPath || [];
-        var newKeyPath = keyPath.slice();
-        newKeyPath.push(null);
-
-        if (Array.isArray(obj)) {
-            keys = [];
-            for (i = 0; i < obj.length; i++) {
-                keys.push(i);
-            }
-        } else {
-            keys = Object.keys(obj);
-        }
-
-        for (i = 0; i < keys.length; i++) {
-            var key = keys[i];
-            var val = obj[key];
-            newKeyPath[newKeyPath.length - 1] = key;
-
-            if (!isPrimitive(val)) {
-                callback(val, newKeyPath);
-                walkObj(val, callback, condition, newKeyPath);
-            } else if (!useCondition || condition(val, newKeyPath)) {
-                callback(val, newKeyPath);
-            }
-        }
-    }
-
-
     //////////////////// Reset form button //////////////////////////
     var reset = document.getElementById("clear-search");
-    var statusAlert = document.getElementById('status-message-window');
     reset.addEventListener('click', function() {
         if (confirm("Are you sure you want to reset the form?")) {
             resetForm();
-            statusAlert.innerHTML = '';
-            loadFileChooser.value = '';
         } else {
 
         }
     });
-
-    //////////////////////////////////////////////////////////////////////////
-    //////////////////////////////////////////////////////////////////////////
-    // Load/Save Records
-    //
-
-    // callback function for walkObj
-    function walkObjHelper() {
-        return function(val, keyPath) {
-            keyPath = keyPath.slice(); // Mutating data, so make a copy.
-            for (var i = 0; i < keyPath.length; i++) {
-                if ((typeof keyPath[i]) === 'number') {
-                    keyPath[i] += 1;
-                }
-            }
-
-            var fieldId = listToId(keyPath);
-            var tail = keyPath.pop();
-
-            // Is the last value in keyPath a number? If so, this is
-            // a list field. Check to see whether the corresponding
-            // form fields have been created yet and create them if not.
-            if ((typeof tail) === 'number') {
-                var renderId = listToId(keyPath);
-
-                if (document.getElementById(fieldId) === null) {
-                    var renderer = subFormFactory
-                        .getRendererFromKey[renderId];
-                    if (renderer) {
-                        renderer();
-                    }
-                }
-            }
-        };
-    }
-
-    // LOAD BY ID
-    // var loadRecord = document.getElementById('playbill-load');
-    // loadRecord.addEventListener('click', function() {
-    //     statusAlert.innerHTML = '';
-    //     var pid = (window.location.hash.substr(1) !== '') ? window.location.hash.substr(1) : document.getElementById('playbill-id').value;
-    //
-    //     // Prepare the form for re-rendering.
-    //     resetForm();
-    //
-    //     var doc = get_document_by_id(pid);
-    //     var obj = JSON.parse(doc);
-    //
-    //     walkObj(obj, walkObjHelper());
-    //
-    //     var elements = document.querySelectorAll('.main-form-input');
-    //     for (var i = 0; i < elements.length; i++) {
-    //         var key = elements[i].id;
-    //         var value = getKey(obj, key);
-    //           if (elements[i].type === 'checkbox') {
-    //               elements[i].checked = value;
-    //           } else if (value !== undefined) {
-    //               elements[i].value = value;
-    //           }
-    //
-    //     }
-    //
-    //     focusTop();
-    // });
 
     // Helper to parse id to search
     function idToApiPath(s) {
@@ -545,7 +372,6 @@ document.addEventListener('DOMContentLoaded', function main() {
     var searchButton = document.getElementById('search-button');
     searchButton.addEventListener('click', function() {
         window.scrollTo(0,0);
-        document.getElementById('search-results').innerHTML = ""; // Clear past search results
         var elements = document.querySelectorAll('.main-form-input');
         var paths = [];
         var value;
@@ -597,31 +423,6 @@ document.addEventListener('DOMContentLoaded', function main() {
         window.location.href = '/projection';
     });
 
-
-    function sleep(ms) {
-        return new Promise(resolve => setTimeout(resolve, ms));
-    }
-
-    async function printAll(paths) {
-        var path;
-        for (var i = 0; i < paths.length; i++) {
-            path = paths[i];
-            console.log(i + ' ');
-            var hxr = new XMLHttpRequest();
-            hxr.open('GET', path, false);
-            hxr.send();
-            var record = JSON.parse(hxr.responseText);
-            results.push(record);
-            await sleep(1000);
-        }
-        console.log(results);
-
-    }
-
     resetForm();
-
-    if (window.location.hash.substr(1) !== '') {
-        document.getElementById('playbill-load').click();
-    }
 
 });
