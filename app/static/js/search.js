@@ -394,27 +394,9 @@ document.addEventListener('DOMContentLoaded', function main() {
         }
 
         // Http request
-        var path = '/ephemeralRecord?';
+        var pathRoot = '/ephemeralRecord?';
         var pathWhere = 'where={' + paths.join(',') + '}';
-        var pathProject = '&projection={"_":true}'
-        path = path + pathWhere + pathProject;
-        console.log(path);
-        var hxr = new XMLHttpRequest();
-        hxr.open('GET', path, false);
-        hxr.send();
-
-        // Get the ids of the response elements
-        var response = hxr.responseText;
-        var record = JSON.parse(response);
-
-        records = record['_items'];
-        var ids = [];
-        records.forEach(el => {
-            ids.push(el['_id']);
-        });
-        // console.log(ids);
-
-        localStorage.setItem("responseIDs", ids);
+        localStorage.setItem("searchQueryPath", pathRoot + pathWhere);
 
         // Construct map
         // renderMap();

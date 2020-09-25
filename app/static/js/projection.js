@@ -390,107 +390,67 @@ document.addEventListener('DOMContentLoaded', function main() {
                 count++;
             }
         }
+        urlPath = urlPath.substring(0, urlPath.length - 1);
+        urlPath = urlPath + '}';
 
-        var ids = localStorage.getItem("responseIDs").split(',');
 
-        if (ids.length === 0 || (ids.length === 1 && ids[0].length === 0)) {
-            let header = document.createElement('h3');
-            let txt = "0 results found for your query\n\n"
-            let title = document.createTextNode(txt);
-            header.appendChild(title);
-            document.getElementById("search-results").appendChild(header);
-            return;
-        }
+        let searchQueryPath = localStorage.getItem("searchQueryPath") +
+                              '&projection=' + urlPath;
+        fetch(searchQueryPath)
+            .then(response => response.json())
+            .then(data => {
+                console.log(data);
+                let records = data['_items'];
+                let nrecords = data._meta.total;
 
-        var records = [];
+                // Create header to display results
+                let header = document.createElement('h3');
+                let txt = nrecords + " results found for your query:\n\n"
+                let title = document.createTextNode(txt);
+                header.appendChild(title);
+                document.getElementById("search-results").appendChild(header);
 
-        // If no field is selected, show all the fields
-        if (count === 0) {
+                // Create map with records
+                // renderProjectedMap(records);
 
-            for (let i = 0; i < ids.length; i++) {
+                var recordPre = function(header, content) {
+                    let p = document.createElement('pre');
+                    p.style = 'word-break: break-all;';
+                    let text = document.createTextNode('\n### ' + header + ' ###\n' + content);
+                    p.appendChild(text);
+                    return p;
+                };
 
-                var reqPath = 'ephemeralRecord/' + ids[i];
+                // Loop over and display all found records
+                records.forEach( (rec, rec_index) => {
+                    // rec = JSON.stringify(rec);
+                    let rec_meta = {}
+                    let rec_main = {}
+                    Object.keys(rec).forEach(k => {
+                        if (k.startsWith('_')) {
+                            rec_meta[k.slice(1)] = rec[k];
+                        } else {
+                            rec_main[k] = rec[k];
+                        }
+                    });
+                    rec_meta['resultNumber'] = rec_index;
 
-                var hxr = new XMLHttpRequest();
-                hxr.open('GET', reqPath, false);
-                hxr.send();
+                    let resultOut = document.getElementById('search-results');
+                    let rec_meta_text = jsyaml.safeDump(rec_meta, {'indent': 4});
+                    let rec_meta_pre = recordPre('Record Metadata', rec_meta_text);
+                    let a = document.createElement('a');
+                    a.setAttribute('href', '/home#' + rec['_id']);
+                    a.appendChild(document.createTextNode('(Load record in main form)'));
+                    rec_meta_pre.appendChild(a);
+                    resultOut.appendChild(rec_meta_pre);
 
-                records.push(JSON.parse(hxr.responseText));
-            }
+                    let rec_main_text = jsyaml.safeDump(rec_main, {'indent': 4});
+                    resultOut.appendChild(recordPre('Record', rec_main_text));
 
-        // If any field is selected, only show the selected fields
-        } else {
-
-            urlPath = urlPath.substring(0, urlPath.length - 1);
-            urlPath = urlPath + '}';
-
-            // console.log(urlPath);
-            // console.log(ids);
-
-            var records = [];
-
-            for (let i = 0; i < ids.length; i++) {
-
-                var reqPath = 'ephemeralRecord/' + ids[i] + '?projection=' + urlPath ;
-
-                // console.log(reqPath);
-
-                var hxr = new XMLHttpRequest();
-                hxr.open('GET', reqPath, false);
-                hxr.send();
-
-                records.push(JSON.parse(hxr.responseText));
-            }
-        }
-
-       // Create header to display results
-        let header = document.createElement('h3');
-        let txt = records.length + " results found for your query:\n\n"
-        let title = document.createTextNode(txt);
-        header.appendChild(title);
-        document.getElementById("search-results").appendChild(header);
-
-        // Create map with records
-        // renderProjectedMap(records);
-
-        var recordPre = function(header, content) {
-            let p = document.createElement('pre');
-            p.style = 'word-break: break-all;';
-            let text = document.createTextNode('\n### ' + header + ' ###\n' + content);
-            p.appendChild(text);
-            return p;
-        };
-
-        // Loop over and display all found records
-        records.forEach( (rec, rec_index) => {
-            // rec = JSON.stringify(rec);
-            // console.log(rec);
-            let rec_meta = {}
-            let rec_main = {}
-            Object.keys(rec).forEach(k => {
-                if (k.startsWith('_')) {
-                    rec_meta[k.slice(1)] = rec[k];
-                } else {
-                    rec_main[k] = rec[k];
-                }
+                    let div = document.createElement('hr');
+                    resultOut.appendChild(div);
+                });
             });
-            rec_meta['resultNumber'] = rec_index;
-
-            let resultOut = document.getElementById('search-results');
-            let rec_meta_text = jsyaml.safeDump(rec_meta, {'indent': 4});
-            let rec_meta_pre = recordPre('Record Metadata', rec_meta_text);
-            let a = document.createElement('a');
-            a.setAttribute('href', '/home#' + rec['_id']);
-            a.appendChild(document.createTextNode('(Load record in main form)'));
-            rec_meta_pre.appendChild(a);
-            resultOut.appendChild(rec_meta_pre);
-
-            let rec_main_text = jsyaml.safeDump(rec_main, {'indent': 4});
-            resultOut.appendChild(recordPre('Record', rec_main_text));
-
-            let div = document.createElement('hr');
-            resultOut.appendChild(div);
-        });
     });
 
     resetForm();

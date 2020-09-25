@@ -20,9 +20,10 @@ IF_MATCH = True
 DEBUG = True
 JSONRenderer = True
 XMLRenderer = False
-HATEOAS = False
+HATEOAS = True
 
-PAGINATION_LIMIT = 5
+PAGINATION_DEFAULT = 500
+PAGINATION_LIMIT = float('inf')
 
 STATIC_URL_PATH = os.path.join(os.getcwd(),'static')
 
@@ -62,7 +63,7 @@ ephemeralRecord = {
     'item_title': 'record',
     'allowed_roles': ['superuser', 'admin', 'user'],
     'schema': main_schema,
-    'pagination': False
+    'pagination': True
 }
 
 geocodes = {
