@@ -39,11 +39,16 @@ function post_new_document(userid, token, resource_name, data) {
                 rst.click();
             } else if (response.status == 403) {
                 statusAlert.innerHTML = '<span style="color:red">Authentication Error</span>';
-                alert("An authorization error occurred. Save current record to file and then login to proceed.");
+                alert("An authorization error occurred. Please save the current record to file and then login to proceed.");
+            } else if (response.status == 401) {
+                statusAlert.innerHTML = '<span style="color:red">Authentication Error</span>';
+                localStorage.removeItem("token")
+                localStorage.removeItem("_etag")
+                alert("Your session has expired. Please save the current record to file and then login to proceed.");
             } else {
                 statusAlert.innerHTML = '<span style="color:red">HTTP Error: ' + response.status + '</span>';
                 response.text().then(text => {
-                    let msg = "An unexpeted error occurred.";
+                    let msg = "An unexpected error occurred.";
                     if (text.length > 0) {
                         msg += " The server provided the following details: ";
                         msg += text;
@@ -104,6 +109,69 @@ function lookupGeocode(placename) {
     xhr.setRequestHeader('Content-Type', 'application/json');
     xhr.send();
     return xhr.responseText;
+}
+
+//////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////
+// Functions shared among main.js, search.js, and projection.js
+//
+
+function isLeaf(obj) {
+    leafTypes = ['string', 'number', 'integer', 'boolean', 'datetime'];
+    return leafTypes.includes(obj.type);
+}
+
+function wrapWith(tagname, el, attribs) {
+    var tag = document.createElement(tagname);
+    for (var key in attribs) {
+        tag.setAttribute(key, attribs[key]);
+    }
+    tag.appendChild(el);
+    return tag;
+}
+
+function focusRendered() {
+    var rendered = document.querySelectorAll('.newly-rendered');
+
+    for (var i = 0; i < rendered.length; i++) {
+        var node = rendered[i];
+        if (i === 0) {
+            node.focus();
+        }
+        node.classList.remove('newly-rendered');
+    }
+}
+
+function focusTop() {
+    focusRendered();
+
+    var inputs = document.querySelectorAll('.main-form-input');
+    if (inputs.length > 0) {
+        inputs[0].focus();
+    }
+}
+
+// Currently, leaves are always placed after higher-level
+// containers unless a specific order is given. However, that
+// doesn't work for some projects. We need to update this.
+function formKeySortCmp(formSpec) {
+    return function(a, b) {
+        if (formSpec[a].hasOwnProperty('order') &&
+            formSpec[b].hasOwnProperty('order')) {
+            var ao = formSpec[a].order;
+            var bo = formSpec[b].order;
+            return ao < bo ? -1 : ao == bo ? 0 : 1;
+        } else if (isLeaf(formSpec[a])) {
+            if (!isLeaf(formSpec[b])) {
+                return -1;
+            }
+        } else {
+            if (isLeaf(formSpec[b])) {
+                return 1;
+            }
+        }
+        return a < b ? -1 : a == b ? 0 : 1;
+    }
 }
 
 //////////////////////////////////////////////////////////////////////////

@@ -15,64 +15,6 @@ document.addEventListener('DOMContentLoaded', function main() {
     // Rendering DOM elements
     //
 
-    function isLeaf(obj) {
-        leafTypes = ['string', 'number', 'integer', 'boolean', 'datetime'];
-        return leafTypes.includes(obj.type);
-    }
-
-    function wrapWith(tagname, el, attribs) {
-        var tag = document.createElement(tagname);
-        for (var key in attribs) {
-            tag.setAttribute(key, attribs[key]);
-        }
-        tag.appendChild(el);
-        return tag;
-    }
-
-    function focusRendered() {
-        var rendered = document.querySelectorAll('.newly-rendered');
-
-        for (var i = 0; i < rendered.length; i++) {
-            var node = rendered[i];
-            if (i === 0) {
-                node.focus();
-            }
-            node.classList.remove('newly-rendered');
-        }
-    }
-
-    function focusTop() {
-        focusRendered();
-
-        var inputs = document.querySelectorAll('.main-form-input');
-        if (inputs.length > 0) {
-            inputs[0].focus();
-        }
-    }
-
-    // Currently, leaves are always placed after higher-level
-    // containers unless a specific order is given. However, that
-    // doesn't work for some projects. We need to update this.
-    function formKeySortCmp(formSpec) {
-        return function(a, b) {
-            if (formSpec[a].hasOwnProperty('order') &&
-                formSpec[b].hasOwnProperty('order')) {
-                var ao = formSpec[a].order;
-                var bo = formSpec[b].order;
-                return ao < bo ? -1 : ao == bo ? 0 : 1;
-            } else if (isLeaf(formSpec[a])) {
-                if (!isLeaf(formSpec[b])) {
-                    return -1;
-                }
-            } else {
-                if (isLeaf(formSpec[b])) {
-                    return 1;
-                }
-            }
-            return a < b ? -1 : a == b ? 0 : 1;
-        }
-    }
-
     // This renders all leaf-level input fields.
     function renderInput(root, schema, id, label) {
 
@@ -81,7 +23,9 @@ document.addEventListener('DOMContentLoaded', function main() {
         var labelText = document.createTextNode(label);
         labelEl.appendChild(labelText);
         labelEl.setAttribute('for', id);
-        labelEl = wrapWith('div', labelEl, {'class': 'form-leaf-label'});
+        labelEl = wrapWith('div', labelEl, {
+            'class': 'form-leaf-label'
+        });
 
         // Render the input field itself. Most fields can be
         // rendered based on the `schema.formType` field, but
@@ -101,10 +45,10 @@ document.addEventListener('DOMContentLoaded', function main() {
                 option.text = schema.allowed[i];
                 inputEl.add(option);
             }
-	} else if (schema.formType === "date") {
-	    inputEl = document.createElement('input');
-	    inputEl.setAttribute('type', 'date');
-	    inputEl.setAttribute('value', '1799-12-31');
+	      } else if (schema.formType === "date") {
+	          inputEl = document.createElement('input');
+	          inputEl.setAttribute('type', 'date');
+	          inputEl.setAttribute('value', '1799-12-31');
         } else {
             // Everything else can be rendered with the same approach.
             inputEl = document.createElement('input');
@@ -255,7 +199,7 @@ document.addEventListener('DOMContentLoaded', function main() {
         var button = document.createElement('a');
         var itemName = singular(titleCase(idTail(idPrefix)));
         var text = document.createTextNode(
-                '+ New ' + itemName
+            '+ New ' + itemName
         );
 
         button.setAttribute('href', '#');
@@ -276,13 +220,13 @@ document.addEventListener('DOMContentLoaded', function main() {
 
         // First, render a separate header for the whole list.
         // (Individual items will have headers of their own.)
-        renderHeader(root, label, {'class': 'subheader'});
+        renderHeader(root, label, {
+            'class': 'subheader'
+        });
 
         // Create a container to hold all the items along with
         // the button.
-        subRoot = renderSubRoot(root,
-                                id,
-                                {'class': 'subform-group'});
+        subRoot = renderSubRoot(root, id, {'class': 'subform-group'});
 
         // The button itself. The form for the first item in the
         // list will be rendered by the button callback, which
@@ -293,7 +237,7 @@ document.addEventListener('DOMContentLoaded', function main() {
             subRoot, schema, id
         );
         button = wrapWith(
-          'div', button, {'class': 'subform-group ui-element'}
+            'div', button, {'class': 'subform-group ui-element'}
         );
         root.appendChild(button);
     }
@@ -345,7 +289,6 @@ document.addEventListener('DOMContentLoaded', function main() {
         while (formRoot.lastChild) {
             formRoot.removeChild(formRoot.lastChild);
         }
-        // renderSearch(formRoot, rootRecord, 'search');
         renderDict(formRoot, rootRecord);
         focusTop();
     }

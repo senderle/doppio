@@ -449,12 +449,14 @@ main_schema = {
                             'type': 'dict',
                             'schema': {
                                 'currency': {
+                                    'order': 1,
                                     'type': 'string',
                                     'maxlength': 700,
                                     'documentation': ("The national currency in use. Currently "
                                                       "one of UK / US.")
                                 },
                                 'boxPrice': {
+                                    'order': 2,
                                     'type': 'number', # could also be float or integer
                                     'nullable': True,
                                     'documentation': ("The cost of a box seat, as measured "
@@ -462,6 +464,23 @@ main_schema = {
                                                       "currency.")
                                 },
                                 'secondBoxPrice': {
+                                    'order': 3,
+                                    'type': 'number',
+                                    'nullable': True,
+                                    'documentation': ("The cost of a second box seat, as "
+                                                      "measured using the smallest possible "
+                                                      "unit of currency.")
+                                },
+                                'upperBoxPrice': {
+                                    'order': 4,
+                                    'type': 'number', # could also be float or integer
+                                    'nullable': True,
+                                    'documentation': ("The cost of a box seat, as measured "
+                                                      "using the smallest possible unit of "
+                                                      "currency.")
+                                },
+                                'secondUpperBoxPrice': {
+                                    'order': 5,
                                     'type': 'number',
                                     'nullable': True,
                                     'documentation': ("The cost of a second box seat, as "
@@ -469,6 +488,7 @@ main_schema = {
                                                       "unit of currency.")
                                 },
                                 'pitPrice': {
+                                    'order': 6,
                                     'type': 'number',
                                     'nullable': True,
                                     'documentation': ("The cost of a pit seat, as measured "
@@ -476,6 +496,7 @@ main_schema = {
                                                       "of currency.")
                                 },
                                 'secondPitPrice': {
+                                    'order': 7,
                                     'type': 'number',
                                     'nullable': True,
                                     'documentation': ("The cost of a second pit seat, as "
@@ -483,6 +504,7 @@ main_schema = {
                                                       "unit of currency.")
                                 },
                                 'galleryPrice': {
+                                    'order': 8,
                                     'type': 'number',
                                     'nullable': True,
                                     'documentation': ("The cost of a second pit seat, as "
@@ -490,6 +512,7 @@ main_schema = {
                                                       "unit of currency.")
                                 },
                                 'secondGalleryPrice': {
+                                    'order': 9,
                                     'type': 'number',
                                     'nullable': True,
                                     'documentation': ("The cost of a second gallery seat, as "
@@ -497,6 +520,7 @@ main_schema = {
                                                       "unit of currency.")
                                 },
                                 'upperGalleryPrice': {
+                                    'order': 10,
                                     'type': 'number',
                                     'nullable': True,
                                     'documentation': ("The cost of a upper gallery seat, as "
@@ -504,6 +528,7 @@ main_schema = {
                                                       "unit of currency.")
                                 },
                                 'secondUpperGalleryPrice': {
+                                    'order': 11,
                                     'type': 'number',
                                     'nullable': True,
                                     'documentation': ("The cost of a second upper gallery seat, "
@@ -511,12 +536,14 @@ main_schema = {
                                                       "unit of currency.")
                                 },
                                 'toBeHad': {
+                                    'order': 12,
                                     'type': 'string',
                                     'maxlength': 700,
                                     'documentation': ("The name of the ticketing agent or "
                                                       "agents.")
                                 },
                                 'ticketingNotes': {
+                                    'order': 13,
                                     'type': 'string',
                                     'maxlength': 700,
                                     'documentation': ("Additional notes about ticketing.")

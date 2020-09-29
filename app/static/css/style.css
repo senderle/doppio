@@ -4,13 +4,13 @@ a.button {
     padding: 1px;
 }
 
-.current {
-    font-weight: bold;
-}
-
 /*main class includes the body of the home, search, and login pages*/
 .main div {
     margin: 2px 4px 2px 30px;
+}
+
+#navbar div {
+    margin: 0px 4px 0px 4px;
 }
 
 div#wrapper {
@@ -194,17 +194,19 @@ li {
     float: left;
 }
 
-li a {
+li .nav-link {
     display: block;
     color: black;
     text-decoration: none;
     text-align: center;
-    padding: 14px 18px;
+    padding: 10px 12px;
+    margin: 5px 5px 5px 5px;
 }
 
-li a:active,
-li a:hover {
-    font-weight: bold;
+a.nav-link:active,
+a.nav-link:hover,
+a.nav-link.current {
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 ul {

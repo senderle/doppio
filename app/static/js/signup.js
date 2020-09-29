@@ -30,15 +30,15 @@ document.addEventListener('DOMContentLoaded', function main() {
       location.reload(true);
     }
     else if (password == "") {
-      alert("Please enter a password");
+      alert("Please enter a password.");
       location.reload(true);
     }
     else if (confirm_password == "") {
-      alert("Please enter a confirm password");
+      alert("Please confirm the password.");
     }
     else {
       if (password != confirm_password) {
-        elem.innerHTML = ("Password does not match the confirm password!").fontcolor("#ff0000");
+        elem.innerHTML = ("Passwords don't match.").fontcolor("#ff0000");
         return;
       }
       let url = '/accounts';

@@ -1,19 +1,19 @@
 <div id="navbar">
     <ul>
         <div>
-            <li><a class="nav-link current" href="/home">Home</a></li>
-            <li><a class="nav-link" href="/search">Search</a></li>
-            <li><a class="nav-link" href="/projection">Projection</a></li>
+            <li><a class="nav-link {% if request.url.endswith('home') %}current{% endif %}" href="/home">Home</a></li>
+            <li><a class="nav-link {% if request.url.endswith('search') %}current{% endif %}" href="/search">Search</a></li>
+            <li><a class="nav-link {% if request.url.endswith('projection') %}current{% endif %}" href="/projection">Projection</a></li>
             <!-- <li><a class="nav-link" id="mapping">Map</a></li> -->
             <div id="login">
-                <li><a class="nav-link login" href="/login">Login</a></li>
-            </div>
-            <div id="logout" style="display: none;">
-                <li><a class="nav-link" href='/home' onclick='logout();'>Log Out</a></li>
+                <li><a class="nav-link {% if request.url.endswith('login') %}current{% endif %} login" href="/login">Login</a></li>
             </div>
         </div>
-        <div id="signup" style="position: absolute; right: 50px; display: none;">
-            <li><a style="font-size: 12px" class="nav-link" href="/signup">Add New User</a></li>
+        <div id="logout" style="position: absolute; right: 50px; display: none;">
+            <li><a style="font-size: 12px" class="nav-link" href='/home' onclick='logout();'>Log Out</a></li>
+        </div>
+        <div id="signup" style="position: absolute; right: 130px; display: none;">
+            <li><a style="font-size: 12px" class="nav-link {% if request.url.endswith('signup') %}current{% endif %}" href="/signup">Add New User</a></li>
         </div>
         <script type="text/javascript">
             displayLoginOption();

@@ -6,13 +6,13 @@ document.addEventListener('DOMContentLoaded', function main() {
   function parseJSON(json, location) {
     if (json["_status"] === undefined && json["_items"].length > 0) {
       var len = json["_items"].length;
-      elem.innerHTML = ("Success!").fontcolor("#33cc33");
+      // elem.innerHTML = ("Success!").fontcolor("#33cc33");
       localStorage.setItem("token", json["_items"][len - 1]["token"])
       localStorage.setItem("_etag", json["_items"][len - 1]["_etag"])
       location.href = "/home";
     }
-    else {     
-      elem.innerHTML = ("Username and password do not match!").fontcolor("#ff0000"); 
+    else {
+      elem.innerHTML = ("Username and password do not match!").fontcolor("#ff0000");
       localStorage.removeItem("token");
       localStorage.removeItem("_etag");
     }
