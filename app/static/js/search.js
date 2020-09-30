@@ -321,6 +321,10 @@ document.addEventListener('DOMContentLoaded', function main() {
                     path = '"' + path + '":false';
                 } else if (value.trim().startsWith('{') && value.trim().endsWith('}')) {
                     path = '"' + path + '":' + value.trim();
+                } else if (value.trim().startsWith('/') && value.trim().endsWith('/')) {
+                    value = value.trim();
+                    value = value.substring(1, value.length - 1);
+                    path = '"' + path + '":{"$regex":"' + value + '"}';
                 } else if (value.trim().startsWith('"') && value.trim().endsWith('"')) {
                     path = '"' + path + '":' + value.trim();
                 } else {
