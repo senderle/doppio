@@ -19,9 +19,9 @@ document.addEventListener('DOMContentLoaded', function main() {
 
     function addPreview(obj, target) {
         var title = jsonToFilename(obj);
-        var date = obj.ephemeralRecord.shows[0].date;
-        var venue = obj.ephemeralRecord.shows[0].venue;
-        var place = obj.ephemeralRecord.shows[0].location;
+        var date = obj[EVE_CONFIG.EVE_MAIN_COLLECTION].shows[0].date;
+        var venue = obj[EVE_CONFIG.EVE_MAIN_COLLECTION].shows[0].venue;
+        var place = obj[EVE_CONFIG.EVE_MAIN_COLLECTION].shows[0].location;
 
         var br = document.createElement('br');
 
@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function main() {
             var preview = document.getElementById('search-preview');
             addPreview(items[i], preview);
 
-            var place = items[i].ephemeralRecord.shows[0].location;
+            var place = items[i][EVE_CONFIG.EVE_MAIN_COLLECTION].shows[0].location;
             if (place !== undefined) { // check for no location
                 if (JSON.parse(lookupGeocode(place))._items[0] == undefined) {
                     var coords = placenameToLatLon(place);

@@ -16,7 +16,7 @@ function hmac_hash(data, key) {
 }
 
 function get_document_by_id(document_id) {
-    xhr.open('GET', '/ephemeralRecord' + '/' + document_id, false);
+    xhr.open('GET', '/' + [EVE_CONFIG.EVE_MAIN_COLLECTION] + '/' + document_id, false);
     xhr.setRequestHeader('Content-Type', 'application/json');
     xhr.send();
     return xhr.responseText;
@@ -272,10 +272,10 @@ function isPrimitive(val) {
 function jsonToFilename(json) {
     // Old naming pattern:
 
-    // var venue = json.ephemeralRecord.shows[0].venue;
-    // var date = json.ephemeralRecord.shows[0].date;
-    // var title = json.ephemeralRecord.shows[0].performances[0].title;
-    // var cataloger = json.ephemeralRecord.dataCataloger;
+    // var venue = json[EVE_CONFIG.EVE_MAIN_COLLECTION].shows[0].venue;
+    // var date = json[EVE_CONFIG.EVE_MAIN_COLLECTION].shows[0].date;
+    // var title = json[EVE_CONFIG.EVE_MAIN_COLLECTION].shows[0].performances[0].title;
+    // var cataloger = json[EVE_CONFIG.EVE_MAIN_COLLECTION].dataCataloger;
     // var elements = [date, venue, title, cataloger];
     // var tojoin = [];
 
@@ -301,7 +301,7 @@ function jsonToFilename(json) {
     // filename = yyyy + '-' + mm + '-' + dd + '-' + hh + '-' + MM + '-' + ss;
 
     // Simple configurable naming pattern:
-    filename = json.ephemeralRecord[EVE_CONFIG.FILENAME_FIELD];
+    filename = json[EVE_CONFIG.EVE_MAIN_COLLECTION][EVE_CONFIG.FILENAME_FIELD];
     return filename;
 }
 

@@ -57,12 +57,12 @@ def getSourceFromId(idList):
     for id in idList:
 
         # Get the object with the specified id from database
-        playbill = current_app.data.driver.db['ephemeralRecord']
+        playbill = current_app.data.driver.db[current_app.config['EVE_MAIN_COLLECTION']]
         obj = playbill.find_one({"_id": ObjectId(id)})
 
         # Parse the region, hardcoded for now
         try: 
-            med = obj['ephemeralRecord']
+            med = obj[current_app.config['EVE_MAIN_COLLECTION']]
             med = med['shows']
             med = med[0]
             geo = med['location']
@@ -120,7 +120,7 @@ def getSourceFromProjected(objList):
     for curr in objList:
 
         # Get the object with the specified id from database
-        playbill = current_app.data.driver.db['ephemeralRecord']
+        playbill = current_app.data.driver.db[current_app.config['EVE_MAIN_COLLECTION']]
         obj = playbill.find_one({"_id": ObjectId(curr['_id'])})
 
         # Parse the region, hardcoded for now

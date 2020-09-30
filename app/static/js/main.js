@@ -431,14 +431,14 @@ document.addEventListener('DOMContentLoaded', function main() {
 
         var loadFileChooser = document.getElementById('local-load');
         if (patchid === '') {
-            post_new_document(userid, token, 'ephemeralRecord', jsonOut.toString());
+            post_new_document(userid, token, EVE_CONFIG.EVE_MAIN_COLLECTION, jsonOut.toString());
             loadFileChooser.value='';
         } else {
-            patch_existing_document(userid, hash, 'ephemeralRecord', patchid, jsonOut.toString());
+            patch_existing_document(userid, hash, EVE_CONFIG.EVE_MAIN_COLLECTION, patchid, jsonOut.toString());
             loadFileChooser.value= '';
         }
 
-        // var loc = out.ephemeralRecord.shows[0].location;
+        // var loc = out[EVE_CONFIG.EVE_MAIN_COLLECTION].shows[0].location;
         // if (JSON.parse(lookupGeocode(loc))._items[0] == undefined) {
         //     post_loc_as_geocode(loc, token);
         // }

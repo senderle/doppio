@@ -350,7 +350,7 @@ document.addEventListener('DOMContentLoaded', function main() {
         }
 
         // Http request
-        var pathRoot = '/ephemeralRecord?';
+        var pathRoot = '/' + EVE_CONFIG.EVE_MAIN_COLLECTION + '?';
         var pathWhere = 'where={' + paths.join(',') + '}';
         localStorage.setItem("searchQueryPath", pathRoot + pathWhere);
 

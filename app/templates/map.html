@@ -13,6 +13,7 @@
         <script src='https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js'></script>
         <script src="{{ url_for('static', filename='js/map.js') }}"></script>
         <script src="{{ url_for('static', filename='js/functions.js') }}"></script>
+        {% include 'includes/configjs.html' %}
         <!-- There cannot be a global div style in style.css or it will conflict with leaflet.js functionality -->
         <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
     <title>Map</title>
