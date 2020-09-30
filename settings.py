@@ -5,7 +5,7 @@ import os
 # Mongo Config
 MONGO_HOST = "mongo"  # Simplified URL for Docker service.
 MONGO_PORT = 27017
-MONGO_DBNAME = "Playbill"
+MONGO_DBNAME = os.environ['EVE_DATABASE_NAME']
 MONGO_USERNAME = os.environ['EVE_MONGO_USER']
 MONGO_PASSWORD = os.environ['EVE_MONGO_PASSWORD']
 MONGO_AUTHDBNAME = 'admin'
@@ -29,7 +29,7 @@ STATIC_URL_PATH = os.path.join(os.getcwd(),'static')
 
 # Eve Tokenauth config
 TOKEN_EXPIRATION = None
-TOKEN_SECRET = 'secret'
+TOKEN_SECRET = os.environ['EVE_TOKEN_SECRET']
 
 # Custom database config
 EVE_MAIN_COLLECTION = 'ephemeralRecord'
