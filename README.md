@@ -130,14 +130,9 @@ And create a new user with the command :
 
 You can now close the shell.
 
-In order to add a user to login to the website, first find the container id of
-the `pdb_eve` container with the following call:
+To add a user to login to the website, run the following command:
 
-    $ docker ps
-
-Copy the container id and run the following command:
-
-    $ docker exec -it (Container ID) flask createsuperuser
+    $ docker-compose run --rm eve flask createsuperuser
 
 Enter your username and password and the user will be created. You can create as
 many users as desired with this command.
@@ -146,66 +141,31 @@ From now on, you should be able to sign in using the username and password(s)
 that you created.
 
 
-DUMP ENTRIES IN THE DATABASE TO A FOLDER
+EXPORT ENTRIES IN THE DATABASE TO A FOLDER
 ---
-This functionality will dump each entry currently residing in the database as
-its own .json file into a folder called `dumps`.
+This command will dump each entry currently residing in the database as
+its own .json file at the location specified by [output_folder]:
 
-NOTE: If a folder called `dumps`
-exists in the root directory of the project, the contents will be deleted.
-
-Open a new terminal tab in the root directory of the project. In it, type:
-
-    $ docker ps
-
-to get the list of running containers, and copy the Container ID (the first code)
-of the container with the name `pdb_eve`.
-
-Now, type:
-
-    $ docker exec -it (Container ID) flask exportjson
-
-The folder `dumps` will be created in the root directory and all of the
-entries will be present in it as their wn json files.
-
-The command outputs to the terminal the number of entries in the database which
-were dumped to the folder.
-
+    $ docker-compose run --rm eve flask exportjson [output_folder]
 
 LOAD JSON DATA FROM A FOLDER TO THE DATABASE
 ---
-This functionality will put the json objects in the given folder as their own
-entries in the database.
+This command will load json files in the given folder into the
+database. It takes a single argument, the name/dir of the folder
+containing the .json files. In the below command this is given as 
+`input_folder`, but be sure to change this with whatever folder 
+you are reading from.
 
-Open a new terminal tab in the root directory of the project. In it, type:
-
-    $ docker ps
-
-to get the list of running containers, and copy the Container ID (the first code)
-of the container with the name `pdb_eve`.
-
-NOTE: This command takes in a single argument, the name/dir of the folder
-containing the .json files. In the below command this is given as `your_dump_folder`,
-but be sure to change this with whatever folder you are reading from.
-
-NOTE II: The folder should only contain .json objects using the same schema as
+The folder should only contain .json objects using the same schema as
 the database.
 
-Now, type:
-
-    $ docker exec -it (Container ID) flask readjson
-
-The folder `dumps` will be created in the root directory and all of the
-entries will be present in it as their wn json files.
-
-The command outputs to the terminal the number of entries in the database which
-were dumped to the folder.
+    $ docker-compose run --rm eve flask readjson [input_folder]
 
 CREATE DATABASE INDICES
 ---
 In order to ensure that records are uniquely identified in a human-readable way,
 we need to impose a uniqueness constraint at the database level on a field identified
-in `settings.py` for that purpose: `FILENAME_FIELD = 'myIdField`. The way we do this 
+in `settings.py` for that purpose: `FILENAME_FIELD = 'myIdField`. The way to do this
 in Mongo is by creating a unique index on `myIdField`. 
 
 To do this, log into the mongo shell as root (as described above) and follow the
