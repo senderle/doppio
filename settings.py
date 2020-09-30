@@ -56,7 +56,7 @@ geoschema = {
     }
 }
 
-ephemeralRecord = {
+main_collection = {
     'authentication': TokenAuthentication(),
     'public_methods': ['GET'],
     'public_item_methods': ['GET'],
@@ -76,6 +76,6 @@ geocodes = {
 }
 
 DOMAIN = {
-    EVE_MAIN_COLLECTION:  ephemeralRecord,
+    EVE_MAIN_COLLECTION: main_collection,
     'geocodes': geocodes
 }
