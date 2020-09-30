@@ -315,19 +315,34 @@ document.addEventListener('DOMContentLoaded', function main() {
 
                 path = idToApiPath(elements[i].id);
 
+                value = value.trim();
                 if (value === 'Yes') {
+                    // Boolean searches.
                     path = '"' + path + '":true';
                 } else if (value === 'No') {
+                    // Boolean searches.
                     path = '"' + path + '":false';
-                } else if (value.trim().startsWith('{') && value.trim().endsWith('}')) {
-                    path = '"' + path + '":' + value.trim();
-                } else if (value.trim().startsWith('/') && value.trim().endsWith('/')) {
-                    value = value.trim();
+                } else if (value.startsWith('{') && value.endsWith('}')) {
+                    // Fully-fledged mongo query operator syntax, identified
+                    // by the curly braces that enclose it.
+                    path = '"' + path + '":' + value;
+                } else if (value.startsWith('/') && value.endsWith('/')) {
+                    // A regular expression search, identified by the
+                    // leading and trailing slashes (a la JavaScript).
                     value = value.substring(1, value.length - 1);
                     path = '"' + path + '":{"$regex":"' + value + '"}';
-                } else if (value.trim().startsWith('"') && value.trim().endsWith('"')) {
-                    path = '"' + path + '":' + value.trim();
+                } else if (value.startsWith('"') && value.endsWith('"')) {
+                    // Corner case: for searches that should treat enclosing
+                    // curly braces or slashes literally, enclose them in
+                    // quotes. Also works with quotes! I.e. ""foo"" becomes
+                    // "foo", with internal quotes escaped.
+                    value = value.substring(1, value.length - 1);
+                    value = value.replaceAll('"', '\\"');
+                    path = '"' + path + '":"' + value + '"';
                 } else {
+                    // Otherwise it must be an exact string match. Quotes
+                    // are escaped.
+                    value = value.replaceAll('"', '\\"');
                     path = '"' + path + '":"' + value + '"';
                 }
                 paths.push(path);
