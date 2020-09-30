@@ -191,3 +191,16 @@ entries will be present in it as their wn json files.
 
 The command outputs to the terminal the number of entries in the database which
 were dumped to the folder.
+
+CREATE DATABASE INDICES
+---
+In order to ensure that records are uniquely identified in a human-readable way,
+we need to impose a uniqueness constraint at the database level on a field identified
+in `settings.py` for that purpose: `FILENAME_FIELD = 'myIdField`. The way we do this 
+in Mongo is by creating a unique index on `myIdField`. 
+
+To do this, log into the mongo shell as root (as described above) and follow the
+instructions here: https://docs.mongodb.com/manual/core/index-unique/
+
+In the future we might also add a keyword search option that would require you to
+create a text search index as described here: https://docs.mongodb.com/manual/text-search/
