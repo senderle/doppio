@@ -31,8 +31,21 @@ STATIC_URL_PATH = os.path.join(os.getcwd(),'static')
 TOKEN_EXPIRATION = None
 TOKEN_SECRET = os.environ['EVE_TOKEN_SECRET']
 
-# Custom database config
-EVE_MAIN_COLLECTION = 'ephemeralRecord'
+##########################
+# Custom database config #
+##########################
+
+# The name of the dataset being prototyped.
+# E.g. "playbills" or "ephemera." This must
+# also be the name of the single, top-level 
+# field in the schema. (See schema-template.py)
+EVE_MAIN_COLLECTION = 'book'
+
+# The name of a field to use as a human-readable 
+# unique idnetifier for each record in the main 
+# collection. This must be a subfield of the
+# top-level field in the schema; it may not be 
+# nested further.
 FILENAME_FIELD = 'callNumber'
 
 main_collection = {
