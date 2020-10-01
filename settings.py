@@ -35,27 +35,6 @@ TOKEN_SECRET = os.environ['EVE_TOKEN_SECRET']
 EVE_MAIN_COLLECTION = 'ephemeralRecord'
 FILENAME_FIELD = 'callNumber'
 
-geoschema = {
-    'placename': {
-        'type': 'string',
-        'required': True,
-        'unique': True
-    },
-    'coordinates': {
-        'type': 'dict',
-        'schema': {
-            'lat': {
-                'type': 'number',
-                'required': True,
-            },
-            'lon': {
-                'type': 'number',
-                'required': True,
-            }
-        }
-    }
-}
-
 main_collection = {
     'authentication': TokenAuthentication(),
     'public_methods': ['GET'],
@@ -66,16 +45,6 @@ main_collection = {
     'pagination': True
 }
 
-geocodes = {
-    'authentication': TokenAuthentication(),
-    'public_methods': ['GET'],
-    'public_item_methods': ['GET'],
-    'item_title': 'geocode',
-    'allowed_roles': ['superuser', 'admin', 'user'],
-    'schema': geoschema
-}
-
 DOMAIN = {
     EVE_MAIN_COLLECTION: main_collection,
-    'geocodes': geocodes
 }
