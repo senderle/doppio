@@ -1,7 +1,8 @@
 # playbill-database
 
 Originally forked from https://github.com/annamarion/playbill-database
-token auth from https://github.com/kingtimm/Eve-TokenAuth
+
+Token auth from https://github.com/kingtimm/Eve-TokenAuth
 
 -------------------
 LOCAL SETUP
