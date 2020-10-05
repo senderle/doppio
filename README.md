@@ -1,6 +1,39 @@
-# playbill-database
+# doppio
+
+Doppio is a data prototyping tool for humanities research.
+
+Data in the humanities is often complex and richly interlinked.
+One of the simplest relationships relevant to humanists is the relation
+of author to book -- in a relational database, this already requires
+not two but three tables to represent, because one book can have many
+authors, and one author can have many books.
+
+Suppose, then, that you want to represent not books but theatrical
+performances. There may be stagehands, actors, prop managers, playwrights,
+set designers, directors, makeup artists, and many other contributors
+working together. Most of these individuals contribute to multiple 
+performances, sometimes in one role, sometimes in another. A faithful
+representation of these connections in a relational database would
+require an exceptionally complex schema that would almost certainly
+need to be devleoped and tuned over time before it did its job well.
+
+Doppio provides an alternative approach to that process. Using a
+NoSQL database (MongoDB) combined with a flexible schema, validation
+framework, and API generator (Eve), Doppio aims to speed up the initial
+process of developing a richly expressive data model suitable for 
+humanities data. 
+
+#### Coming soon:
+
+### The Doppio philosophy
+* Put data first
+* Make data accessible
+* Use self-documenting systems
+* Bake in good data management practices
+* Create isomorphic data representations
 
 
+## Getting Started
 
 -------------------
 LOCAL SETUP
