@@ -1,8 +1,6 @@
 # playbill-database
 
-Originally forked from https://github.com/annamarion/playbill-database
 
-Token auth from https://github.com/kingtimm/Eve-TokenAuth
 
 -------------------
 LOCAL SETUP
@@ -165,3 +163,24 @@ instructions here: https://docs.mongodb.com/manual/core/index-unique/
 
 In the future we might also add a keyword search option that would require you to
 create a text search index as described here: https://docs.mongodb.com/manual/text-search/
+
+
+
+
+### Acknowledgements:
+
+This repository contains code from the following repositories:
+* https://github.com/senderle/playbill-database-arch
+* https://github.com/senderle/pbdb-eve
+* https://github.com/senderle/pbdb
+* https://github.com/kingtimm/Eve-TokenAuth
+
+And written by the following github users:
+* https://github.com/annamarion
+* https://github.com/scye09
+* https://github.com/ayhanefe
+* https://github.com/kingtimm
+* https://github.com/senderle
+
+It was written with support from the University of Pennsylvania Libraries, 
+the Price Lab for Digital Humanities, and the Andrew W. Mellon Foundation
