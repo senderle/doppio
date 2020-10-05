@@ -17,7 +17,7 @@ representation of these connections in a relational database would
 require an exceptionally complex schema that would almost certainly
 need to be devleoped and tuned over time before it did its job well.
 
-Doppio provides an alternative approach to that process. Using a
+Doppio provides an alternative approach to that tuning process. Using a
 NoSQL database (MongoDB) combined with a flexible schema, validation
 framework, and API generator (Eve), Doppio aims to speed up the initial
 process of developing a richly expressive data model suitable for 
@@ -29,8 +29,8 @@ humanities data.
 * Put data first
 * Make data accessible
 * Use self-documenting systems
-* Bake in good data management practices
-* Create isomorphic data representations
+* Bake in good practices
+* Create isomorphic representations
 
 
 ## Getting Started
