@@ -211,6 +211,7 @@ This repository contains code from the following repositories:
 And written by the following github users:
 * https://github.com/annamarion
 * https://github.com/scye09
+* https://github.com/SiyuZheng
 * https://github.com/ayhanefe
 * https://github.com/kingtimm
 * https://github.com/senderle
