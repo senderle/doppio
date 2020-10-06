@@ -41,7 +41,6 @@ preservation.
 
 ### The Doppio philosophy
 * Put data first
-  * etc
 * Make data accessible
   * Uses human-readable JSON/YAML representations for input and output
   * Provides a built-in API
