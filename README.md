@@ -4,11 +4,12 @@ Doppio is a data prototyping tool for humanities research.
 
 Data in the humanities is often complex and richly interlinked.
 One of the simplest relationships relevant to humanists is the relation
-of author to book -- in a relational database, this already requires
-not two but three tables to represent, because one book can have many
-authors, and one author can have many books.
+of author to book. In a traditional relational database, this already
+requires not two but three tables to represent, because one book can 
+have many authors, and one author can write many books; a third table
+is needed to track the is-an-author-of relation between the other two.
 
-Suppose, then, that you want to represent not books but theatrical
+Now suppose that you want to represent not books but theatrical
 performances. There may be stagehands, actors, prop managers, playwrights,
 set designers, directors, makeup artists, and many other contributors
 working together to produce a single performance. Most of these 
@@ -16,23 +17,40 @@ individuals contribute to multiple performances, sometimes in one role,
 sometimes in another. A faithful representation of these connections in 
 a relational database would require an exceptionally complex schema 
 that would almost certainly need to be devleoped and tuned over time 
-before it did its job well.
+before it could do its job well.
 
 Doppio provides an alternative approach to that tuning process. Using a
-NoSQL database (MongoDB) combined with a flexible schema validation
-framework and API generator (Eve), Doppio aims to speed up the initial
+NoSQL database ([MongoDB](https://www.mongodb.com/)) combined with a 
+flexible schema validation framework and API generator 
+([Eve](https://docs.python-eve.org/en/stable/)), Doppio speeds up the 
 process of developing a richly expressive data model suitable for 
-humanities data. Doppio schemas are easy to modify, so that as researchers
-see and enter more data, they can accommodate new findings quickly.
+humanities data. Doppio schemas are easy to modify and update, so that 
+as researchers see and enter more data, they can accommodate new findings
+quickly. Doppio schemas are also self-documenting; the data entry form
+is automatically rendered in a way that makes the structure of the
+underlying schema self-evident, even to users who have never worked with
+a database at all.
+
+Once the schema reaches a stable point, it can be used as-is with the 
+provided database and API, or it can be used as the basis for a more 
+structured relational database. Either way, the API makes it easy to 
+access the data for analysis, visualization, exploration, and 
+preservation.
 
 #### To come:
 
 ### The Doppio philosophy
 * Put data first
+  * etc
 * Make data accessible
+  * Uses human-readable JSON/YAML representations for input and output
+  * Provides a built-in API
+  * ... more features in the future? ...
 * Use self-documenting systems
+  * Names of JSON/YAML keys must be descriptive b/c they are also the basis for the data entry form
+  * Schema can include documentation which is used in the automatically rendered form
 * Bake in good data practices
-* Create isomorphic representations
+* Create isomorphic data representations
 
 
 ## Getting Started
