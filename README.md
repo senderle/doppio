@@ -23,13 +23,13 @@ framework, and API generator (Eve), Doppio aims to speed up the initial
 process of developing a richly expressive data model suitable for 
 humanities data. 
 
-#### Coming soon:
+#### To come:
 
 ### The Doppio philosophy
 * Put data first
 * Make data accessible
 * Use self-documenting systems
-* Bake in good practices
+* Bake in good data practices
 * Create isomorphic representations
 
 
