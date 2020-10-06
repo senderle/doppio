@@ -11,17 +11,19 @@ authors, and one author can have many books.
 Suppose, then, that you want to represent not books but theatrical
 performances. There may be stagehands, actors, prop managers, playwrights,
 set designers, directors, makeup artists, and many other contributors
-working together. Most of these individuals contribute to multiple 
-performances, sometimes in one role, sometimes in another. A faithful
-representation of these connections in a relational database would
-require an exceptionally complex schema that would almost certainly
-need to be devleoped and tuned over time before it did its job well.
+working together to produce a single performance. Most of these 
+individuals contribute to multiple performances, sometimes in one role, 
+sometimes in another. A faithful representation of these connections in 
+a relational database would require an exceptionally complex schema 
+that would almost certainly need to be devleoped and tuned over time 
+before it did its job well.
 
 Doppio provides an alternative approach to that tuning process. Using a
-NoSQL database (MongoDB) combined with a flexible schema, validation
-framework, and API generator (Eve), Doppio aims to speed up the initial
+NoSQL database (MongoDB) combined with a flexible schema validation
+framework and API generator (Eve), Doppio aims to speed up the initial
 process of developing a richly expressive data model suitable for 
-humanities data. 
+humanities data. Doppio schemas are easy to modify, so that as researchers
+see and enter more data, they can accommodate new findings quickly.
 
 #### To come:
 
