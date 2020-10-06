@@ -236,5 +236,5 @@ And written by the following github users:
 * https://github.com/kingtimm
 * https://github.com/senderle
 
-It was written with support from the University of Pennsylvania Libraries, 
+Doppio was created with support from the University of Pennsylvania Libraries, 
 the Price Lab for Digital Humanities, and the Andrew W. Mellon Foundation
