@@ -1,56 +1,109 @@
 # doppio
 
-Doppio is a data prototyping tool for humanities research.
+#### Doppio is a data prototyping tool for humanities research.
 
-Data in the humanities is often complex and richly interlinked.
+**Data in the humanities** is often complex and richly interlinked.
 One of the simplest relationships relevant to humanists is the relation
 of author to book. In a traditional relational database, this already
 requires not two but three tables to represent, because one book can 
 have many authors, and one author can write many books; a third table
-is needed to track the is-an-author-of relation between the other two.
+is needed to track the *is-an-author-of* relation between the other two.
 
 Now suppose that you want to represent not books but theatrical
-performances. There may be stagehands, actors, prop managers, playwrights,
-set designers, directors, makeup artists, and many other contributors
-working together to produce a single performance. Most of these 
-individuals contribute to multiple performances, sometimes in one role, 
-sometimes in another. A faithful representation of these connections in 
-a relational database would require an exceptionally complex schema 
-that would almost certainly need to be devleoped and tuned over time 
-before it could do its job well.
+performances. There may be 
 
-Doppio provides an alternative approach to that tuning process. Using a
-NoSQL database ([MongoDB](https://www.mongodb.com/)) combined with a 
-flexible schema validation framework and API generator 
-([Eve](https://docs.python-eve.org/en/stable/)), Doppio speeds up the 
+* stagehands
+* actors
+* prop managers
+* playwrights
+* set designers
+* directors
+* makeup artists
+
+...and many other contributors, all working together to produce just
+a single performance. Most of these individuals contribute to multiple 
+performances, sometimes in one role, sometimes in another. A faithful 
+representation of these connections in a relational database would 
+require an exceptionally complex schema that would require extensive
+revision and tuning before it could do its job well.
+
+Doppio speeds up that tuning process. Using a NoSQL database 
+([MongoDB](https://www.mongodb.com/)) combined with a flexible schema 
+validation framework and API generator 
+([Eve](https://docs.python-eve.org/en/stable/)), Doppio accelerates the 
 process of developing a richly expressive data model suitable for 
-humanities data. Doppio schemas are easy to modify and update, so that 
-as researchers see and enter more data, they can accommodate new findings
-quickly. Doppio schemas are also self-documenting; the data entry form
-is automatically rendered in a way that makes the structure of the
-underlying schema self-evident, even to users who have never worked with
-a database at all.
+humanities data. Doppio schemas are easy to modify and update, so that
+researchers, as they learn more about their data, can accommodate new
+findings quickly. Doppio schemas are also self-documenting; the data 
+entry form is automatically rendered in a way that makes the structure 
+of the underlying schema self-evident, even to users who have never 
+worked with a database.
+
+In short, the constraints that Doppio imposes target a middle ground
+between structured and unstructued data. Humanists will find it just
+unstructured enough for their work, and technologists will find it 
+just structured enough for theirs.
 
 Once the schema reaches a stable point, it can be used as-is with the 
 provided database and API, or it can be used as the basis for a more 
 structured relational database. Either way, the API makes it easy to 
-access the data for analysis, visualization, exploration, and 
-preservation.
+access the underlying data for analysis, visualization, exploration, 
+export, and preservation.
 
-#### To come:
+## The Doppio philosophy (WIP)
 
-### The Doppio philosophy
-* Put data first
-* Make data accessible
-  * Uses human-readable JSON/YAML representations for input and output
-  * Provides a built-in API
-  * ... more features in the future? ...
-* Use self-documenting systems
-  * Names of JSON/YAML keys must be descriptive b/c they are also the basis for the data entry form
-  * Schema can include documentation which is used in the automatically rendered form
-* Bake in good data practices
-* Create isomorphic data representations
+Doppio was written with a few core principles in mind.
 
+### Put data first
+
+Humanists have used databases produced by third parties for many decades
+now, and as we create datasets of our own, we often look to familiar
+interfaces for inspiration -- we tend to take an interface-first approach 
+to database design. But the interfaces of most databasees familiar to 
+humanists rarely provide any useful information about the underlying 
+data structures they use. As a result, an interface-first approach to
+can lead to awkward data modeling decisions. 
+
+On the other hand, the data-first approach often requires an abstract 
+view of data that may become disconnected from the concrete questions 
+that researchers want to answer. Staying focused on those questions 
+while also keeping track of all the details required to maintain
+fifteen different many-to-many relations in a SQL schema can be a challenge.
+
+Doppio makes a data-first approach easier by guaranteeing a one-to-one
+relationship between interfaces and data structures. This means that the
+problem of designing a usable *interface* and the problem of designing
+an effective *data model* are one and the same. The interface options that
+Doppio provides are less flexible than those provided by generic web form
+frameworks. This can impose frustrating constraints on researchers. The
+trade-off is that every interface option that Doppio provides corresponds
+to a reasonable data modeling decision. Once an acceptable interface is
+found, the task of data modeling is done.
+
+### Make data transparent
+
+* Use human-readable JSON/YAML representations for input and output
+* Match those representations to interface features and database structures
+  in a one-to-one way
+* Provide a built-in API, allowing the data to be used in flexible ways that
+  are decoupled from the core data representation.
+* ... more features in the future?
+
+### Use self-documenting systems
+
+* Ensure that if something doesn't make sense internally, it won't make sense
+  in the interface either.
+* Force JSON/YAML keys to be descriptive by using them as the basis for the
+  data entry form field names.
+* Put documentation strings in schemas and use them in the interface.
+
+### Bake in good data practices
+
+More to come...
+
+### Create isomorphic data representations
+
+More to come...
 
 # Getting Started
 
