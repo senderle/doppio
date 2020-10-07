@@ -1,14 +1,14 @@
 version: '3'
 
 volumes:
-  playbill-db:
+  doppio-db:
     external: true
   caddy_production:
 
 services:
 
   mongo:
-    image: pdb_mongo_production
+    image: doppio_mongo_production
     build:
       context: .
       dockerfile: ./compose/mongo/Dockerfile
@@ -29,7 +29,7 @@ services:
     #     - mongo
 
   eve:
-    image: pdb_eve_production
+    image: doppio_eve_production
     build:
       context: .
       dockerfile: ./compose/eve/Dockerfile
@@ -43,7 +43,7 @@ services:
     command: gunicorn --bind 0.0.0.0:5000 wsgi
 
   caddy:
-    image: pdb_caddy_production
+    image: doppio_caddy_production
     build:
       context: .
       dockerfile: ./compose/caddy/production/Dockerfile

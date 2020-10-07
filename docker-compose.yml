@@ -1,14 +1,14 @@
 version: '3'
 
 volumes:
-  playbill-db:
+  doppio-db:
     external: true
   caddy_local:
 
 services:
 
   mongo:
-    image: pdb_mongo
+    image: doppio_mongo
     restart: always
     build:
         context: .
@@ -29,7 +29,7 @@ services:
         #       - mongo
 
   eve:
-    image: pdb_eve
+    image: doppio_eve
     build:
         context: .
         dockerfile: ./compose/eve/Dockerfile
@@ -45,7 +45,7 @@ services:
     command: python run.py runserver 0.0.0.0:5000
 
   caddy:
-    image: pdb_caddy
+    image: doppio_caddy
     build:
       context: .
       dockerfile: ./compose/caddy/local/Dockerfile
