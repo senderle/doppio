@@ -1,6 +1,6 @@
 # doppio
 
-#### Doppio is a data prototyping tool for humanities research.
+### Doppio is a data prototyping tool for humanities research.
 
 **Data in the humanities** is often complex and richly interlinked.
 One of the simplest relationships relevant to humanists is the relation
