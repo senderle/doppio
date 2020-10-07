@@ -58,18 +58,18 @@ Doppio was written with a few core principles in mind.
 
 Humanists have used databases produced by third parties for many decades
 now, and as we create datasets of our own, we often look to familiar
-interfaces for inspiration. This is an interface-first approach 
-to database design. But the interfaces of most databasees familiar to 
-humanists rarely provide any useful information about the underlying 
-data structures they use. As a result, interface-first approaches
-can lead to awkward data modeling decisions. 
+interfaces for inspiration. In other words, we tend to take an 
+**interface-first** approach to database design. But the interfaces of 
+most databasees familiar to humanists rarely provide any useful 
+information about the underlying data structures they use. As a result, 
+interface-first approaches can lead to awkward data modeling decisions. 
 
-On the other hand, data-first approaches often require an abstract 
-view of data that may become disconnected from the concrete questions 
-that researchers want to answer. Staying focused on those questions 
-while also keeping track of all the details required to maintain
-fifteen different many-to-many relations in a SQL schema can be a 
-challenge.
+To avoid the problems that result, it is useful to take a **data-first**
+approach. But data-first approaches often require an abstract view of data 
+that can become disconnected from the concrete questions that researchers 
+want to answer. Staying focused on those questions while also keeping track 
+of all the details required to maintain fifteen different many-to-many 
+relations in a SQL schema is a challenge.
 
 Doppio makes a data-first approach easier by guaranteeing a one-to-one
 relationship between interfaces and data structures. This means that the
