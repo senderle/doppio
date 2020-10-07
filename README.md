@@ -265,6 +265,18 @@ In the future we will add keyword searching, which will require a text search
 index as well. Instructions for creating a text search index are 
 here: https://docs.mongodb.com/manual/text-search/
 
+## Production Setup
+
+The process for creating a production server is almost identical to the above. 
+There are only two real differences.
+
+1. In the `.caddy` environemnt file, replace `DOMAIN_NAME=localhost` with
+   your actual domain name. In production, Doppio must run on a domain
+   or subdomain that you control. Running it on a server with a bare 
+   IP address is not supported.
+2. All commands starting with `docker-compose run` must start instead with
+   `docker-compose run -f production.yml`. 
+
 ## Acknowledgements:
 
 This repository contains code from the following repositories:
