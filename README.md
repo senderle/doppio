@@ -52,7 +52,7 @@ export, and preservation.
 
 ## The Doppio philosophy (WIP)
 
-Doppio was written with a few core principles in mind.
+#### Doppio was written with a few core principles in mind.
 
 ### Put data first
 
