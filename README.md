@@ -107,7 +107,7 @@ example, have it generate two random strings of more than 20 characters.)
 
 Your current directory in `.envs` should be
 
-    bash
+    doppio
     ├── .envs
     │   ├── .local
     │   │   ├── .mongo
