@@ -71,7 +71,7 @@ want to answer. Staying focused on those questions while also keeping track
 of all the details required to maintain fifteen different many-to-many 
 relations in a SQL schema is a challenge.
 
-Doppio makes a data-first approach easier by guaranteeing a one-to-one
+Doppio makes data-first approaches easier by guaranteeing a one-to-one
 relationship between interfaces and data structures. This means that the
 problem of designing a usable *interface* and the problem of designing
 an effective *data model* are one and the same. The interface options that
