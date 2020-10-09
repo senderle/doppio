@@ -2,4 +2,4 @@ from flask import Blueprint
 
 bp = Blueprint('home', __name__)
 
-from app.main import home, search, projection, mapping
+from app.main import home, search, projection
