@@ -2,7 +2,7 @@
 
 ### Doppio is a data prototyping tool for humanities research.
 
-**Data in the humanities** is often complex and richly interlinked.
+**Data in the humanities** is often complex, ambiguous, and richly interlinked.
 One of the simplest relationships relevant to humanists is the relation
 of author to book. In a traditional relational database, this already
 requires not two but three tables to represent, because one book can 
@@ -25,9 +25,9 @@ a single performance. Most of these individuals contribute to multiple
 performances, sometimes in one role, sometimes in another. A faithful 
 representation of these connections in a relational database would 
 require an exceptionally complex schema that would require extensive
-revision and tuning before it could do its job well.
+revision before it could do its job well.
 
-Doppio speeds up that tuning process. Using a NoSQL database 
+Doppio speeds up that revision process. Using a NoSQL database 
 ([MongoDB](https://www.mongodb.com/)) combined with a flexible schema 
 validation framework and API generator 
 ([Eve](https://docs.python-eve.org/en/stable/)), Doppio accelerates the 
