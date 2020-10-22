@@ -1,4 +1,4 @@
-version: '3'
+version: '3.1'
 
 volumes:
   doppio-db:
@@ -16,7 +16,7 @@ services:
     env_file:
       - ./.envs/.local/.mongo
     volumes:
-      - playbill-db:/data/db
+      - doppio-db:/data/db
 
         #   mongoexpress:
         #     image: mongo-express
