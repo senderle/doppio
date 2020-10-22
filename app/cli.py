@@ -83,7 +83,7 @@ def init_cli(app):
             # Use object id as filename
             # filename = dir + '/' + str(doc['_id']) + '.json'
             filename_field = app.config['FILENAME_FIELD']
-            main_colleciton = app.config['EVE_MAIN_COLLECTION']
+            main_collection = app.config['EVE_MAIN_COLLECTION']
             filename = dir + '/' + str(doc[main_collection][filename_field]) + '.yaml'
 
             with open(filename, 'w') as outfile:

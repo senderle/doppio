@@ -16,7 +16,7 @@ function hmac_hash(data, key) {
 }
 
 function get_document_by_id(document_id) {
-    xhr.open('GET', '/' + [EVE_CONFIG.EVE_MAIN_COLLECTION] + '/' + document_id, false);
+    xhr.open('GET', '/api/' + [EVE_CONFIG.EVE_MAIN_COLLECTION] + '/' + document_id, false);
     xhr.setRequestHeader('Content-Type', 'application/json');
     xhr.send();
     return xhr.responseText;
@@ -26,8 +26,7 @@ function post_new_document(userid, token, resource_name, data) {
     var statusAlert = document.getElementById('status-message-window');
     var rst = document.getElementById("reset-after-post");
 
-    //fetch approach
-    let url = '/' + resource_name;
+    let url = '/api/' + resource_name;
     let headers = new Headers();
     headers.append('Content-Type', 'application/json');
     var auth = 'Bear ' + token;
@@ -39,7 +38,46 @@ function post_new_document(userid, token, resource_name, data) {
                 rst.click();
             } else if (response.status == 403) {
                 statusAlert.innerHTML = '<span style="color:red">Authentication Error</span>';
-                alert("An authorization error occurred. Please save the current record to file and then login to proceed.");
+                alert("An authorization error occurred. Please save the current record to a file and then login to proceed.");
+            } else if (response.status == 401) {
+                statusAlert.innerHTML = '<span style="color:red">Authentication Error</span>';
+                localStorage.removeItem("token")
+                localStorage.removeItem("_etag")
+                alert("Your session has expired. Please save the current record to a file and then login to proceed.");
+            } else {
+                statusAlert.innerHTML = '<span style="color:red">HTTP Error: ' + response.status + '</span>';
+                response.text().then(text => {
+                    let msg = "An unexpected error occurred.";
+                    if (text.length > 0) {
+                        msg += " The server provided the following details: ";
+                        msg += text;
+                    }
+                    alert(msg);
+                });
+            }
+        })
+        .catch(error => console.error('There has been a problem with your fetch operation: ', error.message));
+
+}
+
+function patch_existing_document(userid, token, resource_name, document_id, etag, data) {
+    var statusAlert = document.getElementById('status-message-window');
+
+    let url = '/api/' + resource_name + '/' + document_id;
+    let headers = new Headers();
+    headers.append('Authorization', 'Bear ' + token);
+    headers.append('If-Match', etag);
+    headers.append('Content-Type', 'application/json');
+    fetch(url, { method: 'PATCH', headers: headers, body: data })
+        .then(response => {
+            if (response.status == 200 || response.status == 201) {
+                statusAlert.innerHTML = '<span style="color:green">Record updated</span>';
+            } else if (response.status == 412) {
+                statusAlert.innerHTML = '<span style="color:red">Submission Error</span>';
+                alert("Another user has modified this record. Please save the current record to a file and reload the page to view the most up-to-date version.");
+            } else if (response.status == 403) {
+                statusAlert.innerHTML = '<span style="color:red">Authentication Error</span>';
+                alert("An authorization error occurred. Please save the current record to a file and then login to proceed.");
             } else if (response.status == 401) {
                 statusAlert.innerHTML = '<span style="color:red">Authentication Error</span>';
                 localStorage.removeItem("token")
@@ -59,14 +97,6 @@ function post_new_document(userid, token, resource_name, data) {
         })
         .catch(error => console.error('There has been a problem with your fetch operation: ', error.message));
 
-}
-
-function patch_existing_document(userid, token, resource_name, document_id, data) {
-    xhr.open('PATCH', '/' + resource_name + '/' + document_id, true);
-    var auth = 'Bear ' + token;
-    xhr.setRequestHeader('Authorization', auth);
-    xhr.setRequestHeader('Content-Type', 'application/json');
-    xhr.send(data);
 }
 
 ////////////////////////////////////////////////////////////////////////////

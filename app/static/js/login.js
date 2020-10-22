@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function main() {
       location.reload(true);
     }
     else {
-      let url = '/tokens';
+      let url = '/api/tokens';
       let headers = new Headers();
       headers.append('Content-Type', 'application/json');
       headers.append('X-Custom-Header', 'ProcessThisImmediately');
