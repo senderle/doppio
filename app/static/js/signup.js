@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function main() {
         elem.innerHTML = ("Passwords don't match.").fontcolor("#ff0000");
         return;
       }
-      let url = '/accounts';
+      let url = '/api/accounts';
       let headers = new Headers();
       headers.append('Content-Type', 'application/json');
       headers.append('X-Custom-Header', 'ProcessThisImmediately');

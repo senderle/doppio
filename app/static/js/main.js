@@ -422,26 +422,22 @@ document.addEventListener('DOMContentLoaded', function main() {
 
         var token = localStorage.token;
 
-        // This is supposed to allow us to specify the mongo ID for an
-        // updated playbill. Unfortunately the UI doesn't make that at all
-        // clear right now, so it's disabled until we can come up with
-        // a good appraoch to that problem.
-        // var patchid = document.getElementById('playbill-id').value;
-        var patchid = '';
+        // If the current data was loaded from the database, update the
+        // corresponding record.
+        var patchid = document.getElementById('playbill-id').value;
+        var etag = JSON.parse(get_document_by_id(patchid))['_etag']
 
         var loadFileChooser = document.getElementById('local-load');
         if (patchid === '') {
             post_new_document(userid, token, EVE_CONFIG.EVE_MAIN_COLLECTION, jsonOut.toString());
             loadFileChooser.value='';
         } else {
-            patch_existing_document(userid, hash, EVE_CONFIG.EVE_MAIN_COLLECTION, patchid, jsonOut.toString());
-            loadFileChooser.value= '';
+            if (confirm("This will modify an existing record. Please press OK to confirm.")) {
+                patch_existing_document(userid, token, EVE_CONFIG.EVE_MAIN_COLLECTION, patchid, etag, jsonOut.toString());
+                loadFileChooser.value= '';
+            }
         }
 
-        // var loc = out[EVE_CONFIG.EVE_MAIN_COLLECTION].shows[0].location;
-        // if (JSON.parse(lookupGeocode(loc))._items[0] == undefined) {
-        //     post_loc_as_geocode(loc, token);
-        // }
     });
 
     // SAVE TO FILE
@@ -507,7 +503,10 @@ document.addEventListener('DOMContentLoaded', function main() {
     var loadRecord = document.getElementById('playbill-load');
     function loadRecordById() {
         statusAlert.innerHTML = '';
-        var pid = (window.location.hash.substr(1) !== '') ? window.location.hash.substr(1) : document.getElementById('playbill-id').value;
+        if (window.location.hash.substr(1) !== '') {
+            document.getElementById('playbill-id').value = window.location.hash.substr(1);
+        }
+        var pid = document.getElementById('playbill-id').value;
 
         // Prepare the form for re-rendering.
         resetForm();
@@ -526,7 +525,6 @@ document.addEventListener('DOMContentLoaded', function main() {
               } else if (value !== undefined) {
                   elements[i].value = value;
               }
-
         }
 
         focusTop();
@@ -561,6 +559,8 @@ document.addEventListener('DOMContentLoaded', function main() {
                 throw error;
             }
 
+            var patchid = document.getElementById('playbill-id').value;
+
             walkObj(obj, walkObjHelper());
             var elements = document.querySelectorAll('.main-form-input');
             for (var i = 0; i < elements.length; i++) {
@@ -573,6 +573,10 @@ document.addEventListener('DOMContentLoaded', function main() {
                     elements[i].value = value;
                 }
 
+            }
+
+            if (patchid !== '') {
+                document.getElementById('playbill-id').value = patchid;
             }
             focusTop();
         });

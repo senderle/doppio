@@ -20,7 +20,8 @@ IF_MATCH = True
 DEBUG = True
 JSONRenderer = True
 XMLRenderer = False
-HATEOAS = True
+HATEOAS = False
+URL_PREFIX = 'api'
 
 PAGINATION_DEFAULT = 500
 PAGINATION_LIMIT = float('inf')
