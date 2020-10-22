@@ -138,14 +138,9 @@ run this command:
 
     $ mkdir .envs
 
-Inside that folder, create a `.dockerignore` file to ensure that the secrets 
-aren't recorded inside built docker images.
+Move into that directory and create another directory called `.local`:
 
     $ cd .envs
-    $ touch .dockerignore
-
-Now, create another directory called `.local`:
-
     $ mkdir .local
 
 In it, create three files, `.caddy`, `.eve` and `.mongo`:
